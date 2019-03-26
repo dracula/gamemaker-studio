@@ -1,0 +1,204 @@
+{
+	"textbox_scaletofit": {
+		width_flags: "ScaleToFit"
+	},
+
+	"label_full_width": {
+		auto_size: "False"
+	},
+
+	"sprite_editable_label": {
+		auto_size: "False",
+		edit_in_place: "True",
+		edit_as_numeric: "True",
+		halign: "hAlignCentre",
+		valign: "vAlignBottom",
+		mouse_events: "True",
+		width_max: "40px"
+	},
+
+	"sprite_editor_treeview": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		width: "100%",
+		height: "100%",
+		scrollpanel_flags: "ResizeHeight",
+		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",
+		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust"
+	},
+
+	"spritepreview_style": {
+		frame_name: "Background/alpha_bg.png",
+		use_mini_zoom_widget: "true",
+		show_zoom_widget: "true",
+		zoom_widget_style: "spritepreview_widget_style"
+	},
+
+	"spritepreview_widget_style": {
+		tool_flags: "None"
+	},
+
+	"collision_mask_style": {
+		mask_colour: "#88000000",
+		anchor_colour: "#FF000000",
+		active_anchor_colour: "#FFFFFFFF",
+		selected_anchor_colour: "#FFFFFFFF",
+		anchor_size: 8,
+		anchor_padding: 2
+	},
+
+	"origin_marker_style": {
+		marker_colour: "#88000000",
+		outofbounds_colour: "#88ffffff"
+	},
+
+	"slider_sprite_editor_tolerance": {
+		min_value: 0,
+		max_value: 255,
+		click_increment: 1,
+		flow_increment: 10,
+		mindrag_increment: 1,
+		minor_tick_freq: 0,
+		major_tick_freq: 0
+	},
+
+	"slider_sprite_tolerance": {
+		width: "200px",
+		height: "19px",
+		colour: "#00000000",
+		min_value: -5,
+		max_value: 5,
+		click_increment: -1,
+		flow_increment: 10,
+		mindrag_increment: 0.5,
+		minor_tick_freq: 0,
+		major_tick_freq: 0,
+		slider_direction: "Horizontal"
+	},
+
+	"spriteeditor_window": {
+		width_min: "930dpi_px",
+		height_min: "360dpi_px",
+		window_flags: "Default"
+	},
+
+	"label_spriteeditor_px": {
+		halign: "hAlignRight",
+		colour: "#FF666666"
+	},
+
+	"button_canvas_resize": {
+		position: [
+					[2, 2, 1, 1], [3, 2, 16, 1], [19, 3, 1, 1],
+					[2, 3, 1, 16], [3, 3, 16, 16], [19, 4, 1, 16],
+					[2, 19, 1, 1], [3, 19, 16, 1], [19, 19, 1, 1]
+				],
+		frame_name: "Buttons/button_canvas_size.png",
+		button_over_style: "button_canvas_resize_hover",
+		button_down_style: "button_canvas_resize_hover",
+		default_icon_style: "button_canvas_icon",
+		icon_colour: "#FFBBBBBB",
+		deactivated_style: "button_canvas_resize_deactivated",
+		reactivated_style: "button_canvas_resize_reactivated"
+	},
+
+	"button_canvas_resize_deactivated": {
+		mouse_events: "False"
+	},
+
+	"button_canvas_resize_reactivated": {
+		mouse_events: "True"
+	},
+
+	"button_canvas_resize_hover": {
+		position: [
+					[22, 2, 1, 1], [23, 2, 16, 1], [39, 3, 1, 1],
+					[22, 3, 1, 16], [23, 3, 16, 16], [39, 4, 1, 16],
+					[22, 19, 1, 1], [23, 19, 16, 1], [39, 19, 1, 1]
+				],
+		frame_name: "Buttons/button_canvas_size.png",
+		icon_colour: "#FFFFFFFF"
+	},
+
+	"button_canvas_resize_icon": {
+		colour: "#FFBBBBBB"
+	},
+
+	"button_canvas_resize_icon_hover": {
+		colour: "#FFFFFFFF"
+	},
+
+	"button_canvas_icon": {
+		height: "100%",
+		height_flags: "ScaleToFit",
+		margin_top: "2px",
+		margin_bottom: "2px",
+		mouse_events: "False",
+		image_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+
+	"button_canvas_resize_dot": {
+		icon_colour: "#FF2C2221",
+		deactivated_style: "button_canvas_resize_dot_deactivated",
+		reactivated_style: "button_canvas_resize_dot_reactivated",
+		button_over_style: "button_canvas_resize_dot_hover",
+		button_down_style: "button_canvas_resize_dot_hover"
+	},
+
+	"button_canvas_resize_dot_hover": {
+		position: [
+					[22, 2, 1, 1], [23, 2, 16, 1], [39, 3, 1, 1],
+					[22, 3, 1, 16], [23, 3, 16, 16], [39, 4, 1, 16],
+					[22, 19, 1, 1], [23, 19, 16, 1], [39, 19, 1, 1]
+				],
+		frame_name: "Buttons/button_canvas_size.png"
+	},
+
+	"button_canvas_resize_dot_icon_hover": {
+		colour: "#FF444444"
+	},
+
+	"button_canvas_resize_dot_icon": {
+		colour: "#FF2C2221"
+	},
+
+	"button_canvas_resize_dot_deactivated": {
+		icon_colour: "#FF444444",
+		mouse_events: "False"
+	},
+
+	"button_canvas_resize_dot_reactivated": {
+		icon_colour: "#FF2C2221",
+		mouse_events: "True"
+	},
+
+	"button_scale_image_positive": {
+		image: "Buttons/scale_positive.png",
+		width: "18dpi_px",
+		height: "18dpi_px"
+	},
+
+	"button_scale_image_negative": {
+		image: "Buttons/scale_negative.png",
+		width: "18dpi_px",
+		height: "18dpi_px"
+	},
+
+	"grid_container_spriteeditor": {
+		splitter_thickness: "14dpi_px"
+	},
+
+	"label_tilesetwarning": {
+		colour: "#FF0000E2"
+	},
+
+	"default_window_pick_tileset": {
+		width_min: "292dpi_px",
+		height_min: "220dpi_px"
+	}
+}

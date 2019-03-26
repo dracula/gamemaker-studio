@@ -1,0 +1,53 @@
+{
+	"error_message_node": {
+		selectable: "false", 
+		allow_drag: "false", 
+		stack_resize: "ResizeHeight"
+	},
+	
+	"error_message_label": {
+		word_wrap: "true", 
+		height: "100%", 
+		width: "100%", 
+		margin_bottom: "4px", 
+		margin_right: "5px", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"login_grid": {
+		grid_resize: "ResizeGrid"
+	},
+	
+	"login_text_box": {
+		width_flags: "ScaleToFit"
+	},
+	
+	"password_text_box": {
+		width_flags: "ScaleToFit",
+		obscure_text: "true"
+	},
+
+
+
+	"proxy_add_text_box": {
+		width_flags: "ScaleToFit"
+	},
+	"proxy_username_text_box": {
+		width_flags: "ScaleToFit"
+	},  
+	"proxy_password_text_box": {
+		width_flags: "ScaleToFit",
+		obscure_text: "true"
+	},
+  "proxy_domain_text_box": {
+    width_flags: "ScaleToFit"
+  },
+  "noruntime_dialog": {
+    height: "116dpi_px",
+    width: "450dpi_px",
+    localise_title: "DialogEditor_Error",
+    window_flags: "DragDisabled,DockingDisabled,DesktopTransferDisabled,AutoSizeHeight",
+    accept_button_id: "yes_button" 
+  }
+
+}

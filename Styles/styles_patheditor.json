@@ -1,0 +1,110 @@
+{
+	"path_editor_textbox": {
+		width_flags: "ScaleToFit"
+	},
+	
+	"path_text_box": {
+		selection_colour: "#80FF8080", 
+		text_colour: "#FFFFFFFF"
+	},
+	
+	"scaletofit_stack_panel": {
+		colour: "#00000000", 
+		stack_order: "LeftToRight", 
+		mouse_events: "False", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"button_toggle_path_grid": {
+		icon: "Buttons/icon_grid_show.png", 
+		localise_tooltip: "PathEditor_ToolTip_ToggleGrid"
+	},
+	
+	"button_snap_path_grid": {
+		icon: "Buttons/icon_grid_snap.png", 
+		localise_tooltip: "PathEditor_ToolTip_SnapGrid"
+	},
+	
+	"button_shift_path": {
+		icon: "ImageEditor/ToolIcons/icon_IE_pan.png", 
+		localise_tooltip: "PathEditor_ToolTip_ShiftPath"
+	},
+	
+	"path_window": {
+		width: "840dpi_px", 
+		width_min: "800dpi_px", 
+		height: "520dpi_px", 
+		height_min: "470dpi_px", 
+		window_flags: "CloseButton, ResizeButton"
+	},
+	
+	"path_point_window": {
+		width: "340dpi_px", 
+		width_min: "340dpi_px", 
+		width_max: "340dpi_px", 
+		height: "300dpi_px", 
+		window_flags: "CloseButton, ResizeButton"
+	},
+	
+	"path_spline_editor": {
+		path_colour: "#FF0000FF", 
+		anchor_colour_normal: "#FF0000CC", 
+		anchor_colour_selected: "#FFFF0000", 
+		anchor_colour_active: "#FF00FFFF", 
+		anchor_width: 8, 
+		anchor_height: 8, 
+		snap_grid: "False",
+		zoom_widget_style: "path_spline_editor_widget_style"
+	},
+
+	path_spline_editor_room_editor: {
+		show_zoom_widget: "False"
+	},
+
+	"path_spline_editor_widget_style": {
+		top: "20dpi_px",
+		tool_flags: "Default"
+	},
+	
+	"path_grid": {
+		font_size: 9, 
+		grid_align_x: 32, 
+		grid_align_y: 32, 
+		show_rulers: "True", 
+		enable: "True", 
+		ruler_colour: "#FFFFFFFF", 
+		colour: "#FF888888"
+	},
+	
+	"point_editable_label": {
+		width: "100%", 
+		height: "100%", 
+		edit_in_place: "True", 
+		mouse_events: "True", 
+		edit_as_numeric: "True", 
+		auto_size: "False", 
+		halign: "hAlignLeft",
+		editable_input_type: "Real"
+	},
+	
+	"grid_columns_points": {
+		colour: "#FF303030"
+	},
+	
+	"list_box_paths": {
+		multi_select: "True"
+	},
+	
+	"spline_default_colours": {
+		spline_line_colour: "#FF999999", 
+		spline_line_highlight: "#FFFFA500", 
+		spline_line_error: "#FF0000FF", 
+		spline_anchor_colour: "#FF666666", 
+		spline_anchor_error: "#FF000080", 
+		spline_anchor_highlight: "#FFFFA500", 
+		spline_anchor_error_highlight: "#0FF00A5FF", 
+		spline_anchor_active: "#FFFFFFFF", 
+		spline_anchor_error_active: "#FF0000FF", 
+		spline_mask: "#0FF404040"
+	}
+}

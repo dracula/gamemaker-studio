@@ -1,0 +1,247 @@
+{
+	"survey_question_title": {
+		font_size: 13,
+		colour: "#FFB7B7B7"
+	},
+
+	"survey_question_category": {
+		font_size: 11,
+		colour: "#FFFFFFFF"
+	},
+
+	"survey_question_not_applicable_category": {
+		colour: "#FF5F5F5F"
+	},
+
+	"survey_question_text": {
+		font_size: 9,
+		colour: "#FFFFFFFF"
+	},
+
+	"survey_question_answered": {
+		colour: "#FF282828"
+	},
+
+	"survey_question_unanswered": {
+		colour: "#FF3F43A1"
+	},
+
+	"survey_button_up": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "SoundEditor/play_button_states.png",
+		height: "25dpi_px"
+	},
+
+	"survey_rating_0": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		localise_tooltip: "Survey_Rating_0"
+	},
+
+	"survey_rating_1": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_empty.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_1"
+	},
+
+	"survey_rating_2": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_empty.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_2"
+	},
+
+	"survey_rating_3": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_empty.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_3"
+	},
+
+	"survey_rating_4": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_empty.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_4"
+	},
+
+	"survey_rating_5": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_empty.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_5"
+	},
+
+	"survey_star_down": {
+		position: [
+					[60, 0, 3, 3], [63, 0, 10, 3], [73, 0, 3, 3],
+					[60, 3, 3, 10], [63, 3, 10, 10], [73, 3, 3, 10],
+					[60, 13, 3, 3], [63, 13, 10, 3], [73, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png"
+	},
+
+	"survey_star_over": {
+		position: [
+					[41, 0, 3, 3], [44, 0, 10, 3], [54, 0, 3, 3],
+					[41, 3, 3, 10], [44, 3, 10, 10], [54, 3, 3, 10],
+					[41, 13, 3, 3], [44, 13, 10, 3], [54, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png"
+	},
+
+	"survey_window": {
+		width: "374dpi_px",
+		height_min: "215dpi_px",
+		height_max: "576dpi_px"
+	},
+
+	"survey_rating_filled_1": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_filled.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_1"
+	},
+
+	"survey_rating_filled_2": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_filled.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_2"
+	},
+
+	"survey_rating_filled_3": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_filled.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_3"
+	},
+
+	"survey_rating_filled_4": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_filled.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_4"
+	},
+
+	"survey_rating_filled_5": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				],
+		frame_name: "Survey/star_button_states.png",
+		height: "25dpi_px",
+		icon: "Survey/survey_star_filled.png",
+		icon_colour: "#FFFFFFFF",
+		localise_tooltip: "Survey_Rating_5"
+	},
+
+	"survey_comment_not_applicable": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		clip: ["4px"],
+		auto_height: "False",
+		font_size: 9
+	},
+
+	"survey_comment": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		clip: ["4px"],
+		auto_height: "False",
+		font_size: 9
+	},
+
+	"survey_comment_scroll_panel": {
+		height: "100%",
+		width: "100%",
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll",
+		clip: "4px"
+	},
+
+	"question_applicable": {
+		colour: "#FF4C433E",
+		stack_order: "LeftToRight",
+		mouse_events: "False"
+	},
+
+	"question_not_applicable": {
+		colour: "#FF2C2221", 
+		stack_order: "LeftToRight",
+		mouse_events: "False"
+	}
+
+}

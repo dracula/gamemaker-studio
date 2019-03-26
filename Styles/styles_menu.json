@@ -1,0 +1,409 @@
+{
+	"context_menu": {
+		width: "100dpi_px", 
+		height: "100dpi_px",
+		left: "0dpi_px", 
+		top: "0dpi_px", 
+		grid_rowlayout: ["auto", "auto", "auto"], 
+		grid_columnlayout: ["auto"], 
+		menu_padding: 40, 
+		submenu_open_hover_ms: 300, 
+		submenu_overlap_width: 3,
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 8, 8], [8, 0, 16, 8], [24, 0, 8, 8], 
+					[0, 8, 8, 16], [8, 8, 16, 16], [24, 8, 8, 16], 
+					[0, 24, 8, 8], [8, 24, 16, 8], [24, 24, 8, 8]
+				], 
+		frame_name: "Window/context_outer.png", 
+		margin: ["0dpi_px", "1dpi_px", "4dpi_px", "5dpi_px"], 
+		grid_resize: "ResizeGrid", 
+		entry_row_height: "auto", 
+		separator_row_height: "5dpi_px",
+		scroll_hover_delay: 0.35,
+		scroll_hover_speed: 90,
+		scroll_click_speed: 360,
+		render_target_area: "Margin"
+	},
+
+	"context_menu_entries": {
+		colour: "#00000000",
+		grid_rowlayout: ["*"], 
+		grid_columnlayout: ["auto", "auto", "auto", "auto", "12px"], 
+		grid_resize: "ResizeGrid",
+		top: "0px"
+	},
+
+	"context_menu_entries_panel": {
+		mouse_events: "false"
+	},
+	
+	"context_menu_panel": {
+		mouse_events: "false"
+	},
+
+	"context_menu_margin": {
+		width: "100%", 
+		height: "100%", 
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 1, 8, 7], [8, 1, 16, 7], [24, 1, 8, 7], 
+					[0, 8, 8, 16], [8, 8, 16, 16], [24, 8, 8, 16], 
+					[0, 24, 8, 7], [8, 24, 16, 7], [24, 24, 8, 7]
+				], 
+		frame_name: "Window/context_column.png"
+	},
+
+	"context_menu_scroll_up": {
+		icon: "ArrowUp.png",
+		height: "20dpi_px",
+		
+		up_tint: "#00000000", 
+		down_tint: "#00000000", 
+		up_focused_tint: "#00000000", 
+		down_focused_tint: "#00000000", 
+		frame_name: "",
+
+		button_down_style: "context_menu_scroll_button_down",
+		button_over_style: "context_menu_scroll_button_over"
+	},
+
+	"context_menu_scroll_down": {
+		icon: "ArrowDown.png",
+		height: "20dpi_px",
+		
+		up_tint: "#00000000", 
+		down_tint: "#00000000", 
+		up_focused_tint: "#00000000", 
+		down_focused_tint: "#00000000", 
+		frame_name: "",
+
+		button_down_style: "context_menu_scroll_button_down",
+		button_over_style: "context_menu_scroll_button_over"
+	},
+
+	"context_menu_scroll_up_icon": {
+		height: "16dpi_px"
+	},
+
+	"context_menu_scroll_down_icon": {
+		height: "16dpi_px"
+	},
+	
+	"context_menu_scroll_button_down": {
+		position: [
+					[64, 0, 1, 1], [65, 0, 6, 1], [71, 0, 1, 1], 
+					[60, 3, 1, 10], [65, 3, 6, 10], [75, 3, 1, 10], 
+					[64, 15, 1, 1], [65, 15, 6, 1], [71, 15, 1, 1]
+				], 
+		frame_name: "Buttons/button_states.png"
+	},
+	
+	"context_menu_scroll_button_over": {
+		position: [
+					[45, 0, 1, 1], [46, 0, 6, 1], [52, 0, 1, 1], 
+					[41, 3, 1, 10], [46, 3, 6, 10], [56, 3, 1, 10], 
+					[45, 15, 1, 1], [46, 15, 6, 1], [52, 15, 1, 1]
+				], 
+		frame_name: "Buttons/button_states.png"
+	},
+	
+	"menu_entry": {
+		up_tint: "#00000000",
+		width: "100%",
+		margin_left: "1px",
+		margin_right: "1px",
+		width_flags: "ScaleToFit",
+		position: [
+					[1, 1, 7, 7], [8, 1, 16, 7], [24, 1, 3, 7], 
+					[1, 8, 7, 16], [8, 8, 16, 16], [24, 8, 3, 16], 
+					[1, 24, 7, 3], [8, 24, 16, 3], [24, 24, 3, 3]
+				], 
+		frame_name: "Window/context_outer.png",
+		auto_height: "false",
+		height: "100%"
+	},
+	
+	"menu_entry_inactive": {
+		position: [
+					[1, 1, 7, 7], [8, 1, 16, 7], [24, 1, 3, 7], 
+					[1, 8, 7, 16], [8, 8, 16, 16], [24, 8, 3, 16], 
+					[1, 24, 7, 3], [8, 24, 16, 3], [24, 24, 3, 3]
+				], 
+		frame_name: "Window/context_outer.png",
+		auto_height: "true"
+	},
+	
+	"menu_entry_highlight": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 8, 4], [12, 0, 4, 4], 
+					[0, 4, 4, 8], [4, 4, 8, 8], [12, 4, 4, 8], 
+					[0, 12, 4, 4], [4, 12, 8, 4], [12, 12, 4, 4]
+				], 
+		frame_name: "Window/context_highlight.png"
+	},
+	
+	"menu_label": {
+		left: "0px",
+		left_flags: "ScaleToFit", 
+		halign: "hAlignLeft", 
+		valign: "vAlignCentre",  
+		colour: "#fff0f0f0", 
+		mouse_events: "false", 
+		auto_size: "true",
+		auto_ellipsis: "false",
+		margin: ["5px", "2px", "5px", "2px"] 
+	},
+	
+	"menu_label_inactive": {
+		colour: "#FF979797"
+	},
+	
+	"menu_icon": {
+		width: "16dpi_px",
+		height: "16dpi_px",
+		margin_left: "2px",
+		margin_right: "2px",
+		mouse_events: "false", 
+		image_flags: "Stretch, KeepAspectRatio, Centre", 
+		colour: "#ffffffff"
+	},
+	
+	"menu_icon_inactive": {
+		width: "16dpi_px",
+		height: "16dpi_px",
+		mouse_events: "false", 
+		image_flags: "Stretch, KeepAspectRatio, Centre", 
+		colour: "#88ffffff"
+	},
+	
+	"menu_separator": {
+		width: "100%", 
+		margin_left: "0px", 
+		margin_right: "0px", 
+		height: "1px", 
+	},
+	
+	"menu_entry_keycombo": {
+		left: "0px", 
+		halign: "hAlignLeft", 
+		valign: "vAlignCentre", 
+		colour: "#fff0f0f0", 
+		mouse_events: "false", 
+		auto_size: "true"
+	},
+	
+	"menu_entry_keycombo_inactive": {
+		left: "0px", 
+		halign: "hAlignLeft", 
+		valign: "vAlignCentre", 
+		colour: "#FF979797", 
+		mouse_events: "false", 
+		auto_size: "true"
+	},
+	
+	"menu_entry_checkbox": {
+		margin_left: "2px",
+		margin_right: "3px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		width: "16dpi_px", 
+		height: "16dpi_px", 
+		frame_name: "MenuCheckBox.png", 
+		colour: "#ffffffff"
+	},
+	
+	"menu_entry_checkbox_highlighted": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [64, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		width: "16dpi_px", 
+		height: "16dpi_px", 
+		frame_name: "MenuCheckBox.png", 
+		colour: "#ffffcaca"
+	},
+	
+	"menu_entry_checkbox_tick": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [32, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		width: "16dpi_px", 
+		height: "16dpi_px", 
+		frame_name: "MenuCheckBox.png"
+	},
+
+	"menu_entry_checkbox_untick": {
+		colour: "#00000000"
+	},
+	
+	"menu_entry_checkbox_inactive": {
+		left: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		width: "16dpi_px", 
+		height: "16dpi_px", 
+		frame_name: "InactiveMenuCheckBox.png"
+	},
+	
+	"menu_entry_checkbox_inactive_highlighted": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [64, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		width: "16dpi_px", 
+		height: "16dpi_px", 
+		frame_name: "InactiveMenuCheckBox.png", 
+		colour: "#ffcccccc"
+	},
+	
+	"menu_entry_checkbox_inactive_tick": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [32, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		width: "16dpi_px", 
+		height: "16dpi_px", 
+		frame_name: "InactiveMenuCheckBox.png"
+	},
+
+	"menu_entry_checkbox_inactive_untick": {
+		colour: "#00000000"
+	},
+	
+	"menu_entry_checkbox_stack": {
+    mouse_events: "true",
+    left: "0px"
+	},
+	
+	"menu_entry_checkbox_inactive_stack": {
+		mouse_events: "false"
+	},
+	
+	"sub_menu_arrow": {
+		image: "Window/context_arrow.png", 
+		height: "10dpi_px", 
+		width: "5dpi_px", 
+		right: "6px", 
+		colour: "#FFFFFFFF", 
+		mouse_events: "false", 
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	},
+	
+	"sub_menu_arrow_inactive": {
+		image: "Window/context_arrow.png", 
+		height: "10dpi_px", 
+		width: "5dpi_px", 
+		right: "6px", 
+		colour: "#FF333333", 
+		mouse_events: "false", 
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	},
+	
+	"menu_bar": {
+		height: "25px", 
+		width: "100%", 
+		stack_order: "LeftToRight", 
+		stack_flags: "Wrap", 
+		stack_resize: "ResizeHeight", 
+		clip: "2px", 
+		position: [
+					[0, 0, 4, 1], [4, 0, 8, 1], [12, 0, 4, 1],
+					[0, 2, 4, 12], [4, 2, 8, 12], [12, 2, 4, 12],
+					[0, 15, 4, 1], [4, 15, 8, 10], [12, 15, 4, 1]
+				], 
+		frame_name: "Tabs/workspace_menu_bar.png"
+	},
+	
+	"menu_bar_entry": {
+		width: "70px", 
+		width_min: "50px", 
+		height: "100%",
+		auto_height: "true",
+		frame_name: "",
+		colour: "#FFFFFFFF",
+		up_tint: "#00FFFFFF", 
+		down_tint: "#FFFFFFFF", 
+		mouseover_up_tint: "#FFFFFFFF",
+		mouseover_down_tint: "#FFFFFFFF", 
+		up_focused_tint: "#00FFFFFF", 
+		down_focused_tint: "#FFFFFFFF", 
+		mouseover_up_focused_tint: "#FFFFFFFF", 
+		mouseover_down_focused_tint: "#FFFFFFFF"
+	},
+	
+	"menu_bar_entry_active": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/context_button_over.png"
+	},
+	
+	"menu_bar_entry_over": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/context_button_over.png"
+	},
+	
+	"menu_bar_entry_label": {
+		halign: "hAlignCentre", 
+		valign: "vAlignCentre", 
+		mouse_events: "false", 
+		auto_size: "true",
+		auto_ellipsis: "false", 
+		margin: ["10px", "4px", "10px", "4px"],  
+	},
+	
+	"ide_menu_frame": {
+		auto_ignore_disabled: false,
+		position: [
+					[0, 0, 4, 1], [4, 0, 8, 1], [12, 0, 4, 1],
+					[0, 2, 4, 12], [4, 2, 8, 12], [12, 2, 4, 12],
+					[0, 15, 4, 1], [4, 15, 8, 10], [12, 15, 4, 1]
+				], 
+		frame_name: "Tabs/workspace_menu_bar.png",
+		colour: "#ffffffff"
+	},
+
+	"ide_toolbar_frame": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 1], [4, 0, 8, 1], [12, 0, 4, 1],
+					[0, 2, 4, 12], [4, 2, 8, 12], [12, 2, 4, 12],
+					[0, 15, 4, 1], [4, 15, 8, 10], [12, 15, 4, 1]
+				], 
+		frame_name: "Tabs/workspace_menu_bar.png"
+	},
+
+	"ide_toolbar": {
+		stack_flags: "Wrap"
+	},
+
+	"progress_panel": {
+				colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 1], [4, 0, 8, 1], [12, 0, 4, 1],
+					[0, 2, 4, 12], [4, 2, 8, 12], [12, 2, 4, 12],
+					[0, 15, 4, 1], [4, 15, 8, 10], [12, 15, 4, 1]
+				], 
+		frame_name: "Notifications/notification_bar_active.png",
+		stack_flags: "FullSizeInternalPanel"
+	}
+}

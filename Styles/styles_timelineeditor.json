@@ -1,0 +1,46 @@
+{
+	"timeline_window": {
+		width: "300dpi_px",
+		width_min: "290dpi_px",
+		height: "450dpi_px",
+		height_min: "290dpi_px",
+		window_flags: "CloseButton, ResizeButton"
+	},
+
+	"timeline_editor_textbox": {
+		width_flags: "ScaleToFit"
+	},
+
+	"moment_editable_label": {
+		width: "100%",
+		height: "100%",
+		edit_in_place: "True",
+		mouse_events: "True",
+		edit_as_numeric: "True",
+		auto_size: "False",
+		halign: "hAlignLeft",
+		valign: "vAlignCentre"
+	},
+
+	"description_label": {
+		width: "100%",
+		height: "100%",
+		mouse_events: "True",
+		auto_ellipsis: "True",
+		auto_size: "False",
+		halign: "hAlignLeft",
+		valign: "vAlignCentre"
+	},
+
+	"list_box_stack_nomouse": {
+		mouse_events: "False"
+	},
+
+	"list_box_moments": {
+		multi_select: "True"
+	},
+
+	"grid_columns_moments": {
+		colour: "#FF2C2221"
+	}
+}

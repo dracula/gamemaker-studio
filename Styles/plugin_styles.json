@@ -1,0 +1,332 @@
+{
+	"config_manager_info_box": {
+		width: "350dpi_px", 
+		height: "150dpi_px", 
+		window_flags: "DragDisabled"
+	},
+	
+	"asset_import_button": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Marketplace/icon-import.png"
+	},
+	
+	"asset_delete_button": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Marketplace/icon-delete.png"
+	},
+	
+	"undo_button": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "History/icon_history_undo.png", 
+		button_over_style: "undo_button_over", 
+		down_tint: "#00000000", 
+		mouseover_up_tint: "#ffcccccc", 
+		mouseover_down_tint: "#00000000", 
+		up_focused_tint: "#ffd0d0d0", 
+		down_focused_tint: "#00000000", 
+		mouseover_up_focused_tint: "#ffd0d0d0", 
+		mouseover_down_focused_tint: "#00000000"
+	},
+	
+	"undo_button_over": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "History/icon_history_undo.png"
+	},
+	
+	"redo_button": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "History/icon_history_redo.png", 
+		button_over_style: "redo_button_over", 
+		down_tint: "#00000000", 
+		mouseover_up_tint: "#ffcccccc", 
+		mouseover_down_tint: "#00000000", 
+		up_focused_tint: "#ffd0d0d0", 
+		down_focused_tint: "#00000000", 
+		mouseover_up_focused_tint: "#ffd0d0d0", 
+		mouseover_down_focused_tint: "#00000000"
+	},
+	
+	"redo_button_over": {
+		width: "16px", 
+		height: "16px", 
+		left: "0px", 
+		top: "0px", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "History/icon_history_redo.png"
+	},
+	
+	"button_config_moveup": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 19, 11], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ArrowUp.png", 
+		width: "19px", 
+		height: "11px"
+	},
+	
+	"button_config_movedown": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 19, 11], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ArrowDown.png", 
+		width: "19px", 
+		height: "11px"
+	},
+	
+	"visible_checkbox": {
+		colour: "#00000000"
+	},
+
+    "visible_checkbox_stack":{
+        deactivated_style: "deactivated_visible_checkbox_stack",
+		reactivated_style: "reactivated_visible_checkbox_stack"
+    },
+	
+	"visible_checkbox_highlighted": {
+		colour: "#55000000", 
+		frame_name: ""
+	},
+	
+	"visible_checkbox_tick": {
+        colour: "#ffffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_visible.png"
+	},
+	
+	"visible_checkbox_untick": {
+		colour: "#ffffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_invisible.png"
+	},
+	
+    "deactivated_visible_checkbox_stack": {
+		mouse_events: "false",
+		base_style: "deactivated_visible_checkbox"
+	},
+
+	"reactivated_visible_checkbox_stack": {
+		mouse_events: "true",
+		base_style: "visible_checkbox"
+	},
+
+    "deactivated_visible_checkbox_tick": {
+        colour: "#40ffffff", 
+    },
+
+    "deactivated_visible_checkbox_untick": {
+        colour: "#40ffffff", 
+    },
+
+	"lock_checkbox": {
+		colour: "#00000000"
+	},
+	
+    "lock_checkbox_stack":{
+        deactivated_style: "deactivated_lock_checkbox_stack",
+		reactivated_style: "reactivated_lock_checkbox_stack"
+    },
+
+	"lock_checkbox_highlighted": {
+		colour: "#55000000", 
+		frame_name: ""
+	},
+	
+	"lock_checkbox_tick": {
+		colour: "#ffffffff", 
+        position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_locked.png"
+	},
+	
+	"lock_checkbox_untick": {
+		colour: "#ffffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Buttons/icon_unlocked.png"
+	},
+
+    "deactivated_lock_checkbox_stack": {
+		mouse_events: "false",
+		base_style: "deactivated_lock_checkbox"
+	},
+
+	"reactivated_lock_checkbox_stack": {
+		mouse_events: "true",
+		base_style: "lock_checkbox"
+	},
+
+    "deactivated_lock_checkbox_tick": {
+        colour: "#40ffffff", 
+    },
+
+    "deactivated_lock_checkbox_untick": {
+        colour: "#40ffffff", 
+    },
+	
+	"font_grid_container": {
+		grid_resize: "ResizeGrid"
+	},
+	
+	"projectmodified_confirm": {
+		height: "200px", 
+		width: "500px"
+	},
+	
+	"border_colour_select": {
+		spawn_dialog_in_parent: "false",
+		selected_colour: "#ff000000"
+	},
+	
+	"generate_image_frame": {
+		colour: "#FFFFFFFF", 
+		clip: ["6px"], 
+		width_flags: "ScaleToFit", 
+		height_flags: "ScaleToFit", 
+		frame_name: "Window/dial_inner_alpha_grey.png", 
+		position: [
+					[0, 0, 8, 4], [8, 0, 0, 0], [24, 0, 8, 4], 
+					[0, 4, 8, 24], [8, 4, 0, 0], [24, 4, 8, 24], 
+					[0, 28, 8, 4], [8, 28, 0, 0], [24, 28, 8, 4]
+				]
+	},
+	
+	"generate_image_preview": {
+		width_flags: "ScaleToFit", 
+		height_flags: "ScaleToFit", 
+		image_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+	
+	"image_generation_stack": {
+		width_flags: "ScaleToFit", 
+		stack_order: "TopToBottom"
+	},
+	
+	"image_generation_window": {
+		width: "650dpi_px", 
+		height: "300dpi_px", 
+		width_min: "500dpi_px", 
+		height_min: "225dpi_px"
+	},
+	
+	"image_generation_label": {
+		width_flags: "ScaleToFit", 
+		auto_ellipsis: "true"
+	},
+
+	"savefailure_dialog": {
+		width: "400dpi_px", 
+		height: "290dpi_px", 
+		window_flags: "CloseButton, DockingDisabled, DesktopTransferDisabled", 
+		localise_title: "Dialog_Error"
+	},
+
+  "loadmodifications_dialog": {
+    width: "500dpi_px",
+    height: "460dpi_px",
+    window_flags: "DockingDisabled, DesktopTransferDisabled, AutoSizeHeight"
+  },
+
+  "loadfailures_dialog": {
+    width: "500dpi_px",
+    height: "460dpi_px",
+    window_flags: "CloseButton, DockingDisabled, DesktopTransferDisabled"
+  },
+
+  "unpaireddevices_dialog": {
+    width: "400dpi_px",
+    height: "390dpi_px",
+    window_flags: "CloseButton, DockingDisabled, DesktopTransferDisabled, AutoSizeHeight"
+  },
+
+	"resourcetree_settings_window": {
+		position: [
+					[0, 0, 2, 2], [2, 0, 14, 2], [16, 0, 2, 2], 
+					[0, 2, 2, 14], [2, 2, 14, 14], [16, 2, 2, 14], 
+					[0, 16, 2, 6], [2, 16, 14, 6], [16, 16, 2, 6]
+				], 
+		frame_name: "listviewexplorer_frame.png", 
+		colour: "#FFFFFFFF", 
+		window_flags: "Borderless, ResizeButton, DesktopTransferDisabled, DockingDisabled"
+	},
+
+	"searchinscript_grid_container": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_search_outer.png",  
+		grid_resize: "ResizeGrid", 
+		mouse_events: "False", 
+		width_min: "288dpi_px"
+	},
+
+	"recent_windows": {
+		width: "400dpi_px", 
+		height: "100dpi_px", 
+		window_flags: "Default"
+	},
+}

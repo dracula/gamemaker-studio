@@ -1,0 +1,432 @@
+{
+	"colour_dialog": {
+		width: "560dpi_px", 
+		height: "400dpi_px", 
+		left: "50px", 
+		top: "50px", 
+		window_flags: "CloseButton,MinimizeButton,DockingDisabled,DesktopTransferDisabled", 
+		title: "Colour"
+	},
+	
+	"colour_dialog_label": {
+		width: "100px", 
+		height: "20px", 
+		left: "10px", 
+		top: "10px"
+	},
+	
+	"colour_dialog_rgba": {
+		left: "48px", 
+		top: "180px"
+	},
+	
+	"colour_dialog_hsv": {
+		left: "150px", 
+		top: "180px"
+	},
+	
+	"colour_dialog_palette": {
+		left: "10px", 
+		top: "30px"
+	},
+	
+	"colour_dialog_picker": {
+		left: "230px", 
+		top: "10px", 
+		width: "187px", 
+		height: "193px"
+	},
+	
+	"colour_dialog_selected": {
+		left: "10px", 
+		top: "180px", 
+		width: "32px", 
+		height: "32px"
+	},
+	
+	"colour_dialog_ok": {
+		width: "100px", 
+		height: "20px", 
+		left: "322px", 
+		top: "220px"
+	},
+	
+	"colour_dialog_ok_label": {
+		halign: "hAlignCentre", 
+		valign: "vAlignCentre", 
+		mouse_events: "false"
+	},
+	
+	"colour_dialog_cancel": {
+		width: "100px", 
+		height: "20px", 
+		left: "322px", 
+		top: "250px"
+	},
+	
+	"colour_dialog_cancel_label": {
+		halign: "hAlignCentre", 
+		valign: "vAlignCentre", 
+		mouse_events: "false"
+	},
+	
+	"colour_palette_basic": {
+		grid_rowlayout: ["auto", "auto"], 
+		grid_columnlayout: [
+					"auto", "auto", "auto", "auto", 
+					"auto", "auto", "auto", "auto", 
+					"auto", "auto"
+				], 
+		colours: [
+					"#ff0000ff", "#ff00ffff", "#ff00ff00", "#ffffff00", "#ffff0000", 
+					"#ffff00ff", "#ffffffff", "#ff000000", "#ff123960", "#ff600463", 
+					"#ffffffff", "#ffe6e6e6", "#ffcccccc", "#ffb3b3b3", "#ff999999", 
+					"#ff808080", "#ff676767", "#ff4d4d4d", "#ff343434", "#ff1a1a1a"
+				], 
+		width: "200px", 
+		height: "138px"
+	},
+
+    "colour_palette_grid":{
+        grid_rowlayout: ["auto"], 
+        grid_columnlayout: [
+					"auto", "auto", "auto", "auto", "auto", "auto", "auto", "auto" 
+                  ],
+        colours: [
+					"#ffffffff", "#ff000000", "#ff0000ff", "#ff00ffff", "#ff00ff00", "#ffffff00", "#ffff0000", "#ffff00ff"
+                 ],
+        width: "200px", 
+		height: "138px"
+    },
+	
+	"colour_palette_saved": {
+		grid_rowlayout: ["auto"], 
+		grid_columnlayout: [
+					"auto", "auto", "auto", "auto", 
+					"auto", "auto", "auto", "auto", 
+					"auto", "auto"
+				], 
+		colours: [
+					"#ff000000", "#ff000000", "#ff000000", "#ff000000", 
+					"#ff000000", "#ff000000", "#ff000000", "#ff000000", 
+					"#ff000000", "#ff000000"
+				], 
+		width: "200px", 
+		height: "138px"
+	},
+	
+	"colour_palette": {
+		grid_rowlayout: ["auto", "auto", "auto", "auto", "auto", "auto"], 
+		grid_columnlayout: ["auto", "auto", "auto", "auto", "auto", "auto", "auto", "auto"], 
+		colours: [
+					"#ff404080", "#ffff80ff", "#ffff8080", "#ffff8000", "#ffffff80", "#ff80ff00", "#ff80C0ff", 
+					"#ff80ffff", "#ff0000ff", "#ffff00ff", "#ffff0080", "#ffff4000", "#ffffff00", "#ff80C000", 
+					"#ff80C080", "#ff00ffff", "#ff204080", "#ff8040ff", "#ffff0000", "#ff808000", "#ff408000", 
+					"#ff80ff80", "#ff004080", "#ff0080ff", "#ff000080", "#ff8000ff", "#ff800000", "#ff804000", 
+					"#ff00ff00", "#ff00A000", "#ff008080", "#ff00ff80", "#ff000040", "#ff400080", "#ff400000", 
+					"#ff404000", "#ff008000", "#ff004000", "#ff004040", "#ff008040", "#ff000000", "#ff800080", 
+					"#ff804080", "#ff808080", "#ff808040", "#ffC0C0C0", "#ff002040", "#ffffffff"
+				], 
+		width: "200px", 
+		height: "138px"
+	},
+	
+	"colour_palette_highlight": {
+		comment: "The image used to indicate the colour that's been selected", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		left: "0px", 
+		top: "0px", 
+		width: "16dpi_px", 
+		height: "16dpi_px", 
+		frame_name: "ColourPicker/ColourPalette.png"
+	},
+	
+	"colour_palette_frame": {
+		comment: "The image used to frame a cell of the palette", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [25, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		left: "0px", 
+		top: "0px", 
+		width: "16dpi_px", 
+		height: "16dpi_px", 
+		frame_name: "ColourPicker/ColourPalette.png"
+	},
+
+    "colour_palette_frame_empty": {
+		comment: "The disabled/empty cell frame", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [43, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ColourPicker/ColourPalette.png"
+	},
+	
+	"colour_palette_fill": {
+		comment: "The region of the frame to fill in with a single colour", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [62, 1, 14, 14], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		left: "1dpi_px", 
+		top: "1dpi_px", 
+		width: "14dpi_px", 
+		height: "14dpi_px", 
+		frame_name: "ColourPicker/ColourPalette.png"
+	},
+
+	"colour_picker": {
+		gradient_width: 187, 
+		gradient_height: 225, 
+		width: "187dpi_px", 
+		height: "225dpi_px"
+	},
+	
+	"colour_picker_selector": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 9, 9], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		width: "9dpi_px", 
+		height: "9dpi_px", 
+		comment: "Make the selection be the centre of the cross", 
+		margin_right: "4dpi_px", 
+		left_flags: "OffsetByMargin",
+		margin_bottom: "4dpi_px", 
+		top_flags: "OffsetByMargin",
+		frame_name: "ColourPicker/ColourPickerSelect.png"
+	},
+	
+	"colour_slider": {
+		left: "0px", 
+		top: "0px", 
+		width: "100%", 
+		height: "100%", 
+		height_flags: "None", 
+		colour: "#00000000", 
+		min_value: -10, 
+		max_value: 10, 
+		click_increment: -1, 
+		flow_increment: 1, 
+		mindrag_increment: 0.5, 
+		slider_direction: "Horizontal", 
+		grid_resize: "None"
+	},
+	
+	"colour_slider_thumb": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 12, 9], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ColourPicker/ColourSliderArrow.png", 
+		width: "12dpi_px", 
+		height: "9dpi_px", 
+		top: "0px", 
+		up_tint: "#FFFFFFFF", 
+		down_focused_tint: "#FFA09389", 
+		mouseover_down_focused_tint: "#FFA09389"
+	},
+	
+	"colour_slider_thumb_over": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 12, 9], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ColourPicker/ColourSliderArrow.png"
+	},
+	
+	"colour_slider_thumb_down": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 12, 9], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ColourPicker/ColourSliderArrow.png"
+	},
+	
+	"colour_picker_colour_border": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 52, 35], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ColourPicker/ColourBorder.png"
+	},
+	
+	"colour_picker_new_colour_border": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 53, 37], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ColourPicker/NewColourHighlight.png"
+	},
+	
+	"segmented_colour_slider": {
+		gradient: 10, 
+		sections: 11, 
+		left: "0px", 
+		top: "0px", 
+		width: "100%", 
+		height: "100%", 
+		height_flags: "None", 
+		colour: "#00000000", 
+		min_value: -10, 
+		max_value: 10, 
+		click_increment: -1, 
+		flow_increment: 1, 
+		mindrag_increment: 0.5, 
+		slider_direction: "Horizontal", 
+		grid_resize: "None"
+	},
+	
+	"segmented_colour_slider_thumb": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 19], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Slider/segmented_colour_slider_selection.png", 
+		width: "16dpi_px", 
+		height: "19dpi_px", 
+		top: "1dpi_px", 
+		up_tint: "#FFFFFFFF", 
+		down_focused_tint: "#FFA09389", 
+		mouseover_down_focused_tint: "#FFA09389"
+	},
+	
+	"segmented_colour_slider_thumb_over": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 19], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Slider/segmented_colour_slider_selection.png"
+	},
+	
+	"segmented_colour_slider_thumb_down": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 19], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Slider/segmented_colour_slider_selection.png"
+	},
+	
+	"colour_slider_vertical_thumb": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 28, 12], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ColourPicker/SliderArrow.png", 
+		width: "28dpi_px", 
+		left: "-2dpi_px", 
+		height: "12dpi_px"
+	},
+	
+	"colour_slider_vertical_thumb_down": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 28, 12], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "ColourPicker/SliderArrow.png", 
+		colour: "#00000000", 
+		left: "-2dpi_px", 
+		width: "28dpi_px", 
+		height: "12dpi_px"
+	},
+	
+	"segmented_colour_slider_bar": {
+		width: "100%", 
+		height: "100%", 
+		top: "2dpi_px", 
+		bottom: "0px", 
+		position: [
+					[0, 0, 3, 3], [3, 0, 6, 3], [9, 0, 3, 3], 
+					[0, 3, 3, 1], [3, 3, 6, 1], [9, 3, 3, 1], 
+					[0, 4, 3, 3], [3, 4, 6, 3], [9, 4, 3, 3]
+				], 
+		frame_name: "Slider/colour_slider_outer.png", 
+		margin_left: "0px", 
+		margin_right: "0px", 
+		width_flags: "ScaleToFit", 
+		colour: "#FFFFFFFF", 
+		clip: "1px"
+	},
+	
+	"colour_slider_bar": {
+		width: "100%", 
+		height: "100%", 
+		top: "7dpi_px", 
+		bottom: "0px", 
+		position: [
+					[0, 0, 3, 3], [3, 0, 6, 3], [9, 0, 3, 3], 
+					[0, 3, 3, 1], [3, 3, 6, 1], [9, 3, 3, 1], 
+					[0, 4, 3, 3], [3, 4, 6, 3], [9, 4, 3, 3]
+				], 
+		frame_name: "Slider/colour_slider_outer.png", 
+		margin_left: "0px", 
+		margin_right: "0px", 
+		width_flags: "ScaleToFit", 
+		colour: "#FFFFFFFF", 
+		clip: ["1px"]
+	},
+	
+	"colour_slider_bar_fill": {
+		colour: "#000000"
+	},
+	
+	"colour_text_entry": {
+		comment: "Should inherits properties from the main text box gadget", 
+		width: "40px", 
+		height: "26px"
+	},
+	
+	"selected_colour_backing": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 15, 15], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Background/alpha_bg.png", 
+		width: "16px", 
+		height: "16px"
+	},
+	
+	"colour_select_button_up": {
+		position: [
+					[25, 0, 3, 3], [28, 0, 13, 3], [41, 0, 3, 3], 
+					[25, 3, 3, 11], [28, 3, 13, 11], [41, 3, 3, 11], 
+					[25, 14, 3, 0], [28, 14, 13, 3], [41, 14, 3, 3]
+				], 
+		frame_name: "ColourButton.png", 
+		selected_colour: "#ffffffff", 
+		width: "20dpi_px", 
+		height: "18dpi_px",
+        fill_margin: ["2px"],
+		button_down_style: "colour_select_button_down", 
+		button_over_style: "button_no_over_texture", 
+	},
+	
+	"colour_select_button_down": {
+		position: [
+					[25, 0, 3, 3], [28, 0, 13, 3], [41, 0, 3, 3], 
+					[25, 3, 3, 11], [28, 3, 13, 11], [41, 3, 3, 11], 
+					[25, 14, 3, 0], [28, 14, 13, 3], [41, 14, 3, 3]
+				], 
+		frame_name: "ColourButton.png"
+	}
+}

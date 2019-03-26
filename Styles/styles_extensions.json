@@ -1,0 +1,239 @@
+{
+	"extension_grid": {
+		colour: "#00000000",
+		grid_resize: "ResizeGridHeight",
+		mouse_events: "true",
+		splitter_thickness: "2px"
+	},
+
+	"extension_tablegadget_row_odd": {
+		colour: "#FF1F1A18",
+		splitter_thickness: "2px",
+		mouse_events: "true"
+	},
+	"extension_tablegadget_row_even": {
+		colour: "#00000000",
+		splitter_thickness: "2px",
+		mouse_events: "true"
+	},
+	"extension_tablegadget_row_highlighted": {
+		colour: "#FFA09389",
+		splitter_thickness: "2px",
+		mouse_events: "true"
+	},
+	"extension_tablegadget_row_selected": {
+		colour: "#FF786B61",
+		splitter_thickness: "2px",
+		mouse_events: "true"
+	},
+
+	"extension_tablegadget_header": {
+		colour: "#FFD5D5D5",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 24, 4, 4], [4, 24, 24, 4], [28, 24, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		grid_resize: "ResizeGridHeight",
+		mouse_events: "true",
+		splitter_thickness: "2px"
+	},
+
+	"extension_tablegadget_content": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		disable_highlight_rendering: "true",
+		grid_resize: "ResizeGridHeight",
+		mouse_events: "true",
+		splitter_thickness: "2px",
+		highlighted_style: "extension_tablegadget_row_highlighted",
+		selected_style: "extension_tablegadget_row_selected"
+	},
+
+	"ext_export_button": {
+		icon: "Buttons/icon_IDE_exportext.png"
+	},
+	"ext_import_button": {
+		icon: "Buttons/icon_IDE_importext.png"
+	},
+
+	"extension_multiline_text_box": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		clip: "4px",
+		width: "250px",
+		auto_height: "false",
+		height: "150px",
+		font_bold: "False"
+	},
+
+	"extension_list_box_auto": {
+		colour: "#FFFFFFFF",
+		position: [
+					[1, 1, 3, 3], [4, 1, 13, 3], [17, 1, 3, 3],
+					[1, 4, 3, 13], [4, 4, 13, 13], [17, 4, 3, 13],
+					[1, 17, 3, 3], [4, 17, 13, 3], [17, 17, 3, 3]
+				],
+		frame_name: "Window/dial_inner.png",
+		selection_colour: "#FF786B61",
+		mouse_over_colour: "#FFA09389",
+		width: "100%",
+		height: "100%",
+		scrollpanel_flags: "HorizontalScroll, VerticalScroll, AdjustToScrollBars",
+		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",
+		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust"
+	},
+
+	"extension_list_box": {
+		colour: "#FFFFFFFF",
+		position: [
+					[1, 1, 3, 3], [4, 1, 13, 3], [17, 1, 3, 3],
+					[1, 4, 3, 13], [4, 4, 13, 13], [17, 4, 3, 13],
+					[1, 17, 3, 3], [4, 17, 13, 3], [17, 17, 3, 3]
+				],
+		frame_name: "Window/dial_inner.png",
+		disable_highlight_rendering: "true",
+		width: "100%",
+		height: "100%",
+		scrollpanel_flags: "HorizontalScroll, VerticalScroll, AdjustToScrollBars",
+		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",
+		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust"
+	},
+
+	"extension_list_box_stack": {
+		stack_order: "TopToBottom",
+		stack_resize: "ResizeAll",
+		left: "0px",
+		top: "0px",
+		width: "100%",
+		width_min: "100%",
+		height: "100%"
+	},
+
+	"extension_list_box_highlight": {
+		colour: "#ff802020",
+		width: "100%",
+		height: "100%"
+	},
+
+	"extension_list_box_mouseover": {
+		colour: "#ff806060",
+		width: "100%",
+		height: "100%"
+	},
+
+	"extension_list_box_enum_label": {
+		margin: "2px",
+		valign: "vAlignCentre"
+	},
+
+	"extension_bordered_list_box": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		selection_colour: "#FF786B61",
+		mouse_over_colour: "#FFA09389",
+		width: "100%",
+		height: "100%",
+		scrollpanel_flags: "HorizontalScroll, VerticalScroll, AdjustToScrollBars",
+		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",
+		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust"
+	},
+
+	"extension_bordered_list_box_stack": {
+		stack_order: "TopToBottom",
+		stack_resize: "ResizeAll",
+		left: "0px",
+		top: "0px",
+		width: "100%",
+		width_min: "100%",
+		height: "100%"
+	},
+
+	"extension_bordered_list_box_highlight": {
+		colour: "#ff802020",
+		width: "100%",
+		height: "100%"
+	},
+
+	"extension_bordered_list_box_mouseover": {
+		colour: "#ff806060",
+		width: "100%",
+		height: "100%"
+	},
+
+	"extension_bordered_list_box_enum_label": {
+		margin: "2px",
+		valign: "vAlignCentre"
+	},
+
+    "extension_tab_control": {
+		colour: "#00000000",
+		grid_rowlayout: ["auto", "1*"],
+		client_panel: [0, 1],
+		tab_flags: "CloseButton, DragEnabled, InsertBeforeAddButton"
+	},
+
+    "extension_functions_window":
+    {
+        width: "400dpi_px",
+		height: "387dpi_px",
+        localise_title: "ExtensionEditor_FunctionsWindowTitle",
+		window_flags: "Default"
+    },
+
+    "extension_macros_window":
+    {
+        width: "400dpi_px",
+		height: "220dpi_px",
+        localise_title: "ExtensionEditor_MacrosWindowTitle",
+		window_flags: "Default"
+    },
+
+    "macros_button": {
+		width: "100%",
+		width_flags: "ScaleToFit",
+        localise_name: "ExtensionEditor_Macros",
+        icon: "Buttons/icon_IDE_pencil.png"
+	},
+
+	"macros_button_label": {
+		margin_right: "25dpi_px"
+	},
+
+    "macro_name_texbox":{
+        left : "0dpi_px",
+        localise_tooltip: "ExtEditor_ToolTip_SetMacroName",
+        bind_property: "constantName"
+    },
+
+    "macro_value_textbox":
+    {
+        left : "0dpi_px",
+        localise_tooltip: "ExtEditor_ToolTip_SetMacroValue",
+        bind_property : "value"
+    },
+
+    "macro_delete_button":
+    {
+        frame_name: "",
+		up_tint: "#00000000",
+		up_focused_tint: "#00000000",
+        localise_tooltip: "ExtensionEditor_Tooltip_RemoveMacro",
+        icon: "Buttons/icon_IDE_remove.png"
+    }
+}

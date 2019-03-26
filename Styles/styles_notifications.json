@@ -1,0 +1,185 @@
+{
+	"notification_label": {
+		margin: "2dpi_px", 
+		halign: "hAlignLeft", 
+		colour: "#FFA08B83"
+	},
+	
+	"notification_button": {
+		icon_colour: "#88ffffff", 
+		width: "24dpi_px", 
+		height: "24dpi_px", 
+		margin: ["4dpi_px", "2dpi_px", "4dpi_px", "2dpi_px"], 
+		icon: "Notifications/notification_icon.png", 
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3], 
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10], 
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				], 
+		frame_name: "Notifications/play_button_states.png", 
+		localise_tooltip: "IDETooltip_Notifications", 
+		deactivated_style: "notification_button_deactivated", 
+		reactivated_style: "notification_button_reactivated"
+	},
+	
+	"notification_button_deactivated": {
+		mouse_events: "false"
+	},
+	
+	"notification_button_reactivated": {
+		mouse_events: "true"
+	},
+	
+	"notification_button_unread": {
+		icon_colour: "#FFFFEC09",
+		icon: "Notifications/notification_icon_unread.png", 
+		margin: ["4dpi_px", "2dpi_px", "4dpi_px", "2dpi_px"]
+	},
+	
+	"notification_popup": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Notifications/notification_panel.png", 
+		margin: ["0dpi_px", "1dpi_px", "5dpi_px", "5dpi_px"], 
+		grid_columnlayout: ["*"], 
+		grid_rowlayout: ["*"], 
+		colour: "#ffffffff", 
+		width: "371dpi_px", 
+		width_min: "338dpi_px", 
+		width_flags: "ScaleToFit", 
+		height: "375dpi_px", 
+		height_min: "200dpi_px", 
+		height_flags: "ScaleToFit"
+	},
+	
+	"notification_message": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 16, 16], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Notifications/notification_panel.png", 
+		margin: ["0dpi_px", "1dpi_px", "5dpi_px", "5dpi_px"], 
+		grid_columnlayout: ["*"], 
+		grid_rowlayout: ["*"], 
+		colour: "#ffffffff", 
+		width: "371dpi_px", 
+		width_min: "338dpi_px", 
+		width_flags: "ScaleToFit", 
+		height: "65dpi_px", 
+		height_min: "24dpi_px", 
+		height_flags: "ScaleToFit"
+	},
+	
+	"notification_listpanel": {
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		left: "0dpi_px", 
+		height: "100%", 
+		colour: "#FFFFFFFF", 
+		frame_name: "Notifications/notification_panel.png"
+	},
+	
+	"notification_frame": {
+		colour: "#00FFFFFF", 
+		position: [
+					[0, 0, 4, 1], [4, 0, 8, 1], [12, 0, 4, 1], 
+					[0, 2, 4, 12], [4, 2, 8, 12], [12, 2, 4, 12], 
+					[0, 15, 4, 1], [4, 15, 8, 10], [12, 15, 4, 1]
+				], 
+		frame_name: "Notifications/notification_bar.png", 
+		stack_flags: "FullSizeInternalPanel"
+	},
+	
+	"notification_frame_active": {
+		colour: "#00FFFFFF", 
+		position: [
+					[0, 0, 4, 1], [4, 0, 8, 1], [12, 0, 4, 1], 
+					[0, 2, 4, 12], [4, 2, 8, 12], [12, 2, 4, 12], 
+					[0, 15, 4, 1], [4, 15, 8, 10], [12, 15, 4, 1]
+				], 
+		frame_name: "Notifications/notification_panel.png"
+	},
+	
+	"notification_split": {
+		frame_name: "", 
+		width: "280dpi_px", 
+		height: "1dpi_px", 
+		colour: "#FF6A6867", 
+		margin_left: "9dpi_px"
+	},
+	
+	"notification_top_margin": {
+		width: "280dpi_px", 
+		height: "10dpi_px"
+	},
+	
+	"notification_treeview": {
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		left: "0dpi_px", 
+		height: "100%", 
+		height_flags: "ScaleToFit", 
+		colour: "#FFFFFFFF", 
+		frame_name: "Notifications/notification_panel.png"
+	},
+	
+	"notification_treenode": {
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		height_flags: "ScaleToFit", 
+		left: "0dpi_px", 
+		top: "0dpi_px", 
+		colour: "#FFFFFFFF", 
+		frame_name: "Notifications/notification_panel.png"
+	},
+	
+	"notification_treenode_expand": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 8, 13], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Notifications/notification_group_collapsed.png", 
+		width: "8dpi_px", 
+		height: "13dpi_px", 
+		top: "1dpi_px", 
+		margin_left: "6dpi_px", 
+		margin_right: "6dpi_px"
+	},
+	
+	"notification_treenode_collapse": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 8, 13], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Notifications/notification_group_expanded.png", 
+		width: "8dpi_px", 
+		height: "13dpi_px", 
+		top: "1dpi_px", 
+		margin_left: "6dpi_px", 
+		margin_right: "6dpi_px"
+	},
+	
+	"notification_treenode_neutral": {
+		colour: "#00000000", 
+		frame_name: "", 
+		width: "14dpi_px", 
+		height: "13dpi_px", 
+		top: "3dpi_px", 
+		margin_left: "6dpi_px", 
+		margin_right: "6dpi_px"
+	},
+	
+	"notification_title_label": {
+		colour: "#FFFFEC09",
+		font_size: 12,
+		font_stylename: "Bold"
+	}
+}

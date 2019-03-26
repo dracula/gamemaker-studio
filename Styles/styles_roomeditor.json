@@ -1,0 +1,726 @@
+{
+	"layer_properties_window": {
+		width_min: "242dpi_px", 
+		width_max: "75%", 
+		height_max: "75%"
+	},
+	
+	"layer_label": {
+		width: "100%", 
+		auto_size: "false", 
+		auto_ellipsis: "true", 
+		edit_in_place: "true"
+	},
+	
+	"layer_grid": {
+		grid_resize: "ResizeGrid", 
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		height: "24dpi_px", 
+		top: "0dpi_px"
+	},
+	
+	"layer_grid_panel": {
+		mouse_events: "false"
+	},
+	
+	"layer_view_node": {
+		margin_top: "5dpi_px",
+		height: "16px"
+	},
+	
+	"layer_view_node_panel": {
+		stack_resize: "ResizeHeight"
+	},
+	
+	"layer_view": {
+		height: "100%", 
+		height_flags: "ScaleToFit", 
+		width: "100%", 
+		inherit_sublayers_colour: "#77cccccc", 
+		has_parent_colour: "#77777777",
+		node_stylename: "room_layer_view", 
+	},
+	
+	"room_layer_view": {
+		add_dragged_nodes_as_sibling: "true", 
+		background_icon: "RoomEditor/icon_RE_bglayer.png", 
+		asset_icon: "RoomEditor/icon_RE_assetlayer.png", 
+		instance_icon: "RoomEditor/icon_RE_instancelayer.png", 
+		path_icon: "RoomEditor/icon_RE_newpathlayer.png", 
+		tile_icon: "RoomEditor/icon_RE_newtilelayer.png", 
+		folder_icon: "RoomEditor/icon_RE_openfolder.png"
+	},
+	
+	"room_layer_view_node": {
+		margin_top: "5dpi_px",
+		height: "16px"
+	},
+	
+	"room_layer_view_node_panel": {
+		stack_resize: "ResizeHeight"
+	},
+
+	"room_layer_view_expand": {
+		colour: "#ffffffff",
+		position: [
+                            [57,0,3,1], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [57,3,18,33], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [75,36,0,1]
+                          ],
+		frame_name: "Window/resources_expand_collapse.png",
+		width: "9dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "1px",
+		margin_right: "1px"
+	},	
+
+	"room_layer_view_collapse": {
+		colour: "#ffffffff",
+		position: [
+                            [90,0,0,2], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [93,6,27,27], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [123,33,0,2]
+                          ],
+		frame_name: "Window/resources_expand_collapse.png",
+		width: "9dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "1px",
+		margin_right: "1px"
+	},
+
+	"room_layer_view_neutral": {
+		colour: "#00000000",
+		position: [
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0],
+                            [0,0,0,0], [0,0,0,0], [0,0,0,0]
+                          ],
+		frame_name: "Window/resources_expand_collapse.png",
+		width: "9dpi_px", 
+		height: "13dpi_px", 
+		margin_left: "1px",
+		margin_right: "1px"
+	},
+	
+	"layer_view_window": {
+		width_min: "304dpi_px", 
+		height_min: "200dpi_px", 
+		width_max: "75%", 
+		height_max: "75%"
+	},
+	
+	"layerproperties_label": {
+		auto_size: "false", 
+		width_max: "100dpi_px", 
+		auto_ellipsis: "true"
+	},
+	
+	"layerproperties_resourcebutton": {
+		width: "100%", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"layerproperties_resourcebutton_label": {
+		margin: ["2px", "4dpi_px", "25dpi_px", "4dpi_px"],
+		auto_ellipsis: "true"
+	},
+
+	"layerproperties_button": {
+		width: "100%", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"layerproperties_button_label": {
+		margin: ["", "4dpi_px", "", "4pi_px"],
+		auto_ellipsis: "true"
+	},
+	
+	"roomproperties_stackpanel": {
+		width: "100%", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"roomproperties_label": {
+		auto_size: "false", 
+		width_max: "100dpi_px", 
+		auto_ellipsis: "true"
+	},
+	
+	"roomproperties_node": {
+		inset_margin: "10px", 
+		selectable: "false", 
+		allow_drag: "false"
+	},
+	
+	"layerproperties_colourselect": {
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		spawn_dialog_in_parent: "false"
+	},
+	
+	"room_properties_window": {
+		width_min: "285dpi_px", 
+		height_min: "220dpi_px", 
+		width_max: "75%", 
+		height_max: "75%"
+	},
+	
+	"roomproperties_treeview": {
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars", 
+		node_stylename: "room_properties_node",
+		accept_dragged_nodes: "false"
+	},
+	
+	"roomproperties_group": {
+		auto_size: ["true", "false"], 
+		width: "100%", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"roomproperties_grid": {
+		width: "100%", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"roomproperties_group_label": {
+		left: "15dpi_px", 
+		bottom: "4px",
+		bottom_flags: "AlignWithOppositeEdge",
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		auto_ellipsis: "true", 
+		auto_size: "true", 
+		margin: "5dpi_px"
+	},
+	
+	"room_editor_view": {
+		colour: "#ffffffff", 
+		position: [
+					[0, 0, 5, 5], [5, 0, 22, 5], [27, 0, 5, 5], 
+					[0, 5, 22, 22], [5, 5, 22, 22], [27, 5, 5, 22], 
+					[0, 27, 5, 5], [5, 27, 22, 5], [27, 27, 5, 5]
+				], 
+		frame_name: "RoomEditor/ViewFrame.png", 
+		mouse_events: "false"
+	},
+	
+	"room_editor_code_chain_area": {
+		top: "-650dpi_px", 
+		left: "0dpi_px"
+	},
+	
+	"room_editor_code_chain": {
+		link_to_parent: "false", 
+		min_falloff_alpha: 1
+	},
+	
+	"room_editor_code_chain_panel": {
+		mouse_events: "False"
+	},
+	
+	"room_editor_plugintool_button": {
+		width: "24dpi_px", 
+		height: "24dpi_px", 
+		margin_left: "4dpi_px", 
+		margin_bottom: "4dpi_px"
+	},
+	
+	"room_editor_toolbar_button": {
+		width: "40dpi_px", 
+		height: "40dpi_px", 
+		margin_right: "4dpi_px"
+	},
+	
+	"room_editor_toolbar_button_icon": {
+		height: "32dpi_px", 
+		mouse_events: "false", 
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	},
+	
+	"room_editor_toolbar_colourselect": {
+		spawn_dialog_in_parent: "false"
+	},
+	
+	"layerproperties_dropdown": {
+		width: "100%", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"room_editor_grid": {
+		width: "100%", 
+		height: "100%", 
+		mouse_events: "false"
+	},
+	
+	"tilesetproperties_selectbutton": {
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		check_property_value: "true"
+	},
+	
+	"tilesetproperties_selectbutton_label": {
+		margin: ["2px", "4dpi_px", "25dpi_px", "4dpi_px"]
+	},
+	
+	"activated_grid_setting": {
+		mouse_events: "true", 
+		colour: "#ffffffff"
+	},
+	
+	"deactivated_grid_setting": {
+		mouse_events: "false", 
+		colour: "#ffcccccc"
+	},
+	
+	"room_editor_graphics": {
+		bind_property: "assets"
+	},
+	
+	"room_editor_instances": {
+		bind_property: "instances"
+	},
+	
+	"instances_view_node": {
+		add_dragged_nodes_as_sibling: "true"
+	},
+	
+	"instance_creation_view_node": {
+		add_dragged_nodes_as_sibling: "true", 
+		inset_margin: "0px"
+	},
+	
+	"instances_view": {
+		height: "100%", 
+		height_flags: "ScaleToFit", 
+		width: "100%", 
+		node_stylename: "instancesview", 
+		inherit_item_colour: "#77cccccc", 
+		has_parent_colour: "#77777777",
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll", 
+        vertical_scrollbar_style: "scroll_bar", 
+        horizontal_scrollbar_style: "scroll_bar", 
+		only_accept_dragged_children: "true"
+	},
+	
+	"instance_creation_view": {
+		height: "100%", 
+		height_flags: "ScaleToFit", 
+		width: "100%", 
+		node_stylename: "instancesview", 
+		inherit_item_colour: "#77cccccc", 
+		has_parent_colour: "#77777777", 
+		node_layout: "RoomEditor_InstanceCreationNode"
+	},
+	
+	"instancesview_neutral": {
+		colour: "#00000000", 
+		width: "0px", 
+		height: "24dpi_px", 
+		top: "0dpi_px", 
+		margin_right: "2px"
+	},
+	
+	"graphics_view_node": {
+		add_dragged_nodes_as_sibling: "true", 
+		width: "10dpi_px", 
+		height: "10dpi_px"
+	},
+	
+	"graphics_view": {
+		height: "100%", 
+		height_flags: "ScaleToFit", 
+		width: "100%", 
+		node_stylename: "graphicsview", 
+		inherit_item_colour: "#77cccccc", 
+		has_parent_colour: "#77777777",
+		only_accept_dragged_children: "true"
+	},
+	
+	"graphicsview_neutral": {
+		colour: "#00000000", 
+		width: "4dpi_px", 
+		height: "24dpi_px", 
+		top: "0dpi_px"
+	},
+	
+	"layercontents_label": {
+		colour: "#ffffffff",
+		height: "16dpi_px", 
+		margin_left: "5dpi_px",
+		margin_right: "5dpi_px",
+		mouse_events: "false"
+	},
+	
+	"layercontents_icon": {
+		image: "RoomEditor/icon_roomeditor_nosprite.png", 
+		height: "16dpi_px", 
+		width: "16dpi_px", 
+		margin_left: "5dpi_px", 
+		colour: "#ffffffff", 
+		mouse_events: "false", 
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	},
+	
+	"room_editor_selected_item": {
+		default_pixel_width: 16, 
+		default_pixel_height: 16, 
+		margin: "1dpi_px", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "RoomEditor/SelectedFrame.png", 
+		mouse_events: "false", 
+		render_aabb: "false"
+	},
+	
+	"room_editor_room": {
+		min_mouse_drag: 3, 
+		min_zoom: 0.01, 
+		mouse_wheel_zoom_increment: 0.1, 
+		mouse_wheel_scroll_increment: -50, 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "RoomEditor/SelectedFrame.png", 
+		scale_cursor: "cursor_scale", 
+		rotate_cursor: "cursor_rotate", 
+		move_cursor: "cursor_move", 
+		show_zoom_widget: "true"
+	},
+	
+	"roomeditor_room_rotate": {
+		colour: "#aaff3333", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 12, 11], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "RoomEditor/icon_origin.png", 
+		width: "12dpi_px", 
+		height: "11dpi_px"
+	},
+	
+	"instance_properties_text_box": {
+		width_flags: "ScaleToFit"
+	},
+	
+	"instance_property_selection": {
+		margin: "4dpi_px", 
+		render_aabb: "true"
+	},
+	
+	"instanceproperties_label": {
+		auto_size: "false", 
+		width_max: "100dpi_px", 
+		auto_ellipsis: "true"
+	},
+	
+	"instanceproperties_button": {
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		has_default: "false"
+	},
+	
+	"instanceproperties_button_label": {
+		margin: ["", "4dpi_px", "", "4dpi_px"]
+	},
+	
+	"instanceproperties_colourselect": {
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		spawn_dialog_in_parent: "false"
+	},
+	
+	"instance_properties_window": {
+		width_min: "220dpi_px", 
+		window_flags: "CloseButton, MinimizeButton, ScrollBars, Bookmark"
+	},
+	
+	"graphic_properties_window": {
+		window_flags: "CloseButton, MinimizeButton, Bookmark, ScrollBars"
+	},
+	
+	"room_delete_parentitems_dialog": {
+		height: "220dpi_px", 
+		width: "500dpi_px"
+	},
+	
+	"ignore_checkbox": {
+		colour: "#00000000"
+	},
+	
+	"ignore_checkbox_highlighted": {
+		colour: "#ff584d47", 
+		frame_name: ""
+	},
+	
+	"ignore_checkbox_tick": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 64, 64], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "RoomEditor/icon_RE_instance_invisible.png"
+	},
+	
+	"ignore_checkbox_untick": {
+		colour: "#ffffffff", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 64, 64], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "RoomEditor/icon_RE_instance_visible.png"
+	},
+	
+	"item_properties_chain": {
+		link_alpha_falloff_start: 30, 
+		link_alpha_falloff_stop: 400, 
+		min_falloff_alpha: 0.2, 
+		link_to_parent: "true"
+	},
+	
+	"item_properties_chain_panel": {
+		mouse_events: "false"
+	},
+	
+	"room_tool_tile_brush": {
+		localise_tooltip: "RoomEditorTool_TileBrush", 
+		icon: "RoomEditor/Paint.png"
+	},
+	
+	"room_tool_tile_flip": {
+		localise_tooltip: "RoomEditorTool_TileFlip", 
+		icon: "RoomEditor/icon_IE_flipvert.png", 
+		image: "RoomEditor/icon_IE_flipvert.png"
+	},
+	
+	"room_tool_tile_mirror": {
+		localise_tooltip: "RoomEditorTool_TileMirror", 
+		icon: "RoomEditor/icon_IE_fliphor.png", 
+		image: "RoomEditor/icon_IE_fliphor.png"
+	},
+	
+	"room_tool_tile_rotate": {
+		localise_tooltip: "RoomEditorTool_TileRotate", 
+		icon: "RoomEditor/icon_IDE_rotate90degrees.png", 
+		image: "RoomEditor/icon_IDE_rotate90degrees.png"
+	},
+	
+	"room_tool_tile_inheritance": {
+		localise_tooltip: "RoomEditorTool_TileInheritance", 
+		icon: "RoomEditor/icon_IDE_tileinheritance.png", 
+		image: "RoomEditor/icon_IDE_tileinheritance.png"
+	},
+	
+	"room_tool_tile_paintinheritance": {
+		localise_tooltip: "RoomEditorTool_TilePaintInheritance", 
+		icon: "RoomEditor/icon_IDE_tileinheritance.png", 
+		image: "RoomEditor/icon_IDE_tileinheritance.png"
+	},
+	
+	"room_tool_tile_pen": {
+		localise_tooltip: "RoomEditorTool_TilePen", 
+		icon: "RoomEditor/icon_IE_pencil.png", 
+		image: "RoomEditor/icon_IE_pencil.png"
+	},
+
+	"room_tool_tile_line": {
+		localise_tooltip: "RoomEditorTool_TileLine", 
+		icon: "RoomEditor/icon_IE_line.png", 
+		image: "RoomEditor/icon_IE_line.png"
+	},
+
+	"room_tool_tile_rect": {
+		localise_tooltip: "RoomEditorTool_TileRect", 
+		icon: "RoomEditor/icon_RE_rectangle.png", 
+		image: "RoomEditor/icon_RE_rectangle.png"
+	},
+
+	"room_tool_tile_fill": {
+		localise_tooltip: "RoomEditorTool_TileFill", 
+		icon: "RoomEditor/icon_IE_fill.png", 
+		image: "RoomEditor/icon_IE_fill.png"
+	},
+	
+	"room_tool_tile_select": {
+		localise_tooltip: "RoomEditorTool_SelectTiles", 
+		icon: "RoomEditor/icon_IDE_tileselect.png", 
+		image: "RoomEditor/icon_IDE_tileselect.png"
+	},
+	
+	"room_tool_tile_eraser": {
+		localise_tooltip: "RoomEditorTool_TileEraser", 
+		icon: "ImageEditor/ToolIcons/icon_IE_eraser.png", 
+		image: "ImageEditor/ToolIcons/icon_IE_eraser.png"
+	},
+	
+	"room_tool_tile_autotiling": {
+		localise_tooltip: "RoomEditorTool_AutoTile", 
+		icon: "RoomEditor/icon_IDE_autotiling.png", 
+		image: "RoomEditor/icon_IDE_autotiling.png"
+	},
+	
+	"room_editor_tile_display": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Background/alpha_bg.png", 
+		invalid_tile_image: "Buttons/icon_IDE_error.png", 
+		colour: "#FFFFFFFF", 
+		height_flags: "ScaleToFit", 
+		show_zoom_widget: "true", 
+		zoom_widget_style: "simple_gridzoom_widget"
+	},
+	
+	"room_editor_macro_display": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Background/alpha_bg.png",  
+		colour: "#FFFFFFFF", 
+		height_flags: "ScaleToFit", 
+		show_zoom_widget: "true", 
+		zoom_widget_style: "simple_gridzoom_widget"
+	},
+	
+	"room_editor_tile_display_frame": {
+		position: [
+					[0, 0, 2, 2], [2, 0, 12, 2], [14, 0, 2, 2], 
+					[0, 2, 2, 12], [2, 2, 12, 12], [14, 2, 2, 12], 
+					[0, 14, 2, 2], [2, 14, 12, 2], [14, 14, 2, 2]
+				], 
+		frame_name: "RoomEditor/TileFrame.png", 
+		colour: "#ff0000ff"
+	},
+	
+	"room_editor_tile_edit_info": {
+		width: "24dpi_px", 
+		height: "24dpi_px", 
+		margin_left: "4dpi_px", 
+		margin_right: "4dpi_px", 
+		mouse_events: "false", 
+		frame_name: "", 
+		up_tint: "#00000000", 
+		mouseover_up_tint: "#00000000"
+	},
+	
+	"room_editor_ide_toolbar": {
+		width: "100%", 
+		height: "100%", 
+		stack_resize: "ResizeAll", 
+		margin_left: "20dpi_px"
+	},
+	
+	"room_editor_ide_toolbar_container": {
+		width: "100%", 
+		height: "100%", 
+		stack_resize: "ResizeAll"
+	},
+	
+	"room_editor_tile_layer": {
+		selection_outline_thickness: 2, 
+		selection_outline_frame: "RoomEditor/MaskFrame.png", 
+		invalid_tileset_image: "Buttons/icon_IDE_error.png"
+	},
+	
+	"layer_auto_depth_confirm": {
+		width: "500dpi_px", 
+		height: "200dpi_px"
+	},
+
+	"imported_layer_auto_depth_confirm": {
+		width: "500dpi_px", 
+		height: "290dpi_px"
+	},
+	
+	"room_properties_node_expand": {
+		colour: "#ffffffff",  
+		position: [
+					[0, 0, 2, 2], [2, 0, 13, 2], [13, 0, 2, 2], 
+					[0, 2, 2, 12], [2, 2, 13, 12], [13, 2, 2, 12], 
+					[0, 14, 2, 2], [2, 14, 13, 2], [13, 14, 2, 2]
+				], 
+		frame_name: "Window/dial_window_ctrls.png", 
+		width: "17dpi_px", 
+		height: "16dpi_px", 
+		top: "3dpi_px", 
+		margin_left: "3px", 
+		margin_right: "3px"
+	},
+	
+	"room_properties_node_collapse": {
+		colour: "#ffffffff",  
+		position: [
+					[34, 0, 2, 2], [36, 0, 13, 2], [49, 0, 2, 2], 
+					[34, 2, 2, 12], [36, 2, 13, 12], [49, 2, 2, 12], 
+					[34, 14, 2, 2], [36, 14, 13, 2], [49, 14, 2, 2]
+				], 
+		frame_name: "Window/dial_window_ctrls.png", 
+		width: "17dpi_px", 
+		height: "16dpi_px", 
+		top: "3dpi_px", 
+		margin_left: "3px", 
+		margin_right: "3px"
+	},
+	
+	"room_properties_node_neutral": {
+		colour: "#00000000", 
+		width: "0px", 
+		height: "13dpi_px", 
+		margin_left: "3px"
+	},
+	
+	"room_layer_icon": {
+		image_flags: "Stretch, Centre, KeepAspectRatio", 
+		height: "24dpi_px", 
+		width: "24dpi_px", 
+		margin_right: "6px", 
+		mouse_events: "false"
+	},
+	
+	"editing_mode_stack_panel": {
+		mouse_events: "False", 
+		colour: "#ffffffff", 
+		frame_name: "Window/dial_outer.png", 
+		position: [
+					[5, 6, 4, 4], [9, 6, 7, 4], [15, 6, 4, 4], 
+					[5, 10, 4, 7], [9, 10, 7, 7], [15, 10, 4, 7], 
+					[5, 17, 4, 4], [9, 17, 7, 4], [15, 17, 4, 4]
+				], 
+		width: "100%", 
+		width_flags: "ScaleToFit"
+	},
+
+	"room_selecttileset_panel": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png", 
+		clip: "1px", 
+		drag_colour: "#FFFCEECC"
+	},
+
+	"room_tileset_message": {
+		width: "250dpi_px", 
+		width_min: "135dpi_px", 
+		width_max: "100%", 
+		height: "100%",
+		halign: "hAlignCentre", 
+		valign: "vAlignCentre", 
+		auto_size: "true", 
+		word_wrap: "true"
+	}
+}

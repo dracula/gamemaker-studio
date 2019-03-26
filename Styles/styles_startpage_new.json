@@ -1,0 +1,969 @@
+{
+	"sp_grid_buttons": {
+		top: "0px", 
+		aspect_ratio: 0.63, 
+		height_flags: "None", 
+		grid_columnlayout: ["28dpi_px", "1*", "32dpi_px"], 
+		grid_rowlayout: ["76dpi_px", "30.75%", "86dpi_px", "30.75%", "1*"], 
+		grid_resize: "ResizeGrid"
+	},
+	
+	"sp_main_region": {
+		grid_columnlayout: ["18.43%", "1*", "18.43%"], 
+		grid_resize: "ResizeGrid"
+	},
+	
+	"sp_grid_demo_buttons": {
+		top: "0px", 
+		aspect_ratio: 0.63, 
+		height_flags: "None", 
+		grid_columnlayout: ["28dpi_px", "1*"], 
+		grid_rowlayout: ["76dpi_px", "1*", "86dpi_px", "0.8*"], 
+		grid_resize: "ResizeGrid"
+	},
+
+	"sp_grid_background": {
+		colour: "#FF2C2221"
+	},
+	
+	"sp_grid_demo_buttons_collapse_first_content": {
+		grid_rowlayout: ["76dpi_px", "0px", "86dpi_px", "60.1%", "1*"]
+	},
+	
+	"sp_grid_demo_buttons_collapse_last_content": {
+		grid_rowlayout: ["76dpi_px", "60.1%", "86dpi_px", "0px", "1*"]
+	},
+	
+	"sp_grid_demo_buttons_collapse_both_content": {
+		grid_rowlayout: ["76dpi_px", "0px", "86dpi_px", "0px", "1*"]
+	},
+	
+	"sp_grid_button_stack": {
+		column_spacing: "2%", 
+		grid_columnlayout: ["1*", "1*", "1*"]
+	},
+	
+	"sp_grid_demo_button_stack": {
+		column_spacing: "2%", 
+		grid_columnlayout: ["1*", "1*", "1*", "1*", "1*"]
+	},
+	
+	"sp_tooltip": {
+		clip: "12px", 
+		position: [
+					[0, 0, 9, 11], [9, 0, 16, 11], [25, 0, 9, 11], 
+					[0, 11, 9, 10], [9, 11, 16, 10], [25, 11, 9, 10], 
+					[0, 21, 9, 11], [9, 21, 16, 11], [25, 21, 9, 11]
+				], 
+		frame_name: "StartPage/sp_tooltip.png", 
+		width: "275dpi_px", 
+		height: "240dpi_px", 
+		mouse_yoffset: "-120dpi_px", 
+		mouse_xoffset: "0px", 
+		auto_resize: "False", 
+		show_fadein_animation: "True", 
+		animation_in: "start_page_tooltip_in", 
+		animation_out: "start_page_tooltip_out", 
+		scroll_pixels_per_second: 10, 
+		scroll_delay_ms: 4000, 
+		caption_style: "sp_tooltip_caption", 
+		description_style: "sp_tooltip_description"
+	},
+	
+	"sp_tooltip_arrow": {
+		render_flags: "Normal", 
+		colour: "#FFFFFFFF", 
+		image: "StartPage/sp_tooltip_arrow.png", 
+		image_flags: "Centre, Stretch, KeepAspectRatio", 
+		height: "32dpi_px", 
+		width: "18dpi_px", 
+		left: "-8px", 
+		right: ""
+	},
+	
+	"sp_tooltip_inner_panel": {
+		top: "1px", 
+		left: "1px", 
+		right: "1px"
+	},
+	
+	"sp_tooltip_caption": {
+		colour: "#FFFFFFFF", 
+		left: "0px", 
+		auto_size: "True", 
+		word_wrap: "True"
+	},
+	
+	"sp_tooltip_description": {
+		colour: "#FFFFFFFF", 
+		left: "0px", 
+		top: "0px", 
+		word_wrap: "True", 
+		auto_size: "True"
+	},
+	
+	"sp_tooltip_arrow_flipped": {
+		render_flags: "FlipHorizontal", 
+		left: "", 
+		right: "-9dpi_px"
+	},
+	
+	"sp_scroll_panel": {
+		vertical_scrollbar_style: "sp_scrollbar", 
+		horizontal_scrollbar_style: "sp_scrollbar",
+		scrollpanel_flags: "VerticalScroll"
+	},
+	
+	"sp_scrollbar_left_aligned": {
+		frame_name: "", 
+		colour: "#FF4e4e4e", 
+		slider_style: "sp_scrollbar_slider", 
+		scroll_buttons: "False", 
+		left: "0px", 
+		right: ""
+	},
+	
+	"sp_scrollbar": {
+		frame_name: "", 
+		colour: "#FF4e4e4e", 
+		slider_style: "sp_scrollbar_slider", 
+		scroll_buttons: "False"
+	},
+	
+	"sp_scrollbar_slider": {
+		frame_name: "", 
+		colour: "#FF4e4e4e", 
+		thumb_style: "sp_scrollbar_slider_thumb", 
+		slider_bar_style: "sp_scrollbar_slider_bar", 
+		slider_bar_fill_style: "sp_scrollbar_slider_bar_fill", 
+		slider_bar_fill_not_focused_style: "sp_scrollbar_slider_bar_not_focused"
+	},
+	
+	"sp_scrollbar_slider_thumb": {
+		frame_name: "", 
+		up_tint: "#FF909090", 
+		down_tint: "#FFb3b3b3", 
+		mouseover_up_tint: "#FFa2a2a2", 
+		mouseover_up_focused_tint: "#FFa2a2a2", 
+		mouseover_down_tint: "#FFb3b3b3", 
+		mouseover_down_focused_tint: "#FFb3b3b3", 
+		up_focused_tint: "#FF909090", 
+		down_focused_tint: "#FF909090", 
+		button_over_style: "sp_button_no_frame", 
+		button_down_style: "sp_button_no_frame", 
+		button_over_down_style: "sp_button_no_frame"
+	},
+	
+	"sp_scrollbar_slider_bar": {
+		frame_name: "", 
+		colour: "#FF4e4e4e"
+	},
+	
+	"sp_scrollbar_slider_bar_fill": {
+		frame_name: "", 
+		colour: "#00000000"
+	},
+	
+	"sp_scrollbar_slider_bar_not_focused": {
+		frame_name: "", 
+		colour: "#00000000"
+	},
+	
+	"sp_back_button": {
+		width: "23dpi_px", 
+		height: "23dpi_px", 
+		frame_name: "", 
+		icon_flags: "Centre", 
+		icon_render_flags: "FlipHorizontal", 
+		icon: "StartPage/Arrow.png", 
+		top: "28dpi_px", 
+		right: "5dpi_px", 
+		up_tint: "#00000000", 
+		down_tint: "#22FFFFFF", 
+		button_over_style: "sp_button_no_frame", 
+		button_down_style: "sp_button_no_frame", 
+		button_over_down_style: "sp_button_no_frame", 
+		mouseover_up_tint: "#11FFFFFF", 
+		mouseover_up_focused_tint: "#11FFFFFF", 
+		mouseover_down_tint: "#22FFFFFF", 
+		mouseover_down_focused_tint: "#22FFFFFF", 
+		up_focused_tint: "#00000000", 
+		down_focused_tint: "#22FFFFFF"
+	},
+	
+	"sp_title_stack": {
+		label_style: "sp_title_stack_label", 
+		separator_style: "sp_title_stack_separator", 
+		stack_resize: "None", 
+		height: "100%", 
+		left: "0px"
+	},
+	
+	"sp_title_stack_first": {
+		label_style: "sp_title_stack_label_first", 
+		separator_style: "sp_title_stack_separator_first", 
+		stack_resize: "None", 
+		height: "100%", 
+		left: "0px"
+	},
+	
+	"sp_title_stack_label": {
+		font_name: "Oswald", 
+		font_size: 19, 
+		font_stylename: "Light", 
+		margin_left: "6px", 
+		margin_top: "28dpi_px", 
+		auto_ellipsis: "True", 
+		auto_size: "True", 
+		colour: "#FFFFFFFF"
+	},
+	
+	"sp_title_stack_label_first": {
+		font_name: "Oswald", 
+		font_size: 19, 
+		font_stylename: "Light", 
+		margin_left: "6px", 
+		margin_top: "20dpi_px", 
+		auto_ellipsis: "True", 
+		auto_size: "True", 
+		colour: "#FFFFFFFF"
+	},
+	
+	"sp_title_stack_separator": {
+		margin_top: "36dpi_px", 
+		margin_bottom: "6dpi_px", 
+		width: "3dpi_px", 
+		colour: "#FF5B9D03"
+	},
+	
+	"sp_title_stack_separator_first": {
+		margin_top: "28dpi_px", 
+		margin_bottom: "6dpi_px", 
+		width: "3dpi_px", 
+		colour: "#FF5B9D03"
+	},
+	
+	"sp_title_stack_red_separator_first": {
+		margin_top: "28dpi_px", 
+		margin_bottom: "6dpi_px", 
+		width: "3dpi_px", 
+		colour: "#FF8A7DCD"
+	},
+	
+	"sp_title_stack_red_separator": {
+		margin_top: "36dpi_px", 
+		margin_bottom: "6dpi_px", 
+		width: "3dpi_px", 
+		colour: "#FF8A7DCD"
+	},
+	
+	"sp_button": {
+		auto_height: "False", 
+		left: "0px", 
+		top: "0px", 
+		right: "0px", 
+		bottom: "0px", 
+		anim_count: 3, 
+		default_label_style: "sp_button_label", 
+		default_icon_style: "sp_button_icon", 
+		icon_flags: "Stretch, Centre", 
+		icon: "StartPage/thumb-bg.png", 
+		up_icon: "StartPage/thumb-bg.png", 
+		over_icon: "StartPage/thumb-bg-hover.png", 
+		down_icon: "StartPage/thumb-bg-hover.png", 
+		up_tint: "#55000000", 
+		down_tint: "#55000000", 
+		mouseover_up_tint: "#55000000", 
+		mouseover_up_focused_tint: "#55000000", 
+		mouseover_down_tint: "#55000000", 
+		mouseover_down_focused_tint: "#55000000", 
+		up_focused_tint: "#55000000", 
+		down_focused_tint: "#55000000"
+	},
+	
+	"sp_button_icon": {
+		left: "1px", 
+		top: "1px", 
+		bottom: "1px", 
+		right: "1px", 
+		image_flags: "Centre, KeepAspectRatio"
+	},
+	
+	"sp_button_label_with_icon": {
+		bottom: "5%"
+	},
+	
+	"sp_button_label": {
+		font_name: "Oswald", 
+		font_size: 18, 
+		font_stylename: "Light", 
+		bottom: "10%", 
+		auto_ellipsis: "True", 
+		width: "100%"
+	},
+	
+	"sp_button_icon_image": {
+		top: "33%", 
+		height: "33%", 
+		width: "100%", 
+		image_flags: "Stretch, Centre, KeepAspectRatio, OnlyStretchVertically", 
+		mouse_events: "False"
+	},
+	
+	"sp_button_anim_gadget": {
+		animate_image: "StartPage/button-anim-rect.png", 
+		rotation: 45, 
+		colour: "#66FFFFFF", 
+		yoffset: 0, 
+		step: 0, 
+		clip: "1px"
+	},
+	
+	"sp_button_anim_gadget1": {
+		yoffset: 0, 
+		step: 0, 
+		anim_first: "start_page_button_slidein", 
+		anim_last: "start_page_button_slideout"
+	},
+	
+	"sp_button_anim_gadget2": {
+		yoffset: -40, 
+		step: 200, 
+		anim_first: "start_page_button_slidein2", 
+		anim_last: "start_page_button_slideout2"
+	},
+	
+	"sp_button_anim_gadget3": {
+		yoffset: 20, 
+		step: 50, 
+		anim_first: "start_page_button_slideout3", 
+		anim_last: "start_page_button_slidein3"
+	},
+	
+	"sp_scrollpanel_banner_overlay": {
+		colour: "#88000000", 
+		height: "60dpi_px", 
+		top: "0px"
+	},
+	
+	"sp_stackpanel_banner_slide_buttons": {
+		bottom: "0px", 
+		stack_resize: "ResizeAll"
+	},
+
+	"sp_banner": {
+		slide_wait_ms: "4000",
+		default_image: "StartPage/banner.png"
+	},
+	
+	"sp_banner_image": {
+		image_flags: "Stretch, OnlyStretchVertically, KeepAspectRatio, Centre", 
+		width_min: "100%", 
+		height_min: "100%"
+	},
+	
+	"sp_banner_slide_button": {
+		width: "24dpi_px", 
+		height: "24dpi_px", 
+		margin_left: "1px", 
+		frame_name: "", 
+		icon: "StartPage/slider-thumb.png", 
+		icon_flags: "Centre, KeepAspectRatio, Downscale", 
+		button_over_style: "sp_button_no_frame", 
+		button_down_style: "sp_button_no_frame", 
+		button_over_down_style: "sp_button_no_frame", 
+		up_tint: "#55000000", 
+		down_tint: "#55000000", 
+		mouseover_up_tint: "#88000000", 
+		mouseover_up_focused_tint: "#88000000", 
+		mouseover_down_tint: "#88000000", 
+		mouseover_down_focused_tint: "#88000000", 
+		up_focused_tint: "#55000000", 
+		down_focused_tint: "#55000000"
+	},
+	
+	"sp_banner_slide_button_active": {
+		up_tint: "#55A08B83", 
+		down_tint: "#55A08B83", 
+		mouseover_up_tint: "#88A08B83", 
+		mouseover_up_focused_tint: "#88A08B83", 
+		mouseover_down_tint: "#88A08B83", 
+		mouseover_down_focused_tint: "#88A08B83", 
+		up_focused_tint: "#55A08B83", 
+		down_focused_tint: "#55A08B83"
+	},
+	
+	"sp_button_no_frame": {
+		frame_name: ""
+	},
+	
+	"sp_title_stack_link": {
+		right: "24dpi_px", 
+		label_style: "sp_title_stack_label_link", 
+		separator_style: "sp_title_stack_separator_link", 
+		is_link: "True", 
+		stack_resize: "ResizeAll"
+	},
+	
+	"sp_title_stack_label_link": {
+		font_name: "Open Sans", 
+		font_stylename: "Regular", 
+		margin_top: "0px", 
+		font_size: 12, 
+		colour: "#FFFFFFFF"
+	},
+	
+	"sp_title_stack_separator_link": {
+		margin_top: "2px", 
+		margin_bottom: "2px"
+	},
+	
+	"sp_scrollpanel_project_item": {
+		scrollpanel_flags: "ResizeWidth", 
+		width: "100%", 
+		left: "0px", 
+		height: "70dpi_px", 
+		first_item_margin_top: "7dpi_px", 
+		clip: ["0px", "1px", "8px", "1px"], 
+		position: [
+					[0, 0, 0, 4], [4, 0, 17, 4], [21, 0, 4, 4], 
+					[0, 0, 0, 17], [0, 0, 0, 0], [21, 4, 4, 17], 
+					[0, 0, 0, 4], [4, 21, 17, 4], [21, 21, 4, 4]
+				], 
+		frame_name: "Window/outer_gradient_frame.png", 
+		colour: "#FF181818", 
+		mouse_events: "True", 
+		hover_style: "sp_scrollpanel_project_item_hover", 
+		hover_other_style: "sp_scrollpanel_project_item_hover_other", 
+		mouse_leave_style: "sp_scrollpanel_project_item_leave", 
+		stackpanel_style: "sp_stack_project_item", 
+		label_title_style: "sp_label_project_title", 
+		label_path_style: "sp_label_project_path", 
+		hover_size: "36.86%", 
+		anim_enter: "start_page_project_enter", 
+		anim_leave: "start_page_project_leave"
+	},
+	
+	"sp_scrollpanel_project_item_leave": {
+		width: "100%", 
+		position: [
+					[0, 0, 0, 4], [4, 0, 17, 4], [21, 0, 4, 4], 
+					[0, 0, 0, 17], [0, 0, 0, 0], [21, 4, 4, 17], 
+					[0, 0, 0, 4], [4, 21, 17, 4], [21, 21, 4, 4]
+				], 
+		frame_name: "Window/outer_gradient_frame.png", 
+		colour: "#FF181818", 
+		label_title_style: "sp_label_project_title", 
+		label_path_style: "sp_label_project_path"
+	},
+	
+	"sp_scrollpanel_project_item_hover": {
+		position: [
+					[0, 0, 0, 4], [0, 0, 100, 4], [0, 0, 0, 4], 
+					[0, 0, 0, 17], [0, 4, 100, 17], [0, 0, 0, 17], 
+					[0, 0, 0, 4], [0, 21, 100, 4], [0, 0, 0, 4]
+				], 
+		colour: "#FF584D47", 
+		frame_name: "Window/outer_gradient_hover_frame.png", 
+		label_title_style: "sp_label_project_title_hover", 
+		label_path_style: "sp_label_project_path_hover"
+	},
+	
+	"sp_scrollpanel_project_item_hover_other": {
+		width: "50%"
+	},
+	
+	"sp_stack_project_item": {
+		stack_order: "TopToBottom", 
+		stack_resize: "ResizeHeight", 
+		left: "37dpi_px", 
+		right: "0dpi_px"
+	},
+	
+	"sp_label_project_title": {
+		left: "0px", 
+		font_name: "Oswald", 
+		font_stylename: "Light", 
+		font_size: 18, 
+		colour: "#FF888888", 
+		auto_size: "True", 
+		auto_ellipsis: "True"
+	},
+	
+	"sp_label_project_title_hover": {
+		colour: "#FFFFFFFF"
+	},
+	
+	"sp_label_project_path": {
+		left: "0px", 
+		font_name: "Oswald", 
+		font_stylename: "Light", 
+		font_size: 11, 
+		margin_left: "4dpi_px", 
+		colour: "#FF888888", 
+		auto_size: "True", 
+		auto_ellipsis: "True", 
+		margin_bottom: "5dpi_px"
+	},
+	
+	"sp_label_project_path_hover": {
+		colour: "#FFFFFFFF"
+	},
+	
+	"sp_social_icon": {
+		margin_left: "16dpi_px", 
+		width: "32dpi_px", 
+		top: "0px", 
+		bottom: "0px", 
+		image_flags: "Centre", 
+		mouse_events: "True"
+	},
+	
+	"stack_wrap_panel": {
+		stack_flags: "Wrap", 
+		stack_resize: "ResizeHeight"
+	},
+	
+	"sp_button_license": {
+		position: [
+					[1, 1, 2, 2], [3, 1, 3, 2], [6, 1, 2, 2], 
+					[1, 3, 2, 3], [3, 3, 3, 3], [6, 3, 2, 3], 
+					[1, 6, 2, 2], [3, 6, 3, 2], [6, 6, 2, 2]
+				], 
+		frame_name: "StartPage/sp_license_button.png", 
+		button_over_style: "sp_button_license_down", 
+		button_down_style: "sp_button_license_down", 
+		button_over_down_style: "sp_button_license_down", 
+		auto_height: "False", 
+		width: "142dpi_px", 
+		height: "32dpi_px", 
+		margin_bottom: "8dpi_px", 
+		margin_right: "8dpi_px"
+	},
+	
+	"sp_demo_button": {
+		show_delay_ms: 0, 
+		default_label_style: "sp_demo_button_label", 
+		default_icon_style: "sp_button_icon", 
+		auto_height: "False", 
+		top: "0px", 
+		width: "184dpi_px", 
+		height: "120dpi_px", 
+		margin_bottom: "16dpi_px", 
+		margin_right: "16dpi_px", 
+		icon_flags: "Stretch, Centre", 
+		button_down_style: "", 
+		button_over_style: "", 
+		button_over_down_style: "", 
+		up_tint: "#88000000", 
+		down_tint: "#88000000", 
+		mouseover_up_tint: "#88000000", 
+		mouseover_up_focused_tint: "#88000000", 
+		mouseover_down_tint: "#88000000", 
+		mouseover_down_focused_tint: "#88000000", 
+		up_focused_tint: "#88000000", 
+		down_focused_tint: "#88000000", 
+		base_style: "sp_demo_button", 
+		button_left_style: "sp_demo_button_left_right_button_hover", 
+		button_right_style: "sp_demo_button_left_right_button_hover", 
+		button_trash_style: "sp_demo_button_trash_button_hover"
+	},
+	
+	"sp_demo_button_mouse_leave": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3], 
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10], 
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				], 
+		up_tint: "#88000000", 
+		down_tint: "#88000000", 
+		mouseover_up_tint: "#88000000", 
+		mouseover_up_focused_tint: "#88000000", 
+		mouseover_down_tint: "#88000000", 
+		mouseover_down_focused_tint: "#88000000", 
+		up_focused_tint: "#88000000", 
+		down_focused_tint: "#88000000"
+	},
+	
+	"sp_demo_button_mouse_enter": {
+		position: [
+					[41, 0, 3, 3], [44, 0, 10, 3], [54, 0, 3, 3], 
+					[41, 3, 3, 10], [44, 3, 10, 10], [54, 3, 3, 10], 
+					[41, 13, 3, 3], [44, 13, 10, 3], [54, 13, 3, 3]
+				], 
+		up_tint: "#FFFFFFFF", 
+		down_tint: "#FFFFFFFF", 
+		mouseover_up_tint: "#FFFFFFFF", 
+		mouseover_up_focused_tint: "#FFFFFFFF", 
+		mouseover_down_tint: "#FFFFFFFF", 
+		mouseover_down_focused_tint: "#FFFFFFFF", 
+		up_focused_tint: "#FFFFFFFF", 
+		down_focused_tint: "#FFFFFFFF"
+	},
+	
+	"sp_demo_button_normal": {
+		background_style: "sp_demo_button_background", 
+		button_left_style: "sp_demo_button_left_base_download", 
+		button_right_style: "sp_demo_button_right_base", 
+		progress_bar_enabled: "False", 
+		button_left_enabled: "False", 
+		button_right_enabled: "False", 
+		button_trash_enabled: "False", 
+		background_enabled: "True", 
+		label_enabled: "True"
+	},
+	
+	"sp_demo_button_hover": {
+		background_style: "sp_demo_button_background_hover", 
+		button_left_enabled: "True", 
+		button_right_enabled: "True", 
+		label_enabled: "False"
+	},
+	
+	"sp_demo_button_owned": {
+		main_action: "dl"
+	},
+	
+	"sp_demo_button_owned_normal": {
+	
+	},
+	
+	"sp_demo_button_owned_hover": {
+	
+	},
+	
+	"sp_demo_button_downloading": {
+		base_style: "sp_demo_button_downloading", 
+		button_left_enabled: "False", 
+		button_right_enabled: "False", 
+		button_trash_enabled: "False", 
+		progress_bar_enabled: "True", 
+		background_enabled: "True", 
+		background_style: "sp_demo_button_background_hover", 
+		label_enabled: "False"
+	},
+	
+	"sp_demo_button_downloading_normal": {
+	
+	},
+	
+	"sp_demo_button_downloading_hover": {
+	
+	},
+	
+	"sp_demo_button_inprogress": {
+		base_style: "sp_demo_button_inprogress", 
+		button_left_style: "sp_demo_button_left_base_play", 
+		main_action: "play"
+	},
+	
+	"sp_demo_button_inprogress_normal": {
+		background_style: "sp_demo_button_background_inprogress", 
+		button_left_enabled: "False", 
+		button_right_enabled: "False", 
+		label_enabled: "True"
+	},
+	
+	"sp_demo_button_inprogress_hover": {
+		background_style: "sp_demo_button_background_hover", 
+		button_left_enabled: "True", 
+		button_right_enabled: "True", 
+		label_enabled: "False"
+	},
+	
+	"sp_demo_button_completed": {
+		base_style: "sp_demo_button_completed", 
+		button_left_style: "sp_demo_button_left_base_play", 
+		main_action: "play"
+	},
+	
+	"sp_demo_button_completed_normal": {
+		background_style: "sp_demo_button_background_completed", 
+		button_left_enabled: "False", 
+		button_right_enabled: "False", 
+		label_enabled: "True"
+	},
+	
+	"sp_demo_button_completed_hover": {
+		background_style: "sp_demo_button_background_hover", 
+		button_left_enabled: "True", 
+		button_right_enabled: "True", 
+		label_enabled: "False"
+	},
+	
+	"sp_demo_button_notowned": {
+		main_action: "dl"
+	},
+	
+	"sp_demo_button_notowned_normal": {
+	
+	},
+	
+	"sp_demo_button_notowned_hover": {
+	
+	},
+	
+	"sp_demo_button_installed": {
+		base_style: "sp_demo_button_installed", 
+		background_style: "sp_demo_button_background_installed", 
+		button_left_style: "sp_demo_button_left_base_play", 
+		main_action: "play"
+	},
+	
+	"sp_demo_button_installed_normal": {
+		background_style: "sp_demo_button_background_installed", 
+		progress_bar_enabled: "False", 
+		button_left_enabled: "False", 
+		button_right_enabled: "False", 
+		button_trash_enabled: "False", 
+		background_enabled: "True", 
+		label_enabled: "True"
+	},
+	
+	"sp_demo_button_installed_hover": {
+		background_style: "sp_demo_button_background_hover", 
+		button_left_enabled: "True", 
+		button_right_enabled: "True", 
+		button_trash_enabled: "True", 
+		label_enabled: "False"
+	},
+	
+	"sp_demo_button_background": {
+		left: "1px", 
+		right: "1px", 
+		top: "75%", 
+		bottom: "1px", 
+		colour: "#882C2221"
+	},
+	
+	"sp_demo_button_background_installed": {
+		left: "1px", 
+		right: "1px", 
+		top: "75%", 
+		bottom: "1px", 
+		colour: "#FF6F1E31"
+	},
+	
+	"sp_demo_button_background_inprogress": {
+		left: "1px", 
+		right: "1px", 
+		top: "75%", 
+		bottom: "1px", 
+		colour: "#FF6F1E31"
+	},
+	
+	"sp_demo_button_background_completed": {
+		left: "1px", 
+		right: "1px", 
+		top: "75%", 
+		bottom: "1px", 
+		colour: "#FF6F1E31"
+	},
+	
+	"sp_demo_button_background_hover": {
+		top: "1px", 
+		colour: "#882C2221"
+	},
+	
+	"sp_demo_button_label": {
+		top: "75%", 
+		bottom: "0px", 
+		left: "6dpi_px", 
+		auto_ellipsis: "True", 
+		auto_size: "False", 
+		colour: "#FFFFFFFF"
+	},
+	
+	"sp_demo_progressbar_base": {
+		bottom: "14dpi_px", 
+		left: "16dpi_px", 
+		right: "16dpi_px", 
+		height: "10dpi_px", 
+		bar_style: "sp_demo_progressbar_bar", 
+		frame_style: "sp_demo_progressbar_frame", 
+		colour: "#00000000"
+	},
+	
+	"sp_demo_progressbar_bar": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 7, 0], [0, 0, 7, 0], 
+					[0, 0, 0, 0], [22, 2, 7, 7], [1, 2, 7, 7], 
+					[0, 0, 0, 0], [0, 0, 7, 0], [0, 0, 7, 0]
+				], 
+		frame_name: "StartPage/sp_progress_bar.png", 
+		frame_options: "0", 
+		background_colour: "#00000000", 
+		colour: "#FFFFFFFF", 
+		top: "1px", 
+		bottom: "1px", 
+		left: "1px", 
+		right: "", 
+		width: "0px", 
+		do_cutout: "False"
+	},
+	
+	"sp_demo_progressbar_frame": {
+		position: [
+					[10, 1, 3, 3], [13, 1, 3, 3], [16, 1, 3, 3], 
+					[10, 4, 3, 3], [13, 4, 3, 3], [16, 4, 3, 3], 
+					[10, 7, 3, 3], [13, 7, 3, 3], [16, 7, 3, 3]
+				], 
+		frame_name: "StartPage/sp_progress_bar.png", 
+		colour: "#FFFFFFFF", 
+		width: "100%", 
+		height: "100%"
+	},
+	
+	"sp_demo_button_left_right_base": {
+		icon_flags: "Downscale, Centre", 
+		icon_colour: "#FFFFFFFF", 
+		width: "48dpi_px", 
+		height: "48dpi_px", 
+		top: "30%", 
+		button_over_style: "sp_demo_button_left_right_over", 
+		button_down_style: "sp_demo_button_left_right_down", 
+		button_over_down_style: "sp_demo_button_left_right_down", 
+		up_tint: "#AAFFFFFF", 
+		down_tint: "#AAFFFFFF", 
+		mouseover_up_tint: "#AAFFFFFF", 
+		mouseover_up_focused_tint: "#AAFFFFFF", 
+		mouseover_down_tint: "#AAFFFFFF", 
+		mouseover_down_focused_tint: "#AAFFFFFF", 
+		up_focused_tint: "#AAFFFFFF", 
+		down_focused_tint: "#AAFFFFFF"
+	},
+	
+	"sp_demo_button_left_base_download": {
+		icon: "StartPage/download.png", 
+		left: "17%"
+	},
+	
+	"sp_demo_button_left_base_play": {
+		icon: "StartPage/play.png", 
+		left: "17%"
+	},
+	
+	"sp_demo_button_right_base": {
+		icon: "StartPage/watch.png", 
+		right: "17%"
+	},
+	
+	"sp_demo_button_left_right_button_hover": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3], 
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10], 
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				], 
+		frame_name: "StartPage/thumb_buttons.png"
+	},
+	
+	"sp_demo_button_left_right_over": {
+		position: [
+					[41, 0, 3, 3], [44, 0, 10, 3], [54, 0, 3, 3], 
+					[41, 3, 3, 10], [44, 3, 10, 10], [54, 3, 3, 10], 
+					[41, 13, 3, 3], [44, 13, 10, 3], [54, 13, 3, 3]
+				], 
+		frame_name: "StartPage/thumb_buttons.png"
+	},
+	
+	"sp_demo_button_left_right_down": {
+		position: [
+					[60, 0, 3, 3], [63, 0, 10, 3], [73, 0, 3, 3], 
+					[60, 3, 3, 10], [63, 3, 10, 10], [73, 3, 3, 10], 
+					[60, 13, 3, 3], [63, 13, 10, 3], [73, 13, 3, 3]
+				], 
+		frame_name: "StartPage/thumb_buttons.png"
+	},
+	
+	"sp_demo_button_trash_button_base": {
+		icon_colour: "#00000000", 
+		right: "1px", 
+		top: "1px", 
+		width: "32dpi_px", 
+		height: "32dpi_px", 
+		icon: "StartPage/trashbin.png", 
+		icon_flags: "Downscale, Centre", 
+		frame_name: "", 
+		button_over_style: "sp_demo_button_trash_button_hover", 
+		button_down_style: "sp_demo_button_trash_button_hover", 
+		button_over_down_style: "sp_demo_button_trash_button_hover", 
+		up_tint: "#00FFFFFF", 
+		down_tint: "#00FFFFFF", 
+		mouseover_up_tint: "#00FFFFFF", 
+		mouseover_up_focused_tint: "#00FFFFFF", 
+		mouseover_down_tint: "#00FFFFFF", 
+		mouseover_down_focused_tint: "#00FFFFFF", 
+		up_focused_tint: "#00FFFFFF", 
+		down_focused_tint: "#00FFFFFF"
+	},
+	
+	"sp_demo_button_trash_button": {
+		icon_colour: "#00000000"
+	},
+	
+	"sp_demo_button_trash_button_hover": {
+		icon_colour: "#FFFFFFFF"
+	},
+	
+	"sp_horizontal_separator_title": {
+		margin_left: "0px", 
+		margin_right: "0px", 
+		left: "0px", 
+		right: "28dpi_px", 
+		bottom: "17dpi_px"
+	},
+	
+	"sp_horizontal_separator_title_first": {
+		margin_left: "0px", 
+		margin_right: "0px", 
+		left: "0px", 
+		right: "28dpi_px", 
+		bottom: "15dpi_px"
+	},
+	
+	"sp_menu_button": {
+		icon_colour: "#00000000", 
+		icon_flags: "Centre, KeepAspectRatio, Downscale", 
+		icon_render_flags: "FlipVertical", 
+		frame_name: "", 
+		width: "32dpi_px", 
+		height: "32dpi_px", 
+		up_tint: "#00000000", 
+		margin_left: "4dpi_px", 
+		down_tint: "#22FFFFFF", 
+		button_over_style: "sp_button_no_frame", 
+		button_down_style: "sp_button_no_frame", 
+		button_over_down_style: "sp_button_no_frame", 
+		mouseover_up_tint: "#11FFFFFF", 
+		mouseover_up_focused_tint: "#11FFFFFF", 
+		mouseover_down_tint: "#22FFFFFF", 
+		mouseover_down_focused_tint: "#22FFFFFF", 
+		up_focused_tint: "#00000000", 
+		down_focused_tint: "#22FFFFFF"
+	},
+	
+	"sp_menu_button_toggle_off": {
+		icon_render_flags: "FlipVertical"
+	},
+	
+	"sp_menu_button_toggle_on": {
+		icon_render_flags: "Normal"
+	},
+	
+	"sp_tooltip_separator": {
+		colour: "#FF613334"
+	},
+	
+	"sp_hr": {
+		colour: "#AAFFFFFF"
+	},
+	
+	"sp_button_license_down": {
+		position: [
+					[9, 1, 2, 2], [11, 1, 3, 2], [14, 1, 2, 2], 
+					[9, 3, 2, 3], [11, 3, 3, 3], [14, 3, 2, 3], 
+					[9, 6, 2, 2], [11, 6, 3, 2], [14, 6, 2, 2]
+				], 
+		frame_name: "StartPage/sp_license_button.png"
+	}
+}

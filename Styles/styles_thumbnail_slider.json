@@ -1,0 +1,104 @@
+﻿{
+	"thumbnail_slider_grid": {
+		left: "0dpi_px", 
+		grid_columnlayout: ["auto", "1*", "auto"], 
+		grid_rowlayout: ["auto"], 
+		height: "9dpi_px", 
+		colour: "#00000000",
+		mouse_events: "False", 
+		width: "100dpi_px",
+		margin_left: "5dpi_px",
+		margin_right: "5dpi_px",
+		slider_style: "thumbnail_slider",
+		thumb_style: "thumbnail_slider_thumb",
+		slider_bar_style: "thumbnail_slider_bar",
+		slider_bar_fill_style: "thumbnail_slider_bar_fill"
+	},
+
+	"thumbnail_slider_stackpanel": {
+		height: "9dpi_px",
+		width: "130dpi_px",
+		margin_bottom: "3dpi_px",
+		stack_order: "LeftToRight"
+	},
+
+	"thumbnail_slider_thumb_large": {
+		height: "9dpi_px",
+		width: "9dpi_px",
+		image: "Slider/Thumbnail/slider_thumbnail.png",
+		image_flags: "Stretch"
+	},
+
+	"thumbnail_slider_thumb_small": {
+		height: "5dpi_px",
+		width: "5dpi_px",
+		image: "Slider/Thumbnail/slider_thumbnail.png",
+		image_flags: "Stretch"
+	},
+	
+	"thumbnail_slider": {
+		width: "100%", 
+		top: "0dpi_px",
+		height: "7dpi_px", 
+		colour: "#00000000",
+		min_value: 16, 
+		max_value: 64, 
+		click_increment: -1,
+		flow_increment: 1,
+		mindrag_increment: 2,
+		minor_tick_freq: 0,
+		major_tick_freq: 0,
+		slider_direction: "Horizontal"
+	},
+	
+	"thumbnail_slider_bar": {
+		width: "100%",
+		top: "0dpi_px", 
+		bottom: "0dpi_px",
+		margin_left: "2dpi_px", 
+		margin_right: "2dpi_px", 
+		width_flags: "ScaleToFit", 
+		colour: "#FF161616",
+		clip: "1dpi_px"
+	},
+	
+	"thumbnail_slider_bar_fill": {
+		width: "100%", 
+		height: "100%", 
+		colour: "#FF45403b"
+	},
+	
+	"thumbnail_slider_thumb": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 9, 7], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Slider/Thumbnail/slider_arrow.png", 
+		width: "9dpi_px", 
+		height: "7dpi_px", 
+		top: "2dpi_px", 
+		up_tint: "#FFFFFFFF", 
+		mouseover_up_tint: "#FF645B57", 
+		down_focused_tint: "#FF645B57", 
+		mouseover_down_focused_tint: "#FF645B57"
+	},
+	
+	"thumbnail_slider_thumb_down": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 9, 7], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Slider/Thumbnail/slider_arrow.png"
+	},
+	
+	"thumbnail_slider_thumb_over": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 9, 7], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "Slider/Thumbnail/slider_arrow.png"
+	}
+}

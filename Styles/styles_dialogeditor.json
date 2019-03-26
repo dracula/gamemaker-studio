@@ -1,0 +1,539 @@
+﻿{
+ 	"dialog_editor": {
+		localise_title: "DialogEditor_Title",
+
+		width: "100%",
+		height: "100%",
+		grid_rowlayout: ["auto", "*", "auto"], 
+		grid_columnlayout: ["auto", "*", "auto"],
+		 
+		window_flags: "None"
+	},
+
+	"dialog_editor_scroll_bar_vertical": {
+		scrollbar_flags: "AdjustForOpposingBar, MaintainScrollValue"
+	},
+
+	"dialog_editor_scroll_bar_horizontal": {
+		scrollbar_flags: "AdjustForOpposingBar, MaintainScrollValue"
+	},
+
+	"dialog_editor_toolbox": {
+		localise_title: "DialogEditor_Toolbox",
+		width: "100%",
+		height: "100%",
+		top: "0px",
+		left: "0px",
+		grid_rowlayout: ["auto", "*", "auto"], 
+		grid_columnlayout: ["auto", "*", "auto"], 
+		window_flags: "Borderless, DragDisabled"
+	},
+
+	"dialog_editor_hierarchy": {
+		localise_title: "DialogEditor_Hierarchy",
+		width: "100%",
+		height: "100%",
+		top: "0px",
+		left: "0px",
+		grid_rowlayout: ["auto", "*", "auto"], 
+		grid_columnlayout: ["auto", "*", "auto"], 
+		window_flags: "Borderless, DragDisabled"
+	},
+
+	"dialog_editor_properties": {
+		localise_title: "DialogEditor_Properties",
+		width: "100%",
+		height: "100%",
+		top: "0px",
+		left: "0px",
+		width_min: "150px",
+		grid_rowlayout: ["auto", "*", "auto"], 
+		grid_columnlayout: ["auto", "*", "auto"], 
+		window_flags: "Borderless, DragDisabled"
+	},
+
+	"dialog_editor_style": {
+		localise_title: "DialogEditor_StyleEditor",
+		width: "100%",
+		height: "100%",
+		top: "0px",
+		left: "0px",
+		grid_rowlayout: ["auto", "*", "auto"], 
+		grid_columnlayout: ["auto", "*", "auto"], 
+		window_flags: "Borderless, DragDisabled"
+	},
+
+	"editor_style_editor": {
+		tab_flags: "DragEnabled, InsertBeforeAddButton"
+	},
+
+	"style_editor_toolbar_button": {
+		width: "24px",
+		height: "24px",
+		margin: "1px"
+	},
+
+	"style_editor_toolbar_button_icon": {
+		width: "80%",
+		height: "80%",
+		image_flags: "Stretch, KeepAspectRatio, Centre",
+		mouse_events: "false"
+	},
+
+	"editor_tree_view": {
+		width: "100%",
+		height: "100%",
+		multi_select: "false",
+		accept_dragged_nodes: "false"
+	},
+
+	"hierarchy_tree_view": {
+		width: "100%",
+		height: "100%",
+		multi_select: "false"
+	},
+
+	"toolbox_label": {
+		width: "100%",
+		auto_size: "true",
+		height: "25px",
+		left: "0px",
+		mouse_events: "false",
+		valign: "vAlignCentre"
+	},
+
+	"hierarchy_label": {
+		width: "100%",
+		auto_size: "true",
+		height: "20px",
+		left: "0px",
+		mouse_events: "false",
+		valign: "vAlignCentre",
+		margin_right: "5px"
+	},
+
+	"hierarchy_stack": {
+		width: "100%",
+		height: "20px",
+		left: "0px",
+		mouse_events: "false",
+		stack_order:"LeftToRight",
+		stack_resize: "ResizeWidth"
+	},
+
+	"hierarchy_node": {
+		margin_top: "4px"
+	},
+
+	"properties_label": {
+		width: "100%",
+		width_flags: "ScaleToFit",
+		auto_size: "false",
+		auto_ellipsis: "true",
+		height: "25px",
+		left: "0px",
+		mouse_events: "false",
+		valign: "vAlignCentre",
+		margin_right: "5px"
+	},
+
+	"properties_textbox": {
+		width: "100%",
+		width_flags: "ScaleToFit"
+	},
+
+	"properties_listbox": {
+		width: "100%",
+		height: "25px",
+		width_flags: "ScaleToFit"
+	},
+
+	"properties_dropdownlist": {
+		width: "100%",
+		height: "150px"
+	},
+
+	"properties_multilistbox": {
+		width: "100%",
+		height: "100px",
+		width_flags: "ScaleToFit",
+		multi_select: "true"
+	},
+
+	"properties_fpnumericbox": {
+		allow_fp: "true",
+		min: "-9999999",
+		max: "9999999"
+	},
+
+	"properties_intnumericbox": {
+		allow_fp: "false",
+		min: "-9999999",
+		max: "9999999"
+	},
+
+	"properties_uintnumericbox": {
+		allow_fp: "false",
+		min: "0",
+		max: "9999999"
+	},
+
+	"properties_heading": {
+		width: "100%",
+		auto_size: "true",
+		height: "25px",
+		left: "0px",
+		mouse_events: "false",
+		valign: "vAlignCentre",
+		margin_right: "5px"
+	},
+
+	"properties_grid": {
+		width: "100%",
+		margin_right: "2px",
+		width_flags: "ScaleToFit",
+		height: "25px",
+		left: "0px",
+		mouse_events: "true",
+		grid_columnlayout: ["30%", "*", "30px"],
+		grid_rowlayout: ["auto"],
+		grid_resize: "ResizeGrid"
+	},
+
+	"properties_node": {
+		allow_drag: "false",
+		selectable: "false",
+		inset_margin: ""
+	},
+
+	"properties_reload_button": {
+		width: "25px",
+		height: "25px",
+		right: "0px",
+		icon: "Reload.png"
+	},
+
+	"properties_reload_button_icon": {
+		width: "20px",
+		height: "20px",
+		image_flags: "Stretch, KeepAspectRatio, Centre",
+		mouse_events: "false"
+	},
+
+	"dialog_editor_save_style": {
+		width: "370px",
+		height: "240px"
+	},
+
+	"dialog_editor_saveas_style": {
+		width: "350px",
+		height: "180px"
+	},
+
+	"dialog_editor_new_or_saveas_layout": {
+		width: "350px",
+		height: "180px"
+	},
+
+	"dialog_editor_delete_layout": {
+		localise_title: "DialogEditor_DeleteLayout",
+
+		width: "300px",
+		height: "120px"
+	},
+
+	"dialog_editor_open_layout": {
+		localise_title: "DialogEditor_OpenLayout",
+
+		width: "300px",
+		height: "400px"
+	},
+
+	"dialog_editor_label": {
+		width: "100%",
+		auto_size: "true",
+		height: "25px",
+		left: "0px",
+		left_flags: "ScaleToFit",
+		mouse_events: "true",
+		margin: "10px",
+		valign: "vAlignCentre"
+	},
+
+	"dialog_editor_wrapped_label": {
+		width: "100%",
+		height: "100%",
+		word_wrap: "true",
+		left: "0px",
+		left_flags: "ScaleToFit",
+		width_flags: "ScaleToFit",
+		mouse_events: "true",
+		margin: "10px",
+		valign: "vAlignCentre",
+		auto_size: "false"
+	},
+
+	"dialog_editor_list_label": {
+		width: "100%",
+		auto_size: "true",
+		height: "25px",
+		left: "0px",
+		mouse_events: "true",
+		valign: "vAlignCentre",
+		margin: "5px"
+	},
+
+	"dialog_editor_textbox": {
+		width: "200px",
+		width_flags: "ScaleToFit",
+		left: "0px",
+		margin: "10px"
+	},
+
+	"dialog_editor_ok_button": {
+		localise_name: "Button_OK",
+
+		width: "80px",
+		height: "25px",
+		margin: "5px"
+	},
+
+  "dialog_editor_retry_button": {
+		localise_name: "UserLogin_Retry",
+
+    auto_width: "true",
+    width_min: "80px",
+    width: "80px",
+    width_max:  "200px",
+		height: "25px",
+		margin: "5px"
+	},
+		
+	"dialog_editor_ok_button_label": { 
+		halign: "hAlignCentre",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		margin: ["", "4px", "", "4px"]
+	},
+
+	"dialog_editor_cancel_button": {
+		localise_name: "Button_Cancel",
+
+		width: "80px",
+		height: "25px",
+		margin: "5px"
+	},
+
+	"dialog_editor_cancel_button_label": { 
+		halign: "hAlignCentre",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		margin: ["", "4px", "", "4px"]
+	},
+
+	"dialog_editor_ok_cancel_stack": {
+		stack_resize: "ResizeHeight", 
+		bottom: "0px",
+		stack_order: "RightToLeft"
+	},
+
+	"dialog_editor_load_button": {
+		localise_name: "DialogEditor_LoadLayoutXML",
+
+		width: "110px",
+		height: "25px",
+		margin: "5px",
+		left: "5px"
+	},
+
+	"dialog_editor_load_button_label": { 
+		halign: "hAlignCentre",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		margin: ["", "4px", "", "4px"]
+	},
+
+	"dialog_editor_clear_button": {
+		localise_name: "DialogEditor_ClearLayoutList",
+
+		width: "90px",
+		height: "25px",
+		margin: "5px",
+		right: "5px"
+	},
+
+	"dialog_editor_clear_button_label": { 
+		halign: "hAlignCentre",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		margin: ["", "4px", "", "4px"]
+	},
+
+	"dialog_file_browse_button": {
+		localise_name: "DialogEditor_FileBrowse",
+
+		width: "80px",
+		height: "25px",
+		margin: "5px",
+		left: "5px"
+	},
+
+	"dialog_file_browse_button_label": { 
+		halign: "hAlignCentre",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		margin: ["", "4px", "", "4px"]
+	},
+
+	"dialog_editor_status_bar": {
+		width: "100%",
+		height: "20dpi_px",
+		height_min: "20dpi_px",
+		clip: "4dpi_px",
+		scrollpanel_flags: "ResizeHeight",
+
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 5, 5], [5, 0, 14, 5], [19, 0, 5, 5],
+					[0, 5, 5, 10], [5, 5, 14, 10], [19, 5, 5, 10],
+					[0, 15, 5, 5], [5, 15, 14, 5], [19, 15, 5, 5]
+				  ],
+        frame_name: "Window/dial_status_bar.png"
+	},
+
+	"dialog_editor_status_label": {
+		halign: "hAlignLeft",
+		valign: "vAlignCentre",
+		left: "5px",
+		top: "0px",
+		auto_size: "true",
+		colour: "#ffffffff"
+	},
+
+	"dialog_editor_gadget_info": {
+		halign: "hAlignRight",
+		valign: "vAlignCentre",
+		right: "5px",
+		top: "0px",
+		auto_size: "true",
+		colour: "#ffffffff"
+	},
+
+	"dialog_editor_error": {
+		localise_title: "DialogEditor_Error"
+	},
+
+	"dialog_editor_warning": {
+		localise_title: "DialogEditor_Warning",
+		height: "200px"
+	},
+
+	"dialog_editor_info_box": {
+		width: "350px",
+		height: "150px",
+		window_flags: "DragDisabled"
+	},
+
+	"dialog_editor_edit_area_settings": {
+		resize_thickness: [6,6,6,6],
+		vertical_cursor: "Resize_Vertical",
+		horizontal_cursor: "Resize_Horizontal",
+		diagonal_topleft_cursor: "Resize_TopLeft",
+		diagonal_bottomleft_cursor: "Resize_BottomLeft",
+		
+		highlight_colour: "#500000ff",
+		bounds_highlight_colour: "#200000ff",
+		parent_highlight_colour: "#50ff0000",
+		drag_gadget_highlight_colour: "#50ff0000",
+		drag_bounds_highlight_colour: "#20ff0000",
+		
+		highlight_offset: 6,
+		bounds_highlight_offset: 6,
+		parent_highlight_offset: 8,	
+        
+		highlight_frame: [
+			          [0,0,6,6],  [6,0,20,6], [26,0,6,6],
+                      [0,6,6,20], [6,6,20,20], [26,6,6,20],
+                      [0,26,6,6], [6,26,20,6], [26,26,6,6]
+                  ],
+        highlight_frame_name: "GadgetResizeHighlight.png",
+
+		bounds_highlight_frame: [
+			          [0,0,6,6],  [6,0,20,6], [26,0,6,6],
+                      [0,6,6,20], [6,6,20,20], [26,6,6,20],
+                      [0,26,6,6], [6,26,20,6], [26,26,6,6]
+                  ],
+        bounds_highlight_frame_name: "GadgetHighlight.png",
+
+		parent_highlight_frame: [
+			          [0,0,6,6],  [6,0,20,6], [26,0,6,6],
+                      [0,6,6,20], [6,6,20,20], [26,6,6,20],
+                      [0,26,6,6], [6,26,20,6], [26,26,6,6]
+                  ],
+        parent_highlight_frame_name: "GadgetHighlight.png"
+	},
+
+	"guialignment_input" : {
+		width: "100%",
+		width_flags: "ScaleToFit",
+		height: "25px",
+		stack_order: "RightToLeft"
+	},
+
+	"guialignment_input_textbox" : {
+		width: "60%",
+		left: "0px",
+		min: "-100000",
+		max: "100000",
+		allow_fp: "true"
+	},
+
+	"gridlayout_total_textbox": {
+		width: "50px",
+		max_width: "100%",
+		left: "0px",
+		min: "0",
+		max: "999",
+		allow_fp: "false"
+	},
+
+	"properties_gridlayout": {
+		stack_order: "TopToBottom",
+		stack_resize: "ResizeHeight",
+		margin_bottom: "5px"
+	},
+
+	"properties_colourpicker": {
+		spawn_dialog_in_parent: "false"
+	},
+
+	"properties_guidimension_textbox" : {
+		width: "60%",
+		left: "0px",
+		min: "0",
+		max: "100000",
+		allow_fp: "true"
+	},
+
+	"guialignment_input_combobox" : {
+		width: "40%",
+		height: "100%",
+		right: "0px",
+		left: ""
+	},
+
+	"guialignment_input_label" : {
+		width: "100%",
+		height: "25px",
+		auto_size: "true"
+	},
+
+	"guialignment_input_dropdownlist": {
+		width: "100%",
+		height: "100%"
+	},
+
+	"properties_file_input": {
+		base_directory: "${current_skin}/Images"
+	}
+}

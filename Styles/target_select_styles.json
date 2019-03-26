@@ -1,0 +1,142 @@
+{
+	"target_select_label":
+	{
+		margin: "2px",
+		halign: "hAlignLeft",
+		colour: "#FFFFFFFF",
+		mouse_events: "true",
+		localise_tooltip: "IDETooltip_CurrentTarget"
+	},
+	
+	"target_select_button": {
+		width: "24dpi_px", 
+		height: "24dpi_px", 
+		margin: ["4dpi_px", "2dpi_px", "16px", "2dpi_px"], 
+		icon: "IDE_Toolbar/icon_IDE_target.png",
+        localise_tooltip:"IDETooltip_Targets",
+        deactivated_style: "button_deactivated",
+        reactivated_style: "button_reactivated"
+	},
+
+	"target_select_popup": {
+		position: [
+					[0, 0, 8, 8], [8, 0, 16, 8], [24, 0, 8, 8], 
+					[0, 8, 8, 16], [8, 8, 16, 16], [24, 8, 8, 16], 
+					[0, 24, 8, 8], [8, 24, 16, 8], [24, 24, 8, 8]
+				], 
+		frame_name: "Window/context_outer.png", 
+		margin: ["0px", "1px", "5px", "5px"],
+		grid_rowlayout: ["auto", "*"],
+		colour: "#ffffffff",
+
+        width: "875dpi_px",
+		width_min: "300dpi_px",
+		width_flags: "ScaleToFit",
+
+		height: "400dpi_px",
+		height_min: "200dpi_px",
+		height_max: "244dpi_px",
+		height_flags: "ScaleToFit",
+        help_tag: "device_manager"
+	},
+
+	"target_select_panel": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 1, 8, 7], [8, 1, 16, 7], [24, 1, 7, 7], 
+					[0, 8, 8, 16], [8, 8, 16, 16], [24, 8, 7, 16], 
+					[0, 24, 8, 7], [8, 24, 16, 7], [24, 24, 7, 7]
+				], 
+		frame_name: "Window/context_column.png"
+	},
+
+	"target_select_headingpanel": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[2, 1, 6, 7], [8, 1, 16, 7], [24, 1, 7, 7], 
+					[2, 8, 6, 16], [8, 8, 16, 16], [24, 8, 7, 16], 
+					[2, 24, 6, 7], [8, 24, 16, 7], [24, 24, 7, 7]
+				], 
+		frame_name: "Window/context_column.png"
+	},
+
+	"target_select_heading": {
+		margin: ["6px", "4px", "", "4px"],
+		auto_size: "true",
+		auto_ellipsis: "true",
+		left: "6px",
+		width: "100%",
+		width_flags: "ScaleToFit"
+	},
+
+	"target_select_listpanel": {
+		width: "100%",
+		width_flags: "ScaleToFit",
+		right: "0px",
+		margin_left: "19dpi_px",
+		height: "100%",
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 1, 8, 7], [8, 1, 16, 7], [24, 1, 2, 7], 
+					[0, 8, 8, 16], [8, 8, 16, 16], [24, 8, 2, 16], 
+					[0, 24, 8, 2], [8, 24, 16, 2], [24, 24, 2, 2]
+				], 
+		frame_name: "Window/context_outer.png",
+	},
+
+  "target_select_list": {
+    colour: "#00000000",
+    clip: [ "1px", "0px", "0px", "0px" ],
+    clear_selection_on_empty_click: "false"
+  },
+
+  "target_select_checkbox_stack": {
+    mouse_events: "false",
+    stack_resize: "ResizeHeight"
+  },
+
+	"target_select_checkbox": {
+		colour: "#00000000",
+		width: "19dpi_px", 
+		height: "19dpi_px",
+		margin_left: "3px",
+		margin_right: "3px",
+    margin_top: "3px",
+		margin_bottom: "2px",
+		mouse_events: "false"
+	},
+	
+	"target_select_checkbox_highlighted": {
+		colour: "#00000000"
+	},
+	
+	"target_select_checkbox_tick": {
+		colour: "#ffffffff", 
+		position: [
+					[1, 22, 4, 4], [5, 22, 11, 4], [16, 22, 4, 4], 
+					[1, 26, 4, 11], [5, 26, 11, 11], [16, 26, 4, 11], 
+					[1, 37, 4, 4], [5, 37, 11, 4], [16, 37, 4, 4]
+				], 
+		width: "19dpi_px", 
+		height: "19dpi_px", 
+		frame_name: "Buttons/checkbox.png"
+	},
+	
+	"target_select_checkbox_untick": {
+		colour: "#00000000"
+	},
+
+	"target_select_checkbox_label":
+	{
+		comment: "Will be positioned according to the x,y location of the parent checkbox", 
+		halign: "hAlignLeft", 
+		valign: "vAlignCentre", 
+		width: "100%",
+		width_flags: "ScaleToFit", 
+		height: "16px", 
+		margin_left: "5px", 
+		margin_right: "5px", 
+		auto_size: "true",
+		auto_ellipsis: "true"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"previewarea_style": {
+		frame_name: "Background/alpha_bg.png",
+		use_mini_zoom_widget: "true",
+		show_zoom_widget: "true",
+		zoom_widget_style: "previewarea_widget_style"
+	},
+
+	"previewarea_widget_style": {
+		tool_flags: "None"
+	},
+	
+	"label_resource_header": {
+		font_size: 9,
+	},
+	
+	"scrollpanel_resource_list": {
+		colour: "#ff555555"
+	},
+	
+	"audiotexturegroup_window": {
+		width_min: "580dpi_px",
+		height_min: "300dpi_px"
+	}
+}

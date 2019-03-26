@@ -1,0 +1,621 @@
+{
+	"image_editor_window": {
+		grid_rowlayout: ["0px", "*", "auto"],
+		grid_columnlayout: ["auto", "*", "auto"]
+	},
+
+	"spritename_scrollpanel": {
+		width: "100%",
+		height: "100%",
+		width_flags: "ScaleToFit",
+		scrollpanel_flags: "None",
+		colour: "#00000000",
+        mouse_events: "false"
+	},
+
+	"toolbox_stack_panel": {
+		colour: "#00000000",
+		stack_order: "LeftToRight",
+		mouse_events: "false",
+		width: "100%",
+		height: "100%",
+		stack_flags: "Wrap",
+		stack_resize: "ResizeHeight",
+		width_min: "64dpi_px"
+	},
+
+	"tool_button": {
+		width: "32dpi_px",
+		height: "32dpi_px",
+		left: "0px",
+		top: "0px",
+		margin: "3dpi_px",
+        flow_focus_accept: "true"
+	},
+
+	"tool_button_icon": {
+		mouse_events: "false",
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	},
+
+	"gallery_frame_style": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Background/alpha_bg.png",
+		width: "64px",
+		height: "64px",
+		left: "0px",
+		top: "0px",
+		margin_left: "5px",
+		margin_right: "4px",
+		margin_top: "6px",
+		margin_bottom: "8px",
+		colour: "#ff008000"
+	},
+
+	"imageview_style": {
+		colour: "#ff000000"
+	},
+
+	"status_bar_text_style": {
+		colour: "#ffB4A59D"
+	},
+
+	"image_editor_toolbox": {
+		title: "Toolbox",
+		width: "100%",
+		height: "100%",
+		top: "0px",
+		left: "0px",
+		width_min: "64px",
+		height_min: "32px",
+		grid_rowlayout: ["auto", "*", "auto"],
+		grid_columnlayout: ["auto", "*", "auto"],
+		window_flags: "Borderless, DragDisabled,AutoSizeHeight"
+	},
+
+	"brush_button": {
+		width: "32dpi_px",
+		height: "32dpi_px",
+		left: "0px",
+		top: "0px"
+	},
+
+	"brush_button_icon": {
+		mouse_events: "false",
+		image_flags: "Centre"
+	},
+
+	"tool_panel_stack": {
+		colour: "#00000000",
+		stack_order: "TopToBottom",
+		stack_resize: "None",
+		left: "0px",
+		top: "0px",
+		width: "100%",
+		height: "100%",
+		mouse_events: "false",
+		width_min: "64px"
+	},
+
+	"opacity_slider": {
+		min_value: 0,
+		max_value: 100,
+		click_increment: -1,
+		flow_increment: 10,
+		mindrag_increment: 1,
+		slider_direction: "Horizontal",
+		has_textbox: "True"
+	},
+
+	"slider_fixed_label_layout": {
+		grid_columnlayout: ["80px", "1*", "auto"],
+		colour: "#00000000",
+		grid_resize: "ResizeLast",
+		mouse_events: "false",
+		height: "20px",
+		left: "0px",
+		top: "0px",
+		has_textbox: "true"
+	},
+
+	"import_image_dialog": {
+		width: "410dpi_px",
+		height: "390dpi_px",
+        top: "0px",
+		window_flags: "CloseButton, DockingDisabled, DesktopTransferDisabled",
+		localise_title: "ImageEditor_ImportImageTitle"
+	},
+
+    "paste_image_resize_dialog":{
+        width: "410dpi_px",
+		height: "350dpi_px",
+        top: "0px",
+		window_flags: "CloseButton, DockingDisabled, DesktopTransferDisabled",
+		localise_title: "ImageEditor_PasteImageResizeTitle"
+    },
+
+	"brush_row_stack_panel": {
+		colour: "#00000000",
+		stack_order: "LeftToRight",
+		stack_resize: "ResizeHeight",
+		mouse_events: "false",
+        width: "100%",
+		height: "100%",
+		stack_flags: "Wrap",
+		left: "0px",
+		top: "0px"
+	},
+
+	"brush_vstack_panel": {
+		colour: "#00000000",
+		stack_order: "TopToBottom",
+		stack_resize: "ResizeHeight",
+		mouse_events: "false",
+		left: "0px",
+        top: "0px",
+        width: "100%",
+        height: "100%"
+	},
+
+	"grid_settings_dialog": {
+		width: "204px",
+		height: "254px",
+		window_flags: "CloseButton, DockingDisabled, DesktopTransferDisabled",
+		localise_title: "ImageEditor_GridSettings"
+	},
+
+	"colourpicker_eraser_image": {
+		image: "Background/alpha_swatch.png",
+		height: "100%",
+		width: "100%",
+		colour: "#ffffffff",
+		mouse_events: "false",
+		image_flags: "TileVertically,TileHorizontally"
+	},
+
+	"toolpanel_titlebar_label": {
+		valign: "vAlignCentre",
+		top: "2px"
+	},
+
+	"title_panel_style": {
+		grid_rowlayout: ["auto", "auto"],
+		colour: "#00000000",
+		grid_resize: "ResizeGridHeight",
+		mouse_events: "False",
+		width_min: "64px",
+		top: "0px"
+	},
+
+	"last_title_panel_style": {
+		grid_rowlayout: ["auto", "*"],
+		colour: "#00000000",
+		height: "100%",
+		height_flags: "ScaleToFit",
+		grid_resize: "ResizeGridHeight",
+		mouse_events: "False",
+		width_min: "64px",
+		height_min: "150dpi_px",
+		top: "0px"
+	},
+
+	"toolbox_stack_container": {
+		colour: "#00000000",
+		stack_order: "TopToBottom",
+		stack_resize: "ResizeAll"
+	},
+
+	"timeline_panel": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 8, 8], [8, 0, 16, 8], [24, 0, 8, 8],
+					[0, 8, 8, 17], [8, 8, 16, 17], [24, 8, 8, 17],
+					[0, 25, 8, 8], [8, 25, 16, 8], [24, 25, 8, 8]
+				],
+		frame_name: "ImageEditor/timeline_surround.png"
+	},
+
+	"timeline_inner_panel": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png"
+	},
+
+    "timeline_inner_panel_panel":{
+        mouse_events: "False"
+    },
+
+	"timeline_button": {
+		icon_flags: "Centre, KeepAspectRatio, Downscale",
+		left: "1dpi_px",
+		right: "1dpi_px",
+		top: "1dpi_px"
+	},
+
+	"timeline_button_icon": {
+		mouse_events: "False",
+		image_flags: "Downscale, Centre, KeepAspectRatio"
+	},
+
+	"playbar_empty": {
+		colour: "#FFFFFFFF",
+		frame_name: "Window/timeline.png",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[19, 1, 2, 13], [21, 1, 4, 13], [25, 1, 2, 13],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		height: "13dpi_px"
+	},
+
+	"playbar_filled": {
+		colour: "#FFFFFFFF",
+		frame_name: "Window/timeline.png",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[29, 1, 2, 13], [31, 1, 4, 13], [35, 1, 2, 13],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		height: "13dpi_px"
+	},
+
+	"playbar_active": {
+		colour: "#FFFFFFFF",
+		frame_name: "Window/timeline.png",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[29, 16, 2, 13], [31, 16, 4, 13], [35, 16, 2, 13],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		height: "13dpi_px"
+	},
+
+    "playbar_onion": {
+        colour: "#FFFFFFFF",
+		frame_name: "Window/timeline.png",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[19, 16, 2, 13], [21, 16, 4, 13], [25, 16, 2, 13],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		height: "13dpi_px"
+    },
+
+    "onion_bracket_left": {
+        colour: "#ff241cee",
+        frame_name: "Window/timeline.png",
+        position: [
+					[0, 0, 0, 0], [39, 19, 12, 4], [0, 0, 0, 0],
+					[0, 0, 0, 0], [39, 23, 12, 5], [0, 0, 0, 0],
+					[0, 0, 0, 0], [39, 28, 12, 4], [0, 0, 0, 0]
+				],
+        width: "12px",
+        height: "74px",
+        top: "0px",
+        left: "0px",
+        grab_cursor: "grab_cursor"
+    },
+
+    "onion_bracket_right": {
+        colour: "#ff241cee",
+        frame_name: "Window/timeline.png",
+        position: [
+					[0, 0, 0, 0], [47, 19, 12, 4], [0, 0, 0, 0],
+					[0, 0, 0, 0], [47, 23, 12, 5], [0, 0, 0, 0],
+					[0, 0, 0, 0], [47, 28, 12, 4], [0, 0, 0, 0]
+				],
+        width: "12px",
+        height: "74px",
+        top: "0px",
+        left: "0px",
+        grab_cursor: "grab_cursor"
+    },
+
+	"invisible_horizontal_grid_splitter": {
+		cursor: "HorizontalSplitter",
+		colour: "#00000000",
+        min_px_size: "56dpi_px"
+	},
+
+    "ie_toolpanel_splitter": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 2, 2], [2, 0, 3, 2], [5, 0, 2, 2],
+					[0, 2, 2, 12], [2, 2, 3, 12], [5, 2, 2, 12],
+					[0, 14, 2, 2], [2, 14, 3, 2], [5, 14, 2, 2]
+				],
+		frame_name: "Dock/dock_frame.png"
+	},
+
+	"image_editor_ide_toolbar": {
+		width: "100%",
+		height: "30dpi_px",
+		stack_resize: "ResizeWidth",
+        margin_left: "5%"
+	},
+
+	"ie_ide_toolbar_container": {
+		width: "100%",
+		height: "30dpi_px",
+		top: "0px",
+		left: "0px",
+		width_flags: "ScaleToFit",
+		scrollpanel_flags: "None"
+	},
+
+	"ie_toolbar_separator": {
+		margin_left: "12dpi_px",
+		margin_right: "12dpi_px",
+		width: "1px",
+		height: "100%",
+		height_flags: "ScaleToFit",
+		margin_top: "5px",
+		margin_bottom: "5px"
+	},
+
+	"ie_toolbar_tool_icon": {
+		height: "20dpi_px",
+		width: "20dpi_px",
+		image_flags: "Stretch, Centre"
+	},
+
+	"ie_toolbar_slider": {
+		width: "230dpi_px",
+		top: "4dpi_px",
+		min_value: 0,
+		max_value: 100,
+		slider_float_precision: 0,
+		mindrag_increment: 1,
+		has_textbox: "True",
+		textbox_style: "slider_grid_textbox"
+	},
+
+	"ie_toolbar_slider_label": {
+		width: "100dpi_px",
+		height: "100%",
+		halign: "hAlignLeft",
+		left: "0px",
+		margin_right: "5dpi_px",
+		top: "0px"
+	},
+
+	"ie_toolbar_radiogroup": {
+		auto_size: ["True", "False"],
+		colour: "#00000000",
+		height: "100%"
+	},
+
+    "swatch_stack_panel": {
+		colour: "#00000000",
+		stack_order: "LeftToRight",
+		mouse_events: "false",
+		width: "100%",
+		height: "100%",
+		stack_flags: "Wrap",
+		stack_resize: "ResizeHeight"
+	},
+
+    "colour_swatch_defaults":{
+        colour_history_count: 13,
+        reduced_layout_width: 185,
+        swatch_colours: ["#ff4000ff","#ff131313","#ff1b1b1b","#ff272727","#ff3d3d3d","#ff5d5d5d","#ff858585","#ffb4b4b4","#ffffffff","#ffddcfc7","#ffb9a192","#ff927365","#ff6e4c42","#ff4e2f2a","#ff32191a","#ff1b070e","#ff1c121c","#ff211f39","#ff282c5d","#ff36488a","#ff4a6fbf","#ff699ce6","#ff9fcaf6","#ffcfe6f9","#ff50abed","#ff3874e0","#ff2445c6","#ff1d258e","#ff0050ff","#ff1476ed","#ff14a2ff","#ff25c8ff","#ff57ebff","#ff7efcd3","#ff5fe699","#ff4fc55a","#ff4b9833","#ff506f1e","#ff4c4c13","#ff442e0c","#ff6d3900","#ffaa6900","#ffdc9800","#fff9cd00","#fffff10c","#fffffd94","#ffedd2fd","#fff589f3","#fffd3fdb","#fffa097a","#ffd90330","#ff93020c","#ff3f1903","#ff43143b","#ff612462","#ff8f3893","#ffc952ca","#ff8650c8","#ff8781f6","#ff5d55f5","#ff3c32ea","#ff3024c4","#ff2b1e89","#ff271c57","#ff4000ff"]
+    },
+
+    "swatch_cell":{
+		colour: "#ff000000",
+        margin_left:"3dpi_px",
+        margin_top:"3dpi_px"
+    },
+
+    "ie_layer_view": {
+		node_stylename: "ie_layerview"
+	},
+
+    "ie_layerview_expand": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 64, 64], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "RoomEditor/icon_RE_closed_folder.png",
+		top: "6dpi_px",
+        width: "24dpi_px",
+		height: "24dpi_px"
+	},
+
+	"ie_layerview_collapse": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 64, 64], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "RoomEditor/icon_RE_openfolder.png",
+		top: "6dpi_px",
+        width: "24dpi_px",
+		height: "24dpi_px",
+	},
+
+	"ie_layerview_neutral": {
+		colour: "#00000000",
+		width: "4dpi_px",
+		height: "24dpi_px"
+	},
+
+    "ie_galleryoverlay_expand_button": {
+        height: "20dpi_px",
+        width: "20dpi_px",
+        left: "4dpi_px",
+        top: "2dpi_px",
+        icon_flags: "Centre, KeepAspectRatio",
+        icon: "Dock/dock_item_arrowD.png"
+    },
+
+    "with_frame_button": {
+        frame_name: "Buttons/button_states.png"
+    },
+
+    "ie_gallery_button_grid":{
+		colour: "#00000000",
+		grid_resize: "ResizeLast",
+		mouse_events: "False",
+        height_max: "98dpi_px",
+        height_min: "78dpi_px"
+    },
+
+    "ie_gallery_delete_button":{
+        colour: "#ffffffff",
+        position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [2, 2, 16, 16], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+        frame_name: "ImageEditor/close_frame.png",
+        width: "16dpi_px",
+        height: "16dpi_px",
+        top : "-6px",
+        right: "-4px",
+        button_down_style: "gallery_delete_button_down",
+        button_over_style: "gallery_delete_button_down"
+    },
+
+    "gallery_delete_button_down":{
+        colour: "#ffffffff",
+        position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [22, 2, 16, 16], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+        frame_name: "ImageEditor/close_frame.png",
+    },
+
+    "gallery_button_icon":{
+		height: "100%",
+		height_flags: "ScaleToFit",
+		margin_top: "2px",
+		margin_bottom: "2px",
+		mouse_events: "false",
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	},
+
+    "ie_zoom_widget": {
+        right:"0px",
+		margin_top: "2dpi_px",
+        left_constraint_margin:"25dpi_px"
+    },
+
+    "image_gallery_settings": {
+        pause_icon: "ImageEditor/timeline_pause.png",
+        ping_pong_icon: "ImageEditor/icon_IDE_timeline_pingpong.png",
+        mini_buttons_height: "94dpi_px"
+    },
+
+    "split_button_up_left":  {
+        position: [
+					[22, 18, 3, 3], [25, 18, 10, 3], [35, 18, 3, 3],
+					[22, 21, 3, 10], [25, 21, 10, 10], [35, 21, 3, 10],
+					[22, 31, 3, 3], [25, 31, 10, 3], [35, 31, 3, 3]
+				],
+		frame_name: "Buttons/split_button_states.png",
+		height: "24dpi_px",
+    	auto_height: "true"
+     },
+
+     "split_button_up_right":  {
+        position: [
+					[22, 35, 3, 3], [25, 35, 10, 3], [35, 35, 3, 3],
+					[22, 38, 3, 10], [25, 38, 10, 10], [35, 38, 3, 10],
+					[22, 48, 3, 3], [25, 48, 10, 3], [35, 48, 3, 3]
+				],
+		frame_name: "Buttons/split_button_states.png",
+		height: "24dpi_px",
+    	auto_height: "true"
+     },
+
+     "split_button_down_left": {
+		position: [
+					[60, 18, 3, 3], [63, 18, 10, 3], [73, 18, 3, 3],
+					[60, 21, 3, 10], [63, 21, 10, 10], [73, 21, 3, 10],
+					[60, 31, 3, 3], [63, 31, 10, 3], [73, 31, 3, 3]
+				],
+		frame_name: "Buttons/split_button_states.png"
+	},
+
+     "split_button_down_right": {
+		position: [
+					[60, 35, 3, 3], [63, 35, 10, 3], [73, 35, 3, 3],
+					[60, 38, 3, 10], [63, 38, 10, 10], [73, 38, 3, 10],
+					[60, 48, 3, 3], [63, 48, 10, 3], [73, 48, 3, 3]
+				],
+		frame_name: "Buttons/split_button_states.png"
+	},
+
+    "split_button_over_left": {
+		position: [
+					[41, 18, 3, 3], [44, 18, 10, 3], [54, 18, 3, 3],
+					[41, 21, 3, 10], [44, 21, 10, 10], [54, 21, 3, 10],
+					[41, 31, 3, 3], [44, 31, 10, 3], [54, 31, 3, 3]
+				],
+		frame_name: "Buttons/split_button_states.png"
+	},
+
+    "split_button_over_right": {
+		position: [
+					[41, 35, 3, 3], [44, 35, 10, 3], [54, 35, 3, 3],
+					[41, 38, 3, 10], [44, 38, 10, 10], [54, 38, 3, 10],
+					[41, 48, 3, 3], [44, 48, 10, 3], [54, 48, 3, 3]
+				],
+		frame_name: "Buttons/split_button_states.png"
+	},
+
+    "burger_button_up": {
+		frame_name: "",
+		up_tint: "#00000000",
+		down_tint: "#55000000",
+		mouseover_up_tint: "#55000000",
+		mouseover_down_tint: "#55000000",
+		mouseover_down_focused_tint: "#55000000",
+		mouseover_up_focused_tint: "#55000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#55000000",
+		height: "16dpi_px",
+		width: "16dpi_px"
+	},
+
+	"burger_button_up_icon": {
+		height: "100%",
+		height_flags: "ScaleToFit",
+		margin_top: "2dpi_px",
+		margin_bottom: "2dpi_px",
+		mouse_events: "false",
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	},
+
+	"burger_button_down": {
+		frame_name: ""
+	},
+
+	"burger_button_over": {
+		frame_name: ""
+	},
+
+    "image_editor_default_settings":{
+        view_background_colour: "#ff2C2221"
+    },
+
+    "ie_default_window":{
+        width: "400dpi_px",
+		height: "300dpi_px",
+		window_flags: "CloseButton,DockingDisabled, DesktopTransferDisabled"
+    }
+
+}

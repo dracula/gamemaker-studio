@@ -1,0 +1,122 @@
+{
+	"group_box": {
+		auto_size: ["True", "True"],
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png"
+	},
+
+     "group_box_fixed": {
+		auto_size: ["False", "False"],
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png"
+	},
+
+	group_label: {
+		colour: "#FFFFFFFF",
+		left: "5px",
+		bottom: "4px",
+		bottom_flags: "AlignWithOppositeEdge",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		auto_ellipsis: "false",
+		auto_size: "true",
+		margin: "5px"
+	},
+
+  "group_label_wrapped": {
+    colour: "#FFFFFFFF",
+    left: "5px",
+    bottom: "4px",
+    bottom_flags: "AlignWithOppositeEdge",
+    width: "100%",
+    width_flags: "ScaleToFit",
+    auto_ellipsis: "false",
+    auto_size: "true",
+    margin: "5px",
+    word_wrap:  "true"
+  },
+
+	group_box_label_with_icon: {
+		colour: "#FFFFFFFF",
+		left: "35px",
+		top: "-5px",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		auto_ellipsis: "true",
+		auto_size: "true",
+		margin: "5px"
+	},
+
+	group_icon: {
+		left: "12px",
+		top: "-4px",
+
+		margin: "5px"
+	},
+
+	group_box_icon_with_label: {
+		left: "12px",
+		top: "-4px",
+
+		margin: "5px"
+	},
+
+	separator: {
+		position:	[
+						[0,0,0,0], [0,0,0,0], [0,0,0,0],
+						[0,0,0,0], [5,5,1,1], [0,0,0,0],
+						[0,0,0,0], [0,0,0,0], [0,0,0,0]
+					],
+		frame_name: "Splitters/Separator.png",
+		colour: "#001F1A18"
+	},
+
+	horizontal_separator: {
+		height: "1px",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin_left: "5px",
+		margin_right: "5px",
+		cutout: "LabelAndIconEncompassing"
+	},
+
+	vertical_separator: {
+		width: "1px",
+		height: "100%",
+		height_flags: "ScaleToFit",
+		margin_top: "5px",
+		margin_bottom: "5px"
+	},
+
+	horizontal_separator_label: {
+		colour: "#ff000000",
+		left: "15px",
+		top: "-5px",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		auto_ellipsis: "true",
+		auto_size: "true",
+		margin: "5px"
+	},
+
+	horizontal_separator_label_with_icon: {
+		left: "35px"
+	},
+
+	horizontal_separator_icon: {
+		left: "12px",
+		top: "-4px",
+
+		margin: "5px"
+	}
+}

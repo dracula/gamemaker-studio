@@ -1,0 +1,641 @@
+{
+	"tilesetproperties_label": {
+		auto_size: "False",
+		auto_ellipsis: "True",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin_left: "10px"
+	},
+
+	"tileindiceslist_label": {
+		auto_size: "false",
+		auto_ellipsis: "true",
+		width_flags: "ScaleToFit"
+	},
+
+	"tilesetproperties_button": {
+		width: "100%",
+		width_flags: "ScaleToFit"
+	},
+
+	"tilesetproperties_button_label": {
+		margin: ["", "4px", "", "4px"]
+	},
+
+	"tileset_editor": {
+		width_min: "250dpi_px",
+		height_min: "200px"
+	},
+
+	"tileset_editor_colourselect": {
+		spawn_dialog_in_parent: "false"
+	},
+
+	"tileset_macro_page_display": {
+		colour: "#00000000",
+		height_flags: "ScaleToFit",
+		splitter_thickness: "14dpi_px"
+	},
+
+	"tileset_autotile_page_display": {
+		colour: "#00000000",
+		height_flags: "ScaleToFit",
+		width_flags: "ScaleToFit",
+		splitter_thickness: "14dpi_px"
+	},
+
+	"tileset_editor_tile_layer": {
+		top: "0px",
+		left: "0px",
+		selection_outline_thickness: 2,
+		selection_outline_frame: "RoomEditor/MaskFrame.png",
+		invalid_tileset_image: "Buttons/icon_IDE_error.png"
+	},
+
+	"tileset_editor_tile_edit_info": {
+		width: "24px",
+		height: "24px",
+		margin_left: "4px",
+		margin_right: "4px",
+		mouse_events: "false",
+		frame_name: "",
+		up_tint: "#00000000",
+		mouseover_up_tint: "#00000000"
+	},
+
+	"tileset_animation_page_display_panel": {
+		colour: "0x00000000"
+	},
+
+	"tileset_animation_frames": {
+		width: "100%",
+		width_flags: "ScaleToFit",
+		mouse_events: "False",
+		invalid_tile_image: "Buttons/icon_IDE_error.png",
+		tile_background_image: "Background/alpha_bg.png",
+		selected_animation_highlight: "#FFDDDDDD",
+		invalid_animation_highlight: "#FF5555FF",
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		clip: ["1px"]
+	},
+
+	"tileset_invalid_animation_frames": {
+		colour: "#ffffffff",
+		position: [
+					[36, 1, 4, 4], [40, 1, 24, 4], [64, 1, 4, 4],
+					[36, 5, 4, 24], [40, 5, 24, 24], [64, 5, 4, 24],
+					[36, 29, 4, 4], [40, 29, 24, 4], [64, 29, 4, 4]
+				],
+		frame_name: "Window/surrounds.png"
+	},
+
+	"tileset_animation_frames_panel": {
+		mouse_events: "false"
+	},
+
+	"tileset_frames_scrollpanel": {
+		width_flags: "ScaleToFit",
+		width: "100%",
+		margin_right: "4px",
+		scrollpanel_flags: "HorizontalScroll",
+		mouse_events: "false",
+		horizontal_scrollbar_style: "floating_horizontal_scrollbar",
+		clip: ["0px", "1px", "0px", "1px"]
+	},
+
+	"tileset_animation_scrollpanel": {
+		scrollpanel_flags: "AdjustToScrollBars, VerticalScroll",
+		mouse_events: "True"
+	},
+
+	"tileset_animation_stack_panel": {
+		stack_order: "LeftToRight",
+		mouse_events: "False",
+		tile_display_size: "32dpi_px",
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Window/dial_inner.png",
+		clip: ["1px"]
+	},
+
+	"autotile_grid_container": {
+		guide_tile_image: "TileSetEditor/AutoTileGuide.png",
+		tile_guide_entry_size: 32,
+		full_guide_y_offset: 0,
+		transition_guide_y_offset: 192,
+		invalid_tile_image: "Buttons/icon_IDE_error.png",
+		tile_display_columns: 8,
+		tile_display_size: "32dpi_px",
+		tile_display_highlight_size: 2,
+		tile_display_border_width: 5,
+		tile_display_border_height: 5,
+		selected_tile_highlight: "#FF0000FF",
+		selected_entry_highlight: "#FFAAAAAA",
+		list_reorder_delay: 100,
+		vertical_scrollbar_style: "window_scroll_bar_vertical",
+		horizontal_scrollbar_style: "window_scroll_bar_horizontal",
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		clip: ["1px"]
+	},
+
+	"tileset_autotile_panarea": {
+		allow_horizontal_scroll: "false",
+		allow_vertical_scroll: "false",
+		clip: "1px"
+	},
+
+	"inactive_autotile_entry": {
+		colour: "#FFFFFFFF",
+		position: [
+					[1, 1, 4, 4], [5, 1, 24, 4], [29, 1, 4, 4],
+					[1, 5, 4, 24], [5, 5, 24, 24], [29, 5, 4, 24],
+					[1, 29, 4, 4], [5, 29, 24, 4], [29, 29, 4, 4]
+				],
+		frame_name: "Window/surrounds.png"
+	},
+
+	"active_autotile_entry": {
+		colour: "#FFFFFFFF",
+		position: [
+					[71, 1, 4, 4], [75, 1, 24, 4], [99, 1, 4, 4],
+					[71, 5, 4, 24], [75, 5, 24, 24], [99, 5, 4, 24],
+					[71, 29, 4, 4], [75, 29, 24, 4], [99, 29, 4, 4]
+				],
+		frame_name: "Window/surrounds.png"
+	},
+
+	"invalid_autotile_entry": {
+		colour: "#ffffffff",
+		position: [
+					[36, 1, 4, 4], [40, 1, 24, 4], [64, 1, 4, 4],
+					[36, 5, 4, 24], [40, 5, 24, 24], [64, 5, 4, 24],
+					[36, 29, 4, 4], [40, 29, 24, 4], [64, 29, 4, 4]
+				],
+		frame_name: "Window/surrounds.png"
+	},
+
+	"tileset_autotile_list": {
+		mouse_events: "false"
+	},
+
+	"tileset_autotile_mode": {
+		up_icon: "TileSetEditor/icon_TE_opentile.png",
+		down_icon: "TileSetEditor/icon_TE_closetile.png",
+		frame_name: "",
+		button_down_style: "no_frame_button",
+		button_over_down_style: "button_over",
+		up_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_tint: "#00000000",
+		down_focused_tint: "#00000000"
+	},
+
+	"tile_stack_panel": {
+		width: "100%",
+		width_flags: "ScaleToFit",
+		colour: "#00000000",
+		mouse_events: "false"
+	},
+
+	"tile_scratchpad_stack_panel": {
+		height: "100%",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		colour: "#00000000",
+		mouse_events: "false",
+		stack_flags: "FullSizeInternalPanel"
+	},
+
+	"tileset_editor_textbox": {
+		width: "100%",
+		width_flags: "ScaleToFit"
+	},
+
+  "tileset_sprite_selector": {
+    allow_swf: "false",
+    allow_spine:  "false",
+    width_flags: "ScaleToFit"
+  },
+
+	"tileset_button": {
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin_left: "10px",
+		margin_right: "10px"
+	},
+
+	"tileset_button_label": {
+		margin_right: "25dpi_px"
+	},
+
+	"tileset_button_grid": {
+		grid_resize: "ResizeGridHeight",
+		width_flags: "ScaleToFit"
+	},
+
+	"tileset_editor_tile_display": {
+		height_flags: "ScaleToFit",
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Background/alpha_bg.png",
+		zoom_widget_style: "simple_gridzoom_widget",
+		show_zoom_widget: "true"
+	},
+
+	"tileset_select_tile": {
+		multi_select: "False",
+		apply_to_tool: "False"
+	},
+
+	"tileset_animation_page_display": {
+		width_flags: "ScaleToFit",
+		height_flags: "ScaleToFit",
+		splitter_thickness: "14dpi_px"
+	},
+
+	"tileset_grid": {
+		splitter_thickness: "14dpi_px"
+	},
+
+	"tileset_property_panel": {
+		colour: "#FF1F1A18",
+		grid_columnlayout: ["1*", "auto"],
+		grid_rowlayout: ["auto"],
+		grid_resize: "ResizeGridHeight",
+		column_spacing: "4px"
+	},
+
+	"tileset_heading": {
+		width: "100%",
+		width_flags: "ScaleToFit",
+		auto_ellipsis: "true",
+		auto_size: "true",
+		left: "5px",
+		margin_bottom: "3px"
+	},
+
+	"tileset_selectsprite_panel": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		clip: "1px",
+		disable_on_set: "true",
+		drag_colour: "#FFFCEECC"
+	},
+
+	"tileset_selectsprite_message": {
+		width: "250dpi_px",
+		width_min: "135dpi_px",
+		width_max: "100%",
+		halign: "hAlignCentre",
+		valign: "vAlignCentre",
+		auto_size: "true",
+		word_wrap: "true"
+	},
+
+	"tileset_tools_panel": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 0, 0], [4, 0, 0, 0], [28, 0, 0, 0],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 0, 0], [4, 28, 0, 0], [28, 28, 0, 0]
+				],
+		frame_name: "Window/dial_inner.png",
+		clip: "0px"
+	},
+
+	"tileset_brush_preview_grid": {
+		width_flags: "ScaleToFit",
+		height_flags: "ScaleToFit",
+		grid_resize: "ResizeGridHeight"
+	},
+
+	"tileset_brush_preview": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Background/alpha_bg.png",
+		colour: "#FFFFFFFF",
+		invalid_tile_image: "Buttons/icon_IDE_error.png"
+	},
+
+	"brush_size_label": {
+		halign: "hAlignCentre"
+	},
+
+	"tileset_tool_preview": {
+		width: "16dpi_px"
+	},
+
+	"brush_preview_stack": {
+		width_flags: "ScaleToFit",
+		stack_resize: "ResizeHeight"
+	},
+
+	"brush_size_textbox": {
+		width_flags: "ScaleToFit",
+		has_buttons: "true"
+	},
+
+	"tileset_tool_panel": {
+		colour: "#00000000",
+		stack_order: "LeftToRight",
+		mouse_events: "false",
+		stack_flags: "Wrap",
+		width: "100%",
+		height: "100%",
+		stack_resize: "ResizeHeight",
+		margin_top: "4px",
+		margin_bottom: "4px"
+	},
+
+	"scratchpad_panel_window": {
+		grid_rowlayout: ["auto", "*", "auto"],
+		grid_columnlayout: ["auto", "1*", "auto"],
+		client_panel_style: "borderless_client_panel_no_bottom",
+		width_min: "0px"
+	},
+
+	"list_scratchpad_panel_window": {
+		grid_rowlayout: ["auto", "*", "auto"],
+		grid_columnlayout: ["auto", "1*", "auto"],
+		client_panel_style: "no_clip_client_panel",
+		width_min: "0px"
+	},
+
+	"last_list_scratchpad_panel_window": {
+		grid_rowlayout: ["auto", "*", "auto"],
+		grid_columnlayout: ["auto", "1*", "auto"],
+		client_panel_style: "no_clip_client_panel",
+		width_min: "0px",
+		height: "100%",
+		height_flags: "ScaleToFit",
+		height_min: "80dpi_px"
+	},
+
+	"animation_entry_grid": {
+		grid_resize: "ResizeGridHeight",
+		colour: "#FFFFFFFF",
+		position: [
+					[1, 1, 4, 4], [5, 1, 24, 4], [29, 1, 4, 4],
+					[1, 5, 4, 24], [5, 5, 24, 24], [29, 5, 4, 24],
+					[1, 29, 4, 4], [5, 29, 24, 4], [29, 29, 4, 4]
+				],
+		frame_name: "Window/surrounds.png",
+		clip: "1px",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin_right: "3px",
+		margin_left: "3px"
+	},
+
+	"animation_entry_grid_panel": {
+		mouse_events: "false"
+	},
+
+	"inactive_anim_entry": {
+		colour: "#FFFFFFFF",
+		position: [
+					[1, 1, 4, 4], [5, 1, 24, 4], [29, 1, 4, 4],
+					[1, 5, 4, 24], [5, 5, 24, 24], [29, 5, 4, 24],
+					[1, 29, 4, 4], [5, 29, 24, 4], [29, 29, 4, 4]
+				],
+		frame_name: "Window/surrounds.png"
+	},
+
+	"active_anim_entry": {
+		colour: "#FFFFFFFF",
+		position: [
+					[71, 1, 4, 4], [75, 1, 24, 4], [99, 1, 4, 4],
+					[71, 5, 4, 24], [75, 5, 24, 24], [99, 5, 4, 24],
+					[71, 29, 4, 4], [75, 29, 24, 4], [99, 29, 4, 4]
+				],
+		frame_name: "Window/surrounds.png"
+	},
+
+	"anim_frames_combobox": {
+		drop_down_selector_style: "anim_frames_dropdown_selector",
+		drop_down_selector_icon_style: "anim_frames_dropdown_selector_icon"
+	},
+
+	"anim_frames_dropdown_selector": {
+		width: "14dpi_px"
+	},
+
+	"anim_frames_dropdown_selector_icon": {
+		width: "6dpi_px",
+		height: "4dpi_px"
+	},
+
+	"tileset_animation_label": {
+		width: "100%",
+		width_flags: "ScaleToFit",
+		auto_ellipsis: "true",
+		auto_size: "true",
+		margin: "5px",
+		mouse_events: "true"
+	},
+
+	"tileset_play_animation_frame": {
+		tile_background_image: "Background/alpha_bg.png",
+		invalid_tile_image: "Buttons/icon_IDE_error.png",
+		mouse_events: "false"
+	},
+
+	"tileset_selected_tile_background": {
+		colour: "#ffffffff",
+		frame_name: "Window/timeline.png",
+		position: [
+					[41, 1, 5, 5], [46, 1, 6, 5], [52, 1, 5, 5],
+					[41, 6, 5, 6], [46, 6, 6, 6], [52, 6, 5, 6],
+					[41, 12, 5, 5], [46, 12, 6, 5], [52, 12, 5, 5]
+				]
+	},
+
+	"tileset_invalid_tile_background": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 24, 1], [0, 0, 0, 0],
+					[0, 4, 1, 24], [4, 4, 24, 24], [31, 4, 1, 24],
+					[0, 0, 0, 0], [4, 31, 24, 1], [0, 0, 0, 0]
+				],
+		frame_name: "Window/dial_inner.png"
+	},
+
+	"animation_library_label": {
+		edit_in_place: "true",
+		mouse_events: "false",
+		auto_ellipsis: "true",
+		auto_size: "true",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin_top: "3px",
+		margin_bottom: "3px"
+	},
+
+	"tileset_frame_count_label": {
+		height: "100%",
+		height_flags: "ScaleToFit",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin: "10px",
+		top: "10px",
+		auto_size: "false",
+		auto_ellipsis: "true",
+		word_wrap: "true"
+	},
+
+	"tileset_animation_library": {
+		multi_select: "False",
+		editable: "True",
+		node_stylename: "librarynode",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Window/dial_inner.png"
+	},
+
+	"tileset_animation_library_node": {
+		add_dragged_nodes_as_sibling: "true"
+	},
+
+	"tileset_autotile_library": {
+		multi_select: "False",
+		editable: "True",
+		node_stylename: "librarynode",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png"
+	},
+
+	"tileset_autotile_library_node": {
+		add_dragged_nodes_as_sibling: "true"
+	},
+
+	"librarynode_neutral": {
+		colour: "#00000000",
+		width: "0px",
+		height: "0px",
+		top: "0px"
+	},
+
+	"readonly_tileset_library": {
+		multi_select: "false",
+		editable: "false",
+		node_stylename: "librarynode",
+		colour: "#00000000",
+		clear_selection_on_empty_click: "false",
+		vertical_scrollbar_style: "vertical_readonly_library_scrollbar"
+	},
+
+	"readonly_tileset_library_node": {
+		allow_drag: "false"
+	},
+
+	"vertical_readonly_library_scrollbar": {
+			comment: "scroll bar",
+			position: [
+                        [23,21,3,3], [26,21,8,3], [34,21,3,3],
+						[23,24,3,6], [26,24,8,6], [34,24,3,6],
+						[23,30,3,3], [26,30,8,3], [34,30,3,3]
+                        ],
+			frame_name: "Scrollbar/dial_scrollbar.png",
+			button_increment: 2,
+			wheel_increment: 20,
+			scrollbar_flags: "AdjustForOpposingBar, DontActivateDuringMinimise",
+			opposingbaradjustment_scrollarea: "",
+			opposingbaradjustment_margin: "13dpi_px"
+	},
+
+	"tileset_tileicon": {
+		invalid_tile_image: "Buttons/icon_IDE_error.png",
+		mouse_events: "false",
+		width: "16dpi_px",
+		height: "16dpi_px",
+		margin_right: "6px",
+		margin_left: "6px"
+	},
+
+	"tileset_confirm_size": {
+		height: "200dpi_px",
+		width: "450dpi_px"
+	},
+
+	"tileset_play_button": {
+		frame_name: "",
+		up_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		up_icon: "IDE_Toolbar/icon_IDE_play.png",
+		down_icon: "Buttons/icon_IDE_paused.png"
+	},
+
+	"tileset_anims_editor": {
+		width_min: "550dpi_px",
+		height_min: "300dpi_px"
+	},
+
+	"tileset_props_editor": {
+		width_min: "550dpi_px",
+		height_min: "280dpi_px"
+	},
+
+	"tileset_tiling_editor": {
+		width_min: "550dpi_px",
+		height_min: "300dpi_px"
+	},
+
+	"tileset_scratchpad_editor": {
+		width_min: "550dpi_px",
+		height_min: "500dpi_px"
+	},
+
+	"tileset_outputerrorpanel": {
+		scrollpanel_flags: "ResizeHeight, ResizeWidth",
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 5, 5], [5, 0, 14, 5], [19, 0, 5, 5],
+					[0, 5, 5, 10], [5, 5, 14, 10], [19, 5, 5, 10],
+					[0, 15, 5, 5], [5, 15, 14, 5], [19, 15, 5, 5]
+				],
+		frame_name: "Window/dial_status_bar.png",
+		clip: "4px",
+		bottom: "4px"
+	},
+
+	"tileset_outputerrorlabel": {
+		left: "0px",
+		top: "0px",
+		colour: "#ff0000ff"
+	}
+}

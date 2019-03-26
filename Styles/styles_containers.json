@@ -1,0 +1,779 @@
+{
+	"scroll_panel": {
+		height: "100%",
+		width: "100%",
+		scrollpanel_flags: "None",
+		colour: "#00000000"
+	},
+
+	"default_scrollpanel": {
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll"
+	},
+
+	"auto_adjust_scrollpanel": {
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars",
+		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",
+		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust"
+	},
+
+	"resource_view_scroll_panel": {
+		left: "0px",
+		top: "0px",
+		height: "100%",
+		width: "100%",
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll"
+	},
+
+	"grid_container": {
+		colour: "#00000000",
+		grid_resize: "ResizeLast",
+		mouse_events: "False"
+	},
+
+	"grid_container_panel": {
+		mouse_events: "False"
+	},
+
+	"grid_container_span_panel": {
+		mouse_events: "false"
+	},
+
+	"text_editor_status_bar": {
+		width: "100%",
+		height: "20px",
+		height_min: "20px",
+		top: "100%",
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 5, 5], [5, 0, 14, 5], [19, 0, 5, 5],
+					[0, 5, 5, 10], [5, 5, 14, 10], [19, 5, 5, 10],
+					[0, 15, 5, 5], [5, 15, 14, 5], [19, 15, 5, 5]
+				],
+		frame_name: "Window/dial_status_bar.png",
+		stack_resize: "ResizeHeight",
+        mouse_events: "true"
+	},
+
+	"text_editor_intellisense_pos_label": {
+		halign: "hAlignLeft",
+		valign: "vAlignCentre",
+		margin_top: "2dpi_px",
+		margin_bottom: "2dpi_px",
+		margin_left: "5dpi_px",
+		width: "100px",
+		width_min: "65dpi_px",
+		auto_size: "True",
+		colour: "#FFFFFFFF",
+        caption:""
+	},
+
+	"text_editor_intellisense_function_label": {
+		halign: "hAlignLeft",
+		valign: "vAlignCentre",
+		margin_top: "2dpi_px",
+		margin_bottom: "2dpi_px",
+		margin_left: "12dpi_px",
+		width: "100%",
+		auto_size: "True",
+		colour: "#FFFFFFFF",
+        caption:""
+	},
+
+	"text_editor_control_client_panel": {
+		height: "100%",
+		height_flags: "ScaleToFit",
+		margin_bottom: "20px"
+	},
+
+	"grid_splitter": {
+		colour: "#ff1F1A18",
+		position: [
+					[2, 2, 2, 2], [4, 2, 2, 2], [6, 2, 2, 2],
+					[2, 4, 2, 2], [4, 4, 2, 2], [6, 4, 2, 2],
+					[2, 6, 2, 2], [4, 6, 2, 2], [6, 6, 2, 2]
+				],
+		frame_name: "Splitters/Separator.png"
+	},
+
+	"horizontal_grid_splitter": {
+		cursor: "HorizontalSplitter"
+	},
+
+	"vertical_grid_splitter": {
+		cursor: "VerticalSplitter"
+	},
+
+	"dock_splitter": {
+		colour: "#ffffffff",
+		clip: ["0px", "1px", "0px", "1px"],
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [10, 10, 4, 4], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Buttons/button_states.png"
+	},
+
+	"dock_splitter_mouse_over": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [12, 6, 2, 2], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Dock/dock_buttons.png"
+	},
+
+	"vertical_dock_splitter_image": {
+		width: "100%",
+		height: "100%",
+		image: "Dock/dock_left.png",
+		image_flags: "Centre",
+		render_flags: "Normal"
+	},
+
+	"horizontal_dock_splitter_image": {
+		width: "100%",
+		height: "100%",
+		image: "Dock/dock_up.png",
+		image_flags: "Centre",
+		render_flags: "Normal"
+	},
+
+	"vertical_dock_splitter_image_collapsed_first": {
+		render_flags: "FlipHorizontal"
+	},
+
+	"vertical_dock_splitter_image_collapsed_last": {
+		render_flags: "Normal"
+	},
+
+	"vertical_dock_splitter_image_expanded_first": {
+		render_flags: "Normal"
+	},
+
+	"vertical_dock_splitter_image_expanded_last": {
+		render_flags: "FlipHorizontal"
+	},
+
+	"horizontal_dock_splitter_image_collapsed_first": {
+		render_flags: "FlipVertical"
+	},
+
+	"horizontal_dock_splitter_image_collapsed_last": {
+		render_flags: "Normal"
+	},
+
+	"horizontal_dock_splitter_image_expanded_first": {
+		render_flags: "Normal"
+	},
+
+	"horizontal_dock_splitter_image_expanded_last": {
+		render_flags: "FlipVertical"
+	},
+
+	"stack_panel": {
+		colour: "#00000000",
+		stack_order: "LeftToRight",
+		mouse_events: "false"
+	},
+
+	"resizing_stack_panel": {
+		colour: "#00000000",
+		stack_order: "LeftToRight",
+		stack_resize: "ResizeAll",
+		mouse_events: "false"
+	},
+
+    "stackpanel_password":{
+        colour: "#00000000",
+		stack_order: "TopToBottom",
+		stack_resize: "ResizeAll",
+		mouse_events: "false",
+        left: "0dpi_px"
+    },
+
+	"add_tab_button_up": {
+		top: "7px",
+		bottom: "0px",
+		width: "28dpi_px",
+		width_max: "28dpi_px",
+		width_min: "28dpi_px",
+		up_tint: "#FFFFFFFF",
+		mouseover_up_tint: "#FFFFFFFF",
+		mouseover_down_focused_tint: "#FFFFFFFF",
+		position: [
+					[111, 6, 8, 7], [119, 6, 11, 7], [130, 6, 8, 7],
+					[111, 13, 8, 6], [119, 13, 11, 6], [130, 13, 8, 6],
+					[111, 19, 8, 4], [119, 19, 11, 4], [130, 19, 8, 4]
+				],
+		frame_name: "Tabs/workspace_tab.png",
+		button_down_style: "add_tab_button_down",
+		button_over_style: "add_tab_button_over"
+	},
+
+	"add_tab_button_down": {
+		position: [
+					[111, 6, 8, 7], [119, 6, 11, 7], [130, 6, 8, 7],
+					[111, 13, 8, 6], [119, 13, 11, 6], [130, 13, 8, 6],
+					[111, 19, 8, 4], [119, 19, 11, 4], [130, 19, 8, 4]
+				],
+		frame_name: "Tabs/workspace_tab.png"
+	},
+
+	"add_tab_button_over": {
+		position: [
+					[142, 6, 8, 7], [150, 6, 11, 7], [161, 6, 8, 7],
+					[142, 13, 8, 6], [150, 13, 11, 6], [161, 13, 8, 6],
+					[142, 19, 8, 4], [150, 19, 11, 4], [161, 19, 8, 4]
+				],
+		frame_name: "Tabs/workspace_tab.png"
+	},
+
+	"square_add_tab_button_up": {
+		top: "7px",
+		bottom: "0px",
+		width: "24dpi_px",
+		width_max: "24dpi_px",
+		width_min: "24dpi_px",
+		up_tint: "#FFFFFFFF",
+		mouseover_up_tint: "#FFFFFFFF",
+		mouseover_down_focused_tint: "#FFFFFFFF",
+		position: [
+					[68, 7, 4, 7], [72, 7, 5, 7], [77, 7, 7, 7],
+					[68, 14, 4, 2], [72, 14, 5, 2], [77, 14, 7, 2],
+					[68, 16, 4, 2], [72, 16, 5, 2], [77, 16, 7, 2]
+				],
+		frame_name: "Tabs/dial_tab.png",
+		button_down_style: "square_add_tab_button_down",
+		button_over_style: "square_add_tab_button_over"
+	},
+
+	"square_add_tab_button_down": {
+		position: [
+					[68, 7, 4, 7], [72, 7, 5, 7], [77, 7, 7, 7],
+					[68, 14, 4, 2], [72, 14, 5, 2], [77, 14, 7, 2],
+					[68, 16, 4, 2], [72, 16, 5, 2], [77, 16, 7, 2]
+				],
+		frame_name: "Tabs/dial_tab.png"
+	},
+
+	"square_add_tab_button_over": {
+		position: [
+					[86, 7, 4, 7], [90, 7, 5, 7], [95, 7, 7, 7],
+					[86, 14, 4, 2], [90, 14, 5, 2], [95, 14, 7, 2],
+					[86, 16, 4, 2], [90, 16, 5, 2], [95, 16, 7, 2]
+				],
+		frame_name: "Tabs/dial_tab.png"
+	},
+
+	"add_tab_button_up_label": {
+		halign: "hAlignCentre",
+		valign: "vAlignCentre",
+		mouse_events: "false"
+	},
+
+	"tab_item": {
+		width: "100%",
+		width_max: "120dpi_px",
+		bottom: "0px",
+		auto_height: "true",
+		overdraw_width: 4,
+		overdraw_height: 0,
+		allow_edit_title: "true",
+		tab_title_tooltip: "true",
+		position: [
+					[71, 1, 10, 7], [81, 1, 12, 7], [93, 1, 10, 7],
+					[71, 8, 10, 13], [81, 8, 12, 13], [93, 8, 10, 13],
+					[71, 21, 10, 2], [81, 21, 12, 2], [93, 21, 10, 2]
+				],
+		frame_name: "Tabs/workspace_tab.png"
+	},
+
+	"active_tab_item": {
+		position: [
+					[2, 1, 10, 7], [12, 1, 12, 7], [24, 1, 10, 7],
+					[2, 8, 10, 13], [12, 8, 12, 13], [24, 8, 10, 13],
+					[2, 21, 10, 2], [12, 21, 12, 2], [24, 21, 10, 2]
+				],
+		frame_name: "Tabs/workspace_tab.png"
+	},
+
+	"tab_stroke_frame": {
+		colour: "#FF1F1A18",
+		height: "22px",
+		width: "100px",
+		position: [
+					[36, 1, 10, 7], [46, 1, 12, 7], [58, 1, 10, 7],
+					[36, 8, 10, 13], [46, 8, 12, 13], [58, 8, 10, 13],
+					[36, 21, 10, 2], [46, 21, 12, 2], [58, 21, 10, 2]
+				],
+		frame_name: "Tabs/workspace_tab.png"
+	},
+
+	"code_tab_item": {
+		width: "100%",
+		width_max: "150dpi_px",
+		width_min: "9dpi_px",
+		overdraw_width: 2,
+		overdraw_height: 0,
+		bottom: "0px",
+		auto_height: "true",
+		allow_edit_title: "false",
+		tab_title_tooltip: "false",
+		position: [
+					[49, 1, 4, 4], [53, 1, 10, 4], [63, 1, 4, 4],
+					[49, 5, 4, 11], [53, 5, 10, 11], [63, 5, 4, 11],
+					[49, 16, 4, 2], [53, 16, 10, 2], [63, 16, 4, 2]
+				],
+		frame_name: "Tabs/dial_tab.png"
+	},
+
+	"active_code_tab_item": {
+		position: [
+					[3, 1, 4, 4], [7, 1, 10, 4], [17, 1, 3, 4],
+					[3, 5, 4, 11], [7, 5, 10, 11], [17, 5, 3, 11],
+					[3, 16, 4, 2], [7, 16, 10, 2], [17, 16, 3, 2]
+				],
+		frame_name: "Tabs/dial_tab.png"
+	},
+
+	"code_tab_stroke_frame": {
+		colour: "#FF1F1A18",
+		position: [
+					[26, 1, 9, 4], [35, 1, 1, 4], [36, 1, 9, 4],
+					[26, 5, 9, 11], [35, 5, 1, 11], [36, 5, 9, 11],
+					[26, 16, 9, 2], [35, 16, 1, 2], [36, 16, 9, 2]
+				],
+		frame_name: "Tabs/dial_tab.png"
+	},
+
+	"code_tab_item_label": {
+		comment: "used in the fullscreen code editor",
+		colour: "#FF62534B",
+		halign: "hAlignLeft",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		auto_ellipsis: "true",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin: ["10px", "3px", "22dpi_px", "3px"],
+		auto_size: "false"
+	},
+
+	"active_code_tab_item_label": {
+		colour: "#FFBCA7A2",
+		margin: ["10px", "3px", "22dpi_px", "3px"]
+	},
+
+	"fullscreen_editor_window": {
+		grid_rowlayout: ["0px", "*", "auto"],
+		grid_columnlayout: ["auto", "1*", "auto"],
+		left: "0px",
+		right: "0px",
+		top: "0px",
+		bottom: "0px",
+		window_flags: "Bookmark"
+	},
+
+	"tab_item_label": {
+		comment: "used in normal tabs - desktop tabs etc",
+		colour: "#FF62534B",
+		halign: "hAlignLeft",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		auto_ellipsis: "true",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		auto_size: "false",
+		margin: ["10px", "3px", "22dpi_px", "3px"]
+	},
+
+	"active_tab_item_label": {
+		colour: "#FFFFFFFF"
+	},
+
+	"active_fixed_tab_item_label": {
+		colour: "#FFFFFFFF"
+	},
+
+	"tab_item_label_with_icon": {
+		halign: "hAlignLeft",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		auto_ellipsis: "true",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin_left: "25px",
+		margin_right: "20px",
+		auto_size: "false"
+	},
+
+	"tab_item_icon": {
+		height: "60%",
+		image_flags: "Stretch, KeepAspectRatio, Centre",
+		mouse_events: "false"
+	},
+
+	"tab_item_icon_with_label": {
+		height: "60%",
+		width: "15px",
+		left: "5px",
+		image_flags: "Stretch, KeepAspectRatio, Centre",
+		mouse_events: "false"
+	},
+
+	"tab_control": {
+		colour: "#00000000",
+		grid_rowlayout: ["auto", "1*"],
+		client_panel: [0, 1],
+		tab_flags: "AddButton, CloseButton, DragEnabled, InsertBeforeAddButton"
+	},
+
+	"fullscreen_code_tab_control": {
+		colour: "#FF2C2221"
+	},
+
+	"dock_tab_control": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 2, 2], [2, 0, 2, 2], [4, 0, 2, 2],
+					[0, 2, 2, 12], [2, 2, 2, 12], [4, 2, 2, 12],
+					[0, 14, 2, 2], [2, 14, 2, 2], [4, 14, 2, 2]
+				],
+		frame_name: "Dock/dock_frame.png",
+		add_button_style: "square_add_tab_button_up"
+	},
+
+	"desktop_tab_control": {
+		default_localised_tab_name: "Workspace_TabTitle",
+		height: "100%",
+		height_flags: "ScaleToFit",
+		colour: "#FF2C2221",
+		tab_flags: "AddButton, CloseButton, DragEnabled, InsertBeforeAddButton"
+	},
+
+	"tab_container": {
+		colour: "#00000000",
+		margin_left: "10px",
+		margin_right: "10px",
+		width: "100%",
+		height: "25px",
+		margin_top: "1px",
+		bottom: "0px",
+		width_flags: "ScaleToFit",
+		grid_resize: "ResizeGridHeight",
+		grid_rowlayout: ["auto"]
+	},
+
+	"code_tab_container": {
+		margin_left: "2px",
+		margin_right: "2px"
+	},
+
+	"tab_control_client_panel": {
+		clip: ["0px", "2px", "0px", "0px"],
+		colour: "#FF23201B"
+	},
+
+    "tab_read_only_icon":{
+        top: "2px",
+        bottom: "2px",
+        right: "20dpi_px",
+        width:"16dpi_px",
+        image:"Window/icon_locked.png",
+        image_flags: "Stretch, Centre, KeepAspectRatio",
+		mouse_events: "False"
+    },
+
+	"tab_close_button_up": {
+		position: [
+					[86, 1, 2, 2], [88, 1, 11, 2], [99, 1, 2, 2],
+					[86, 3, 2, 10], [88, 3, 11, 10], [99, 3, 2, 10],
+					[86, 13, 2, 2], [88, 15, 11, 2], [99, 13, 2, 2]
+				],
+		frame_name: "Window/dial_window_ctrls.png",
+		top: "4px",
+		bottom: "4px",
+		right: "5px",
+		width: "15dpi_px",
+		button_down_style: "tab_close_button_down",
+		button_over_style: "tab_close_button_down",
+		up_tint: "#FFFFFFFF",
+		down_tint: "#FF909090",
+		mouseover_up_tint: "#FFFFFFFF",
+		mouseover_down_tint: "#FF909090",
+		up_focused_tint: "#FFFFFFFF",
+		down_focused_tint: "#FF909090",
+		mouseover_up_focused_tint: "#FFFFFFFF",
+		mouseover_down_focused_tint: "#FF909090"
+	},
+
+	"tab_close_button_down": {
+		position: [
+					[86, 17, 2, 2], [88, 17, 11, 2], [99, 17, 2, 2],
+					[86, 19, 2, 10], [88, 19, 11, 10], [99, 19, 2, 10],
+					[86, 29, 2, 2], [88, 29, 11, 2], [99, 29, 2, 2]
+				],
+		frame_name: "Window/dial_window_ctrls.png"
+	},
+
+	"text_editor_control": {
+		colour: "#00000000",
+		grid_rowlayout: ["auto", "*"],
+		client_panel: [0, 1],
+		tab_flags: "AddButton, CloseButton, DragEnabled, InsertBeforeAddButton"
+	},
+
+	"text_editor_panel": {
+		colour: "#FFffffff",
+		show_gutter: "true",
+		clip: ["0px", "0px", "0px", "0px"],
+		scrollpanel_flags: "AdjustToScrollBars, VerticalScroll, HorizontalScroll",
+		cursor_blink_rate: 2,
+		cursor_horizontal_inc: 0.15,
+		gutter_border: "3dpi_px",
+		gutter_plugin_spacing: "2dpi_px",
+		cursor_image: "IBar",
+        text_margin: "3dpi_px",
+        fold_area_margin: "2dpi_px",
+        fold_area_width: "11dpi_px",
+        fold_line_colour: "#ff23201B",
+        fold_line_hi_colour: "#aaffffff",
+        fold_margin_colour: "#ff756a5d"
+	},
+
+	"text_editor_gutter": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 30, 32], [30, 0, 2, 32],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Window/TextEditorGutter.png",
+		width: "40px"
+	},
+
+	"text_editor_line_indicator": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 2, 15], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Window/code_indicator.png",
+		width: "2dpi_px"
+	},
+
+	"text_editor_line_indicator_arrow": {
+		colour: "#ff62534B",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [2, 0, 8, 15], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Window/code_indicator.png",
+		width: "8dpi_px",
+		height: "15dpi_px"
+	},
+
+    "text_editor_code_fold_plus":{
+        colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [2, 2, 11, 11], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "TextEditorIcons/code_fold.png",
+		width: "11dpi_px",
+		height: "11dpi_px"
+    },
+
+    "text_editor_code_fold_plus_over":{
+        colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [15, 2, 11, 11], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "TextEditorIcons/code_fold.png",
+		width: "11dpi_px",
+		height: "11dpi_px"
+    },
+
+    "text_editor_code_fold_minus":{
+        colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [28, 2, 11, 11], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "TextEditorIcons/code_fold.png",
+		width: "11dpi_px",
+		height: "11dpi_px"
+    },
+
+    "text_editor_code_fold_minus_over":{
+        colour: "#ffffffff",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [41, 2, 11, 11], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "TextEditorIcons/code_fold.png",
+		width: "11dpi_px",
+		height: "11dpi_px"
+    },
+
+	"text_editor_breakpoint": {
+		colour: "#ffffffff",
+		image: "BreakPoint.png",
+		image_flags: "Stretch, KeepAspectRatio",
+		width: "10px",
+		height: "10px",
+		left: "2px"
+	},
+
+	"texteditor_codecomplete_style": {
+		type_bar_thickness: "3dpi_px",
+		type_block_alpha: "0.3",
+		type_highlight_alpha: "0.7",
+		type_background_alpha: "0.1",
+		cell_colour: "#ff1f1f1f"
+	},
+
+	"text_editor_codecomplete_frame": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 2, 2], [2, 0, 28, 2], [30, 0, 2, 2],
+					[0, 2, 2, 28], [2, 2, 28, 28], [30, 2, 2, 28],
+					[0, 30, 2, 2], [2, 30, 28, 2], [30, 30, 2, 2]
+				],
+		frame_name: "Window/dial_code_complete_frame.png",
+		clip: "2px"
+	},
+
+	"text_editor_codecomplete": {
+		colour: "#00000000",
+		left: "0px",
+		right: "0px",
+		top: "0px",
+		bottom: "0px",
+		clip: "0px",
+		disable_highlight_rendering: "true"
+	},
+
+	"text_editor_codecomplete_entry_panel": {
+		mouse_events: "false"
+	},
+
+	"text_editor_codecomplete_label": {
+		left: "4dpi_px",
+		colour: "#ffffffff"
+	},
+
+	"text_editor_tab": {
+		width_max: "150dpi_px"
+	},
+
+	"text_editor_event_tab": {
+		width_max: "150dpi_px",
+		tab_title_tooltip: "true"
+	},
+
+	"text_editor_event_tab_label": {
+		colour: "#FF696969"
+	},
+
+	"text_editor_tab_label": {
+		halign: "hAlignLeft",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		auto_ellipsis: "true",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin_right: "20px",
+		margin_left: "5px"
+	},
+
+	"pan_area": {
+		mouse_wheel_zoom_increment: 0.1,
+		mouse_move_zoom_increment: -0.006,
+		mouse_wheel_scroll_increment: -50,
+		min_zoom: 0.01,
+		max_zoom: 40,
+		zoom_function: "Exponential",
+		allow_zoom: "True"
+	},
+
+	"pan_area_zoom_widget": {
+		left: "",
+		right: "10dpi_px",
+		top: "10dpi_px"
+	},
+
+	"simple_gridzoom_widget": {
+		tool_flags: "GridToggleButton",
+		left: "",
+		right: "10dpi_px",
+		top: "10dpi_px"
+	},
+
+	"fixed_tab_control": {
+		tab_flags: "",
+		tab_item_style: "fixed_tab_item",
+		height_flags: "ScaleToFit"
+	},
+
+	"fixed_tab_item_label": {
+		comment: "used in fixed tab controls - where the tabs can't be closed/opened",
+		colour: "#FF696969",
+		halign: "hAlignLeft",
+		valign: "vAlignCentre",
+		mouse_events: "false",
+		auto_ellipsis: "true",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		auto_size: "false",
+		margin: ["10px", "3px", "10px", "3px"]
+	},
+
+	"bordered_auto_adjust_scrollpanel": {
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars",
+		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",
+		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust",
+		colour: "#FFBBBBBB",
+		width_flags: "ScaleToFit",
+		height_flags: "ScaleToFit",
+		frame_name: "Window/dial_inner_alpha_grey.png",
+		position: [
+					[0, 0, 8, 4], [8, 0, 8, 4], [24, 0, 8, 4],
+					[0, 4, 8, 24], [8, 4, 0, 0], [24, 4, 8, 24],
+					[0, 28, 8, 4], [8, 28, 8, 4], [24, 28, 8, 4]
+				]
+	},
+
+	"bordered_scrollpanel": {
+		colour: "#FFBBBBBB",
+		width_flags: "ScaleToFit",
+		height_flags: "ScaleToFit",
+		frame_name: "Window/dial_inner_alpha_grey.png",
+		position: [
+					[0, 0, 8, 4], [8, 0, 8, 4], [24, 0, 8, 4],
+					[0, 4, 8, 24], [8, 4, 0, 0], [24, 4, 8, 24],
+					[0, 28, 8, 4], [8, 28, 8, 4], [24, 28, 8, 4]
+				]
+	},
+
+	"bordered_scrollpanel_dark": {
+		colour: "#FFFFFFFF",
+		width_flags: "ScaleToFit",
+		height_flags: "ScaleToFit",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png"
+	}
+}

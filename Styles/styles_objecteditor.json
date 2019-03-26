@@ -1,0 +1,208 @@
+{
+	"object_editor_group_box": {
+		auto_size: ["True", "False"], 
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"objecteditor_button_label": {
+		halign: "hAlignLeft", 
+		left: "4px", 
+		margin: ["", "4px", "", "4px"]
+	},
+	
+	"event_item_stack_panel": {
+		colour: "#00000000", 
+		stack_order: "LeftToRight", 
+		stack_resize: "ResizeHeight", 
+		mouse_events: "false"
+	},
+	
+    "event_override_icon":{
+        height:"16dpi_px",
+        width:"16dpi_px",
+        colour: "#ffffffff",
+        image_flags: "Stretch, Centre, KeepAspectRatio", 
+        image:"ObjectEditor/MenuIcons/icon_IDE_overridden.png",
+		mouse_events: "False"
+    },
+    
+    "event_inherited_icon":{
+        height:"16dpi_px",
+        width:"16dpi_px",
+        colour: "#ffffffff",
+        image_flags: "Stretch, Centre, KeepAspectRatio", 
+        image:"ObjectEditor/MenuIcons/icon_IDE_parent.png",
+		mouse_events: "False"
+    },
+
+	"object_editor_group_box_label": {
+		colour: "#FFFFFFFF", 
+		left: "5px", 
+		bottom: "4px", 
+		bottom_flags: "AlignWithOppositeEdge", 
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		auto_ellipsis: "True", 
+		auto_size: "True", 
+		margin: ["5px"]
+	},
+	
+	"right_aligned_label": {
+		halign: "hAlignRight"
+	},
+	
+	"object_editor_treeview": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png", 
+		width: "100%", 
+		height: "100%", 
+		scrollpanel_flags: "ResizeHeight", 
+		vertical_scrollbar_style: "scroll_bar_no_scrolladjust", 
+		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust"
+	},
+	
+	"stack_panel_forcewidth": {
+		width_min: "100px"
+	},
+	
+	"list_box_multi": {
+		multi_select: "True"
+	},
+	
+	"objecteditor_button": {
+		width_flags: "ScaleToFit"
+	},
+	
+	"sprite_group_grid": {
+		margin: "10px", 
+		width: "100%", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"object_editor_grid": {
+		grid_resize: "ResizeGrid", 
+		width_min: "220dpi_px"
+	},
+	
+	"object_editor_gadget_scaletofit": {
+		width: "100%", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"objecteditorparents_default_window": {
+		width_min: "250dpi_px", 
+		height_min: "200dpi_px"
+	},
+	
+	"button_object_editor_remove_child": {
+		icon: "Buttons/icon_IDE_remove.png", 
+		up_tint: "#00000000", 
+		down_tint: "#00000000", 
+		mouseover_up_tint: "#FFFFFFFF", 
+		mouseover_down_tint: "#FFFFFFFF", 
+		up_focused_tint: "#00000000", 
+		down_focused_tint: "#00000000", 
+		mouseover_up_focused_tint: "#FFFFFFFF", 
+		mouseover_down_focused_tint: "#FFFFFFFF", 
+		frame_name: ""
+	},
+	
+	"object_selector_icon_frame": {
+		colour: "#FFFFFFFF", 
+		width_flags: "ScaleToFit", 
+		height_flags: "ScaleToFit", 
+		frame_name: "Window/dial_inner_alpha_grey.png", 
+		mouse_events: "False", 
+		position: [
+					[0, 0, 8, 4], [8, 0, 0, 0], [24, 0, 8, 4], 
+					[0, 4, 8, 24], [8, 4, 0, 0], [24, 4, 8, 24], 
+					[0, 28, 8, 4], [8, 28, 0, 0], [24, 28, 8, 4]
+				]
+	},
+	
+	"object_editor_child_icon": {
+		mouse_events: "False"
+	},
+	
+	"objecteditor_panel_window": {
+		grid_rowlayout: ["auto", "*", "auto"], 
+		grid_columnlayout: ["auto", "1*", "auto"], 
+		client_panel_style: "borderless_client_panel_no_bottom", 
+		width_min: "0px"
+	},
+	
+	"button_object_editor_child": {
+		icon_flags: "Stretch, Centre, KeepAspectRatio", 
+		up_tint: "#00000000", 
+		down_tint: "#00000000", 
+		mouseover_up_tint: "#FFFFFFFF", 
+		mouseover_down_tint: "#FFFFFFFF", 
+		up_focused_tint: "#00000000", 
+		down_focused_tint: "#00000000", 
+		mouseover_up_focused_tint: "#FFFFFFFF", 
+		mouseover_down_focused_tint: "#FFFFFFFF", 
+		frame_name: ""
+	},
+	
+	"object_editor_child_list_box": {
+		height_max: "200dpi_px"
+	},
+	
+	"objecteditor_panel_window_last": {
+		grid_rowlayout: ["auto", "1*", "auto"], 
+		grid_columnlayout: ["auto", "1*", "auto"], 
+		client_panel_style: "no_clip_client_panel_bordered", 
+		width_min: "0px"
+	},
+	
+	"no_clip_client_panel_bordered": {
+		comment: "will inherit from scroll_panel", 
+		scrollpanel_flags: "None", 
+		colour: "#FFFFFFFF", 
+		clip: ["0px"], 
+		position: [
+					[0, 0, 0, 0], [4, 0, 0, 0], [28, 0, 0, 0], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 4, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png", 
+		mouse_events: "True"
+	},
+	
+	"object_events_window": {
+		height_min: "200dpi_px", 
+		window_flags: "CloseButton, MinimizeButton, ResizeTop, ResizeBottom, Bookmark"
+	},
+	
+	"object_physics_window": {
+		height_min: "270dpi_px", 
+		window_flags: "CloseButton, MinimizeButton, ResizeTop, ResizeBottom, Bookmark"
+	},
+	
+	"object_physics_shape_window": {
+		width_min: "700dpi_px", 
+		height_min: "300dpi_px"
+	},
+	
+	"pse_button_up_play": {
+		up_icon: "IDE_Toolbar/icon_IDE_play.png", 
+		down_icon: "Buttons/icon_IDE_paused.png"
+	},
+	
+	"treeview_no_frame": {
+		frame_name: "",
+		colour: "#00000000"
+	}
+}

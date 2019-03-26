@@ -1,0 +1,117 @@
+{
+	"instance_property_remove_button": {
+		icon: "Buttons/icon_IDE_remove2.png", 
+		icon_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+	
+	"instance_property_override_button": {
+		icon: "Buttons/icon_IDE_pencil.png", 
+		icon_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+	
+	"instance_properties_table_header": {
+		grid_resize: "ResizeLast", 
+		height: "24dpi_px", 
+		grid_columnlayout: ["1.5*", "110dpi_px", "1.5*", "57dpi_px"]
+	},
+	
+	"object_properties_window": {
+		window_flags: "CloseButton, MinimizeButton, ResizeTop, ResizeBottom, Bookmark", 
+		width_min: "620dpi_px"
+	},
+	
+	"object_properties_table_header": {
+		grid_resize: "ResizeLast", 
+		height: "24dpi_px", 
+		grid_columnlayout: ["1.5*", "1.5*", "1*", "57dpi_px"]
+	},
+	
+	"object_properties_table_gadget": {
+		highlighted_style: "object_properties_table_row", 
+		selected_style: "object_properties_table_row", 
+		allow_reorder: "True"
+	},
+	
+	"object_properties_table_row": {
+		width: "100%", 
+		height: "26dpi_px", 
+		grid_resize: "ResizeLast", 
+		splitter_thickness: "2px", 
+		mouse_events: "true"
+	},
+	
+	"object_properties_label_not_overridden": {
+		colour: "#80ffffff"
+	},
+	
+	"object_properties_label_overridden": {
+		colour: "#FFFFFFFF"
+	},
+	
+	"object_property_remove_button": {
+		icon: "trashbin.png", 
+		icon_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+	
+	"object_property_options_button": {
+		icon: "IDE_Toolbar/icon_IDE_gamesettings.png", 
+		icon_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+	
+	"object_property_options_window": {
+		window_flags: "CloseButton, MinimizeButton, ScrollBars", 
+		localise_title: "ObjectEditor_WindowOptions"
+	},
+	
+	"object_properties_list_tree_view": {
+		multi_select: "False", 
+		clear_selection_on_empty_click: "True", 
+		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars", 
+		left: "0px", 
+		width: "100%", 
+		top: "0px", 
+		width_flags: "ScaleToFit", 
+		selection_colour: "#00000000",
+		clip: ["1px"]
+	},
+	
+	"object_properties_list_tree_node": {
+		add_dragged_nodes_as_sibling: "True", 
+		expand_double_click: "False", 
+		left: "0px", 
+		right: "0px", 
+		stack_resize: "ResizeHeight", 
+		width_flags: "ScaleToFit"
+	},
+	
+	"object_properties_header_label": {
+		left: "4dpi_px"
+	},
+	
+	"object_properties_header_icon": {
+		right: "4dpi_px", 
+		width: "16dpi_px", 
+		height: "16dpi_px"
+	},
+	
+	"instance_variable_inherited_image": {
+		colour: "#40FFFFFF", 
+		image: "ObjectEditor/MenuIcons/icon_IDE_parent.png"
+	},
+	
+	"instance_variable_inherited_image_overridden": {
+		colour: "#EEFFFFFF", 
+		image: "ObjectEditor/MenuIcons/icon_IDE_overridden.png"
+	},
+
+	"instance_variable_table": {
+		splitter_style: "instance_variable_table_splitter",
+		colour: "#00000000", 
+		grid_resize: "ResizeLast", 
+		mouse_events: "False"
+	},
+
+	"instance_variable_table_splitter": {
+		min_px_size: "50dpi_px"
+	}
+}

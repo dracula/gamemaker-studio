@@ -1,0 +1,29 @@
+{
+	"scm_clean": {
+		image: "scm_clean.png", 
+		height: "16dpi_px", 
+		width: "16dpi_px", 
+		colour: "#ffffffff", 
+		mouse_events: "false", 
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	},
+
+	"scm_dirty": {
+		image: "scm_dirty.png", 
+		height: "16dpi_px", 
+		width: "16dpi_px", 
+		colour: "#ffffffff", 
+		mouse_events: "false", 
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	},
+
+	"scm_notready": {
+		image: "", 
+		height: "0px", 
+		width: "0px", 
+		colour: "#ffffffff", 
+		mouse_events: "false", 
+		image_flags: "Stretch, KeepAspectRatio, Centre"
+	}
+
+}

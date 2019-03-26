@@ -1,0 +1,42 @@
+{
+	"dnd_node": {
+		left: "0px",
+		top: "0px",
+		width: "100%",
+		height: "100%"
+	},
+
+	"label_alignvc": {
+		valign: "vAlignCentre",
+		auto_size: "False"
+	},
+
+	"dnd_numeric_input": {
+		has_buttons: "False",
+		enforce_valid_expression: "False"
+	},
+
+	"dnd_button_icon": {
+		image_flags: "Centre"
+	},
+
+	"dnd_button_fliph_icon": {
+		image_flags: "Centre",
+		render_flags: "FlipHorizontal"
+	},
+
+	"dnd_button_flipv_icon": {
+		image_flags: "Centre",
+		render_flags: "FlipVertical"
+	},
+
+	"dnd_button_fliphv_icon": {
+		image_flags: "Centre",
+		render_flags: "FlipVertical, FlipHorizontal"
+	},
+
+	"dnd_resource_button_icon": {
+		image_flags: "Stretch, Centre, KeepAspectRatio"
+	}
+
+}

@@ -1,0 +1,368 @@
+{
+	"label_marketplace_title": {
+		font_size: 12,
+		colour: "#FFFFFFFF"
+	},
+
+	"gadget_asset_item": {
+		left: "0px",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		margin_top: "10dpi_px",
+		margin_bottom: "10dpi_px",
+		height: "64dpi_px",
+		base_link_style: "link_label"
+	},
+
+	"link_label_asset_highlight":  {
+		colour: "#FFa7ff32"
+	},
+
+	"link_label_asset_highlight_hover":  {
+		colour: "#FFffde43"
+	},
+
+	"link_label_asset_highlight_active":  {
+		colour: "#FFffde43"
+	},
+
+	"gadget_treenode_marketplace": {
+		inset_margin: "",
+		selectable: "False",
+		margin_right: "20px",
+		resource_added: "#ff7dd703",
+		resource_not_added: "#ffffffff"
+	},
+
+	"grid_container_marketplace_item": {
+		width: "100%",
+		width_flags: "ScaleToFit"
+	},
+
+	"package_grid": {
+		splitter_thickness: "14dpi_px",
+		height_flags: "ScaleToFit"
+	},
+
+	"package_heading_label": {
+		colour: "#FFAAAAAA",
+		left: "15px",
+		margin_left: "15px",
+		margin_bottom: "2px",
+		width_flags: "ScaleToFit"
+	},
+
+	"package_inner_panel": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png",
+		clip: ["1px"],
+		height_flags: "ScaleToFit",
+		width_flags: "ScaleToFit",
+		scrollbar_flags: "HorizontalScroll, VerticalScroll, AdjustToScrollBars",
+		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",
+		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust"
+	},
+
+	"package_type_label": {
+		colour: "#FFAAAAAA",
+		width_flags: "ScaleToFit",
+		width_min: "100dpi_px",
+		width_max: "250dpi_px"
+	},
+
+	"package_combobox": {
+		width_flags: "ScaleToFit",
+		width_min: "250px"
+	},
+
+	"readonly_package_text_box": {
+		frame_name: "Window/textbox_inactive.png",
+		width_flags: "ScaleToFit",
+		text_colour: "#ff626262",
+		read_only: "true"
+	},
+
+	"package_text_box": {
+		frame_name: "Window/textbox_active.png",
+		width_max: "335px"
+	},
+
+	"package_file_input_textbox": {
+		frame_name: "Window/textbox_active.png"
+	},
+
+	"package_file_input": {
+		width: "100%",
+		width_max: "335px",
+		width_flags: "ScaleToFit"
+	},
+
+	"create_package_text_box": {
+		width_flags: "ScaleToFit"
+	},
+
+	"inactive_tutorial_label": {
+		colour: "#FF6E6E6E",
+		halign: "hAlignCentre",
+		valign: "vAlignTop",
+		width_max: "280dpi_px"
+	},
+
+	"inactive_heading_label": {
+		colour: "#ff6e6e6e"
+	},
+
+	"inactive_tutorial_stack_panel": {
+		width_max: "280dpi_px"
+	},
+
+	"tutorial_heading_label": {
+		width_max: "100%",
+		width_flags: "ScaleToFit"
+	},
+
+	"marketplace_grid": {
+		splitter_thickness: "14dpi_px",
+		colour: "#FF23201B"
+	},
+
+	"marketplace_scrollpanel": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png"
+	},
+
+	"marketplace_window": {
+		colour: "#ff282828"
+	},
+
+	"marketplace_tablegadget_content": {
+		colour: "#00000000",
+		frame_name: "",
+		disable_highlight_rendering: "True",
+		grid_resize: "ResizeGridHeight",
+		mouse_events: "True",
+		splitter_thickness: "2px",
+		highlighted_style: "marketplace_tablegadget_row_highlighted",
+		selected_style: "marketplace_tablegadget_row_selected"
+	},
+
+	"marketplace_tablegadget_row_highlighted": {
+		colour: "#ff635a55",
+		grid_resize: "ResizeGridHeight",
+		splitter_thickness: "2px",
+		mouse_events: "true"
+	},
+
+	"marketplace_category": {
+		frame_name: "expandable_category_frame.png",
+		label_style: "marketplace_category_label"
+	},
+
+	"marketplace_category_selected": {
+		frame_name: "expandable_category_frame_selected.png",
+		label_style: "marketplace_category_label_selected"
+	},
+
+	"marketplace_category_label": {
+		colour: "#ff999999"
+	},
+
+	"marketplace_category_label_selected": {
+		colour: "#FFFFFFFF"
+	},
+
+	"marketplace_tablegadget_row_selected": {
+		colour: "#FF4b433f",
+		grid_resize: "ResizeGridHeight",
+		splitter_thickness: "2px",
+		mouse_events: "true"
+	},
+
+	"marketplace_image": {
+		mouse_events: "False",
+		height:"62dpi_px",
+		width:"62dpi_px",
+		image_flags:"Stretch"
+	},
+
+	"marketplace_image_selected": {
+		border_color: "#FFFFFFFF"
+	},
+
+	"marketplace_stack_panel": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png"
+	},
+
+	"marketplace_progressbar_frame": {
+		colour: "#00000000"
+	},
+
+	"marketplace_progressbar": {
+
+	},
+
+	"marketplace_progressbar_bar": {
+		height: "100%",
+		left: "0dpi_px",
+		right: "0dpi_px"
+	},
+
+	"marketplace_rating_empty": {
+		icon: "Survey/survey_star_empty.png",
+		icon_colour: "#FFFFFFFF"
+	},
+
+	"marketplace_rating_user": {
+		icon: "Survey/survey_star_filled.png",
+		icon_colour: "#FFFFFFFF"
+	},
+
+	"mp_asset_grid_container": {
+		width_min: "250dpi_px"
+	},
+
+	"asset_mp_grid_container_panel": {
+		width_min: "250dpi_px"
+	},
+
+	"marketplace_overview_label_title": {
+		font_size: 20,
+		height_max: "74dpi_px"
+	},
+
+	"marketplace_page_button": {
+		frame_name: "",
+		colour: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		down_tint: "#00000000",
+		up_tint: "#00000000",
+		auto_height: "False",
+		height: "26dpi_px",
+		deactivated_style: "button_deactivated",
+		reactivated_style: "button_reactivated"
+	},
+
+	"marketplace_download_button": {
+		auto_height: "False"
+	},
+
+	"marketplace_page_button_down": {
+
+	},
+
+	"label_marketplace_title_light": {
+		font_size: 12,
+		colour: "#FFFFFFFF"
+	},
+
+	"label_marketplace_overview_text": {
+		font_size: 12,
+		margin_top: "8dpi_px",
+		colour: "#FF808080"
+	},
+
+	"marketplace_grid_container": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				],
+		frame_name: "Window/dial_inner.png"
+	},
+
+	"marketplace_overview_screenshot": {
+		border_color: "#66FFFFFF",
+		image_flags: "KeepAspectRatio, Downscale",
+		width: "236dpi_px"
+	},
+
+	"marketplace_overview_grid_container": {
+		grid_rowlayout: ["auto", "auto", "auto", "1*"]
+	},
+
+	"marketplace_overview_grid_container_responsive": {
+		grid_rowlayout: ["auto", "auto", "auto", "auto"]
+	},
+
+	"marketplace_icon_button": {
+		icon_flags: "Stretch, Centre, KeepAspectRatio",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#FFFFFFFF",
+		mouseover_down_tint: "#FFFFFFFF",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#FFFFFFFF",
+		mouseover_down_focused_tint: "#FFFFFFFF",
+		frame_name: ""
+	},
+
+	"marketplace_update_icon_button": {
+		icon_flags: "Stretch, Centre, KeepAspectRatio",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#FFFFFFFF",
+		mouseover_down_tint: "#FFFFFFFF",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#FFFFFFFF",
+		mouseover_down_focused_tint: "#FFFFFFFF",
+		frame_name: "",
+		icon_colour: "#FF00AACC"
+	},
+
+	"marketplace_icon_frame_inactive": {
+		colour: "#FFFFFFFF",
+		position: [
+					[2, 2, 3, 3], [5, 2, 10, 1], [15, 2, 3, 3],
+					[2, 5, 3, 10], [0, 0, 0, 0], [15, 5, 3, 10],
+					[2, 15, 3, 3], [5, 15, 10, 3], [15, 15, 3, 3]
+				],
+		frame_name: "Marketplace/mp_thumbnail_surround.png",
+		mouse_events: "False"
+	},
+
+	"marketplace_icon_frame_active": {
+		colour: "#FFFFFFFF",
+		position: [
+					[20, 2, 3, 3], [23, 2, 10, 1], [33, 2, 3, 3],
+					[20, 5, 3, 10], [0, 0, 0, 0], [33, 5, 3, 10],
+					[20, 15, 3, 3], [23, 15, 10, 3], [33, 15, 3, 3]
+				],
+		frame_name: "Marketplace/mp_thumbnail_surround.png"
+	},
+
+	"marketplace_responsive_assets": {
+		levels: [800, 650, 520, 350]
+	},
+
+	"marketplace_responsive_overview": {
+		levels: [400]
+	},
+
+	"link_label_marketplace_caption": {
+		font_size: 12
+	}
+}

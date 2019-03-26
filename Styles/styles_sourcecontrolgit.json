@@ -1,0 +1,114 @@
+{
+	"log_comment_style": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner_alpha.png", 
+		clip: ["4dpi_px"], 
+		width: "250dpi_px", 
+		auto_height: "False", 
+		height: "150dpi_px", 
+		read_only: "True"
+	},
+	
+	"source_control_git_commit_button_up": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3], 
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10], 
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				], 
+		frame_name: "Buttons/button_states.png", 
+		deactivated_style: "button_deactivated", 
+		reactivated_style: "button_reactivated"
+	},
+	
+	"sourcecontrolgit_mergetooloptions": {
+		left: "0dpi_px", 
+		grid_columnlayout: ["1*", "auto"], 
+		grid_rowlayout: ["auto", "auto"], 
+		grid_resize: "ResizeGrid", 
+		row_spacing: "6dpi_px", 
+		column_spacing: "12dpi_px", 
+		top: "0dpi_px"
+	},
+	
+	"sourcecontrolgit_difftooloptions": {
+		left: "0dpi_px", 
+		grid_columnlayout: ["1*", "auto"], 
+		grid_rowlayout: ["auto", "auto"], 
+		grid_resize: "ResizeGrid", 
+		row_spacing: "6dpi_px", 
+		column_spacing: "12dpi_px", 
+		top: "0dpi_px"
+	},
+	
+	"sourcecontrolgit_authenticationbook": {
+		left: "0dpi_px", 
+		grid_rowlayout: ["24dpi_px", "auto"], 
+		grid_resize: "ResizeGrid", 
+		row_spacing: "6dpi_px", 
+		column_spacing: "12dpi_px", 
+		top: "0dpi_px"
+	},
+
+	"sourcecontrolgit_deactivated_textbox": {
+		colour: "#00000000"
+	},
+	
+	"source_control_git_clone_window": {
+		width_min: "400dpi_px", 
+		height_min: "240dpi_px"
+	},
+	
+	"source_control_git_import_window": {
+		width_min: "400dpi_px", 
+		height_min: "180dpi_px"
+	},
+	
+	"source_control_git_commit_window": {
+		width_min: "580dpi_px", 
+		height_min: "600dpi_px"
+	},
+	
+	"source_control_git_log_window": {
+		width_min: "450dpi_px", 
+		height_min: "500dpi_px"
+	},
+	
+	"source_control_git_conflicts_window": {
+		width_min: "480dpi_px", 
+		height_min: "340dpi_px"
+	},
+	
+	"source_control_git_commit_title_bar": {
+		width: "100%", 
+		auto_height: "False", 
+		height: "32px", 
+		colour: "#FFFFFFFF", 
+		position: [
+					[2, 2, 3, 3], [5, 2, 10, 3], [15, 2, 3, 3], 
+					[2, 5, 3, 19], [5, 5, 10, 19], [15, 5, 3, 19], 
+					[2, 24, 3, 3], [5, 24, 10, 3], [15, 24, 3, 3]
+				], 
+		frame_name: "Dock/dock_gadgets.png", 
+		label_style: "borderless_title_bar_label"
+	},
+	
+	"grid_container_git": {
+		height_min: "26dpi_px"
+	},
+	
+	"horizontal_grid_splitter_git": {
+		min_px_size: "24dpi_px"
+	},
+	
+	"horizontal_grid_splitter_gitstatus": {
+		min_px_size: "32dpi_px"
+	},
+	
+	"extension_tablegadget_content_git": {
+		bottom_flags: "OffsetByMargin"
+	}
+}

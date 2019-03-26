@@ -1,0 +1,18 @@
+{
+	"room_defaults" :
+	{
+		background_colour: "#FF000000",
+        grid_colour : "#32ffffff",
+		select_colour: "#aaff3333",
+		select_lock_colour: "#aaffffff",
+		properties_colour: "#aa3333ff",
+		properties_lock_colour: "#aaccccff",
+		select_bounds_colour: "#aaff7777",
+		select_lock_bounds_colour: "#aaffffff",
+		multi_select_colour: "#50ff8080",
+		tile_select_colour: "#80ff0000",
+		tile_highlight_colour: "#80ff8080",
+		tile_inheritance_colour: "#800000ff",
+		ink_colour: "#ffff0000"
+	}
+}

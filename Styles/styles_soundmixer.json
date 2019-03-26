@@ -1,0 +1,191 @@
+{
+	"soundmixer_window": {
+		width: "400dpi_px", 
+		height: "540dpi_px", 
+		window_flags: "Default",
+		width_min: "400dpi_px",
+		height_min: "540dpi_px"
+	},
+
+	"soundmixer_grid_container": {
+		colour: "#00000000",
+		grid_resize: "ResizeGrid", 
+		mouse_events: "False"
+	},
+	
+	"soundmixer_grid_container_panel": {
+		mouse_events: "False"
+	},
+	
+	"soundmixer_grid_container_span_panel": {
+		mouse_events: "false"
+	},
+
+	"soundmixercontrol_grid_container": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png",  
+		grid_resize: "ResizeGrid", 
+		mouse_events: "False", 
+		width_min: "288dpi_px"
+	},
+	
+	"soundmixercontrol_grid_container_panel": {
+		mouse_events: "False"
+	},
+	
+	"soundmixercontrol_grid_container_span_panel": {
+		mouse_events: "false"
+	},
+	
+	"soundmixer_control_title_bar": {
+		auto_size: ["False", "False"], 
+		width: "100%", 
+		height: "25dpi_px", 
+		colour: "#FFFFFFFF", 
+		position: [
+					[2, 2, 3, 3], [5, 2, 10, 3], [15, 2, 3, 3], 
+					[2, 5, 3, 19], [5, 5, 10, 19], [15, 5, 3, 19], 
+					[2, 24, 3, 3], [5, 24, 10, 3], [15, 24, 3, 3]
+				], 
+		frame_name: "Dock/dock_gadgets.png", 
+		label_style: "borderless_title_bar_label"
+	},
+	
+	"soundmixer_control_title_bar_label": {
+		halign: "hAlignLeft", 
+		valign: "vAlignCentre", 
+		mouse_events: "False", 
+		auto_ellipsis: "True", 
+		left: "20dpi_px", 
+		margin: ["", "4dpi_px", "20dpi_px", "4dpi_px"], 
+		width_flags: "ScaleToFit", 
+		auto_size: "False"
+	},
+	
+	"soundmixer_control_title_bar_active": {
+		auto_size: ["False", "False"], 
+		width: "100%", 
+		height: "25dpi_px", 
+		colour: "#FFFFFFFF", 
+		position: [
+					[23, 2, 8, 4], [32, 2, 4, 4], [36, 2, 8, 4], 
+					[23, 6, 8, 15], [32, 6, 4, 15], [36, 6, 8, 15], 
+					[23, 23, 8, 4], [32, 23, 4, 4], [36, 23, 8, 4]
+				], 
+		frame_name: "Dock/dock_gadgets.png", 
+		label_style: "borderless_title_bar_label"
+	},
+	
+	"soundmixer_control_title_bar_active_label": {
+		halign: "hAlignLeft", 
+		valign: "vAlignCentre", 
+		mouse_events: "False", 
+		auto_ellipsis: "True", 
+		left: "20dpi_px", 
+		margin: ["", "4dpi_px", "20dpi_px", "4dpi_px"], 
+		width_flags: "ScaleToFit", 
+		auto_size: "False"
+	},
+	
+	"soundmixer_scrollpanel": {
+		mouse_events: "False", 
+		width_min: "316dpi_px"
+	},
+	
+	"soundmixer_group_box": {
+		auto_size: ["False", "False"], 
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png",
+		width_min: "128dpi_px"
+	},
+	
+	"soundmixer_group_box_active": {
+		auto_size: ["False", "False"], 
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "SoundMixer/group_active.png",
+		width_min: "128dpi_px"
+	},
+	
+	"soundmixer_control_group_box": {
+		auto_size: ["False", "False"], 
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png", 
+		width_min: "288dpi_px"
+	},
+	
+	"soundmixer_control_group_box_active": {
+		auto_size: ["False", "False"], 
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "SoundMixer/control_active.png"
+	},
+	
+	"soundmixer_button_up": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3], 
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10], 
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				], 
+		frame_name: "Buttons/button_states.png", 
+		height: "24dpi_px", 
+		auto_height: "true"
+	},
+	
+	"soundmixer_button_up_icon": {
+		colour: "#FF3A3A3A", 
+		height: "18dpi_px", 
+		width: "18dpi_px"
+	},
+	
+	"soundmixer_group_volume_box": {
+		colour: "#FFFFFFFF", 
+		focus_colour: "#FF5B9D03", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "SoundEditor/wave_surround.png"
+	},
+	
+	"soundmixer_group_volume_box_active": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[23, 2, 8, 4], [32, 2, 4, 4], [36, 2, 8, 4], 
+					[23, 6, 8, 15], [32, 6, 4, 15], [36, 6, 8, 15], 
+					[23, 23, 8, 4], [32, 23, 4, 4], [36, 23, 8, 4]
+				], 
+		frame_name: "SoundMixer/mixer_title.png"
+	},
+
+	"soundmixer_minimum_widths": {
+		minimum_group_size: "316",
+		minimum_link_size: "24",
+		minimum_add_button_size: "64",
+		margin: "12"
+	}
+}

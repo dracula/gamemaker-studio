@@ -1,0 +1,296 @@
+{
+	"debugger_window_resource_view": {
+		width: "256dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_ResourceView", 
+		margin: ["1px", "1px", "1px", "1px"]
+	},
+	
+	"debugger_window_source_view": {
+		width: "640dpi_px", 
+		height: "480dpi_px", 
+		localise_title: "Debugger_Window_SourceView"
+	},
+	
+	"debugger_window_locals_view": {
+		width: "512dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_LocalsView"
+	},
+	
+	"debugger_window_globals_view": {
+		width: "512dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_GlobalsView"
+	},
+	
+	"debugger_window_watch_view": {
+		width: "512dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_WatchView"
+	},
+	
+	"debugger_window_instance_view": {
+		width: "512dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_InstanceView"
+	},
+	
+	"debugger_window_all_instances_view": {
+		width: "512dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_AllInstancesView"
+	},
+	
+	"debugger_window_selected_instance_view": {
+		width: "512dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_SelectedInstanceView_Arg",
+        localise_title_args:[""]
+	},
+	
+	"debugger_window_callstack_view": {
+		width: "800dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_Callstack"
+	},
+	
+	"debugger_window_surfaces_view": {
+		width: "800dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_Surfaces"
+	},
+	
+	"debugger_window_graph_view": {
+		width: "800dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_Graph"
+	},
+	
+	"debugger_window_graph_view_tag_window": {
+		width: "300dpi_px", 
+		height: "300dpi_px"
+	},
+	
+	"debugger_window_profile_view": {
+		width: "800dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_Profile"
+	},
+	
+	"debugger_window_buffers_view": {
+		width: "800dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_Buffers"
+	},
+	
+	"debugger_window_renderstate_view": {
+		width: "800dpi_px", 
+		height: "256dpi_px", 
+		localise_title: "Debugger_Window_RenderState"
+	},
+	
+	"debugger_buffer_view": {
+		column_color: "#ff584D47", 
+		text_color: "#FFFFFFFF", 
+		font_name: "Droid Sans Mono", 
+		font_size: 8, 
+		font_aa: "True"
+	},
+	
+	"debugger_source_view": {
+		window_offset_x: "10dpi_px", 
+		window_offset_y: "10dpi_px"
+	},
+	
+	"debugger_graph_view": {
+		memory_color: "#FF00EE00", 
+		fps_color: "#FFA0A000", 
+		memory_avg_color: "#FF40E1EC", 
+		fps_avg_color: "#FF4040EC", 
+		tooltip_color: "#EE000000", 
+		tooltip_text_color: "#FFFFFFFF", 
+		tag_width: "11dpi_px", 
+		tag_height: "11dpi_px", 
+		tag_icon: "Debugger/graph_event.png", 
+		color_user_event: "#FFD1D1D1", 
+		color_game_event: "#FF4646E6", 
+		color_graphics_event: "#FFE64600"
+	},
+	
+	"debugger_graph_view_tag_popup": {
+		grid_columnlayout: ["*"], 
+		grid_rowlayout: ["*"], 
+		width: "245dpi_px", 
+		height: "255dpi_px"
+	},
+	
+	"debugger_graph_view_tag_popup_panel": {
+		colour: "#ffffffff", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png"
+	},
+	
+	"debugger_graph_stat_label": {
+		font_name: "Droid Sans Mono", 
+		font_size: 8, 
+		aa: "True"
+	},
+	
+	"debugger_graph_help": {
+		colour: "#50000000"
+	},
+	
+	"debugger_toolbar": {
+		height: "32dpi_px"
+	},
+	
+	"debugger_statusbar": {
+		height: "32dpi_px"
+	},
+	
+	"debugger_image_connection_on": {
+		image: "Debugger/icon_connection.png", 
+		colour: "#EE00FF00"
+	},
+	
+	"debugger_image_connection_pending": {
+		image: "Debugger/icon_connection.png", 
+		colour: "#EE00FFFF"
+	},
+	
+	"debugger_image_connection_off": {
+		image: "Debugger/icon_connection.png", 
+		colour: "#EE0000FF"
+	},
+	
+	"debugger_texture_image": {
+		height: "32dpi_px", 
+		top: "0px", 
+		left: "0px", 
+		right: "0px", 
+		image_flags: "Downscale, Centre, KeepAspectRatio"
+	},
+	
+	"debugger_texture_tooltip": {
+		edge_buffer: "32dpi_px", 
+		text_color: "#FF000000", 
+		width_min: "64dpi_px", 
+		height_min: "48dpi_px", 
+		width_max: "640dpi_px", 
+		height_max: "480dpi_px", 
+		position: [
+					[9, 0, 3, 11], [12, 0, 9, 11], [21, 0, 3, 11], 
+					[9, 11, 3, 2], [12, 11, 9, 2], [21, 11, 3, 2], 
+					[9, 13, 3, 3], [12, 13, 9, 3], [21, 13, 3, 3]
+				]
+	},
+	
+	"debugger_texture_tooltip_image": {
+		frame_name: "Background/alpha_bg.png", 
+		image_flags: "Downscale, Centre, KeepAspectRatio"
+	},
+	
+	"debugger_toolbar_separator": {
+		margin_left: "5dpi_px", 
+		margin_right: "3dpi_px"
+	},
+	
+	"dbg_buffer_separator": {
+		margin_top: "0px", 
+		margin_bottom: "0px", 
+		margin_left: "6dpi_px", 
+		margin_right: "6dpi_px"
+	},
+	
+	"debugger_profiling_toggle_button": {
+		mouseover_up_tint: "#FF58B555", 
+		mouseover_up_focused_tint: "#FF58B555", 
+		down_tint: "#FF58B555", 
+		mouseover_down_tint: "#FF5555B5", 
+		down_focused_tint: "#FF58B555", 
+		mouseover_down_focused_tint: "#FF5555B5"
+	},
+	
+	"debugger_scrollbar": {
+		frame_name: "", 
+		colour: "#FF4e4e4e", 
+		slider_style: "debugger_scrollbar_slider", 
+		scroll_buttons: "False"
+	},
+	
+	"debugger_scrollbar_slider": {
+		frame_name: "", 
+		colour: "#FF4e4e4e", 
+		thumb_style: "debugger_scrollbar_slider_thumb", 
+		slider_bar_style: "debugger_scrollbar_slider_bar", 
+		slider_bar_fill_style: "debugger_scrollbar_slider_bar_fill", 
+		slider_bar_fill_not_focused_style: "debugger_scrollbar_slider_bar_not_focused"
+	},
+	
+	"debugger_scrollbar_slider_thumb": {
+		frame_name: "", 
+		up_tint: "#FF909090", 
+		down_tint: "#FFb3b3b3", 
+		mouseover_up_tint: "#FFa2a2a2", 
+		mouseover_up_focused_tint: "#FFa2a2a2", 
+		mouseover_down_tint: "#FFb3b3b3", 
+		mouseover_down_focused_tint: "#FFb3b3b3", 
+		up_focused_tint: "#FF909090", 
+		down_focused_tint: "#FF909090", 
+		button_over_style: "debugger_button_no_frame", 
+		button_down_style: "debugger_button_no_frame", 
+		button_over_down_style: "debugger_button_no_frame"
+	},
+	
+	"debugger_scrollbar_slider_bar": {
+		frame_name: "", 
+		colour: "#FF4e4e4e"
+	},
+	
+	"debugger_scrollbar_slider_bar_fill": {
+		frame_name: "", 
+		colour: "#00000000"
+	},
+	
+	"debugger_scrollbar_slider_bar_not_focused": {
+		frame_name: "", 
+		colour: "#00000000"
+	},
+	
+	"debugger_button_no_frame": {
+		frame_name: ""
+	},
+	
+	"debugger_source_popup": {
+		colour: "#FFFFFFFF", 
+		grid_columnlayout: ["*"], 
+		grid_rowlayout: ["*"], 
+		window_flags: "AutoSizeWidth, AutoSizeHeight"
+	},
+	
+	"debugger_source_popup_panel": {
+		colour: "#FFFFFFFF", 
+		clip: "1px", 
+		position: [
+					[0, 0, 3, 3], [4, 0, 23, 3], [27, 0, 3, 3], 
+					[0, 3, 3, 24], [4, 3, 23, 24], [27, 3, 3, 24], 
+					[0, 27, 3, 3], [4, 27, 23, 3], [27, 27, 3, 3]
+				], 
+		frame_name: "Window/dial_search_active.png"
+	},
+
+  "debugger_source_popup_label_var": {
+    font_bold: "True"
+  },
+
+   "debugger_code_error_window": {
+      width: "512dpi_px",
+      height: "400dpi_px",
+      window_flags: "CloseButton, ResizeButton, DockingDisabled, DesktopTransferDisabled"
+    }
+  }

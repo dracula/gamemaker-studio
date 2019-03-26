@@ -1,0 +1,84 @@
+﻿{
+    "workspace_preferences": {
+		link_colour: "#9900dd99",
+	},
+
+	"workspace_area": {
+		width: "100%",
+		height: "100%",
+		mouse_wheel_zoom_increment: 0.1,
+		mouse_move_zoom_increment: -0.006,
+		mouse_wheel_scroll_increment: -30,
+		min_zoom: 0.1,
+		max_zoom: 20
+	},
+
+	"workspace_chain": {
+		link_thickness: 3,
+
+		comment: "the column resizing to match the user resizing the window currently only works if the default column layout is in pixels",
+		default_column_layout: "300dpi_px",
+		default_min_px_width: 200,
+
+		colour: "#00000000",
+		allow_panning: "false",
+		drag_onward_links: "true",
+		drag_root_horizontally: "true",
+		mouse_events: "false",
+
+		grid_columnlayout: ["300dpi_px", "10dpi_px"],
+		grid_rowlayout: ["auto"],
+		grid_resize: "ResizeGrid",
+		splitter_thickness: "2dpi_px"
+	},
+
+	"workspace_link_stack": {
+		stack_order: "TopToBottom",
+		stack_resize: "ResizeHeight",
+		stack_flags: "FullSizeInternalPanel",
+		top: "0px",
+
+		comment: "use the link stack margin to determine spacing between rows and columns",
+		margin: ["15px", "5px", "15px", "5px"],
+
+		comment: "keep width 100% with scale to fit margin set to ensure workspace chain gadgets use the whole column width",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		top_flags: "ScaleToFit"
+	},
+
+	"workspace_chain_panel": {
+		mouse_events: "false"
+	},
+
+	"workspace_chain_splitter": {
+		splitter_flags: "ResizeFirst",
+		min_px_size: "200px",
+		colour: "#77ffffff",
+		position:
+			[
+				[0,0,0,0], [0,0,0,0], [0,0,0,0],
+                [0,0,0,0], [106,14,2,6], [0,0,0,0],
+                [0,0,0,0], [0,0,0,0], [0,0,0,0]
+			],
+		frame_name: "Tabs/workspace_tab.png"
+	},
+
+	"workspace_chain_gadget": {
+		left: "0px",
+		width: "100%",
+
+		comment: "use margin bottom to determine spacing between chain gadgets, margin top is overridden in code",
+		margin_bottom: "20px",
+
+		close_anim: "workspace_close_window"
+	},
+
+	"floating_workspace_area": {
+		top: "-50px",
+		left: "100%",
+		left_flags: "OffsetByMargin",
+		margin_left: "30px",
+		mouse_events: "false"
+	}
+}

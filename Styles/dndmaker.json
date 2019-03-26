@@ -1,0 +1,134 @@
+{
+	"grid_container_panel_dndmaker": {
+		colour: "#FF000000"
+	},
+	
+	"label_dnd_header": {
+		left: "4px", 
+		height: "20px", 
+		margin_bottom: "2px", 
+		valign: "vAlignCentre"
+	},
+	
+	"dndmaker_stack_panel": {
+		stack_order: "LeftToRight", 
+		mouse_events: "false", 
+		left: "4px", 
+		right: "16px", 
+		height: "100%", 
+		stack_flags: "Wrap", 
+		stack_resize: "ResizeHeight", 
+		top: "0px"
+	},
+	
+	"dndmaker_stack_panel_fixed": {
+		mouse_events: "false", 
+		left: "4px", 
+		right: "16px", 
+		height: "100%",
+		stack_resize: "ResizeHeight", 
+		top: "0px"
+	},
+	
+	"gadget_treeview_dndmaker": {
+		left: "2px", 
+		right: "2px", 
+		top: "0px", 
+		bottom: "2px"
+	},
+	
+	"gadget_container_dndmaker": {
+		left: "2px", 
+		right: "2px", 
+		top: "0px", 
+		bottom: "2px"
+	},
+	
+	"library_tree_label": {
+		edit_in_place: "True", 
+		auto_size: "True", 
+		valign: "vAlignCentre", 
+		height: "24px", 
+		enlarge_on_edit_pixels: 30
+	},
+	
+	"library_tree_node": {
+		left: "0px", 
+		top: "0px", 
+		margin_top: "4px", 
+		valign: "vAlignCentre", 
+		allow_drag: "True"
+	},
+	
+	"library_tree_node_expand": {
+		colour: "#ffffffff", 
+		position: [
+					[0, 0, 2, 2], [2, 0, 13, 2], [13, 0, 2, 2], 
+					[0, 2, 2, 12], [2, 2, 13, 12], [13, 2, 2, 12], 
+					[0, 14, 2, 2], [2, 14, 13, 2], [13, 14, 2, 2]
+				], 
+		frame_name: "Window/dial_window_ctrls.png", 
+		width: "17px", 
+		valign: "vAlignCentre", 
+		height: "16px", 
+		top: "7px", 
+		margin_left: "3px", 
+		margin_right: "3px", 
+		allow_drag: "True"
+	},
+	
+	"library_tree_node_collapse": {
+		colour: "#ffffffff",  
+		position: [
+					[34, 0, 2, 2], [36, 0, 13, 2], [49, 0, 2, 2], 
+					[34, 2, 2, 12], [36, 2, 13, 12], [49, 2, 2, 12], 
+					[34, 14, 2, 2], [36, 14, 13, 2], [49, 14, 2, 2]
+				], 
+		frame_name: "Window/dial_window_ctrls.png", 
+		width: "17px", 
+		valign: "vAlignCentre", 
+		height: "16px", 
+		top: "7px", 
+		margin_left: "3px", 
+		margin_right: "3px", 
+		allow_drag: "True"
+	},
+	
+	"library_tree_node_neutral": {
+		colour: "#00000000", 
+		frame_name: "", 
+		width: "16px", 
+		valign: "vAlignCentre", 
+		height: "24px", 
+		top: "4px", 
+		margin_left: "3px", 
+		margin_right: "3px", 
+		allow_drag: "True"
+	},
+	
+	"property_name": {
+		left: "10px", 
+		valign: "vAlignCentre"
+	},
+	
+	"dndmaker_editarea": {
+		colour: "#FF313132", 
+		scrollpanel_flags: "None"
+	},
+	
+	"dndmaker_editor": {
+		anchor_radius: 3, 
+		highlight_color: "#FF1A1ABC", 
+		anchor_color: "#FF1414E4", 
+		min_resize_x: 10, 
+		min_resize_y: 10, 
+		cursor_vertical: "Resize_Vertical", 
+		cursor_horizontal: "Resize_Horizontal", 
+		cursor_diagonal_top: "Resize_TopLeft", 
+		cursor_diagonal_bottom: "Resize_BottomLeft"
+	},
+	
+	"grid_argument_dndmaker": {
+		height_min: "24px"
+	}
+}

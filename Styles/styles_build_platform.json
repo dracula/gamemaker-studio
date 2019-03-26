@@ -1,0 +1,67 @@
+{
+	"androidsdkcheck_style": {
+		height: "250dpi_px",
+		grid_rowlayout: ["50dpi_px", "50dpi_px", "50dpi_px", "50dpi_px", "50dpi_px", "auto"],
+		grid_columnlayout: ["auto", "auto"]
+	},
+	
+	"androidkeystore_style": {
+		stack_order: "TopToBottom",
+    stack_resize: "ResizeHeight",
+    left: "0px",
+    top: "0px",
+    width: "590dpi_px"
+	},
+	
+	"html5advertising_style": {
+		width: "600dpi_px", 
+		height: "150dpi_px"
+	},
+	
+	"targets_style": {
+		colour: "#ff808080", 
+		width: "600dpi_px"
+	},
+	
+	"device_editor_window": {
+		width: "500dpi_px", 
+		height: "500dpi_px", 
+		top: "6dpi_px", 
+		window_flags: "CloseButton, MinimizeButton, ResizeTop, ResizeBottom, Bookmark",
+		height_min: "200dpi_px"
+	},
+	
+	"remote_worker_settings_window": {
+		width: "650dpi_px", 
+		height: "350dpi_px", 
+		width_min: "500dpi_px", 
+		height_min: "225dpi_px"
+	},
+
+	"remote_add_window": {
+		width: "480dpi_px", 
+		height: "150dpi_px", 
+		top: "6dpi_px", 
+		window_flags: "CloseButton",
+	},
+
+	"remote_worker_setting": {
+		width: "100%",
+		height: "46dpi_px",
+		left: "0px",
+		margin: "4dpi_px"
+	},
+
+	"deviceeditor_detecting_label": {
+		width: "100%",
+		margin_top: "10dpi_px"
+	},
+	
+	"deviceeditor_scrollpanel": {
+		left: "3dpi_px", 
+		right: "3dpi_px", 
+		top: "3dpi_px", 
+		bottom: "3dpi_px", 
+		scrollpanel_flags: " VerticalScroll, AdjustToScrollBars"
+	}
+}

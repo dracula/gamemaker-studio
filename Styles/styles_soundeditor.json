@@ -1,0 +1,149 @@
+{
+	"soundeditor_button_up": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3], 
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10], 
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				], 
+		frame_name: "SoundEditor/play_button_states.png", 
+		height: "24dpi_px", 
+		auto_height: "true"
+	},
+	
+	"soundeditor_button_down": {
+		position: [
+					[60, 0, 3, 3], [63, 0, 10, 3], [73, 0, 3, 3], 
+					[60, 3, 3, 10], [63, 3, 10, 10], [73, 3, 3, 10], 
+					[60, 13, 3, 3], [63, 13, 10, 3], [73, 13, 3, 3]
+				], 
+		frame_name: "SoundEditor/play_button_states.png"
+	},
+	
+	"soundeditor_button_over": {
+		position: [
+					[41, 0, 3, 3], [44, 0, 10, 3], [54, 0, 3, 3], 
+					[41, 3, 3, 10], [44, 3, 10, 10], [54, 3, 3, 10], 
+					[41, 13, 3, 3], [44, 13, 10, 3], [54, 13, 3, 3]
+				], 
+		frame_name: "SoundEditor/play_button_states.png"
+	},
+	
+	"soundeditor_button_no_over_texture": {
+		frame_name: ""
+	},
+	
+	"soundeditor_volume_group_box": {
+		colour: "#FFFFFFFF", 
+		focus_colour: "#FF5B9D03", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "SoundEditor/wave_surround.png",
+		stack_order: "TopToBottom", 
+		mouse_events: "False"
+	},
+	
+	"soundeditor_volume_group_box_active": {
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "SoundEditor/wave_surround_active.png"
+	},
+	
+	"soundeditor_mixer_button_up": {
+		position: [
+					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3], 
+					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10], 
+					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
+				], 
+		frame_name: "SoundEditor/mixer_button_states.png", 
+		height: "24dpi_px", 
+		auto_height: "true"
+	},
+	
+	"soundeditor_mixer_button_up_icon": {
+		height_flags: "ScaleToFit", 
+		margin_top: "8dpi_px", 
+		margin_bottom: "8dpi_px", 
+		mouse_events: "False", 
+		image_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+	
+	"soundeditor_mixer_button_down": {
+		position: [
+					[60, 0, 3, 3], [63, 0, 10, 3], [73, 0, 3, 3], 
+					[60, 3, 3, 10], [63, 3, 10, 10], [73, 3, 3, 10], 
+					[60, 13, 3, 3], [63, 13, 10, 3], [73, 13, 3, 3]
+				], 
+		frame_name: "SoundEditor/mixer_button_states.png"
+	},
+	
+	"soundeditor_mixer_button_over": {
+		position: [
+					[41, 0, 3, 3], [44, 0, 10, 3], [54, 0, 3, 3], 
+					[41, 3, 3, 10], [44, 3, 10, 10], [54, 3, 3, 10], 
+					[41, 13, 3, 3], [44, 13, 10, 3], [54, 13, 3, 3]
+				], 
+		frame_name: "SoundEditor/mixer_button_states.png"
+	},
+	
+	"soundeditor_mixer_button_no_over_texture": {
+		frame_name: ""
+	},
+	
+	"soundeditor_volumeslider_textbox": {
+		right: "15dpi_px", 
+		top: "4dpi_px", 
+		width: "58dpi_px", 
+		height: "24dpi_px", 
+		left: "2dpi_px", 
+		has_buttons: "True", 
+		input_type: "Real", 
+		button_increment_style: "soundeditor_numeric_text_box_increment_button", 
+		button_decrement_style: "soundeditor_numeric_text_box_decrement_button"
+	},
+	
+	"soundeditor_slider_grid_textbox_buttons": {
+		left: "0dpi_px", 
+		width: "100%", 
+		width_flags: "ScaleToFit", 
+		clip: "4dpi_px", 
+		frame_name: "", 
+		colour: "#00000000"
+	},
+	
+	"soundeditor_numeric_text_box_increment_button": {
+		width: "13dpi_px", 
+		height: "12dpi_px", 
+		right: "-15dpi_px", 
+		top: "0dpi_px", 
+		position: [
+					[18, 1, 2, 2], [20, 1, 9, 2], [29, 1, 2, 2], 
+					[18, 3, 2, 5], [20, 3, 9, 5], [29, 3, 2, 5], 
+					[18, 8, 2, 2], [20, 8, 9, 2], [29, 8, 2, 2]
+				], 
+		frame_name: "Buttons/slider_buttons.png", 
+		button_over_style: "numeric_text_box_increment_button_over", 
+		button_down_style: "numeric_text_box_increment_button_down"
+	},
+	
+	"soundeditor_numeric_text_box_decrement_button": {
+		width: "13dpi_px", 
+		height: "12dpi_px", 
+		right: "-15dpi_px", 
+		bottom: "0dpi_px", 
+		position: [
+					[18, 13, 2, 2], [20, 13, 9, 2], [29, 13, 2, 2], 
+					[18, 15, 2, 5], [20, 15, 9, 5], [29, 15, 2, 5], 
+					[18, 20, 2, 2], [20, 20, 9, 2], [29, 20, 2, 2]
+				], 
+		frame_name: "Buttons/slider_buttons.png", 
+		button_over_style: "numeric_text_box_decrement_button_over", 
+		button_down_style: "numeric_text_box_decrement_button_down"
+	}
+}

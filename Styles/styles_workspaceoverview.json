@@ -1,0 +1,30 @@
+{
+	"list_box_dial_inner": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png",
+		mouse_over_colour: "#66A09389"
+	},
+
+	"icon_workspace": {
+		image: "WorkspaceOverview/icon_workspace_tab.png"
+	},
+
+	"icon_tab": {
+		image: "WorkspaceOverview/icon_tab_in_tab.png"
+	},
+
+	"icon_window": {
+		image: "WorkspaceOverview/icon_window.png"
+	},
+
+	"workspace_overview_window": {
+		width: "400dpi_px", 
+		height: "300dpi_px", 
+		width_min: "260dpi_px",
+		height_min: "160dpi_px"
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"image_searchicon": {
+		width: "12dpi_px", 
+		height: "12dpi_px", 
+		image_flags: "Stretch", 
+		mouse_events: "False"
+	},
+
+	"label_item_recently_used": {
+		colour: "#FFFABF9B"
+	},
+
+	"item_highlight_color":  {
+		colour: "#FF9CBF97"
+	},
+
+	"label_item_normal": {
+		colour: "#FFFFFFFF"
+	},
+	
+	"gototype_text_box": {
+		delay_change_time: "50"
+	},
+	
+	"label_goto_type": {
+		colour: "#AAFFFFFF"
+	},
+
+	"list_box_dial_inner_gototype": {
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png",
+		mouse_over_colour: "#66A09389"
+	}
+}

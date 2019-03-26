@@ -1,0 +1,14 @@
+{
+	"included_file_textbox": {
+		width_flags: "ScaleToFit"
+	},
+	
+	"included_files_grid": {
+		height_flags: "ScaleToFit"
+	},
+	
+	"included_file_window": {
+		height_min: "350dpi_px", 
+		window_flags: "CloseButton, MinimizeButton, ResizeTop, ResizeBottom, Bookmark"
+	}
+}

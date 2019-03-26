@@ -1,0 +1,362 @@
+{
+	"settings_browse_button": {
+		name: "...", 
+		width: "40dpi_px", 
+		height: "25dpi_px", 
+		margin: "5dpi_px"
+	},
+	
+	"settings_browse_button_label": {
+		halign: "hAlignCentre", 
+		valign: "vAlignCentre", 
+		mouse_events: "false"
+	},
+	
+	"settings_texture_page_panel": {
+		margin_top: "5dpi_px", 
+		margin_bottom: "5dpi_px", 
+		stack_resize: "ResizeAll"
+	},
+	
+	"settings_last_changed_panel": {
+		margin_top: "5dpi_px", 
+		margin_bottom: "5dpi_px", 
+		stack_resize: "ResizeAll"
+	},
+	
+	"settings_guid_gadget_panel": {
+		margin_top: "5dpi_px", 
+		margin_bottom: "5dpi_px", 
+		stack_resize: "ResizeAll"
+	},
+	
+	"settings_param_sfo_button": {
+		localise_name: "ggs_ps4_param_sfo", 
+		width: "130dpi_px", 
+		height: "24dpi_px", 
+		margin: "2dpi_px"
+	},
+	
+	"settings_trophy_button": {
+		localise_name: "ggs_ps4_trophy_edit", 
+		width: "130dpi_px", 
+		height: "24dpi_px", 
+		margin: "2dpi_px"
+	},
+
+	"settings_share_param_button": {
+		localise_name: "ggs_ps4_share_param", 
+		width: "130dpi_px", 
+		height: "24dpi_px", 
+		margin: "2dpi_px"
+	},
+
+	"settings_voice_recognition_button": {
+		localise_name: "ggs_ps4_voice_recognition", 
+		width: "130dpi_px", 
+		height: "24dpi_px", 
+		margin: "2dpi_px"
+	},
+
+	"settings_file_copy_button": {
+		width: "130dpi_px", 
+		height: "24dpi_px", 
+		margin: "2dpi_px"
+	},
+
+	"settings_xbox_service_config_button": {
+		width: "130dpi_px", 
+		height: "24dpi_px", 
+		margin: "2dpi_px"
+	},
+
+	"settings_np_title_button": {
+		localise_name: "ggs_ps4_np_title_dat", 
+		width: "130dpi_px", 
+		height: "24dpi_px", 
+		margin: "2dpi_px"
+	},
+	
+	"settings_gadget_stack_panel": {
+		colour: "#00000000", 
+		stack_order: "LeftToRight", 
+		stack_resize: "ResizeAll", 
+		mouse_events: "false", 
+		left: "0dpi_px", 
+		margin_top: "4dpi_px", 
+		margin_bottom: "4dpi_px"
+	},
+	
+	"settings_gadget_stack_panel_vertical": {
+		colour: "#00000000", 
+		stack_order: "TopToBottom", 
+		stack_resize: "ResizeAll", 
+		mouse_events: "false", 
+		left: "0dpi_px"
+	},
+	
+	"settings_checkbox": {
+		margin_top: "2dpi_px", 
+		margin_bottom: "2dpi_px"
+	},
+	
+	"settings_gadget_label": {
+		width: "100%", 
+		width_min: "120dpi_px", 
+		height: "20dpi_px", 
+		left: "0dpi_px", 
+		auto_size: "true", 
+		mouse_events: "false", 
+		valign: "vAlignCentre"
+	},
+	
+	"dpioverride_slider": {
+		has_textbox: "true"
+	},
+	
+	"settings_slider": {
+		width: "150dpi_px", 
+		height_flags: "None", 
+		width_flags: "None", 
+		slider_direction: "Horizontal", 
+		margin_right: "10dpi_px"
+	},
+	
+	"settings_slider_thumb": {
+		width: "10dpi_px", 
+		height: "20dpi_px", 
+		up_tint: "#ff80ff80"
+	},
+	
+	"settings_slider_bar": {
+		margin: ""
+	},
+	
+	"settings_check_okay": {
+		colour: "#FF358020"
+	},
+	
+	"settings_check_fail": {
+		colour: "#FF352080"
+	},
+	
+	"settings_slider_horizontal_minor_tick": {
+		position: [
+					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1], 
+					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8], 
+					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
+				], 
+		frame_name: "TickFrame.png", 
+		width: "2dpi_px", 
+		height: "10dpi_px", 
+		bottom: "-15dpi_px"
+	},
+	
+	"settings_content_node": {
+		allow_drag: "false", 
+		height: "100%", 
+		stack_resize: "ResizeAll", 
+		stack_flags: "WidthIncreaseOnly", 
+		width_flags: "ScaleToFit", 
+		margin_top: "10dpi_px", 
+		margin_bottom: "2dpi_px", 
+		left: "4dpi_px", 
+		position: [
+					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4], 
+					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24], 
+					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
+				], 
+		frame_name: "Window/dial_inner.png"
+	},
+	
+	"settings_content_subnode": {
+		allow_drag: "false", 
+		margin_top: "0dpi_px", 
+		margin_bottom: "0dpi_px", 
+		height: "100%"
+	},
+	
+	"settings_treeview": {
+		selection_colour: "#00000000"
+	},
+	
+	"settings_tree_node": {
+		allow_drag: "false", 
+		margin_top: "2dpi_px", 
+		margin_bottom: "2dpi_px"
+	},
+	
+	"textstyle_group": {
+		width: "100%", 
+		height: "80dpi_px"
+	},
+	
+	"certsettings_group": {
+		width: "500dpi_px", 
+		height: "250dpi_px"
+	},
+	
+	"settings_textbox_style": {
+		width: "400dpi_px"
+	},
+	
+	"radiogroup_style": {
+		width: "100%", 
+		margin_top: "5px", 
+		margin_bottom: "5px"
+	},
+	
+	"settings_gadget_radiogroup_label": {
+		width: "100%", 
+		width_min: "120dpi_px", 
+		height: "20dpi_px", 
+		left: "0dpi_px", 
+		auto_size: "true", 
+		mouse_events: "false", 
+		valign: "vAlignCentre", 
+		margin_left: "20px", 
+		margin_right: "10px", 
+		margin_top: "5px", 
+		margin_bottom: "5px"
+	},
+	
+	"combobox_style": {
+		width: "100%", 
+		scrollpanel_flags: "ResizeHeight, ResizeWidth"
+	},
+	
+	"settings_window_style": {
+		width_min: "350dpi_px", 
+		height_min: "260dpi_px", 
+		window_flags: "CloseButton, ResizeButton, ScrollBars"
+	},
+	
+	"prefs_window": {
+		width_min: "500dpi_px", 
+		height_min: "385dpi_px"
+	},
+
+	"android_options_sync": {
+		left: "0dpi_px", 
+		grid_rowlayout: ["auto", "auto"], 
+		grid_columnlayout: ["300dpi_px", "1*"], 
+		grid_resize: "ResizeGrid", 
+		top: "0dpi_px"
+	},
+
+	"androidoptions_tools_version": {
+		left: "0dpi_px",
+		grid_rowlayout: [ "auto" ],
+		grid_columnlayout: [ "200dpi_px", "1*" ],
+		grid_resize: "ResizeGrid",
+		column_spacing: "6dpi_px",
+		top: "0dpi_px"
+	},
+
+	"settings_multilayer_icon_generator": {
+		width: "600dpi_px",
+		height: "300dpi_px",
+		grid_rowlayout: [ "112dpi_px", "48dpi_px" ],
+		margin_top: "8dpi_px"
+	},
+
+	"settings_multilayer_icon_preview_label": {
+		width: "100%",
+		height: "24dpi_px",
+		top: "4dpi_px",
+		left: "0dpi_px",
+		halign: "hAlignLeft"
+	},
+
+  "settings_switch_authoring_editor": {
+    left: "6dpi_px",
+    grid_rowlayout: [ "auto", "auto" ],
+    grid_columnlayout: [ "600dpi_px" ],
+    grid_resize: "ResizeGrid",
+    row_spacing: "6dpi_px",
+    top: "6dpi_px",
+    margin_top: "6dpi_px"
+  },
+
+  "settings_switch_patch_maker": {
+    left: "6dpi_px",
+    grid_rowlayout: [ "auto", "auto", "auto", "auto", "12dpi_px", "auto", "auto" ],
+    grid_columnlayout: [ "auto", "1*" ],
+    grid_resize: "ResizeGrid",
+    column_spacing: "6dpi_px",
+    row_spacing: "6dpi_px",
+    top: "6dpi_px",
+    margin_top: "6dpi_px"
+  },
+
+  "settings_switch_patch_maker_invalid_platform": {
+		left: "6dpi_px", 
+		grid_rowlayout: ["auto"], 
+		grid_columnlayout: ["600dpi_px"], 
+		grid_resize: "ResizeGrid", 
+		row_spacing: "6dpi_px",
+		top: "6dpi_px",
+		margin_top: "6dpi_px"
+	},
+
+  "nsisinstallergadget_style": {
+    left: "0dpi_px",
+    grid_columnlayout: [ "200dpi_px", "1*" ],
+    grid_rowlayout: [ "1*" ],
+    grid_resize: "None",
+    top: "0dpi_px"
+  },
+
+  "betachannelgadget_style": {
+		left: "0dpi_px", 
+		grid_columnlayout: ["1*"],
+    grid_rowlayout: [ "auto", "auto", "auto", "auto", "auto", "auto", "auto", "42dpi_px", "auto", "auto" ],
+    grid_resize: "ResizeGrid", 
+    row_spacing:  "6dpi_px",
+		top: "0dpi_px"
+	},
+	
+	"prefs_helptags": {
+		help_tags: [
+					"General Settings", "asset_explorer", "Drag and Drop", "prefs_drag_and_drop", "Image Editor", "prefs_image_editor", 
+					"Sprite Editor", "prefs_sprite_editor", "Object Editor", "prefs_object_editor", "Room Editor", "prefs_room_editor", 
+					"Spline Editor", "prefs_spline_editor", "Resource Tree", "prefs_resourcetree", "Text Editors", "prefs_text_editor", 
+					"Extension Editor", "prefs_extensions", "Languages", "prefs_language", "Marketplace", "prefs_marketplace", 
+					"Platform Settings", "preferences_platform", "Plugins", "prefs_plugins", "Runtime Feeds", "prefs_runtimes", 
+					"Tile Sets Editor", "prefs_tileset_editor", "Timelines", "prefs_timelines"
+				]
+	},
+	
+	"options_helptags": {
+		help_tags: [
+					"Main Options", "game_options", "Windows", "windows_game_options", "macOS", 
+					"mac_game_options", "Linux", "ubuntu_game_options", "Windows UWP", "uwp_game_options", 
+					"HTML5", "html5_game_options", "Android", "android_game_options", "iOS", 
+					"ios_game_options", "PlayStation4", "game_options", "XBox One", "game_options"
+				]
+	},
+
+	"label_addon_header": {
+		font_size: 12
+	},
+
+	"android_adaptive_mask_square": {
+		image: "Settings/AdaptiveIcons/mask_square.png"
+	},
+
+	"android_adaptive_mask_circle": {
+		image: "Settings/AdaptiveIcons/mask_circle.png"
+	},
+
+	"android_adaptive_mask_roundedsquare": {
+		image: "Settings/AdaptiveIcons/mask_roundedsquare.png"
+	},
+
+	"android_adaptive_mask_squircle": {
+		image: "Settings/AdaptiveIcons/mask_squircle.png"
+	},
+
+	"android_adaptive_mask_teardrop": {
+		image: "Settings/AdaptiveIcons/mask_teardrop.png"
+	}
+}
