@@ -10,7 +10,7 @@ All instructions can be found at [draculatheme.com/gms2](https://draculatheme.co
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/tonystr/Dracula/graphs/contributors).
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/tonystr/Dracula/graphs/contributors). The color palette included in the image editor is EDG36 by [Endesga](https://twitter.com/ENDESGA)
 
 [![Tony Strømsnæs](https://avatars3.githubusercontent.com/u/30723101?v=3&s=70)](https://github.com/tonystr) |
 --- |
