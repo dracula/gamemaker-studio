@@ -6,7 +6,19 @@
 
 ## Install
 
-All instructions can be found at [draculatheme.com/gms2](https://draculatheme.com/gms2).
+[Video Tutorial](https://www.youtube.com/watch?v=DV_JkP_VXdQ)
+
+Windows Install Instructions
+
+* Download this https://github.com/tonystr/Dracula/archive/master.zip
+
+* Unzip it, rename the folder "Dracula"
+
+* Move it to C:\ProgramData\GameMakerStudio2\Skins
+
+* File -> Preferences -> General Settings -> IDE skin -> Dracula -> Apply. If the skin does not show up in this list, try restarting gms2, and make sure the theme is installed at the correct location (it needs to be GUI/Skins/Dracula, not GUI/Skins/master/Dracula, for example)
+
+* Restart GMS2
 
 ## Team
 
