@@ -431,7 +431,7 @@
 		width: "12dpi_px",
 		height: "9dpi_px",
 		top: "5dpi_px",
-		up_tint: "#FF645B57",
+		up_tint: "#FF211A19",
 		up_focused_tint: "#FFFFFFFF",
 		down_focused_tint: "#FFA09389",
 		mouseover_down_focused_tint: "#FFA09389"
