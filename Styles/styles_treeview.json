@@ -6,10 +6,10 @@
 					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
 					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
 				],
-		frame_name: "Window/dial_inner.png",
+		frame_name: "Window/dial_inner_plain.png",
 		width: "100%",
 		height: "100%",
-		selection_colour: "#AA786B61",
+		selection_colour: "#FF362A28",
 		drop_target_colour: "#AAA09389",
 		drop_indicator_colour: "#AAC9BEB5",
 		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars",
@@ -467,7 +467,7 @@
 	,	icon_default: "#FFFFFFFF"
 
 	,	horizontal_separator: "#00191614"
-	,	treeline: "#FF80BD3E"
-	,	node_select_highlight: "#FF5B9D03"
+	,	treeline: "#FF75912D"
+	,	node_select_highlight: "#FF80BD3E"
 	}
 }
