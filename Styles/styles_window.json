@@ -323,7 +323,7 @@
 		stack_order: "LeftToRight",
 		stack_resize: "ResizeHeight",
 		colour: "#FFFFFFFF",
-		text_colour: "#ffB4A59D",
+		text_colour: "#ffA47262",
 		position: [
 					[0, 0, 5, 5], [5, 0, 14, 5], [19, 0, 5, 5],
 					[0, 5, 5, 10], [5, 5, 14, 10], [19, 5, 5, 10],
@@ -349,7 +349,7 @@
 		stack_order: "LeftToRight",
 		stack_resize: "ResizeHeight",
 		colour: "#FFFFFFFF",
-		text_colour: "#ffB4A59D",
+		text_colour: "#ffA47262",
 		position: [
 					[0, 0, 5, 5], [5, 0, 14, 5], [20, 0, 2, 5],
 					[0, 5, 5, 10], [5, 5, 14, 10], [20, 5, 2, 10],

@@ -63,8 +63,8 @@
 		width: "100px",
 		width_min: "65dpi_px",
 		auto_size: "True",
-		colour: "#FFFFFFFF",
-        caption:""
+		colour: "#ffA47262",
+        caption:"Dracula Theme by TonyStr"
 	},
 
 	"text_editor_intellisense_function_label": {
@@ -75,7 +75,7 @@
 		margin_left: "12dpi_px",
 		width: "100%",
 		auto_size: "True",
-		colour: "#FFFFFFFF",
+		colour: "#ffCCA5A2",
         caption:""
 	},
 
@@ -566,7 +566,7 @@
 	},
 
 	"text_editor_line_indicator_arrow": {
-		colour: "#ff62534B",
+		colour: "#0062534B",
 		position: [
 					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
 					[0, 0, 0, 0], [2, 0, 8, 15], [0, 0, 0, 0],

@@ -1,6 +1,6 @@
 ﻿{
 	"dock_settings": {
-		hilight_colour: "#ffa09389",
+		hilight_colour: "#ff473836",
 		hilight_alpha1: "0.5",
 		hilight_alpha2: "0.3",
 		dock_hilightsize1: "10",
@@ -227,10 +227,10 @@
 		frame_name: "",
 		up_tint: "#00000000",
 		down_tint: "#00000000",
-		mouseover_up_tint: "#00000000",
+		mouseover_up_tint: "#ffffffff",
 		mouseover_down_tint: "#00000000",
 		mouseover_down_focused_tint: "#00000000",
-		mouseover_up_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#ffffffff",
 		up_focused_tint: "#00000000",
 		down_focused_tint: "#00000000",
 		height: "16dpi_px",
