@@ -1397,18 +1397,19 @@
 	},
 
 	"ide_progressbar_bar": {
-		corner_colours: ["#FFFFEC09", "#FFFFEC09", "#FFA79905", "#FFA79905"],
-		height: "100%",
+		corner_colours: ["#FF03A4FF", "#FF434DFF", "#FF434DFF", "#FF03A4FF"],
+		height: "16%",
 		width: "100%",
 		left: "",
 		right: "",
+		bottom: "-2px",
 		frame_name: ""
 	},
 
 	"ide_progress_label": {
 		colour: "#FFFFFFFF",
-		outline_colour: "#ff000000",
-		font_size: 8,
+		outline_colour: "#002C2221",
+		font_size: 9,
 		auto_size: "false",
 		auto_ellipsis: "true",
 		left: "4px",
