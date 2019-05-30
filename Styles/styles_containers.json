@@ -472,8 +472,8 @@
 	},
 
 	"tab_control_client_panel": {
-		clip: ["0px", "2px", "0px", "0px"],
-		colour: "#FF23201B"
+		clip: ["0px", "1px", "0px", "0px"],
+		colour: "#FF2C2221"
 	},
 
     "tab_read_only_icon":{
