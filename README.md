@@ -2,7 +2,7 @@
 
 > A dark theme for [GameMaker Studio 2](https://www.yoyogames.com/gamemaker).
 
-![Screenshot](https://cdn.discordapp.com/attachments/392980753228496896/560224631320084480/unknown.png)
+![Screenshot](https://media.discordapp.net/attachments/392980753228496896/589562899261947925/unknown.png)
 
 ## Install
 
