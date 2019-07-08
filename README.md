@@ -14,9 +14,9 @@
 
 * Unzip it, rename the folder "Dracula"
 
-* Move it to C:\ProgramData\GameMakerStudio2\Skins
+* Move it to `C:\ProgramData\GameMakerStudio2\Skins`
 
-* File -> Preferences -> General Settings -> IDE skin -> Dracula -> Apply. If the skin does not show up in this list, try restarting gms2, and make sure the theme is installed at the correct location (it needs to be GUI/Skins/Dracula, not GUI/Skins/master/Dracula, for example)
+* File -> Preferences -> General Settings -> IDE skin -> Dracula -> Apply. If the skin does not show up in this list, try restarting gms2, and make sure the theme is installed at the correct location (it needs to be `..\Skins\Dracula`, not `..\Skins\master\Dracula`, for example)
 
 * Restart GMS2
 
@@ -30,7 +30,7 @@ if you don't have the font, "Inconsolata" installed on your machine, gamemaker w
 
 ### Installed the theme, but still doesn't show up in settings
 
-If the install location, "C:\ProgramData\GameMakerStudio2\Skins\Dracula" does not work, you can try an alternative path: "\GameMaker Studio 2 Desktop\GUI\Skins\Dracula". The reason this is not listed as the main theme path is that it depends on where your gamemaker installation lies (steam? program files? desktop?), and that it will be cleared with each GMS2 update, meaning you have to manually re-install it every time you update. If this still doesn't work, shoot me (TonyStr) a DM over email, twitter or anywhere else.
+If the install location, `C:\ProgramData\GameMakerStudio2\Skins\Dracula` does not work, you can try an alternative path: `\GameMaker Studio 2 Desktop\GUI\Skins\Dracula`. The reason this is not listed as the main theme path is that it depends on where your gamemaker installation lies (steam? program files? desktop?), and because it will be cleared with each GMS2 update, meaning you have to manually re-install it every time you update. If this still doesn't work, shoot me (TonyStr) a DM over email, twitter or anywhere else.
 
 ### Broken GUI elements, or inaccessible GUI
 
