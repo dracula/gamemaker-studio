@@ -6,8 +6,8 @@
 		mouse_events: "False",
 		runtime_grid_even_row:"#FF26201D",
 		runtime_grid_odd_row:"#FF2C2221",
-		runtime_grid_selected:"#FF584D47",
-		runtime_grid_highlighted:"#FFA09389"
+		runtime_grid_selected:"#FF372a28",
+		runtime_grid_highlighted:"#FF372a28"
 	},
 
 	"runtime_selection_status_button_up": {

@@ -33,6 +33,6 @@
 					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
 				], 
 		frame_name: "Window/dial_inner.png",
-		mouse_over_colour: "#66A09389"
+		mouse_over_colour: "#66372a28"
 	}
 }

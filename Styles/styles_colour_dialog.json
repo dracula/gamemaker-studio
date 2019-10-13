@@ -233,8 +233,8 @@
 		height: "9dpi_px",
 		top: "0px",
 		up_tint: "#FFFFFFFF",
-		down_focused_tint: "#FFA09389",
-		mouseover_down_focused_tint: "#FFA09389"
+		down_focused_tint: "#FF372a28",
+		mouseover_down_focused_tint: "#FF372a28"
 	},
 
 	"colour_slider_thumb_over": {
@@ -303,8 +303,8 @@
 		height: "19dpi_px",
 		top: "1dpi_px",
 		up_tint: "#FFFFFFFF",
-		down_focused_tint: "#FFA09389",
-		mouseover_down_focused_tint: "#FFA09389"
+		down_focused_tint: "#FF372a28",
+		mouseover_down_focused_tint: "#FF372a28"
 	},
 
 	"segmented_colour_slider_thumb_over": {

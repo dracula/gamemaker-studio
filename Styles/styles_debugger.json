@@ -91,7 +91,7 @@
 	},
 
 	"debugger_buffer_view": {
-		column_color: "#ff584D47",
+		column_color: "#ff372a28",
 		text_color: "#FFFFFFFF",
 		font_name: "Droid Sans Mono",
 		font_size: 8,

@@ -10,7 +10,7 @@
 		width: "100%",
 		height: "100%",
 		selection_colour: "#FF362A28",
-		drop_target_colour: "#AAA09389",
+		drop_target_colour: "#AA372a28",
 		drop_indicator_colour: "#AAC9BEB5",
 		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars",
 		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",

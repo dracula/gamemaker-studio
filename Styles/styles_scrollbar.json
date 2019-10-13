@@ -70,8 +70,8 @@
 			up_tint : "#FF4D4D4D",
 			mouseover_up_tint : "#FF645B57",
 			up_focused_tint: "#FF4D4D4D",
-			down_focused_tint: "#FFA09389",
-			mouseover_down_focused_tint: "#FFA09389"
+			down_focused_tint: "#FF372a28",
+			mouseover_down_focused_tint: "#FF372a28"
 	},
 
 	"scroll_up_button": {

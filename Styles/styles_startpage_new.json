@@ -463,7 +463,7 @@
 					[0, 0, 0, 17], [0, 4, 100, 17], [0, 0, 0, 17], 
 					[0, 0, 0, 4], [0, 21, 100, 4], [0, 0, 0, 4]
 				], 
-		colour: "#FF584D47", 
+		colour: "#FF372a28", 
 		frame_name: "Window/outer_gradient_hover_frame.png", 
 		label_title_style: "sp_label_project_title_hover", 
 		label_path_style: "sp_label_project_path_hover"
