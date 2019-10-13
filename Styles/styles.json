@@ -1499,7 +1499,7 @@
 	},
 
 	"tooltip_label_mirrored": {
-		colour: "#FF000000",
+		colour: "#FFFFFFFF",
 		margin: ["10px", "3px", "25px", "3px"],
 		left: "0px"
 	},
