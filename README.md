@@ -2,25 +2,11 @@
 
 > A dark theme for [GameMaker Studio 2](https://www.yoyogames.com/gamemaker).
 
-![Screenshot](https://media.discordapp.net/attachments/392980753228496896/589562899261947925/unknown.png)
+![Screenshot](./screenshot.png)
 
 ## Install
 
-[Video Tutorial](https://www.youtube.com/watch?v=DV_JkP_VXdQ)
-
-### Written Windows Install Instructions
-
-* Download this https://github.com/tonystr/Dracula/archive/master.zip
-
-* Unzip it, rename the folder "Dracula"
-
-* Move it to `C:\ProgramData\GameMakerStudio2\Skins`
-
-* File -> Preferences -> General Settings -> IDE skin -> Dracula -> Apply. If the skin does not show up in this list, try restarting gms2, and make sure the theme is installed at the correct location (it needs to be `..\Skins\Dracula`, not `..\Skins\master\Dracula`, for example)
-
-* Restart GMS2
-
-* If the text doesn't look right (letters have different widths), see troubleshooting below
+All instructions can be found at [draculatheme.com/gamemaker-studio](https://draculatheme.com/gamemaker-studio).
 
 ## Troubleshooting
 
@@ -38,7 +24,7 @@ There may be parts of gamemaker that are not covered by this theme. The DnD edit
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/tonystr/Dracula/graphs/contributors). The color palette included in the image editor is EDG36 by [Endesga](https://twitter.com/ENDESGA)
+This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/gamemaker-studio/graphs/contributors). The color palette included in the image editor is EDG36 by [Endesga](https://twitter.com/ENDESGA)
 
 [![Tony Strømsnæs](https://avatars3.githubusercontent.com/u/30723101?v=3&s=70)](https://github.com/tonystr) |
 --- |
