@@ -1,0 +1,111 @@
+{
+	"seq_borderless_client_panel": {
+		comment: "will inherit from scroll_panel", 
+		scrollpanel_flags: "None", 
+		colour: "#ffffffff", 
+		clip: "1px", 
+		position: [
+					[14, 11, 3, 3], [17, 11, 17, 3], [34, 11, 3, 3], 
+					[14, 14, 3, 22], [17, 14, 17, 22], [34, 14, 3, 22], 
+					[14, 36, 3, 3], [17, 36, 17, 3], [34, 36, 3, 3]
+				], 
+		frame_name: "AssetBrowser/004_assetbrowser_dialogue_texture.png", 
+		mouse_events: "true"
+	},
+	
+	"seq_borderless_window": {
+		width: "500dpi_px", 
+		height: "300dpi_px", 
+		grid_rowlayout: ["auto", "1*", "auto"], 
+		grid_columnlayout: ["auto", "1*", "auto"], 
+		window_flags: "Borderless, CloseButton, ResizeButton, DockingDisabled, DesktopTransferDisabled", 
+		client_panel_style: "seq_borderless_client_panel"
+	},
+	
+	"seq_title_bar": {
+		width: "100%", 
+		height: "29px", 
+		colour: "#FFFFFFFF", 
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [51, 15, 36, 21], [0, 0, 0, 0], 
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				], 
+		frame_name: "AssetBrowser/004_assetbrowser_dialogue_texture.png", 
+		label_style: "borderless_title_bar_label"
+	},
+	
+	"seq_drop_shadow": {
+		drop_shadow_spread: "8dpi_px", 
+		drop_shadow_style: "seq_drop_shadow_style"
+	},
+	
+	"seq_drop_shadow_style": {
+		position: [
+					[0, 0, 14, 14], [14, 0, 1, 14], [15, 0, 13, 14], 
+					[0, 14, 14, 1], [14, 14, 1, 1], [15, 14, 13, 1], 
+					[0, 15, 14, 13], [14, 15, 1, 13], [15, 15, 13, 13]
+				], 
+		frame_name: "Window/window_drop_shadow.png", 
+		colour: "#b0000000"
+	},
+	
+	"seq_events_window_list": {
+		height: "320dpi_px", 
+		width: "442dpi_px", 
+		width_min: "120dpi_px", 
+		height_min: "200dpi_px", 
+		window_flags: "Borderless, ResizeButton, DesktopTransferDisabled, DockingDisabled", 
+		mouse_events: "True"
+	},
+	
+	"seq_big_resource_icon": {
+		height: "24dpi_px", 
+		width: "24dpi_px", 
+		top: "8dpi_px", 
+		image_flags: "Centre", 
+		font_icon: ["asset_type_icon_font", "AT_icon_sprite"], 
+		vector_icon_size: "24dpi_px", 
+		colour: "#FFFFFFFF"
+	},
+	
+	"seq_event_frame": {
+		position: [
+					[11, 8, 5, 5], [16, 8, 19, 5], [35, 8, 5, 5], 
+					[11, 13, 5, 24], [16, 13, 19, 24], [35, 13, 5, 24], 
+					[11, 37, 5, 5], [16, 37, 19, 5], [35, 37, 5, 5]
+				], 
+		colour: "#000000FF", 
+		mouse_events: "True"
+	},
+
+  "dopesheet_events_icon": {
+    image_flags: "Centre",
+    font_icon: [ "dope_sheet_icon_font", "ds_events" ],
+    width: "12dpi_px",
+    height: "10dpi_px",
+    left: "6dpi_px",
+    margin_left: "6dpi_px",
+    mouse_events: "False"
+  },
+
+  "dopesheet_moments_icon": {
+    image_flags: "Centre",
+    font_icon: [ "dope_sheet_icon_font", "ds_trackpanel_event" ],
+    width: "12dpi_px",
+    height: "10dpi_px",
+    left: "6dpi_px",
+    margin_left: "6dpi_px",
+    mouse_events: "False"
+  },
+
+  "dopesheet_broadcast_messages_icon": {
+		image_flags: "Centre",
+		font_icon: [ "dope_sheet_icon_font", "ds_add_label" ],
+		width: "12dpi_px",
+		height: "10dpi_px",
+		left: "6dpi_px",
+		margin_left: "6dpi_px",
+		mouse_events: "False"
+	}
+}

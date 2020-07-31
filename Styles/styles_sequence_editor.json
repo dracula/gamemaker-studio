@@ -1,0 +1,1633 @@
+{
+	"sequence_editor_window": {
+		width: "1024px",
+		height: "768px"
+	},
+
+	"track_options_window": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 2, 2], [2, 0, 14, 2], [16, 0, 2, 2],
+					[0, 2, 2, 14], [2, 2, 14, 14], [16, 2, 2, 14],
+					[0, 16, 2, 6], [2, 16, 14, 6], [16, 16, 2, 6]
+				],
+		frame_name: "listviewexplorer_frame.png",
+		clip: "2px",
+		width: "128dpi_px",
+		height: "12dpi_px",
+		auto_resize: "False",
+		show_fadein_animation: "False"
+	},
+
+	"track_tags_window": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 2, 2], [2, 0, 14, 2], [16, 0, 2, 2],
+					[0, 2, 2, 14], [2, 2, 14, 14], [16, 2, 2, 14],
+					[0, 16, 2, 6], [2, 16, 14, 6], [16, 16, 2, 6]
+				],
+		frame_name: "listviewexplorer_frame.png",
+		clip: "2px",
+		width: "216dpi_px",
+		height: "96dpi_px",
+		auto_resize: "False",
+		show_fadein_animation: "False"
+	},
+
+	"track_selection_window": {
+		colour: "#ffffffff",
+		position: [
+					[0, 0, 2, 2], [2, 0, 14, 2], [16, 0, 2, 2],
+					[0, 2, 2, 14], [2, 2, 14, 14], [16, 2, 2, 14],
+					[0, 16, 2, 6], [2, 16, 14, 6], [16, 16, 2, 6]
+				],
+		frame_name: "listviewexplorer_frame.png",
+		clip: "2px",
+		width: "256dpi_px",
+		height: "300dpi_px",
+		auto_resize: "False",
+		show_fadein_animation: "False"
+	},
+
+	"track_tooltip_title": {
+		colour: "#FFE2E2E2",
+		font_size: 8
+	},
+
+	"track_tooltip_subtitle": {
+		colour: "#FFE2E2E2",
+		font_size: 8
+	},
+
+	"track_tooltip_editable_name": {
+		edit_in_place: "True",
+		mouse_events: "True",
+		enlarge_on_edit_pixels: 4,
+		halign: "hAlignRight"
+	},
+
+	"grid_container_framed": {
+		colour: "#ffffffff",
+		clip: "1px",
+		position: [
+					[1, 1, 3, 3], [3, 1, 25, 3], [28, 3, 3, 3],
+					[1, 3, 3, 25], [3, 3, 25, 25], [28, 3, 3, 25],
+					[1, 28, 3, 3], [3, 28, 25, 3], [28, 28, 3, 3]
+				],
+		frame_name: "Window/dial_inner.png",
+		splitter_thickness: "17dpi_px"
+	},
+
+	"dope_sheet_event_pin": {
+		top: "22dpi_px",
+		height: "15dpi_px",
+		colour: "#FF9E9894",
+		line_color: "#00FF9600",
+		line_offset_x: "0px",
+		line_offset_y: "0px",
+		style_contains_text: "dope_sheet_event_pin_with_text",
+		style_no_text: "dope_sheet_event_pin_no_text",
+		text_colour: "#FF3C3028"
+	},
+
+	"dope_sheet_event_pin_with_text": {
+		base: "dope_sheet_event_pin",
+		position: [
+					[0, 0, 12, 3], [12, 0, 4, 3], [16, 0, 3, 3],
+					[0, 3, 12, 7], [12, 3, 4, 7], [16, 3, 3, 7],
+					[0, 10, 12, 5], [12, 10, 4, 5], [16, 10, 3, 5]
+				],
+		frame_name: "DopeSheet/ds_label.png",
+		auto_size: "True",
+		clip: ["14dpi_px", "-1dpi_px", "3dpi_px", "0dpi_px"]
+	},
+
+	"dope_sheet_event_pin_no_text": {
+		base: "dope_sheet_event_pin",
+		width: "11dpi_px",
+		position: [
+					[0, 0, 5, 5], [5, 0, 1, 5], [6, 0, 5, 5],
+					[0, 5, 5, 6], [5, 5, 1, 6], [6, 5, 5, 6],
+					[0, 11, 5, 4], [5, 11, 1, 4], [6, 11, 5, 4]
+				],
+		auto_size: "False",
+		frame_name: "DopeSheet/ds_label_no_text.png",
+		clip: ["6dpi_px", "0dpi_px", "6dpi_px", "0dpi_px"]
+	},
+
+	"dope_sheet_message_pin": {
+		top: "22dpi_px",
+		height: "13dpi_px",
+		colour: "#ffffedb6",
+		line_color: "#00FF9600",
+		line_offset_x: "0px",
+		line_offset_y: "0px",
+		style_contains_text: "dope_sheet_message_pin_with_text",
+		style_no_text: "dope_sheet_message_pin_no_text",
+		text_colour: "#FF3C3028"
+	},
+
+	"dope_sheet_message_pin_with_text": {
+		base: "dope_sheet_message_pin",
+		position: [
+					[0, 0, 14, 5], [14, 0, 5, 5], [18, 0, 6, 5],
+					[0, 5, 14, 3], [14, 5, 5, 3], [18, 5, 6, 3],
+					[0, 8, 14, 5], [14, 8, 5, 5], [18, 8, 6, 5]
+				],
+		frame_name: "DopeSheet/ds_label_broadcast.png",
+    frame_options: "Frame_DPI_Stretch",
+		auto_size: "True",
+		clip: ["16dpi_px", "-1dpi_px", "5dpi_px", "0dpi_px"]
+	},
+
+	"dope_sheet_message_pin_no_text": {
+		base: "dope_sheet_message_pin",
+		width: "26dpi_px",
+		height: "13dpi_px",
+		position: [
+					[0, 0, 14, 5], [14, 0, 5, 5], [18, 0, 6, 5],
+					[0, 5, 14, 3], [14, 5, 5, 3], [18, 5, 6, 3],
+					[0, 8, 14, 5], [14, 8, 5, 5], [18, 8, 6, 5]
+				],
+		auto_size: "False",
+		frame_name: "DopeSheet/ds_label_broadcast.png",
+    frame_options: "Frame_DPI_Stretch",
+		clip: ["6dpi_px", "0dpi_px", "6dpi_px", "0dpi_px"]
+	},
+
+	"dope_sheet_moment_pin": {
+		top: "22dpi_px",
+		height: "13dpi_px",
+		colour: "#ffb6f9ff",
+		line_color: "#00FF9600",
+		line_offset_x: "0px",
+		line_offset_y: "0px",
+		style_contains_text: "dope_sheet_moment_pin_with_text",
+		style_no_text: "dope_sheet_moment_pin_no_text",
+		text_colour: "#FF3C3028"
+	},
+
+	"dope_sheet_moment_pin_with_text": {
+		base: "dope_sheet_moment_pin",
+		position: [
+					[0, 0, 14, 5], [14, 0, 5, 5], [18, 0, 6, 5],
+					[0, 5, 14, 3], [14, 5, 5, 3], [18, 5, 6, 3],
+					[0, 8, 14, 5], [14, 8, 5, 5], [18, 8, 6, 5]
+				],
+		frame_name: "DopeSheet/ds_label_moment.png",
+    frame_options: "Frame_DPI_Stretch",
+		auto_size: "True",
+		clip: ["16dpi_px", "-1dpi_px", "5dpi_px", "0dpi_px"]
+	},
+
+	"dope_sheet_moment_pin_no_text": {
+		base: "dope_sheet_moment_pin",
+		width: "26dpi_px",
+		height: "13dpi_px",
+		position: [
+					[0, 0, 14, 5], [14, 0, 5, 5], [18, 0, 6, 5],
+					[0, 5, 14, 3], [14, 5, 5, 3], [18, 5, 6, 3],
+					[0, 8, 14, 5], [14, 8, 5, 5], [18, 8, 6, 5]
+				],
+		auto_size: "False",
+		frame_name: "DopeSheet/ds_label_moment.png",
+    frame_options: "Frame_DPI_Stretch",
+		clip: ["6dpi_px", "0dpi_px", "6dpi_px", "0dpi_px"]
+	},
+
+	"sequence_dope_sheet_key_disabled": {
+		colour: "#44FFFFFF"
+	},
+
+	"dope_sheet_key_resource": {
+		position: [
+					[0, 0, 10, 10], [10, 0, 7, 10], [17, 0, 4, 10],
+					[0, 10, 10, 6], [10, 10, 7, 6], [17, 10, 4, 6],
+					[0, 16, 10, 5], [10, 16, 7, 5], [17, 16, 4, 5]
+				],
+		frame_name: "DopeSheet/ds_key_fill.png",
+    frame_options: "Frame_DPI_Stretch",
+		border_texture: "DopeSheet/ds_key_stroke.png",
+		selected_texture: "DopeSheet/ds_key_selected.png",
+		border_alpha: 255,
+		background_alpha: 128,
+		min_key_width: "14dpi_px",
+		disable_width: "4dpi_px",
+		style_normal: "dope_sheet_key_resource",
+		style_hidden: "dope_sheet_key_resource_hidden",
+		style_locked: "dope_sheet_key_resource_locked",
+		style_min_width: "dope_sheet_key_resource_min_width",
+		resize_margin: "6dpi_px",
+		resize_require_shortcut: "False"
+	},
+
+	"dope_sheet_key_resource_hidden": {
+		base: "dope_sheet_key_resource",
+		background_alpha: 0,
+		border_alpha: 128,
+		resize_margin: "1dpi_px",
+		resize_require_shortcut: "True"
+	},
+
+	"dope_sheet_key_resource_locked": {
+		base: "dope_sheet_key_resource",
+		background_alpha: 80
+	},
+
+	"dope_sheet_key_resource_min_width": {
+		position: [
+					[0, 0, 2, 2], [2, 0, 1, 2], [3, 0, 2, 2],
+					[0, 2, 2, 17], [2, 2, 1, 17], [3, 2, 2, 17],
+					[0, 19, 2, 2], [2, 19, 1, 2], [3, 19, 2, 2]
+				],
+		frame_name: "DopeSheet/ds_key_fill_min.png",
+    frame_options: "Frame_DPI_Stretch",
+		border_texture: "DopeSheet/ds_key_stroke_min.png",
+		selected_texture: "DopeSheet/ds_key_selected_min.png"
+	},
+
+	"dope_sheet_key_resource_properties_btn": {
+		width: "14dpi_px",
+		height: "14dpi_px",
+		vector_icon_size: "14dpi_px",
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_expand"],
+		top: "0dpi_px",
+		left: "0dpi_px",
+		frame_name: "",
+		icon_colour: "#FFFFFFFF",
+		label_colour: "#FFFFFFFF",
+		colour: "#00000000",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000"
+	},
+
+	"dope_sheet_key_resource_properties_btn_hidden": {
+		base: "dope_sheet_key_resource_properties_btn",
+		icon_colour: "#66FFFFFF",
+		label_colour: "#66FFFFFF"
+	},
+
+	"dope_sheet_key_sound": {
+		base: "dope_sheet_key_resource"
+	},
+
+	"dope_sheet_key_code": {
+		base: "dope_sheet_key_resource"
+	},
+
+	"dope_sheet_key_graphic": {
+		base: "dope_sheet_key_resource"
+	},
+
+	"dope_sheet_key_instance": {
+		base: "dope_sheet_key_resource"
+	},
+
+	"dope_sheet_key_vector_text": {
+		base: "dope_sheet_key_resource"
+	},
+
+	"dope_sheet_key_sequence": {
+		base: "dope_sheet_key_resource"
+	},
+
+	"dope_sheet_key_param": {
+		key_colour: "#FFFFFFFF",
+		border_alpha: 0,
+		background_alpha: 255,
+		style_selected: "dope_sheet_key_param_selected",
+		style_normal: "dope_sheet_key_param",
+		style_hidden: "dope_sheet_key_param_hidden",
+		style_locked: "dope_sheet_key_param_locked",
+		style_min_width: "dope_sheet_key_param_min_width",
+		frame_name: "DopeSheet/ds_key_indicator_lines.png",
+		frame_options: "Top_Edge_Repeat, Frame_DPI_Stretch",
+		position: [
+					[0, 0, 0, 0], [0, 0, 12, 21], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		border_image_left: "DopeSheet/ds_key_indicator.png",
+		border_image_right: "DopeSheet/ds_key_indicator_arrow.png",
+		border_offset_left: "-1dpi_px",
+		border_offset_right: "-6dpi_px",
+		padding_left: "-4dpi_px",
+		padding_right: "1dpi_px",
+		min_key_width: "10dpi_px",
+		width_min: "10dpi_px",
+		resize_margin: "4dpi_px",
+		resize_require_shortcut: "True"
+	},
+
+	"dope_sheet_key_param_selected": {
+		border_alpha: 0,
+		background_alpha: 255,
+		border_image_right: "DopeSheet/ds_key_indicator_arrow_large.png",
+		border_offset_right: "-7dpi_px",
+		key_colour: "#FFFFDA44"
+	},
+
+	"dope_sheet_key_param_hidden": {
+		base: "dope_sheet_key_param",
+		background_alpha: 128,
+		key_colour: "#66FFFFFF"
+	},
+
+	"dope_sheet_key_param_locked": {
+		base: "dope_sheet_key_param",
+		background_alpha: 128
+	},
+
+	"dope_sheet_key_param_min_width": {
+		background_alpha: 0
+	},
+
+	"dope_sheet_key_real": {
+		base: "dope_sheet_key_param"
+	},
+
+	"dope_sheet_key_string": {
+		base: "dope_sheet_key_param"
+	},
+
+	"dope_sheet_key_guid": {
+		base: "dope_sheet_key_param"
+	},
+
+	"dope_sheet_key_color": {
+		base: "dope_sheet_key_param"
+	},
+
+	"dope_sheet_key_bool": {
+		base: "dope_sheet_key_param"
+	},
+
+	"dope_sheet_key_empty": {
+
+	},
+
+	"dope_sheet_key_group": {
+
+	},
+
+	"dope_sheet_key_clipping_mask": {
+
+	},
+
+	"dope_sheet_key_clipping_mask_mask": {
+
+	},
+
+	"dope_sheet_key_clipping_mask_subject": {
+
+	},
+
+	"dope_sheet_key_particles": {
+		frame_name: "Alice/dopesheet_key_particles.png"
+	},
+
+	"dope_sheet_key_sprite_frame": {
+		background_image: "Alice/alpha_bg.png",
+		invalid_tile_image: "Buttons/icon_IDE_error.png",
+		colour: "#FFFFFFFF",
+		frame_inset_margin: 4,
+		resize_margin: "6dpi_px"
+	},
+
+	"dope_sheet_key_text": {
+		frame_name: "Alice/dopesheet_key_text.png"
+	},
+
+	"dope_sheet_key_animcurve": {
+		colour: "#22FFFFFF",
+		resize_require_shortcut: "True",
+		style_selected: "dope_sheet_key_animcurve_selected",
+		style_normal: "dope_sheet_key_animcurve"
+	},
+
+	"dope_sheet_key_animcurve_selected": {
+		colour: "#55FFFFFF"
+	},
+
+	"dope_sheet_track_group": {
+		base: "dope_sheet_track",
+		style_normal: "dope_sheet_track_group",
+		position: [
+					[0, 0, 5, 8], [5, 0, 5, 8], [10, 0, 5, 8],
+					[0, 8, 5, 5], [5, 8, 5, 5], [10, 8, 5, 5],
+					[0, 13, 5, 8], [5, 13, 5, 8], [10, 13, 5, 8]
+				],
+		frame_name: "DopeSheet/ds_group_track_bg.png",
+    frame_options: "Frame_DPI_Stretch",
+		border_texture: "DopeSheet/ds_group_track_border.png",
+		parameter_indicator_image: "DopeSheet/ds_key_indicator_ghost.png",
+		parameter_indicator_colour: "#99FFFFFF",
+		background_alpha: 255,
+		border_alpha: 0,
+		style_selected: "dope_sheet_track_group_selected",
+		style_hidden: "dope_sheet_track_group_hidden",
+		label_style: "dope_sheet_track_group_label",
+		style_locked: "dope_sheet_track_group_locked",
+		label_offset_x: "28dpi_px",
+		icon_style: "dope_sheet_track_group_icon",
+		icon_offset_x: "10dpi_px",
+		track_bg_color: "#FF2c2221"
+	},
+
+	"dope_sheet_track_group_locked": {
+		overlay_style: "dope_sheet_track_locked_overlay",
+		background_alpha: 153,
+		track_bg_color: "#FF2c2221"
+	},
+
+	"dope_sheet_track_group_selected": {
+		track_bg_color: "#FF54403C"
+	},
+
+	"dope_sheet_track_group_hidden": {
+		track_bg_color: "#FF2c2221",
+		background_alpha: 0,
+		border_alpha: 128,
+		label_style: "dope_sheet_track_group_label_hidden",
+		icon_style: "dope_sheet_track_group_icon_hidden"
+	},
+
+	"dope_sheet_track_group_icon": {
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_newgroup"],
+		width: "12dpi_px",
+		height: "12dpi_px",
+		vector_icon_size: "12dpi_px",
+		left: "6dpi_px",
+		colour: "#99000000"
+	},
+
+	"dope_sheet_track_group_icon_hidden": {
+		colour: "#66FFFFFF"
+	},
+
+	"dope_sheet_track_group_label": {
+		left: "24dpi_px",
+		halign: "hAlignLeft",
+		colour: "#99000000"
+	},
+
+	"dope_sheet_track_group_label_hidden": {
+		colour: "#66FFFFFF"
+	},
+
+	"dope_sheet_track_label_container": {
+		left: "0dpi_px",
+		clip: ["0dpi_px", "0dpi_px", "0dpi_px", "0dpi_px"],
+		width_flags: "None",
+		height_flags: "ScaleToFit"
+	},
+
+	"dope_sheet_track_clipmask": {
+		base: "dope_sheet_track_group",
+		icon_style: "dope_sheet_track_clipmask_icon",
+		icon_offset_x: "10dpi_px",
+		style_normal: "dope_sheet_track_clipmask",
+		style_selected: "dope_sheet_track_clipmask_selected",
+		style_hidden: "dope_sheet_track_clipmask_hidden"
+	},
+
+	"dope_sheet_track_clipmask_selected": {
+		track_bg_color: "#FF54403C"
+	},
+
+	"dope_sheet_track_clipmask_hidden": {
+		track_bg_color: "#FF2c2221",
+		background_alpha: 0,
+		border_alpha: 128,
+		label_style: "dope_sheet_track_group_label_hidden",
+		icon_style: "dope_sheet_track_clipmask_icon_hidden"
+	},
+
+	"dope_sheet_track_clipmask_icon": {
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_clippingmask"],
+		width: "12dpi_px",
+		height: "12dpi_px",
+		vector_icon_size: "12dpi_px",
+		left: "6dpi_px",
+		top: "6dpi_px",
+		colour: "#99000000"
+	},
+
+	"dope_sheet_track_clipmask_icon_hidden": {
+		base: "dope_sheet_track_clipmask_icon",
+		colour: "#66FFFFFF"
+	},
+
+	"dope_sheet_track_param": {
+		base: "dope_sheet_track",
+		position: [
+					[0, 0, 8, 8], [8, 0, 11, 8], [19, 0, 2, 8],
+					[0, 8, 8, 11], [8, 8, 11, 11], [19, 8, 2, 11],
+					[0, 19, 8, 2], [8, 19, 11, 2], [19, 19, 2, 2]
+				],
+		frame_name: "DopeSheet/ds_paramkey_fill.png",
+    frame_options: "Frame_DPI_Stretch",
+		border_texture: "DopeSheet/ds_paramkey_stroke.png",
+		style_selected: "dope_sheet_track_param_selected",
+		style_normal: "dope_sheet_track_param",
+		style_hidden: "dope_sheet_track_param_hidden",
+		border_alpha: 0,
+		track_bg_color: "#FF2c2221"
+	},
+
+	"dope_sheet_track_param_hidden": {
+		track_bg_color: "#FF2c2221",
+		border_alpha: 128,
+		background_alpha: 0
+	},
+
+	"dope_sheet_track_param_selected": {
+		border_alpha: 0,
+		track_bg_color: "#8054403C"
+	},
+
+	"dope_sheet_track_param_bool": {
+		base: "dope_sheet_track_param",
+		style_normal: "dope_sheet_track_param_bool"
+	},
+
+	"dope_sheet_track_param_colour": {
+		base: "dope_sheet_track_param",
+		style_normal: "dope_sheet_track_param_colour"
+	},
+
+	"dope_sheet_track_param_real": {
+		base: "dope_sheet_track_param",
+		style_normal: "dope_sheet_track_param_real"
+	},
+
+	"dope_sheet_track_param_string": {
+		base: "dope_sheet_track_param",
+		style_normal: "dope_sheet_track_param_string"
+	},
+
+	"dope_sheet_track_spriteframes": {
+		base: "dope_sheet_track",
+		style_normal: "dope_sheet_track_spriteframes"
+	},
+
+	"dope_sheet_track_asset": {
+		base: "dope_sheet_track",
+		style_normal: "dope_sheet_track_asset"
+	},
+
+	"dope_sheet_track_resource": {
+		base: "dope_sheet_track",
+		style_normal: "dope_sheet_track_resource",
+		parameter_indicator_image: "DopeSheet/ds_key_indicator_ghost.png",
+		parameter_indicator_colour: "#99FFFFFF",
+		track_bg_color: "#FF362a28"
+	},
+
+	"dope_sheet_track_audio": {
+		base: "dope_sheet_track_resource",
+		style_normal: "dope_sheet_track_audio"
+	},
+
+	"dope_sheet_track_code": {
+		base: "dope_sheet_track_resource",
+		style_normal: "dope_sheet_track_code"
+	},
+
+	"dope_sheet_track_graphic": {
+		base: "dope_sheet_track_resource",
+		style_normal: "dope_sheet_track_graphic"
+	},
+
+	"dope_sheet_track_instance": {
+		base: "dope_sheet_track_resource",
+		style_normal: "dope_sheet_track_instance"
+	},
+
+	"dope_sheet_track_particle": {
+		base: "dope_sheet_track_resource",
+		style_normal: "dope_sheet_track_particle"
+	},
+
+	"dope_sheet_track_sequence": {
+		base: "dope_sheet_track_resource",
+		style_normal: "dope_sheet_track_sequence"
+	},
+
+	"sequence_canvas": {
+		move_origin_cursor: "cursor_origin",
+		move_cursor: "cursor_move",
+		scale_cursor: "cursor_scale",
+		rotate_cursor: "cursor_rotate",
+		transform_move_cursor: "cursor_transform_move",
+		transform_scale_cursor: "cursor_transform_scale",
+		transform_rotate_cursor: "cursor_transform_rotate",
+		selection_color: "#33555555",
+		origin_image: "Alice/sequence_origin.png",
+		origin_size: "14dpi_px",
+		origin_color: "#FFFFFFFF",
+		background_image: "Alice/alpha_bg.png",
+		zerozero_image: "Alice/sequence_zerozero.png",
+		zerozero_x_offset: "-3dpi_px",
+		zerozero_y_offset: "-3dpi_px",
+		zerozero_enabled: "True",
+		convex_hull_margin: "4dpi_px",
+		convex_hull_highlight_margin: "0px",
+		resize_thickness: "10dpi_px",
+		rotate_thickness: "10dpi_px",
+		allow_render_background: "True",
+		min_visible_size: 5,
+		zoom_widget_style: "sequence_canvas_widget_style",
+		default_grid_color: "#20FFFFFF",
+		default_grid_x: 64,
+		default_grid_y: 64,
+		default_grid_display: "false",
+		default_grid_snap: "true",
+		axes_color: "#FF413A3A",
+		backdrop_style_name: "sequence_canvas_backdrop",
+		backdrop_text_margin_x: "3dpi_px",
+		backdrop_text_margin_y: "2dpi_px",
+		backdrop_text_color: "#FFD0D0D0",
+		backdrop_fit_margin: "32dpi_px",
+		delta_ghost_tint: "#80FFFFFF",
+		delta_ghost_tint_clone: "#FFFFFFFF"
+	},
+
+	"sequence_canvas_backdrop": {
+		position: [
+					[0, 0, 12, 12], [12, 0, 8, 12], [20, 0, 12, 12],
+					[0, 12, 12, 8], [12, 12, 8, 8], [20, 12, 12, 8],
+					[0, 20, 12, 12], [12, 20, 8, 12], [20, 20, 12, 12]
+				],
+		frame_name: "Sequence/sequence_backdrop.png",
+		colour: "#FF3E3E3E"
+	},
+
+	"sequence_canvas_widget_style": {
+		tool_flags: "Default"
+	},
+
+	"sequence_editor_label": {
+		colour: "#FFC0C0C0"
+	},
+
+	"sequence_button_play": {
+		icon: "IDE_Toolbar/icon_IDE_play.png",
+		icon_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+
+	"sequence_button_stop": {
+		icon: "SoundEditor/icon_IDE_pause.png",
+		icon_flags: "Stretch, Centre, KeepAspectRatio"
+	},
+
+	"sequence_valuedialog_tabcontrol": {
+		tab_item_style: "transparent_tab_item"
+	},
+
+	"sequence_button_space_global": {
+		icon: "Sequence/icon_space_global.png",
+		localise_tooltip: "DopeSheet_Tooltip_GlobalSpace",
+		localise_tooltip_description: "DopeSheet_Tooltip_GlobalLocalSpace",
+		pressed: "False"
+	},
+
+	"sequence_button_space_local": {
+		icon: "Sequence/icon_space_local.png",
+		localise_tooltip: "DopeSheet_Tooltip_LocalSpace",
+		localise_tooltip_description: "DopeSheet_Tooltip_GlobalLocalSpace",
+		pressed: "True"
+	},
+
+	"sequence_viewport_gizmo": {
+
+	},
+
+	"sequence_viewport_gizmo_translate_x_axis": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 35, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_translate.png",
+		colour: "#66F07C00",
+		origin: [0, 4],
+		gizmo_width: 35,
+		gizmo_height: 8,
+		axes: "X",
+		angle: 0,
+		area: [0, 0, 35, 8],
+		highlight: "sequence_viewport_gizmo_translate_x_axis_highlight",
+		idle: "sequence_viewport_gizmo_translate_x_axis_idle"
+	},
+
+	"sequence_viewport_gizmo_translate_x_axis_highlight": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 34, 10], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_translate_big.png",
+		colour: "#FFF07C00"
+	},
+
+	"sequence_viewport_gizmo_translate_x_axis_idle": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 35, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_translate.png",
+		colour: "#FFF07C00"
+	},
+
+	"sequence_viewport_gizmo_translate_y_axis": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 35, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_translate.png",
+		colour: "#660000FF",
+		origin: [0, 4],
+		gizmo_width: 35,
+		gizmo_height: 8,
+		axes: "Y",
+		angle: 270,
+		area: [0, 0, 35, 8],
+		highlight: "sequence_viewport_gizmo_translate_y_axis_highlight",
+		idle: "sequence_viewport_gizmo_translate_y_axis_idle"
+	},
+
+	"sequence_viewport_gizmo_translate_y_axis_highlight": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 34, 10], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_translate_big.png",
+		colour: "#FF0000FF"
+	},
+
+	"sequence_viewport_gizmo_translate_y_axis_idle": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 35, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_translate.png",
+		colour: "#FF0000FF"
+	},
+
+	"sequence_viewport_gizmo_scale_x_axis": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 34, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_scale.png",
+		colour: "#66D9BA71",
+		origin: [0, 4],
+		gizmo_width: 34,
+		gizmo_height: 8,
+		axes: "X",
+		angle: 0,
+		area: [0, 0, 34, 8],
+		highlight: "sequence_viewport_gizmo_scale_x_axis_highlight",
+		idle: "sequence_viewport_gizmo_scale_x_axis_idle"
+	},
+
+	"sequence_viewport_gizmo_scale_x_axis_highlight": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 33, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_scale_hover.png",
+		colour: "#FFF07C00"
+	},
+
+	"sequence_viewport_gizmo_scale_x_axis_idle": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 34, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_scale.png",
+		colour: "#FFF07C00"
+	},
+
+	"sequence_viewport_gizmo_scale_y_axis": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 34, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_scale.png",
+		colour: "#667171D9",
+		origin: [0, 4],
+		gizmo_width: 34,
+		gizmo_height: 8,
+		axes: "Y",
+		angle: 270,
+		area: [0, 0, 34, 8],
+		highlight: "sequence_viewport_gizmo_scale_y_axis_highlight",
+		idle: "sequence_viewport_gizmo_scale_y_axis_idle"
+	},
+
+	"sequence_viewport_gizmo_scale_y_axis_highlight": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 33, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_scale_hover.png",
+		colour: "#FF0000FF"
+	},
+
+	"sequence_viewport_gizmo_scale_y_axis_idle": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 34, 8], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_scale.png",
+		colour: "#FF0000FF"
+	},
+
+	"sequence_viewport_gizmo_rotate": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 30, 26], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_rotate.png",
+		colour: "#FFFFFFFF",
+		origin: [15, 13],
+		gizmo_width: 30,
+		gizmo_height: 26,
+		axes: "Z",
+		angle: 0,
+		area: [0, 0, 30, 26],
+		highlight: "sequence_viewport_gizmo_rotate_highlight",
+		idle: "sequence_viewport_gizmo_rotate_highlight"
+	},
+
+	"sequence_viewport_gizmo_rotate_highlight": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 30, 26], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_rotate.png",
+		colour: "#FFFFFFFF"
+	},
+
+	"sequence_viewport_gizmo_origin": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 26, 26], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/gizmo_origin.png",
+		colour: "#FFFFFFFF",
+		origin: [13, 13],
+		gizmo_width: 26,
+		gizmo_height: 26,
+		axes: "X,Y",
+		angle: 0,
+		area: [0, 0, 26, 26],
+		highlight: "sequence_viewport_gizmo_origin_highlight",
+		idle: "sequence_viewport_gizmo_origin"
+	},
+
+	"sequence_viewport_gizmo_origin_highlight": {
+		colour: "#FFFFFFFF",
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 26, 26], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Sequence/origin_icon_blue_hover.png"
+	},
+
+	"sequence_translation_path": {
+		cursor: "cursor_translation_path_anchor",
+		add_cursor: "cursor_translation_path_add",
+		anchor_texture: "AnchorPoint.png",
+		line_texture: "DashedLineSegment.png",
+		anchor_size: [8, 8],
+		parent_anchor_size: [8, 8],
+		anchor_preview_size: [12, 12],
+		anchor_color: "#FFCFC236",
+		parent_anchor_color: "#FFD06436",
+		anchor_preview_color: "#66CFC236",
+		path_color: "#EECFC236",
+		dash_length: 6,
+		dash_thickness: 8
+	},
+
+	"sequence_script_view_tab_control": {
+		tab_item_style: "sequence_script_view_tab_item",
+		allow_focus_frame: "False"
+	},
+
+	"sequence_script_view_tab_item": {
+		default_label_style: "sequence_script_view_tab_item_label",
+		button_down_style: "sequence_script_view_tab_item",
+		disable_close_button: "True",
+		allow_edit_title: "False",
+		overdraw_width: 0,
+		overdraw_height: 0,
+		enable_hover_style: "True",
+		margin_left: "1px",
+		auto_size: "True",
+		auto_size_padding: "10dpi_px",
+		left: "0px",
+		position: [
+					[22, 0, 4, 4], [26, 0, 8, 4], [34, 0, 4, 4],
+					[22, 4, 4, 8], [26, 4, 8, 10], [34, 4, 4, 8],
+					[22, 12, 4, 4], [26, 12, 8, 4], [34, 12, 4, 4]
+				],
+		frame_name: "Alice/sequence_script_tab_item.png"
+	},
+
+	"active_sequence_script_view_tab_item": {
+		button_down_style: "active_sequence_script_view_tab_item",
+		disable_close_button: "False",
+		enable_hover_style: "False",
+		position: [
+					[3, 0, 4, 4], [7, 0, 8, 4], [15, 0, 4, 4],
+					[3, 4, 4, 8], [7, 4, 8, 10], [15, 4, 4, 8],
+					[3, 12, 4, 4], [7, 12, 8, 4], [15, 12, 4, 4]
+				]
+	},
+
+	"hover_sequence_script_view_tab_item": {
+		button_down_style: "hover_sequence_script_view_tab_item",
+		disable_close_button: "False",
+		position: [
+					[41, 0, 4, 4], [45, 0, 8, 4], [53, 0, 4, 4],
+					[41, 4, 4, 8], [45, 4, 8, 10], [53, 4, 4, 8],
+					[41, 12, 4, 4], [45, 12, 8, 4], [53, 12, 4, 4]
+				]
+	},
+
+	"sequence_script_view_tab_item_label": {
+		base: "tab_item_label",
+		colour: "#FFA2A2A2",
+		auto_size: "True",
+		auto_ellipsis: "False",
+		margin_top: "1px",
+		margin_bottom: "1px"
+	},
+
+	"active_sequence_script_view_tab_item_label": {
+		colour: "#FFFFFFFF",
+		auto_size: "True",
+		auto_ellipsis: "False",
+		margin_top: "1px",
+		margin_bottom: "1px"
+	},
+
+	"sequence_script_view_tab_item_close_button": {
+		top: "2px",
+		bottom: "2px"
+	},
+
+	"sequence_script_view_split_grid": {
+		grid_columnlayout: ["1*", "1*"]
+	},
+
+	"sequence_script_view_splitter": {
+
+	},
+
+	"sequence_dope_sheet_tab_item": {
+		base: "code_tab_item",
+		width_min: "50dpi_px"
+	},
+
+	"sequence_dope_sheet_tab_label": {
+		base: "active_tab_item",
+		left: "10dpi_px",
+		halign: "hAlignLeft"
+	},
+
+	"sequence_dope_sheet_trackpanel_container_top": {
+		frame_name: "DopeSheet/dopesheet_trackpanel_outer_frame.png",
+		position: [
+					[0, 0, 1, 1], [1, 0, 1, 1], [2, 0, 1, 1],
+					[0, 1, 1, 1], [1, 1, 1, 1], [2, 1, 1, 1],
+					[0, 2, 1, 1], [1, 1, 1, 1], [2, 1, 1, 1]
+				],
+		colour: "#FFFFFFFF"
+	},
+
+	"sequence_dope_sheet_trackpanel_container_mid": {
+		frame_name: "DopeSheet/dopesheet_trackpanel_outer_frame.png",
+		position: [
+					[0, 0, 1, 1], [1, 1, 1, 1], [2, 1, 1, 1],
+					[0, 1, 1, 1], [1, 1, 1, 1], [2, 1, 1, 1],
+					[0, 1, 1, 1], [1, 1, 1, 1], [2, 1, 1, 1]
+				],
+		colour: "#FFFFFFFF"
+	},
+
+	"sequence_dope_sheet_trackpanel_container_btm": {
+		frame_name: "DopeSheet/dopesheet_trackpanel_outer_frame.png",
+		position: [
+					[0, 0, 1, 1], [1, 1, 1, 1], [2, 0, 1, 1],
+					[0, 1, 1, 1], [1, 1, 1, 1], [2, 1, 1, 1],
+					[0, 2, 1, 1], [1, 1, 1, 1], [2, 2, 1, 1]
+				],
+		colour: "#FFFFFFFF"
+	},
+
+	"sequence_dope_sheet_panel_bottom": {
+		frame_name: "DopeSheet/dopesheet_trackpanel_outer_frame.png",
+		position: [
+					[4, 0, 1, 1], [4, 0, 1, 1], [4, 0, 1, 1],
+					[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1],
+					[0, 0, 1, 1], [0, 0, 1, 1], [0, 0, 1, 1]
+				],
+		colour: "#FFFFFFFF"
+	},
+
+	"sequence_dope_sheet_control_panel_top": {
+		frame_name: "DopeSheet/dopesheet_trackpanel_outer_frame.png",
+		position: [
+					[0, 0, 1, 1], [0, 0, 1, 1], [0, 0, 1, 1],
+					[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1],
+					[1, 1, 1, 1], [1, 1, 1, 1], [1, 1, 1, 1]
+				],
+		colour: "#FFFFFFFF"
+	},
+
+	"sequence_dope_sheet_panel": {
+		base: "dope_sheet_panel",
+		left: "0dpi_px",
+		right: "14dpi_px",
+		border_thickness: "1dpi_px",
+		border_colour: "#FF000000",
+		max_key_width: "45dpi_px",
+		timeline_subdiv_padding_multiplier: 5,
+    key_offset: "45dpi_px",
+    playback_region_overlay_colour: "#666F6FFF"
+	},
+
+	"sequence_dope_sheet_hierarchy": {
+		base: "dope_sheet_hierarchy",
+		separator_colour: "#FF211a19",
+		treeline_colour: "#FF949494"
+	},
+
+	"sequence_dope_sheet_hierarchy_item": {
+		width: "100%",
+		width_flags: "ScaleToFit",
+		node_style: "sequence_dope_sheet_hierarchy_node",
+		bg_colour: "#FF362a28",
+		selected_colour: "#FF54403C",
+		separator_colour: "#FF211a19"
+	},
+
+	"sequence_dope_sheet_hierarchy_node": {
+		show_tree_lines: "True",
+		width: "100%",
+		width_flags: "ScaleToFit",
+		stack_resize: "ResizeHeight"
+	},
+
+	"dope_sheet_track_hierarchy_btn_add_param": {
+		width: "11dpi_px",
+		height: "9dpi_px",
+		margin_right: "6dpi_px",
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_add_param"],
+		vector_icon_size: "10dpi_px",
+		clip: ["0dpi_px", "0dpi_px", "0dpi_px", "0dpi_px"],
+		icon_flags: "Centre, KeepAspectRatio",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000"
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param": {
+		base: "sequence_dope_sheet_hierarchy_item",
+		node_style: "sequence_dope_sheet_hierarchy_node_param",
+		bg_colour: "#FF2c2221",
+		separator_colour: "#FF211a19"
+	},
+
+	"sequence_dope_sheet_hierarchy_node_param": {
+		base: "sequence_dope_sheet_hierarchy_node"
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_asset": {
+		base: "sequence_dope_sheet_hierarchy_item_param"
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_bool": {
+		base: "sequence_dope_sheet_hierarchy_item_param",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_bool_channel",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_none",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_none"
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_colour": {
+		base: "sequence_dope_sheet_hierarchy_item_param",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_colour_channel",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_none",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_colour"
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_real": {
+		base: "sequence_dope_sheet_hierarchy_item_param",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_none",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_none"
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_string": {
+		base: "sequence_dope_sheet_hierarchy_item_param",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel_string",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_none",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_none"
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_position": {
+		base: "sequence_dope_sheet_hierarchy_item_param_real",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_position",
+		key_editor_separator_style: "dope_sheet_track_hierarchy_label_separator",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_px",
+		key_editor_value_decimal_places: 2
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_scale": {
+		base: "sequence_dope_sheet_hierarchy_item_param_real",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link",
+		key_editor_separator_style: "dope_sheet_track_hierarchy_label_separator_scale",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_percent",
+		key_editor_value_multiplier: 100,
+		key_editor_value_linkable: "True",
+		key_editor_value_decimal_places: 2
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_rotation": {
+		base: "sequence_dope_sheet_hierarchy_item_param_real",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_rotation",
+		key_editor_separator_style: "dope_sheet_track_hierarchy_label_separator_none",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_rotation",
+		key_editor_value_decimal_places: 2
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_origin": {
+		base: "sequence_dope_sheet_hierarchy_item_param_real",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_origin",
+		key_editor_separator_style: "dope_sheet_track_hierarchy_label_separator",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_px",
+		key_editor_value_decimal_places: 2
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_image_speed": {
+		base: "sequence_dope_sheet_hierarchy_item_param_real",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_speed",
+		key_editor_separator_style: "dope_sheet_track_hierarchy_label_separator_none",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_percent",
+		key_editor_value_decimal_places: 2,
+    key_editor_value_multiplier: 100
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_image_index": {
+		base: "sequence_dope_sheet_hierarchy_item_param_real",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_index",
+		key_editor_separator_style: "dope_sheet_track_hierarchy_label_separator_none",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_index",
+		key_editor_value_decimal_places: 0
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_gain": {
+		base: "sequence_dope_sheet_hierarchy_item_param_real",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_volume",
+		key_editor_separator_style: "dope_sheet_track_hierarchy_label_separator_none",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_percent",
+		key_editor_value_multiplier: 100,
+		key_editor_value_decimal_places: 2
+	},
+
+	"sequence_dope_sheet_hierarchy_item_param_pitch": {
+		base: "sequence_dope_sheet_hierarchy_item_param_real",
+		key_editor_link_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_pitch",
+		key_editor_separator_style: "dope_sheet_track_hierarchy_label_separator_none",
+		key_editor_channel_field_style: "dope_sheet_track_hierarchy_text_channel",
+		key_editor_unit_label_style: "dope_sheet_track_hierarchy_text_units_percent",
+		key_editor_value_multiplier: 100,
+		key_editor_value_decimal_places: 2
+	},
+
+	"sequence_dope_sheet_hierarchy_item_resource": {
+		base: "sequence_dope_sheet_hierarchy_node"
+	},
+
+	"dope_sheet_track_hierarchy_keyeditor_container": {
+		margin_left: "0dpi_px",
+		margin_right: "0dpi_px"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_icon_btn": {
+		margin_right: "3dpi_px"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link": {
+		base: "dope_sheet_track_hierarchy_btn_keyeditor_icon_btn",
+		width: "18dpi_px",
+		height: "14dpi_px",
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_link"],
+		vector_icon_size: "14dpi_px",
+		icon_colour: "#FFA8A8A8",
+		clip: ["1dpi_px", "0dpi_px", "0dpi_px", "0dpi_px"],
+		down_tint: "#FFFFFFFF",
+		mouseover_down_tint: "#FFFFFFFF",
+		down_focused_tint: "#FFFFFFFF",
+		mouseover_down_focused_tint: "#FFFFFFFF"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_position": {
+		base: "dope_sheet_track_hierarchy_btn_keyeditor_icon_btn",
+		width: "18dpi_px",
+		height: "14dpi_px",
+		frame_name: "",
+		name: "X,Y",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000",
+		label_style: "dope_sheet_track_hierarchy_btn_keyeditor_link_position_label",
+		clip: ["-4dpi_px", "-4dpi_px", "-4dpi_px", "-4dpi_px"]
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_position_label": {
+		font_size: 7,
+		colour: "#FFA8A8A8"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_rotation": {
+		base: "dope_sheet_track_hierarchy_btn_keyeditor_link",
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_rotate"],
+		vector_icon_size: "16dpi_px",
+		clip: ["-1dpi_px", "-2dpi_px", "-2dpi_px", "-1dpi_px"],
+		frame_name: "",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_origin": {
+		base: "dope_sheet_track_hierarchy_btn_keyeditor_link",
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_origin"],
+		vector_icon_size: "16dpi_px",
+		clip: ["-1dpi_px", "-2dpi_px", "-2dpi_px", "-1dpi_px"],
+		frame_name: "",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_speed": {
+		base: "dope_sheet_track_hierarchy_btn_keyeditor_link",
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_speed"],
+		vector_icon_size: "16dpi_px",
+		clip: ["-1dpi_px", "-2dpi_px", "-2dpi_px", "-1dpi_px"],
+		frame_name: "",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_index": {
+		base: "dope_sheet_track_hierarchy_btn_keyeditor_link",
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_index"],
+		vector_icon_size: "16dpi_px",
+		clip: ["-1dpi_px", "-2dpi_px", "-2dpi_px", "-1dpi_px"],
+		frame_name: "",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_volume": {
+		base: "dope_sheet_track_hierarchy_btn_keyeditor_link",
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_volume"],
+		vector_icon_size: "16dpi_px",
+		clip: ["-1dpi_px", "-2dpi_px", "-2dpi_px", "-1dpi_px"],
+		frame_name: "",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_pitch": {
+		base: "dope_sheet_track_hierarchy_btn_keyeditor_link",
+		font_icon: ["dope_sheet_icon_font", "ds_trackpanel_pitch"],
+		vector_icon_size: "16dpi_px",
+		clip: ["-1dpi_px", "-2dpi_px", "-2dpi_px", "-1dpi_px"],
+		frame_name: "",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000"
+	},
+
+	"dope_sheet_track_hierarchy_btn_keyeditor_link_none": {
+		width: "0dpi_px",
+		height: "0dpi_px",
+		frame_name: "",
+		colour: "#00000000",
+		up_tint: "#00000000",
+		down_tint: "#00000000",
+		mouseover_up_tint: "#00000000",
+		mouseover_down_tint: "#00000000",
+		up_focused_tint: "#00000000",
+		down_focused_tint: "#00000000",
+		mouseover_up_focused_tint: "#00000000",
+		mouseover_down_focused_tint: "#00000000"
+	},
+
+	"dope_sheet_track_hierarchy_text_channel": {
+		margin_left: "0dpi_px",
+		margin_right: "0dpi_px",
+		colour: "#00000000",
+		text_colour: "#FFFFDA44",
+		font_size: 7.5,
+		width_min: "20dpi_px",
+		width: "20dpi_px",
+		height: "20dpi_px",
+		text_hoffset: "0dpi_px",
+		text_hclip: "0dpi_px",
+		text_offset_disabled: "True",
+		clip: ["0dpi_px", "0dpi_px", "0dpi_px", "0dpi_px"]
+	},
+
+	"dope_sheet_track_hierarchy_text_channel_deactivated": {
+		base: "dope_sheet_track_hierarchy_text_channel",
+		text_colour: "#FFB6B6B6"
+	},
+
+	"dope_sheet_track_hierarchy_text_channel_delta": {
+		base: "dope_sheet_track_hierarchy_text_channel",
+		text_colour: "#FF00AFFF"
+	},
+
+	"dope_sheet_track_hierarchy_text_channel_string": {
+		base: "dope_sheet_track_hierarchy_text_channel"
+	},
+
+	"dope_sheet_track_hierarchy_text_channel_string_deactivated": {
+		base: "dope_sheet_track_hierarchy_text_channel_string",
+		text_colour: "#FFB6B6B6"
+	},
+
+	"dope_sheet_track_hierarchy_text_channel_string_delta": {
+		base: "dope_sheet_track_hierarchy_text_channel_string",
+		text_colour: "#FF0078FF"
+	},
+
+	"dope_sheet_track_hierarchy_colour_channel": {
+		width: "12dpi_px",
+		height: "9dpi_px",
+		margin_right: "6dpi_px",
+		frame_name: "",
+		colour: "#00FFFFFF",
+		up_tint: "#00FFFFFF",
+		down_tint: "#00FFFFFF",
+		mouseover_up_tint: "#00FFFFFF",
+		mouseover_down_tint: "#00FFFFFF",
+		up_focused_tint: "#00FFFFFF",
+		down_focused_tint: "#00FFFFFF",
+		mouseover_up_focused_tint: "#00FFFFFF",
+		mouseover_down_focused_tint: "#00FFFFFF"
+	},
+
+	"dope_sheet_track_hierarchy_colour_channel_deactivated": {
+		base: "dope_sheet_track_hierarchy_colour_channel"
+	},
+
+	"dope_sheet_track_hierarchy_label_separator": {
+		colour: "#FFFFDA44",
+		font_size: 7.5,
+		height: "14dpi_px",
+		width: "6dpi_px",
+		auto_size: "False",
+		caption: ","
+	},
+
+	"dope_sheet_track_hierarchy_label_separator_none": {
+		base: "dope_sheet_track_hierarchy_label_separator",
+		colour: "#00FFFFFF"
+	},
+
+	"dope_sheet_track_hierarchy_label_separator_scale": {
+		base: "dope_sheet_track_hierarchy_label_separator",
+		caption: ","
+	},
+
+	"dope_sheet_track_hierarchy_text_units": {
+		colour: "#FFB6B6B6",
+		font_size: 7.5,
+		margin_right: "6dpi_px",
+		halign: "hAlignCentre",
+		width: "18dpi_px"
+	},
+
+	"dope_sheet_track_hierarchy_text_units_percent": {
+		base: "dope_sheet_track_hierarchy_text_units",
+		caption: "%"
+	},
+
+	"dope_sheet_track_hierarchy_text_units_rotation": {
+		base: "dope_sheet_track_hierarchy_text_units",
+		caption: "o",
+		bottom: "10dpi_px",
+		font_size: 6
+	},
+
+	"dope_sheet_track_hierarchy_text_units_px": {
+		base: "dope_sheet_track_hierarchy_text_units",
+		caption: "px"
+	},
+
+	"dope_sheet_track_hierarchy_text_units_colour": {
+		base: "dope_sheet_track_hierarchy_text_units",
+		caption: "#"
+	},
+
+	"dope_sheet_track_hierarchy_text_units_fps": {
+		base: "dope_sheet_track_hierarchy_text_units",
+		caption: "fps"
+	},
+
+	"dope_sheet_track_hierarchy_text_units_index": {
+		base: "dope_sheet_track_hierarchy_text_units",
+		caption: "#"
+	},
+
+	"dope_sheet_track_hierarchy_text_units_none": {
+		caption: "",
+		colour: "#00000000"
+	},
+
+	"sequence_trackpanel_btn_colour": {
+		width: "6dpi_px",
+		height: "21dpi_px",
+		frame_name: "DopeSheet/ds_trackpanel_track_bg.png",
+		position: [
+					[12, 0, 2, 2], [14, 0, 2, 2], [16, 0, 2, 2],
+					[12, 2, 2, 17], [14, 2, 2, 17], [16, 2, 2, 17],
+					[12, 19, 2, 2], [14, 19, 2, 2], [16, 19, 2, 2]
+				],
+		button_down_style: "sequence_trackpanel_btn_colour_down",
+		button_over_style: "sequence_trackpanel_btn_colour_over",
+		button_over_down_style: "sequence_trackpanel_btn_colour_over_down"
+	},
+
+	"sequence_trackpanel_btn_colour_down": {
+		base: "sequence_trackpanel_btn_colour"
+	},
+
+	"sequence_trackpanel_btn_colour_over": {
+		base: "sequence_trackpanel_btn_colour"
+	},
+
+	"sequence_trackpanel_btn_colour_over_down": {
+		base: "sequence_trackpanel_btn_colour"
+	},
+
+	"sequence_trackpanel_displayname": {
+		font_size: 8,
+		colour: "#FFF3F3F3"
+	},
+
+	"sequence_trackpanel_displayname_delta": {
+		base: "sequence_trackpanel_displayname",
+		colour: "#FF00AFFF"
+	},
+
+	"sequence_trackpanel_modified_asterisk": {
+		colour: "#FF00AFFF"
+	},
+
+	"sequence_contextmenu_set_asset_label": {
+		left: "26dpi_px",
+		right: "0dpi_px"
+	},
+
+	"sequence_contextmenu_set_asset_image": {
+		left: "0dpi_px",
+		width: "16dpi_px"
+	},
+
+	"multiselect_origin_select_buttons": {
+		single_origin: "multiselect_origin_single_origin",
+		individual_origin: "multiselect_origin_individual_origins"
+	},
+
+	"multiselect_origin_single_origin": {
+		gizmo_width: 15,
+		gizmo_height: 15,
+		off: "multiselect_origin_toggle_button_single_off",
+		on: "multiselect_origin_toggle_button_single_on"
+	},
+
+	"multiselect_origin_individual_origins": {
+		gizmo_width: 15,
+		gizmo_height: 15,
+		off: "multiselect_origin_toggle_button_individual_off",
+		on: "multiselect_origin_toggle_button_individual_on"
+	},
+
+	"multiselect_origin_toggle_button_single_off": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 10, 10], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Alice/multiselect_selection_multiselect_origin_off.png"
+	},
+
+	"multiselect_origin_toggle_button_single_on": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 10, 10], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Alice/multiselect_selection_multiselect_origin_on.png"
+	},
+
+	"multiselect_origin_toggle_button_individual_off": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 11, 11], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Alice/multiselect_selection_individual_origin_off.png"
+	},
+
+	"multiselect_origin_toggle_button_individual_on": {
+		position: [
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 11, 11], [0, 0, 0, 0],
+					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
+				],
+		frame_name: "Alice/multiselect_selection_individual_origin_on.png"
+	}
+}

@@ -47,7 +47,7 @@
 		border_alpha: 128,
 		background_alpha: 77,
 		shadow_image: "DopeSheet/ds_group_track_bg_shadow.png",
-		track_bg_color: "#FF232323",
+		track_bg_color: "#FF2c2221",
 		style_hidden: "dope_sheet_track_hidden",
 		style_normal: "dope_sheet_track",
 		style_selected: "dope_sheet_track_selected",
@@ -59,18 +59,18 @@
 	"dope_sheet_track_selected": {
 		border_alpha: 128,
 		background_alpha: 77,
-		track_bg_color: "#FF7A6851"
+		track_bg_color: "#FF54403C"
 	},
 
 	"dope_sheet_track_hidden": {
-		track_bg_color: "#FF282828",
+		track_bg_color: "#FF2c2221",
 		border_alpha: 128,
 		background_alpha: 0
 	},
 
 	"dope_sheet_track_locked": {
 		overlay_style: "dope_sheet_track_locked_overlay",
-		track_bg_color: "#FF282828"
+		track_bg_color: "#FF2c2221"
 	},
 
 	"dope_sheet_track_hierarchy_keynav_btn": {
