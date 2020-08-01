@@ -4,7 +4,21 @@
   },
 
   "ab_default_colours": {
-    colours: [ "#ff4040ff", "#ffff80ff", "#ffff8080", "#ffff8000", "#ffffff80", "#ff80ff00", "#ff80C0ff", "#ff0000ff", "#ff00ffff", "#ff00ff00", "#ffffff00", "#ffff0000", "#ffff00ff" ]
+    colours: [
+      "#ff4a2d6d",
+      "#ff302ebe",
+      "#ff4560e9",
+      "#ff52a3fe",
+      "#ff5de1ff",
+      "#ff71fef9",
+      "#ff61354b",
+      "#ff916242",
+      "#ffba9635",
+      "#ffb3d748",
+      "#ff7fea5f",
+      "#ff89ffb0",
+      "#ffb4ffe5"
+    ]
   },
 
   "ab_module_style": {
