@@ -12,7 +12,7 @@
 
 * Restart GMS2
 
-* If the text doesn't look right (letters have different widths), see troubleshooting below
+* If the text doesn't look right (letters have different widths), see troubleshooting at https://github.com/dracula/gamemaker-studio#troubleshooting
 
 
 #### MacOS Install instructions
@@ -27,4 +27,4 @@
 
 * Restart GMS2
 
-* If the text doesn't look right (letters have different widths), see troubleshooting below
+* If the text doesn't look right (letters have different widths), see troubleshooting at https://github.com/dracula/gamemaker-studio#troubleshooting
