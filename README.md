@@ -26,9 +26,15 @@ There may be parts of gamemaker that are not covered by this theme. The DnD edit
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/gamemaker-studio/graphs/contributors). The color palette included in the image editor is EDG36 by [Endesga](https://twitter.com/ENDESGA)
 
-[![Tony Strømsnæs](https://avatars3.githubusercontent.com/u/30723101?v=3&s=70)](https://github.com/tonystr) |
---- |
-[Tony Strømsnæs](https://github.com/tonystr) |
+| [![Tony Strømsnæs](https://avatars3.githubusercontent.com/u/30723101?v=3&s=70)](https://github.com/tonystr) |
+| ----------------------------------------------------------------------------------------------------------- |
+| [Tony Strømsnæs](https://github.com/tonystr)                                                                |
+
+## Community
+
+- [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
+- [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
+- [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
 
 ## License
 
