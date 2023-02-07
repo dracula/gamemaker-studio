@@ -1,2008 +1,2427 @@
 {
-	"button_up": {
-		position: [
-					[22, 0, 3, 3], [25, 0, 10, 3], [35, 0, 3, 3],
-					[22, 3, 3, 10], [25, 3, 10, 10], [35, 3, 3, 10],
-					[22, 13, 3, 3], [25, 13, 10, 3], [35, 13, 3, 3]
-				],
-		frame_name: "Buttons/button_states.png",
-		height: "24dpi_px",
-		auto_height: "True",
-		deactivated_style: "button_deactivated",
-		reactivated_style: "button_reactivated"
-	},
-
-	"prefs_button": {
-		margin_top: "4dpi_px"
-	},
-
-	"no_frame_button": {
-		frame_name: "",
-		up_tint: "#00000000",
-		up_focused_tint: "#00000000"
-	},
-
-	"button_down": {
-		position: [
-					[60, 0, 3, 3], [63, 0, 10, 3], [73, 0, 3, 3],
-					[60, 3, 3, 10], [63, 3, 10, 10], [73, 3, 3, 10],
-					[60, 13, 3, 3], [63, 13, 10, 3], [73, 13, 3, 3]
-				],
-		frame_name: "Buttons/button_states.png"
-	},
-
-	"button_over": {
-		position: [
-					[41, 0, 3, 3], [44, 0, 10, 3], [54, 0, 3, 3],
-					[41, 3, 3, 10], [44, 3, 10, 10], [54, 3, 3, 10],
-					[41, 13, 3, 3], [44, 13, 10, 3], [54, 13, 3, 3]
-				],
-		frame_name: "Buttons/button_states.png"
-	},
-
-	"button_over_down": {
-		frame_name: ""
-	},
-
-	"button_no_over_texture": {
-		frame_name: ""
-	},
-
-	"toolbar_button": {
-		width: "24dpi_px",
-		height: "24dpi_px",
-		margin: ["2dpi_px", "3dpi_px", "", "3dpi_px"],
-		deactivated_style: "button_deactivated",
-		reactivated_style: "button_reactivated"
-	},
-
-	"button_deactivated": {
-		icon_colour: "#40ffffff",
-		label_colour: "#40ffffff",
-		mouse_events: "false"
-	},
-
-	"button_reactivated": {
-		icon_colour: "#ffffffff",
-		label_colour: "#ffffffff",
-		mouse_events: "true"
-	},
-
-	"button_label": {
-		halign: "hAlignCentre",
-		valign: "vAlignCentre",
-		mouse_events: "false",
-		auto_ellipsis: "true",
-		auto_size: "false",
-		width_flags: "ScaleToFit",
-		width: "100%",
-		margin: "4px"
-	},
-
-	"button_up_label_with_icon": {
-		width: "50%",
-		right: "5%",
-		halign: "hAlignLeft",
-		valign: "vAlignCentre",
-		mouse_events: "False"
-	},
-
-	"large_button_label": {
-		halign: "hAlignCentre",
-		valign: "vAlignCentre",
-		mouse_events: "false"
-	},
-
-	"large_button_label_with_icon": {
-		width: "50%",
-		right: "5%",
-		halign: "hAlignLeft",
-		valign: "vAlignCentre",
-		mouse_events: "false",
-		auto_size: "false"
-	},
-
-	"button_icon": {
-		height: "100%",
-		height_flags: "ScaleToFit",
-		margin_top: "4px",
-		margin_bottom: "4px",
-		mouse_events: "false",
-		image_flags: "Stretch, KeepAspectRatio, Centre"
-	},
-
-	"button_up_icon_with_label": {
-		width: "40%",
-		left: "5%",
-		height: "80%",
-		mouse_events: "False",
-		image_flags: "Stretch, Centre, KeepAspectRatio"
-	},
-
-	"large_button_icon": {
-		height: "80%",
-		mouse_events: "false",
-		image_flags: "Stretch, KeepAspectRatio, Centre"
-	},
-
-	"large_button_icon_with_label": {
-		width: "40%",
-		left: "5%",
-		height: "80%",
-		mouse_events: "false",
-		image_flags: "Stretch, KeepAspectRatio, Centre"
-	},
-
-	"basic_button": {
-		width: "50px",
-		height: "20px",
-		margin: "5px"
-	},
-
-	"basic_button_label": {
-		margin: ["", "4px", "", "4px"]
-	},
-
-	"large_button": {
-		width: "100px",
-		height: "30px",
-		margin: "10px"
-	},
-
-	"stretch_button": {
-		width: "100%",
-		width_flags: "ScaleToFit",
-		height: "20px",
-		margin: "25px"
-	},
-
-	"close_button_up": {
-		comment: "will inherit from button_up",
-		position: [
-					[51, 0, 2, 2], [53, 0, 13, 2], [66, 0, 2, 2],
-					[51, 2, 2, 12], [53, 2, 13, 12], [66, 2, 2, 12],
-					[51, 14, 2, 2], [53, 14, 13, 2], [66, 14, 2, 2]
-				],
-		frame_name: "Window/dial_window_ctrls.png",
-		top: "1px",
-		right: "4px",
-		width: "17dpi_px",
-		height: "100%",
-		height_min: "16dpi_px",
-		height_flags: "ScaleToFit",
-		margin_bottom: "6px",
-		button_down_style: "close_button_down",
-		button_over_style: "close_button_down",
-		up_tint: "#FFFFFFFF",
-		down_tint: "#FF909090",
-		mouseover_up_tint: "#FFFFFFFF",
-		mouseover_down_tint: "#FF909090",
-		up_focused_tint: "#FFFFFFFF",
-		down_focused_tint: "#FF909090",
-		mouseover_up_focused_tint: "#FFFFFFFF",
-		mouseover_down_focused_tint: "#FF909090"
-	},
-
-	"borderless_close_button_up": {
-		comment: "will inherit from button_up",
-		position: [
-					[51, 0, 2, 2], [53, 0, 13, 2], [66, 0, 2, 2],
-					[51, 2, 2, 12], [53, 2, 13, 12], [66, 2, 2, 12],
-					[51, 14, 2, 2], [53, 14, 13, 2], [66, 14, 2, 2]
-				],
-		frame_name: "Window/dial_window_ctrls.png",
-		top: "4dpi_px",
-		margin_bottom: "4dpi_px",
-		right: "4px",
-		width: "17dpi_px",
-		height: "100%",
-		height_min: "16dpi_px",
-		height_flags: "ScaleToFit",
-		button_down_style: "close_button_down",
-		button_over_style: "close_button_down",
-		up_tint: "#FFFFFFFF",
-		down_tint: "#FF909090",
-		mouseover_up_tint: "#FFFFFFFF",
-		mouseover_down_tint: "#FF909090",
-		up_focused_tint: "#FFFFFFFF",
-		down_focused_tint: "#FF909090",
-		mouseover_up_focused_tint: "#FFFFFFFF",
-		mouseover_down_focused_tint: "#FF909090"
-	},
-
-	"close_button_up_blend": {
-		comment: "will inherit from button_up",
-		position: [
-					[51, 0, 2, 2], [53, 0, 13, 2], [66, 0, 2, 2],
-					[51, 2, 2, 12], [53, 2, 13, 12], [66, 2, 2, 12],
-					[51, 14, 2, 2], [53, 14, 13, 2], [66, 14, 2, 2]
-				],
-		frame_name: "Window/dial_window_ctrls.png",
-		top: "1px",
-		right: "4px",
-		width: "17dpi_px",
-		height: "16dpi_px",
-		button_down_style: "close_button_down",
-		button_over_style: "close_button_down",
-		up_tint: "#FFFFFFFF",
-		down_tint: "#FF909090",
-		mouseover_up_tint: "#FFFFFFFF",
-		mouseover_down_tint: "#FF909090",
-		up_focused_tint: "#FFFFFFFF",
-		down_focused_tint: "#FF909090",
-		mouseover_up_focused_tint: "#FFFFFFFF",
-		mouseover_down_focused_tint: "#FF909090"
-	},
-
-	"close_button_down": {
-		position: [
-					[51, 16, 2, 2], [53, 16, 13, 2], [66, 16, 2, 2],
-					[51, 18, 2, 12], [53, 18, 13, 12], [66, 18, 2, 12],
-					[51, 30, 2, 2], [53, 30, 13, 2], [66, 30, 2, 2]
-				],
-		frame_name: "Window/dial_window_ctrls.png"
-	},
-
-	"close_button_down_blend": {
-		position: [
-					[51, 16, 2, 2], [53, 16, 13, 2], [66, 16, 2, 2],
-					[51, 18, 2, 12], [53, 18, 13, 12], [66, 18, 2, 12],
-					[51, 30, 2, 2], [53, 30, 13, 2], [66, 30, 2, 2]
-				],
-		frame_name: "Window/dial_window_ctrls.png"
-	},
-
-	"toggle_button_switch_button_up": {
-		position: [
-					[2, 2, 5, 5], [7, 2, 26, 5], [33, 2, 5, 5],
-					[2, 7, 5, 6], [7, 7, 26, 6], [33, 7, 5, 6],
-					[2, 13, 5, 5], [7, 13, 26, 5], [33, 13, 5, 5]
-				],
-		frame_name: "Buttons/ToggleButton.png"
-	},
-
-	"toggle_button_switch_button_down": {
-		position: [
-					[38, 2, 5, 5], [43, 2, 26, 5], [69, 2, 5, 5],
-					[38, 7, 5, 6], [43, 7, 26, 6], [69, 7, 5, 6],
-					[38, 13, 5, 5], [43, 13, 26, 5], [69, 13, 5, 5]
-				],
-		frame_name: "Buttons/ToggleButton.png"
-	},
-
-	"slider_grid": {
-		left: "0dpi_px",
-		grid_columnlayout: ["auto", "1*", "auto"],
-		grid_rowlayout: ["auto"],
-		height: "20dpi_px",
-		colour: "#00000000",
-		mouse_events: "False",
-		width: "100%",
-		grid_resize: "ResizeGridHeight",
-		deactivated_style: "slider_grid_deactivated",
-		reactivated_style: "slider_grid_reactivated"
-	},
-
-	"slider_grid_deactivated": {
-		slider_bar_style: "slider_bar_deactivated",
-		slider_bar_fill_not_focused_style: "slider_bar_fill_deactivated",
-		thumb_style: "slider_thumb_deactivated",
-		slider_style: "slider_deactivated"
-	},
-
-	"slider_grid_reactivated": {
-		slider_bar_style: "slider_bar_reactivated",
-		slider_bar_fill_not_focused_style: "slider_bar_fill_reactivated",
-		thumb_style: "slider_thumb_reactivated",
-		slider_style: "slilder_reactivated"
-	},
-
-	"slider_deactivated": {
-		mouse_events: "false"
-	},
-
-	"slider_reactivated": {
-		mouse_events: "true"
-	},
-
-	"slider_bar_deactivated": {
-		mouse_events: "false"
-	},
-
-	"slider_bar_reactivated": {
-		mouse_events: "true"
-	},
-
-	"slider_bar_fill_deactivated": {
-		colour: "#FF666666"
-	},
-
-	"slider_bar_fill_reactivated": {
-		colour: "#FF403733"
-	},
-
-	"slider_thumb_deactivated": {
-		mouse_events: "false",
-		up_tint: "#00000000",
-		up_focused_tint: "#00000000",
-		down_focused_tint: "#00000000",
-		mouseover_down_focused_tint: "#00000000"
-	},
-
-	"slider_thumb_reactivated": {
-		mouse_events: "true",
-		up_tint: "#FF645B57",
-		up_focused_tint: "#FFFFFFFF",
-		down_focused_tint: "#FF372a28",
-		mouseover_down_focused_tint: "#FF372a28"
-	},
-
-	"slider_grid_label": {
-		width: "100dpi_px",
-		height: "100%",
-		halign: "hAlignLeft",
-		valign: "vAlignCentre",
-		left: "0px",
-		margin_right: "5dpi_px"
-	},
-
-	"slider_grid_textbox": {
-		right: "0px",
-		top: "0px",
-		width: "58dpi_px",
-		height: "24dpi_px",
-		left: "2dpi_px",
-		has_buttons: "True",
-		input_type: "Real",
-		button_increment_style: "numeric_text_box_increment_button",
-		button_decrement_style: "numeric_text_box_decrement_button"
-	},
-
-	"slider_grid_textbox_small": {
-		right: "0px",
-		top: "0px",
-		width: "40px",
-		height: "20px",
-		has_buttons: "False"
-	},
-
-	"slider": {
-		width: "100%",
-		height: "15dpi_px",
-		colour: "#00000000",
-		min_value: -5,
-		max_value: 5,
-		click_increment: -1,
-		flow_increment: 1,
-		mindrag_increment: 0.5,
-		minor_tick_freq: 0,
-		major_tick_freq: 0,
-		slider_direction: "Horizontal"
-	},
-
-	"slider_bar": {
-		width: "100%",
-		bottom: "7dpi_px",
-		top: "1dpi_px",
-		position: [
-					[0, 0, 3, 3], [3, 0, 6, 3], [9, 0, 3, 3],
-					[0, 3, 3, 1], [3, 3, 6, 1], [9, 3, 3, 1],
-					[0, 4, 3, 3], [3, 4, 6, 3], [9, 4, 3, 3]
-				],
-		frame_name: "Slider/slider_outer.png",
-		margin_left: "4dpi_px",
-		margin_right: "4dpi_px",
-		width_flags: "ScaleToFit",
-		colour: "#FFFFFFFF",
-		clip: ["2dpi_px"]
-	},
-
-	"slider_bar_fill": {
-		width: "100%",
-		height: "100%",
-		colour: "#FF5b9d02",
-		position: [
-					[0, 0, 3, 2], [3, 0, 4, 2], [7, 0, 3, 2],
-					[0, 2, 3, 1], [3, 2, 4, 1], [7, 2, 3, 1],
-					[0, 3, 3, 2], [3, 3, 4, 2], [7, 3, 3, 2]
-				],
-		frame_name: "Slider/slider_bar.png"
-	},
-
-	"slider_bar_fill_not_focused": {
-		width: "100%",
-		height: "100%",
-		colour: "#FF403733",
-		position: [
-					[0, 0, 3, 2], [3, 0, 4, 2], [7, 0, 3, 2],
-					[0, 2, 3, 1], [3, 2, 4, 1], [7, 2, 3, 1],
-					[0, 3, 3, 2], [3, 3, 4, 2], [7, 3, 3, 2]
-				],
-		frame_name: "Slider/slider_bar.png"
-	},
-
-	"slider_thumb": {
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 12, 9], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		frame_name: "Slider/slider_arrow.png",
-		width: "12dpi_px",
-		height: "9dpi_px",
-		top: "5dpi_px",
-		up_tint: "#FF211A19",
-		up_focused_tint: "#FFFFFFFF",
-		down_focused_tint: "#FF372a28",
-		mouseover_down_focused_tint: "#FF372a28"
-	},
-
-	"slider_thumb_down": {
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 12, 9], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		frame_name: "Slider/slider_arrow.png"
-	},
-
-	"slider_thumb_over": {
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 12, 9], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		frame_name: "Slider/slider_arrow.png"
-	},
-
-	"slider_vertical_major_tick": {
-		colour: "#00000000",
-		position: [
-					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1],
-					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8],
-					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
-				],
-		frame_name: "TickFrame.png",
-		height: "8dpi_px",
-		width: "10dpi_px",
-		left: "-15dpi_px"
-	},
-
-	"slider_vertical_minor_tick": {
-		colour: "#00000000",
-		position: [
-					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1],
-					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8],
-					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
-				],
-		frame_name: "TickFrame.png",
-		height: "2dpi_px",
-		width: "10dpi_px",
-		left: "-15dpi_px"
-	},
-
-	"slider_horizontal_major_tick": {
-		colour: "#00000000",
-		position: [
-					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1],
-					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8],
-					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
-				],
-		frame_name: "TickFrame.png",
-		width: "8dpi_px",
-		height: "10dpi_px",
-		bottom: "-15dpi_px"
-	},
-
-	"slider_horizontal_minor_tick": {
-		colour: "#00000000",
-		position: [
-					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1],
-					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8],
-					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
-				],
-		frame_name: "TickFrame.png",
-		width: "2dpi_px",
-		height: "10dpi_px",
-		bottom: "-15dpi_px"
-	},
-
-	"link_label": {
-    colour: "#FF79D104",
-		cursor: "Pointer"
-	},
-
-	"link_label_hover": {
-		colour: "#FF9AF324"
-	},
-
-	"link_label_active": {
-		colour: "#FFA9FD3B"
-	},
-
-	"label": {
-		width: "100%",
-		height: "100%",
-		enlarge_on_edit_pixels: 40
-	},
-
-  "label_bold": {
-		width: "100%",
-    height: "100%",
-    font_bold: "true",
-    enlarge_on_edit_pixels: 40
-	},
-
-	"label_deactivated": {
-		colour: "#FF979797"
-	},
-
-	"label_reactivated": {
-		colour: "#FFFFFFFF"
-	},
-
-	"image_deactivated": {
-		colour: "#FF979797"
-	},
-
-	"image_reactivated": {
-		colour: "#FFFFFFFF"
-	},
-
-	"label_right": {
-		width: "100%",
-		height: "100%",
-		halign: "hAlignRight",
-		auto_size: "false"
-	},
-
-	"label_centre": {
-		width: "100%",
-		height: "100%",
-		halign: "hAlignCentre",
-		auto_size: "false"
-	},
-
-	"label_editbox": {
-		width: "100%",
-		height: "100%",
-		frame_name: "",
-		clip: "",
-		text_colour: "#ffffffff",
-		colour: "#00000000"
-	},
-
-	"basic_label": {
-		width: "100%",
-		height: "20px",
-		left: "0px",
-		auto_size: "true",
-		mouse_events: "false",
-		valign: "vAlignCentre"
-	},
-
-	"basic_wrapped_label": {
-		auto_size: "false",
-		mouse_events: "false",
-		word_wrap: "true",
-		auto_ellipsis: "true"
-	},
-
-	"input_slider": {
-		width: "70%"
-	},
-
-	"input_slider_bar": {
-		colour: "#ffff00ff"
-	},
-
-	"input_slider_bar_fill": {
-		colour: "#00000000"
-	},
-
-	"input_slider_vertical_major_tick": {
-		position: [
-					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1],
-					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8],
-					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
-				],
-		frame_name: "TickFrame.png",
-		height: "8px",
-		width: "10px",
-		left: "-15px"
-	},
-
-	"input_slider_vertical_minor_tick": {
-		position: [
-					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1],
-					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8],
-					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
-				],
-		frame_name: "TickFrame.png",
-		height: "2px",
-		width: "10px",
-		left: "-15px"
-	},
-
-	"input_slider_horizontal_major_tick": {
-		position: [
-					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1],
-					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8],
-					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
-				],
-		frame_name: "TickFrame.png",
-		width: "8px",
-		height: "10px",
-		bottom: "-15px"
-	},
-
-	"input_slider_horizontal_minor_tick": {
-		position: [
-					[0, 0, 1, 1], [1, 0, 8, 1], [9, 0, 1, 1],
-					[0, 1, 1, 8], [1, 1, 8, 8], [9, 1, 1, 8],
-					[0, 9, 1, 1], [1, 9, 8, 1], [9, 9, 1, 1]
-				],
-		frame_name: "TickFrame.png",
-		width: "2px",
-		height: "10px",
-		bottom: "-15px"
-	},
-
-	"checkbox_stack": {
-		stack_order: "LeftToRight",
-		stack_resize: "ResizeAll",
-		mouse_events: "true",
-		deactivated_style: "deactivated_checkbox_stack",
-		reactivated_style: "reactivated_checkbox_stack"
-	},
-
-    "checkbox_password": {
-        left: "0dpi_px",
-        margin_top: "3dpi_px",
-        margin_bottom: "4dpi_px",
-        localise_name: "Settings_ShowPassword"
-    },
-
-	"checkbox": {
-		position: [
-					[1, 2, 4, 4], [5, 2, 11, 4], [16, 2, 4, 4],
-					[1, 6, 4, 11], [5, 6, 11, 11], [16, 6, 4, 11],
-					[1, 17, 4, 4], [5, 17, 11, 4], [16, 17, 4, 4]
-				],
-		width: "19dpi_px",
-		height: "19dpi_px",
-		frame_name: "Buttons/checkbox.png"
-	},
-
-	"checkbox_highlighted": {
-		position: [
-					[42, 2, 4, 4], [46, 2, 11, 4], [57, 2, 4, 4],
-					[42, 6, 4, 11], [46, 6, 11, 11], [57, 6, 4, 11],
-					[42, 17, 4, 4], [46, 17, 11, 4], [57, 17, 4, 4]
-				],
-		frame_name: "Buttons/checkbox.png"
-	},
-
-	"checkbox_tick": {
-		colour: "#ffffffff",
-		position: [
-					[1, 22, 4, 4], [5, 22, 11, 4], [16, 22, 4, 4],
-					[1, 26, 4, 11], [5, 26, 11, 11], [16, 26, 4, 11],
-					[1, 37, 4, 4], [5, 37, 11, 4], [16, 37, 4, 4]
-				],
-		width: "19dpi_px",
-		height: "19dpi_px",
-		frame_name: "Buttons/checkbox.png"
-	},
-
-	"checkbox_untick": {
-		colour: "#00000000"
-	},
-
-	"deactivated_checkbox_stack": {
-		mouse_events: "false",
-		base_style: "deactivated_checkbox"
-	},
-
-	"reactivated_checkbox_stack": {
-		mouse_events: "true",
-		base_style: "checkbox"
-	},
-
-	"deactivated_checkbox": {
-		position: [
-					[21, 2, 4, 4], [25, 2, 11, 4], [36, 2, 4, 4],
-					[21, 6, 4, 11], [25, 6, 11, 11], [36, 6, 4, 11],
-					[21, 17, 4, 4], [25, 17, 11, 4], [36, 17, 4, 4]
-				],
-		frame_name: "Buttons/checkbox.png"
-	},
-
-	"deactivated_checkbox_tick": {
-		colour: "#ffffffff",
-		position: [
-					[21, 22, 4, 4], [25, 22, 11, 4], [36, 22, 4, 4],
-					[21, 26, 4, 11], [25, 26, 11, 11], [36, 26, 4, 11],
-					[21, 37, 4, 4], [25, 37, 11, 4], [36, 37, 4, 4]
-				],
-		frame_name: "Buttons/checkbox.png"
-	},
-
-	"deactivated_checkbox_untick": {
-		colour: "#00000000"
-	},
-
-	"deactivated_checkbox_label": {
-		comment: "Will be positioned according to the x,y location of the parent checkbox",
-		halign: "hAlignLeft",
-		valign: "vAlignCentre",
-		width: "100dpi_px",
-		height: "16dpi_px",
-		margin_left: "5dpi_px",
-		margin_right: "5dpi_px",
-		auto_size: "True",
-		colour: "#40ffffff"
-	},
-
-	"checkbox_label": {
-		comment: "Will be positioned according to the x,y location of the parent checkbox",
-		halign: "hAlignLeft",
-		valign: "vAlignCentre",
-		width: "100dpi_px",
-		height: "16dpi_px",
-		margin_left: "5dpi_px",
-		margin_right: "5dpi_px",
-		auto_size: "True",
-		colour: "#ffffffff"
-	},
-
-	"checkbox_label_with_icon": {
-		comment: "Will be positioned according to the x,y location of the parent checkbox",
-		halign: "hAlignLeft",
-		valign: "vAlignCentre",
-		width: "100%",
-		height: "100%",
-		left: "64dpi_px",
-		auto_size: "true"
-	},
-
-	"checkbox_icon": {
-		height: "30dpi_px",
-		width: "30dpi_px",
-		left: "32dpi_px",
-		mouse_events: "false",
-		image_flags: "Stretch, KeepAspectRatio, Centre"
-	},
-
-	"heading_label": {
-		halign: "hAlignCentre",
-		valign: "vAlignCentre",
-		margin_colour: "#ffffaaaa",
-		colour: "#ff000000",
-		auto_size: "false"
-	},
-
-	"heading2_label": {
-		halign: "hAlignCentre",
-		valign: "vAlignCentre",
-		margin_colour: "#ffaaffaa",
-		colour: "#ff000000",
-		auto_size: "false"
-	},
-
-	"text_box": {
-		position: [
-					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
-					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
-					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
-				],
-		frame_name: "Window/dial_inner.png",
-		clip: ["4px"],
-		auto_height: "true",
-		reactivated_style: "reactivated_text_box",
-		deactivated_style: "deactivated_text_box"
-	},
-
-	"reactivated_text_box": {
-		mouse_events: "true",
-		text_colour: "#ffffffff"
-	},
-
-	"deactivated_text_box": {
-		mouse_events: "false",
-		text_colour: "#ffaaaaaa"
-	},
-
-	"text_box_text": {
-		comment: "content values clue us into what the clip region is beyond the parent text box",
-		left: "5px",
-		top: "5px",
-		right: "-5px",
-		bottom: "-5px"
-	},
-
-	"text_box_caret": {
-		colour: "#FFFFFFFF",
-		width: "1px",
-		height: "18px"
-	},
-
-	"focus_select_text_box": {
-		always_select_on_focus: "true"
-	},
-
-	"list_box": {
-		colour: "#FFFFFFFF",
-		position: [
-					[0, 0, 3, 3], [6, 0, 13, 3], [29, 0, 3, 3],
-					[0, 4, 3, 16], [6, 6, 16, 16], [29, 6, 3, 16],
-					[0, 29, 3, 3], [4, 29, 13, 3], [29, 29, 3, 3]
-				],
-		frame_name: "Window/dial_inner.png",
-		selection_colour: "#FF372a28",
-		mouse_over_colour: "#FF372a28",
-		clip: ["3px"],
-		width: "100%",
-		height: "100%",
-		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars",
-		vertical_scrollbar_style: "scroll_bar_no_scrolladjust",
-		horizontal_scrollbar_style: "scroll_bar_no_scrolladjust"
-	},
-
-	"expandable_category": {
-		left: "1dpi_px",
-		right: "0dpi_px",
-		header_height: "22dpi_px",
-		margin_top: "5dpi_px",
-		margin_bottom: "1dpi_px",
-		colour: "#ffffffff",
-		position: [
-					[0, 0, 0, 0], [0, 0, 4, 1], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 1, 4, 21], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 22, 4, 1], [0, 0, 0, 0]
-				],
-		frame_name: "expandable_category_frame.png",
-		label_style: "expandable_category_label"
-	},
-
-	"expandable_category_selected": {
-		colour: "#FF4b433f"
-	},
-
-	"expandable_category_label": {
-		left: "0px",
-		halign: "hAlignLeft",
-		auto_ellipsis: "True",
-		colour: "#ff999999",
-		mouse_events: "False"
-	},
-
-	"expandable_category_collapse": {
-		margin_left: "9dpi_px",
-		width: "7dpi_px",
-		height: "100%",
-		image: "DnD/dnd_node_icon_collapse.png",
-		image_flags: "Stretch, Centre, KeepAspectRatio",
-		mouse_events: "False"
-	},
-
-	"expandable_category_expand": {
-		width: "6dpi_px",
-		image: "DnD/dnd_node_icon_expand.png"
-	},
-
-	"list_box_stack": {
-		stack_order: "TopToBottom",
-		stack_resize: "ResizeAll",
-		left: "0px",
-		top: "0px",
-		width: "100%",
-		width_min: "100%",
-		height: "100%"
-	},
-
-	"list_box_highlight": {
-		colour: "#ff802020",
-		width: "100%",
-		height: "100%"
-	},
-
-	"list_box_mouseover": {
-		colour: "#ff806060",
-		width: "100%",
-		height: "100%"
-	},
-
-	"list_box_enum_label": {
-		margin: "2px",
-		left: "2dpi_px",
-		valign: "vAlignCentre"
-	},
-
-	"help_icon": {
-		image: "IDE_Toolbar/icon_IDE_help.png",
-		image_flags: "Centre, Stretch, KeepAspectRatio",
-		mouse_events: "False"
-	},
-
-	"help_icon_listbox": {
-		colour: "#AAFFFFFF",
-		right: "2dpi_px",
-		width: "16dpi_px",
-		height: "16dpi_px"
-	},
-
-	"listbox_item_enum_help": {
-		height: "20dpi_px"
-	},
-
-	"help_icon": {
-		image: "IDE_Toolbar/icon_IDE_help.png",
-		image_flags: "Centre, Stretch, KeepAspectRatio",
-		mouse_events: "False",
-		width: "16dpi_px",
-		height: "16dpi_px"
-	},
-
-	"help_icon_listbox": {
-		image: "IDE_Toolbar/icon_IDE_help.png",
-		image_flags: "Centre, Stretch, KeepAspectRatio",
-		mouse_events: "False",
-		width: "16dpi_px",
-		height: "16dpi_px",
-		colour: "#AAFFFFFF",
-		right: "2dpi_px"
-	},
-
-	"listbox_item_enum_help": {
-		height: "20dpi_px"
-	},
-
-	"basic_text_box": {
-		width: "200dpi_px",
-		auto_height: "true"
-	},
-
-	"multiline_text_box": {
-		position: [
-					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
-					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
-					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
-				],
-		frame_name: "Window/dial_inner.png",
-		clip: "4dpi_px",
-		width: "250dpi_px",
-		auto_height: "false",
-		height: "150dpi_px"
-	},
-
-	"multiline_textbox_scroll_panel": {
-		height: "100%",
-		width: "100%",
-		scrollpanel_flags: "VerticalScroll, HorizontalScroll, AdjustToScrollBars",
-		clip: "4dpi_px"
-	},
-
-	"numeric_text_box": {
-		enforce_valid_expression: "True",
-		width: "50dpi_px",
-		width_flags: "ScaleToFit",
-		auto_height: "true",
-		colour: "#00000000",
-		reactivated_style: "reactivated_numeric_textbox",
-		deactivated_style: "deactivated_numeric_textbox"
-	},
-
-	"internal_numeric_text_box": {
-		left: "0px",
-		width: "100%",
-		right: "",
-		height: "100%",
-		top: "0px",
-		width_flags: "ScaleToFit",
-		colour: "#ffffffff",
-		position: [
-					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
-					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
-					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
-				],
-		frame_name: "Window/dial_inner.png"
-	},
-
-	"internal_numeric_text_box_buttons": {
-		right: "15dpi_px",
-		width_flags: "None"
-	},
-
-	"reactivated_numeric_textbox": {
-		mouse_events: "true",
-		text_colour: "#ffffffff",
-		textbox_style: "reactivated_numeric_textbox",
-		button_increment_style: "button_reactivated",
-		button_decrement_style: "button_reactivated"
-	},
-
-	"deactivated_numeric_textbox": {
-		mouse_events: "false",
-		text_colour: "#ffaaaaaa",
-		textbox_style: "deactivated_numeric_textbox",
-		button_increment_style: "button_deactivated",
-		button_decrement_style: "button_deactivated"
-	},
-
-	"reactivated_numeric_textbox_buttons": {
-		mouse_events: "true",
-		text_colour: "#ffffffff"
-	},
-
-	"deactivated_numeric_textbox_buttons": {
-		mouse_events: "false",
-		text_colour: "#ffaaaaaa"
-	},
-
-	"numeric_text_box_increment_button": {
-		width: "13dpi_px",
-		height: "12dpi_px",
-		right: "0dpi_px",
-		top: "0dpi_px",
-		position: [
-					[18, 1, 2, 2], [20, 1, 9, 2], [29, 1, 2, 2],
-					[18, 3, 2, 8], [20, 3, 9, 8], [29, 3, 2, 8],
-					[18, 11, 2, 2], [20, 11, 9, 2], [29, 11, 2, 2]
-				],
-		frame_name: "Buttons/slider_buttons.png",
-		button_over_style: "numeric_text_box_increment_button_over",
-		button_down_style: "numeric_text_box_increment_button_down"
-	},
-
-	"numeric_text_box_increment_button_over": {
-		position: [
-					[33, 1, 2, 2], [35, 1, 9, 2], [44, 1, 2, 2],
-					[33, 3, 2, 8], [35, 3, 9, 8], [44, 3, 2, 8],
-					[33, 11, 2, 2], [35, 11, 9, 2], [44, 11, 2, 2]
-				],
-		frame_name: "Buttons/slider_buttons.png"
-	},
-
-	"numeric_text_box_increment_button_down": {
-		position: [
-					[48, 1, 2, 2], [50, 1, 9, 2], [59, 1, 2, 2],
-					[48, 3, 2, 8], [50, 3, 9, 8], [59, 3, 2, 8],
-					[48, 11, 2, 2], [50, 11, 9, 2], [59, 11, 2, 2]
-				],
-		frame_name: "Buttons/slider_buttons.png"
-	},
-
-	"numeric_text_box_decrement_button": {
-		width: "13dpi_px",
-		height: "12dpi_px",
-		right: "0dpi_px",
-		bottom: "0dpi_px",
-		position: [
-					[18, 13, 2, 2], [20, 13, 9, 2], [29, 13, 2, 2],
-					[18, 15, 2, 8], [20, 15, 9, 8], [29, 15, 2, 8],
-					[18, 23, 2, 2], [20, 23, 9, 2], [29, 23, 2, 2]
-				],
-		frame_name: "Buttons/slider_buttons.png",
-		button_over_style: "numeric_text_box_decrement_button_over",
-		button_down_style: "numeric_text_box_decrement_button_down"
-	},
-
-	"numeric_text_box_decrement_button_over": {
-		position: [
-					[33, 13, 2, 2], [35, 13, 9, 2], [44, 13, 2, 2],
-					[33, 15, 2, 8], [35, 15, 9, 8], [44, 15, 2, 8],
-					[33, 23, 2, 2], [35, 23, 9, 2], [44, 23, 2, 2]
-				],
-		frame_name: "Buttons/slider_buttons.png"
-	},
-
-	"numeric_text_box_decrement_button_down": {
-		position: [
-					[48, 13, 2, 2], [50, 13, 9, 2], [59, 13, 2, 2],
-					[48, 15, 2, 8], [50, 15, 9, 8], [59, 15, 2, 8],
-					[48, 23, 2, 2], [50, 23, 9, 2], [59, 23, 2, 2]
-				],
-		frame_name: "Buttons/slider_buttons.png"
-	},
-
-	"numeric_text_box_buttons": {
-		enforce_valid_expression: "True",
-		width: "50dpi_px",
-		width_flags: "ScaleToFit",
-		auto_height: "true",
-		colour: "#00000000",
-		reactivated_style: "reactivated_numeric_textbox",
-		deactivated_style: "deactivated_numeric_textbox",
-		has_buttons: "true",
-		button_increment_style: "no_flow",
-		button_decrement_style: "no_flow"
-	},
-
-	"test_animated_image": {
-		update_speed: 0.01667,
-		scale_width: 0.25,
-		scale_height: 0.25,
-		margin: "10px"
-	},
-
-	"test_colour_image": {
-		width: "50px",
-		height: "50px"
-	},
-
-	"test_image": {
-		colour: "#ffff0000",
-		margin: "10px"
-	},
-
-	"radiobutton_stack": {
-		stack_order: "LeftToRight",
-		stack_resize: "ResizeAll",
-		left: "-1px",
-		top: "-1px",
-		mouse_events: "True"
-	},
-
-	"radiobutton": {
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 1, 21, 21], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		width: "21dpi_px",
-		height: "21dpi_px",
-		frame_name: "Buttons/radiobox.png"
-	},
-
-	"radiobutton_on": {
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 21, 21, 21], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		width: "21dpi_px",
-		height: "21dpi_px",
-		frame_name: "Buttons/radiobox.png"
-	},
-
-	"radiobutton_highlighted": {
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [41, 1, 21, 21], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		width: "21dpi_px",
-		height: "21dpi_px",
-		frame_name: "Buttons/radiobox.png"
-	},
-
-	"radiobutton_label": {
-		comment: "Will be positioned according to the x,y location of the parent checkbox",
-		halign: "hAlignLeft",
-		valign: "vAlignCentre",
-		width: "100%",
-		height: "100%",
-		margin_right: "5px",
-		margin_left: "5px",
-		auto_size: "True"
-	},
-
-	"radiobutton_label_with_icon": {
-		comment: "Will be positioned according to the x,y location of the parent checkbox",
-		halign: "hAlignLeft",
-		valign: "vAlignCentre",
-		width: "100%",
-		height: "100%",
-		margin_right: "5px",
-		left: "55px",
-		auto_size: "true"
-	},
-
-	"radiobutton_icon": {
-		height: "30px",
-		width: "30px",
-		left: "20px",
-		mouse_events: "false",
-		image_flags: "Stretch, KeepAspectRatio, Centre"
-	},
-
-	"combobox_title": {
-		left: "0px",
-		right: "24dpi_px",
-		width: "100%",
-		height: "100%",
-		margin_top: "4dpi_px",
-		margin_bottom: "4dpi_px",
-		clip: ["2dpi_px", "2dpi_px", "2dpi_px", "2dpi_px"],
-		width_flags: "ScaleToFit"
-	},
-
-	"combobox_panel": {
-		comment: "Sets the style of the combo box stack panel",
-		colour: "#ffffffff",
-		height: "24dpi_px",
-		display_margin_left: "5",
-		position: [
-					[22, 1, 3, 3], [25, 1, 13, 3], [38, 1, 3, 3],
-					[22, 4, 3, 13], [25, 4, 13, 13], [38, 4, 3, 13],
-					[22, 17, 3, 3], [25, 17, 13, 3], [38, 17, 3, 3]
-				],
-		clip: "2dpi_px",
-		frame_name: "Buttons/dial_combo_box.png",
-		auto_height: "true",
-		width: "120dpi_px",
-		deactivated_style: "deactivated_combobox",
-		reactivated_style: "reactivated_combobox"
-	},
-
-	"deactivated_combobox": {
-		position: [
-					[1, 1, 3, 3], [4, 1, 13, 3], [17, 1, 3, 3],
-					[1, 4, 3, 13], [4, 4, 13, 13], [17, 4, 3, 13],
-					[1, 17, 3, 3], [4, 17, 13, 3], [17, 17, 3, 3]
-				],
-		selected_override_colour: "#ff888888",
-		drop_down_selector_style: "deactivated_selector",
-		drop_down_selector_icon_style: "deactivated_selector_icon",
-		mouse_events: "false"
-	},
-
-	"reactivated_combobox": {
-		position: [
-					[22, 1, 3, 3], [25, 1, 13, 3], [38, 1, 3, 3],
-					[22, 4, 3, 13], [25, 4, 13, 13], [38, 4, 3, 13],
-					[22, 17, 3, 3], [25, 17, 13, 3], [38, 17, 3, 3]
-				],
-		selected_override_colour: "",
-		drop_down_selector_style: "reactivated_selector",
-		drop_down_selector_icon_style: "reactivated_selector_icon",
-		mouse_events: "true"
-	},
-
-	"combobox_dropdown": {
-		height_max: "180dpi_px",
-		width_min: "120dpi_px"
-	},
-
-	"combobox_dropdown_listbox": {
-		position: [
-					[1, 1, 3, 3], [4, 1, 13, 3], [17, 1, 3, 3],
-					[1, 4, 3, 13], [4, 4, 13, 13], [17, 4, 3, 13],
-					[1, 17, 3, 3], [4, 17, 13, 3], [17, 17, 3, 3]
-				],
-		frame_name: "Buttons/dial_combo_box.png"
-	},
-
-	"dropdown_selector": {
-		right: "0px",
-		top: "0px",
-		width: "24dpi_px",
-		height: "100%",
-		position: [
-					[43, 1, 3, 3], [46, 1, 13, 3], [59, 1, 3, 3],
-					[43, 4, 3, 13], [46, 4, 13, 13], [59, 4, 3, 13],
-					[43, 17, 3, 3], [46, 17, 13, 3], [59, 17, 3, 3]
-				],
-		frame_name: "Buttons/dial_combo_box.png"
-	},
-
-	"deactivated_selector": {
-		position: [
-					[1, 1, 3, 3], [4, 1, 13, 3], [17, 1, 3, 3],
-					[1, 4, 3, 13], [4, 4, 13, 13], [17, 4, 3, 13],
-					[1, 17, 3, 3], [4, 17, 13, 3], [17, 17, 3, 3]
-				]
-	},
-
-	"reactivated_selector": {
-		position: [
-					[43, 1, 3, 3], [46, 1, 13, 3], [59, 1, 3, 3],
-					[43, 4, 3, 13], [46, 4, 13, 13], [59, 4, 3, 13],
-					[43, 17, 3, 3], [46, 17, 13, 3], [59, 17, 3, 3]
-				]
-	},
-
-	"dropdown_selector_icon": {
-		colour: "#ffffffff",
-		width: "7dpi_px",
-		height: "4dpi_px",
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [7, 30, 7, 4], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		frame_name: "Buttons/dial_combo_box.png"
-	},
-
-	"deactivated_selector_icon": {
-		colour: "#ff888888"
-	},
-
-	"reactivated_selector_icon": {
-		colour: "#ffffffff"
-	},
-
-	"combobox_text_box": {
-		frame_name: "",
-		colour: "#00000000",
-		text_colour: "#ffffffff",
-		selection_colour: "#ff957665",
-		left: "0px",
-		right: "24dpi_px",
-		width: "100%",
-		height: "100%",
-		clip: ["2dpi_px", "2dpi_px", "2dpi_px", "2dpi_px"],
-		width_flags: "ScaleToFit"
-	},
-
-  "combobox_search_textbox": {
-    text_colour: "#ffffffff",
-		selection_colour: "#ff957665",
-		left: "0px",
-		right: "24dpi_px",
-		width: "100%",
-		height: "100%",
-		clip: ["2dpi_px", "2dpi_px", "2dpi_px", "2dpi_px"],
-		width_flags: "ScaleToFit"
+  "button_up": {
+    "position": [
+      [22, 0, 3, 3],
+      [25, 0, 10, 3],
+      [35, 0, 3, 3],
+      [22, 3, 3, 10],
+      [25, 3, 10, 10],
+      [35, 3, 3, 10],
+      [22, 13, 3, 3],
+      [25, 13, 10, 3],
+      [35, 13, 3, 3]
+    ],
+    "frame_name": "Buttons/button_states.png",
+    "height": "24dpi_px",
+    "auto_height": "True",
+    "deactivated_style": "button_deactivated",
+    "reactivated_style": "button_reactivated"
   },
 
-	"progressbar_label": {
-		bottom: "-4dpi_px",
-		bottom_flags: "AlignWithOppositeEdge"
-	},
-
-	"progressbar": {
-		width: "140dpi_px",
-		height: "23dpi_px",
-		margin: "2dpi_px"
-	},
-
-	"progressbar_frame": {
-		position: [
-					[2, 2, 30, 7], [32, 2, 8, 7], [40, 2, 30, 7],
-					[2, 9, 30, 9], [32, 9, 8, 9], [40, 9, 30, 9],
-					[2, 18, 30, 7], [32, 18, 8, 7], [40, 18, 30, 7]
-				],
-		frame_name: "Progress_Bar/progress_bar.png",
-		width: "100%",
-		height: "23dpi_px"
-	},
-
-	"progressbar_bar": {
-		colour: "#FF85A201",
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [73, 2, 8, 9], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		frame_options: "Center_Repeat",
-		frame_name: "Progress_Bar/progress_bar.png",
-		height: "9dpi_px",
-		height_flags: "ScaleToFit",
-		left: "15dpi_px",
-		right: "15dpi_px"
-	},
-
-	"ide_progressbar": {
-		colour: "#00000000",
-		width: "120dpi_px",
-		height: "18dpi_px",
-		bar_style: "ide_progressbar_bar",
-		frame_style: "ide_progressbar_frame"
-	},
-
-	"ide_progressbar_frame": {
-		colour: "#00000000"
-	},
-
-	"ide_progressbar_bar": {
-		corner_colours: ["#FF03A4FF", "#FF434DFF", "#FF434DFF", "#FF03A4FF"],
-		height: "16%",
-		width: "100%",
-		left: "",
-		right: "",
-		bottom: "-2px",
-		frame_name: ""
-	},
-
-	"ide_progress_label": {
-		colour: "#FFFFFFFF",
-		outline_colour: "#002C2221",
-		font_size: 9,
-		auto_size: "false",
-		auto_ellipsis: "true",
-		left: "4px",
-		right: "4px"
-	},
-
-    "ide_progress_spinner":{
-        height:"20dpi_px",
-        width:"24dpi_px",
-        image_flags:"Stretch, Centre, KeepAspectRatio"
-    },
-
-	"progress_spinner_anim":{
-        height:"20dpi_px",
-        width:"24dpi_px",
-        image_flags:"Stretch, Centre, KeepAspectRatio",
-		animated_image: { image:'Progress_Bar/save_spinner_atlas.png', total: 9, row: 3, size: [40, 40] }
-    },
-
-	"small_progressbar_frame": {
-		width: "200dpi_px"
-	},
-
-	"green_progressbar_bar": {
-		colour: "#ff80ff80"
-	},
-
-	"resource_icon": {
-		image: "ResourceIcons/icon_default.png",
-		height: "20dpi_px",
-		width: "20dpi_px",
-		margin_top: "1dpi_px",
-		margin_bottom: "1dpi_px",
-		colour: "#ffffffff",
-		mouse_events: "false",
-		image_flags: "Stretch, KeepAspectRatio, Centre"
-	},
-
-	"resourcetree_guideline": {
-		height: "20dpi_px",
-		width: "20dpi_px",
-		top: "0dpi_px",
-		bottom: "0dpi_px",
-		colour: "#ffffffff",
-		mouse_events: "false",
-		image_flags: "Stretch"
-	},
-
-	"resourcetree_size_slider": {
-		min_value: 14,
-		max_value: 32,
-		mindrag_increment: 1,
-		click_increment: 4,
-		flow_increment: 2
-	},
-
-	"resource_label": {
-		valign: "vAlignCentre",
-		mouse_events: "false",
-		edit_in_place: "true",
-		enlarge_on_edit_pixels: 30,
-		margin_left: "3dpi_px",
-		height: "16dpi_px",
-		width: "100%"
-	},
-
-	"tooltip": {
-		show_fadein_animation: "True",
-		colour: "#FFFFFFFF",
-		mouse_xoffset: "5px",
-		mouse_yoffset: "5px",
-		position: [
-					[0, 0, 12, 11], [12, 0, 9, 11], [21, 0, 3, 11],
-					[0, 11, 12, 2], [12, 11, 9, 2], [21, 11, 3, 2],
-					[0, 13, 12, 3], [12, 13, 9, 3], [21, 13, 3, 3]
-				],
-		frame_name: "tool_tip.png",
-		use_render_target: "True",
-		mouse_events: "false",
-		auto_resize: "True"
-	},
-
-	"tooltip_label": {
-		colour: "#FFFFFFFF",
-		margin: ["25px", "3px", "10px", "3px"],
-		left: "0px"
-	},
-
-	"tooltip_label_mirrored": {
-		colour: "#FFFFFFFF",
-		margin: ["10px", "3px", "25px", "3px"],
-		left: "0px"
-	},
-
-	"tooltip_label_description": {
-		colour: "#FF000000",
-		margin: ["25px", "0px", "10px", "3px"],
-		left: "0px"
-	},
-
-	"tooltip_label_description_mirrored": {
-		colour: "#FF000000",
-		margin: ["10px", "0px", "25px", "3px"],
-		left: "0px"
-	},
-
-	"confirm_dialog": {
-		width: "390dpi_px",
-		height: "160dpi_px",
-		window_flags: "CloseButton, DockingDisabled, DesktopTransferDisabled",
-		localise_title: "Dialog_Confirm"
-	},
-
-	"invalidfiles_dialog": {
-		width: "390dpi_px",
-		height: "290dpi_px",
-		window_flags: "CloseButton, DockingDisabled, DesktopTransferDisabled",
-		localise_title: "Dialog_Confirm"
-	},
-
-	"toggle_gadget_checkbox": {
-		colour: "#00000000"
-	},
-
-	"toggle_gadget_checkbox_highlighted": {
-		colour: "#55000000",
-		frame_name: ""
-	},
-
-	"toggle_gadget_checkbox_tick": {
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		frame_name: "Buttons/icon_unlocked.png"
-	},
-
-	"toggle_gadget_checkbox_untick": {
-		colour: "#ffffffff",
-		position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 32, 32], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		frame_name: "Buttons/icon_locked.png"
-	},
-
-	"sprite_selector": {
-		scrollpanel_flags: "ResizeHeight",
-		colour: "#FFFFFFFF",
-		mouse_events: "False",
-		position: [
-					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
-					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
-					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
-				],
-		frame_name: "Window/dial_inner.png",
-		default_icon: "ResourceIcons/icon_default.png",
-		drag_frame_position: [
-					[0, 0, 1, 1], [1, 0, 62, 1], [63, 0, 1, 1],
-					[0, 1, 1, 62], [1, 1, 62, 62], [63, 1, 1, 62],
-					[0, 63, 1, 1], [1, 63, 62, 1], [63, 63, 1, 1]
-				],
-		drag_frame_options: "Top_Edge_Repeat, Bottom_Edge_Repeat, Left_Edge_Repeat, Right_Edge_Repeat",
-		drag_frame_name: "Window/dial_inner_dashed.png",
-		drag_colour: "#FFEEEEBB"
-	},
-
-	"resource_selector": {
-		mouse_events: "False",
-		drag_frame_position: [
-					[0, 0, 1, 1], [1, 0, 62, 1], [63, 0, 1, 1],
-					[0, 1, 1, 62], [1, 1, 62, 62], [63, 1, 1, 62],
-					[0, 63, 1, 1], [1, 63, 62, 1], [63, 63, 1, 1]
-				],
-		drag_frame_options: "Top_Edge_Repeat, Bottom_Edge_Repeat, Left_Edge_Repeat, Right_Edge_Repeat",
-		drag_frame_name: "Window/dial_inner_dashed.png",
-		drag_colour: "#FFEEEEBB"
-	},
-
-	"resource_selector_drag_message": {
-		word_wrap: "false",
-		auto_ellipsis: "true",
-		auto_size: "false",
-		width: "100%",
-		height: "100%",
-		margin_left: "5px",
-		margin_right: "5px",
-		halign: "hAlignCentre",
-		valign: "vAlignCentre",
-		width_flags: "ScaleToFit"
-	},
-
-	"sprite_selector_grid": {
-		grid_rowlayout: ["auto", "auto", "auto"],
-		grid_columnlayout: ["64dpi_px", "1*"],
-		column_spacing: "6px",
-		grid_resize: "ResizeGridHeight",
-		mouse_events: "False",
-		auto_ignore_disabled: "False"
-	},
-
-	"sprite_selector_button": {
-		width: "24dpi_px",
-		height: "24dpi_px"
-	},
-
-	"sprite_selector_sprite_button": {
-		width_flags: "ScaleToFit"
-	},
-
-	"sprite_selector_sprite_button_label": {
-		halign: "hAlignLeft",
-		margin_right: "25dpi_px"
-	},
-
-	"sprite_selector_heading": {
-		left: "2px",
-		bottom: "2px",
-		bottom_flags: "AlignWithOppositeEdge",
-		width: "100%",
-		width_flags: "ScaleToFit",
-		auto_ellipsis: "True",
-		auto_size: "True"
-	},
-
-	"sprite_selector_drag_message": {
-		word_wrap: "true",
-		auto_ellipsis: "true",
-		auto_size: "false",
-		width: "100%",
-		height: "100%",
-		halign: "hAlignCentre",
-		valign: "vAlignCentre",
-		margin_right: "10px",
-		width_flags: "ScaleToFit"
-	},
-
-	"sprite_selector_button_grid": {
-		grid_resize: "ResizeGridHeight",
-		width_flags: "ScaleToFit",
-		auto_ignore_disabled: "False"
-	},
-
-	"sprite_selector_icon_frame": {
-		colour: "#FFFFFFFF",
-		clip: ["6px"],
-		width_flags: "ScaleToFit",
-		height_flags: "ScaleToFit",
-		frame_name: "Window/dial_inner_alpha_grey.png",
-		position: [
-					[0, 0, 8, 4], [8, 0, 0, 0], [24, 0, 8, 4],
-					[0, 4, 8, 24], [8, 4, 0, 0], [24, 4, 8, 24],
-					[0, 28, 8, 4], [8, 28, 0, 0], [24, 28, 8, 4]
-				]
-	},
-
-	"sprite_selector_dimension": {
-		margin_left: "10px",
-		width_flags: "ScaleToFit"
-	},
-
-	"browse_button": {
-		icon: "Buttons/icon_IDE_browse.png"
-	},
-
-	"browse_button_sub_panel": {
-		height: "100%",
-		width: "24dpi_px",
-		right: "0px"
-	},
-
-	"browse_button_label": {
-		halign: "hAlignLeft",
-		margin_right: "25dpi_px"
-	},
-
-	"toolbar_widget": {
-		scrollpanel_flags: "ResizeWidth",
-		height: "36dpi_px",
-		position: [
-					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
-					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
-					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
-				],
-		frame_name: "Window/widget_surround.png",
-		colour: "#AAFFFFFF",
-		mouse_events: "True"
-	},
-
-	"toolbar_widget_mini": {
-		height: "22dpi_px"
-	},
-
-	"toolbar_widget_button": {
-		width: "24dpi_px",
-		height: "24dpi_px",
-		margin_left: "4dpi_px",
-		margin_right: "4dpi_px"
-	},
-
-	"toolbar_widget_button_mini": {
-		width: "20dpi_px",
-		height: "20dpi_px",
-		margin_left: "2dpi_px",
-		margin_right: "2dpi_px"
-	},
-
-	"toolbar_widget_button_mini_icon": {
-		height: "100%",
-		height_flags: "ScaleToFit",
-		margin_top: "2px",
-		margin_bottom: "2px",
-		mouse_events: "false",
-		image_flags: "Stretch, KeepAspectRatio, Centre"
-	},
-
-	"toolbar_widget_dropdown_button": {
-		width: "10px",
-		height: "100%",
-		margin_right: "4dpi_px",
-		icon: "Buttons/dropdown_arrow.png",
-		icon_flags: "Centre"
-	},
-
-	"toolbar_widget_dropdown_button_mini": {
-		width: "10px",
-		height: "100%",
-		margin_right: "2dpi_px",
-		icon: "Buttons/dropdown_arrow.png",
-		icon_flags: "Centre"
-	},
-
-	"toolbar_widget_stack": {
-		stack_order: "LeftToRight",
-		stack_resize: "ResizeWidth",
-		colour: "#00008000",
-		height: "24dpi_px",
-		left: "15dpi_px"
-	},
-
-	"toolbar_widget_stack_mini": {
-		stack_order: "LeftToRight",
-		stack_resize: "ResizeWidth",
-		colour: "#00008000",
-		left: "13dpi_px",
-		height: "20dpi_px"
-	},
-
-	"toolbar_widget_popup": {
-		window_flags: "AllowFlowEscapeWindow",
-		position: [
-					[0, 0, 4, 4], [4, 0, 24, 4], [28, 0, 4, 4],
-					[0, 4, 4, 24], [4, 4, 24, 24], [28, 4, 4, 24],
-					[0, 28, 4, 4], [4, 28, 24, 4], [28, 28, 4, 4]
-				],
-		frame_name: "Window/dial_inner.png",
-		colour: "#ffffffff",
-		mouse_events: "False"
-	},
-
-	"toolbar_grab_handle": {
-		image: "Buttons/widget_thumb.png",
-		colour: "#FFFFFFFF",
-		height: "100%",
-		width: "15dpi_px",
-		icon_flags: "Centre",
-		left: "0px"
-	},
-
-	"toolwidget_separator": {
-		width: "1px",
-		height: "100%",
-		height_flags: "ScaleToFit",
-		margin_top: "4dpi_px",
-		margin_bottom: "4dpi_px"
-	},
-
-	"timeline_frame_highlight": {
-		colour: "#FFFFFFFF",
-		width: "72px",
-		height: "78px",
-		position: [
-					[41, 1, 5, 5], [46, 1, 6, 5], [52, 1, 5, 5],
-					[41, 6, 5, 6], [46, 6, 6, 6], [52, 6, 5, 6],
-					[41, 12, 5, 5], [46, 12, 6, 5], [52, 12, 5, 5]
-				],
-		frame_name: "Window/timeline.png"
-	},
-
-	"timeline_frame_no_highlight": {
-		colour: "#FFFFFFFF",
-		width: "72px",
-		height: "78px",
-		position: [
-					[1, 1, 2, 2], [3, 1, 12, 2], [15, 1, 2, 2],
-					[1, 3, 2, 12], [3, 3, 12, 12], [15, 3, 2, 12],
-					[1, 15, 2, 2], [3, 15, 12, 2], [15, 15, 2, 2]
-				],
-		frame_name: "Window/timeline.png"
-	},
-
-	"timeline_add_button": {
-		position: [
-					[1, 1, 2, 2], [3, 1, 12, 2], [15, 1, 2, 2],
-					[1, 3, 2, 12], [3, 3, 12, 12], [15, 3, 2, 12],
-					[1, 15, 2, 2], [3, 15, 12, 2], [15, 15, 2, 2]
-				],
-		frame_name: "Window/timeline.png",
-		button_over_style: "timeline_addbutton_frame",
-		button_down_style: "timeline_addbutton_frame",
-		width: "72px",
-		height: "78px",
-		margin_left: "1px"
-	},
-
-	"timeline_addbutton_frame": {
-		position: [
-					[1, 1, 2, 2], [3, 1, 12, 2], [15, 1, 2, 2],
-					[1, 3, 2, 12], [3, 3, 12, 12], [15, 3, 2, 12],
-					[1, 15, 2, 2], [3, 15, 12, 2], [15, 15, 2, 2]
-				],
-		frame_name: "Window/timeline.png"
-	},
-
-	"timeline_add_button_icon": {
-		mouse_events: "False",
-		image_flags: "Centre,Stretch",
-		height: "32px",
-		width: "32px",
-		left: "0px",
-		top: "0px",
-		image: "Buttons/icon_timeline_add.png",
-		deactivated_style: "image_deactivated",
-		reactivated_style: "image_reactivated"
-	},
-
-	"strip_import_dialog": {
-		height: "477dpi_px",
-		width: "725dpi_px",
-		top: "0px",
-		window_flags: "CloseButton, ResizeButton,DockingDisabled, DesktopTransferDisabled",
-		localise_title: "ImageEditor_CreateFromStrip"
-	},
-
-	"file_input": {
-		width: "100%",
-		width_flags: "ScaleToFit",
-		height: "24dpi_px"
-	},
-
-	"file_input_textbox": {
-		width: "100%",
-		width_flags: "ScaleToFit",
-		margin_right: "28dpi_px",
-		height: "100%",
-		left: "0px"
-	},
-
-	"file_input_browse": {
-		width: "24dpi_px",
-		icon: "Buttons/icon_IDE_browse.png",
-		height: "100%",
-		right: "0px"
-	},
-
-	"search_box": {
-		text_hoffset: "18dpi_px"
-	},
-
-	"syntax_error_gutter": {
-		error_colour: "#00000000",
-		warning_colour: "#00000000"
-	},
-
-	"label_right_align": {
-		halign: "hAlignRight"
-	},
-
-	"resource_button": {
-		drag_colour: "#FFFFEEDD",
-		drag_over_colour: "#FFFFEABB",
-		drag_frame_position: [
-					[60, 0, 3, 3], [63, 0, 10, 3], [73, 0, 3, 3],
-					[60, 3, 3, 10], [63, 3, 10, 10], [73, 3, 3, 10],
-					[60, 13, 3, 3], [63, 13, 10, 3], [73, 13, 3, 3]
-				],
-		drag_frame_name: "Buttons/button_states.png"
-	},
-
-	"ide_version_label": {
-		colour: "#88ffffff"
-	},
-
-	"disable_mouse_on_deactivate": {
-		deactivated_style: "disable_mouse_events",
-		reactivated_style: "enable_mouse_events"
-	},
-
-	"disable_mouse_events": {
-		mouse_events: "false"
-	},
-
-	"enable_mouse_events": {
-		mouse_events: "true"
-	},
-
-	"spline_editor": {
-		use_mini_zoom_widget: "true",
-		show_zoom_widget: "true",
-		zoom_widget_style: "spline_editor_widget_style",
-		centre_fit_buffer: 16
-	},
-
-	"spline_editor_widget_style": {
-		tool_flags: "None"
-	},
-
-    "data_grid_plus": {
-        position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0,0, 0],
-					[0, 0, 0, 0], [1, 1, 12, 12], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		frame_name: "datagrid.png",
-        width: "12dpi_px",
-		height: "12dpi_px"
-    },
-
-    "data_grid_minus": {
-        position: [
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0,0, 0],
-					[0, 0, 0, 0], [14, 1, 12, 12], [0, 0, 0, 0],
-					[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]
-				],
-		frame_name: "datagrid.png",
-        width: "12dpi_px",
-		height: "12dpi_px"
-    },
-
-	"data_grid_column": {
-		frame_name: "",
-		top: "0px",
-		auto_height: "False",
-		height: "100%",
-		button_down_style: "data_grid_column_down",
-		button_over_style: "data_grid_column_over",
-		button_over_down_style: "data_grid_column_over_down",
-		colour: "#FF2C2221",
-		up_tint: "#FF2C2221",
-		down_tint: "#FF2C2221",
-		mouseover_up_tint: "#FF3d302d",
-		mouseover_up_focused_tint: "#FF3d302d",
-		mouseover_down_tint: "#FF211a19",
-		mouseover_down_focused_tint: "#FF211a19",
-		up_focused_tint: "#FF2C2221",
-		down_focused_tint: "#FF2C2221"
-	},
-
-	"data_grid_header_grid": {
-		splitter_thickness: "4dpi_px"
-	},
-
-	"data_grid_column_splitter": {
-		frame_name: "",
-		colour: "#0023201B",
-		height: "100%"
-	},
-
-	"data_grid_column_down": { frame_name: "" },
-	"data_grid_column_over": { frame_name: "" },
-	"data_grid_column_over_down": { frame_name: "" },
-
-    "data_grid_style": {
-        grid_line_colour: "#FF23201B",
-		node_line_colour: "#FF80BD3E",
-        text_colour: "#FFFFFFFF",
-        hilight_colour: "#FF2D2A23",
-		node_margin: "16dpi_px",
-		text_margin: "16dpi_px",
-		header_height: "20dpi_px"
-    },
+  "prefs_button": {
+    "margin_top": "4dpi_px"
+  },
+
+  "no_frame_button": {
+    "frame_name": "",
+    "up_tint": "#00000000",
+    "up_focused_tint": "#00000000"
+  },
+
+  "button_down": {
+    "position": [
+      [60, 0, 3, 3],
+      [63, 0, 10, 3],
+      [73, 0, 3, 3],
+      [60, 3, 3, 10],
+      [63, 3, 10, 10],
+      [73, 3, 3, 10],
+      [60, 13, 3, 3],
+      [63, 13, 10, 3],
+      [73, 13, 3, 3]
+    ],
+    "frame_name": "Buttons/button_states.png"
+  },
+
+  "button_over": {
+    "position": [
+      [41, 0, 3, 3],
+      [44, 0, 10, 3],
+      [54, 0, 3, 3],
+      [41, 3, 3, 10],
+      [44, 3, 10, 10],
+      [54, 3, 3, 10],
+      [41, 13, 3, 3],
+      [44, 13, 10, 3],
+      [54, 13, 3, 3]
+    ],
+    "frame_name": "Buttons/button_states.png"
+  },
+
+  "button_over_down": {
+    "frame_name": ""
+  },
+
+  "button_no_over_texture": {
+    "frame_name": ""
+  },
+
+  "toolbar_button": {
+    "width": "24dpi_px",
+    "height": "24dpi_px",
+    "margin": ["2dpi_px", "3dpi_px", "", "3dpi_px"],
+    "deactivated_style": "button_deactivated",
+    "reactivated_style": "button_reactivated"
+  },
+
+  "button_deactivated": {
+    "icon_colour": "#40ffffff",
+    "label_colour": "#40ffffff",
+    "mouse_events": "false"
+  },
+
+  "button_reactivated": {
+    "icon_colour": "#ffffffff",
+    "label_colour": "#ffffffff",
+    "mouse_events": "true"
+  },
+
+  "button_label": {
+    "halign": "hAlignCentre",
+    "valign": "vAlignCentre",
+    "mouse_events": "false",
+    "auto_ellipsis": "true",
+    "auto_size": "false",
+    "width_flags": "ScaleToFit",
+    "width": "100%",
+    "margin": "4px"
+  },
+
+  "button_up_label_with_icon": {
+    "width": "50%",
+    "right": "5%",
+    "halign": "hAlignLeft",
+    "valign": "vAlignCentre",
+    "mouse_events": "False"
+  },
+
+  "large_button_label": {
+    "halign": "hAlignCentre",
+    "valign": "vAlignCentre",
+    "mouse_events": "false"
+  },
+
+  "large_button_label_with_icon": {
+    "width": "50%",
+    "right": "5%",
+    "halign": "hAlignLeft",
+    "valign": "vAlignCentre",
+    "mouse_events": "false",
+    "auto_size": "false"
+  },
+
+  "button_icon": {
+    "height": "100%",
+    "height_flags": "ScaleToFit",
+    "margin_top": "4px",
+    "margin_bottom": "4px",
+    "mouse_events": "false",
+    "image_flags": "Stretch, KeepAspectRatio, Centre"
+  },
+
+  "button_up_icon_with_label": {
+    "width": "40%",
+    "left": "5%",
+    "height": "80%",
+    "mouse_events": "False",
+    "image_flags": "Stretch, Centre, KeepAspectRatio"
+  },
+
+  "large_button_icon": {
+    "height": "80%",
+    "mouse_events": "false",
+    "image_flags": "Stretch, KeepAspectRatio, Centre"
+  },
+
+  "large_button_icon_with_label": {
+    "width": "40%",
+    "left": "5%",
+    "height": "80%",
+    "mouse_events": "false",
+    "image_flags": "Stretch, KeepAspectRatio, Centre"
+  },
+
+  "basic_button": {
+    "width": "50px",
+    "height": "20px",
+    "margin": "5px"
+  },
+
+  "basic_button_label": {
+    "margin": ["", "4px", "", "4px"]
+  },
+
+  "large_button": {
+    "width": "100px",
+    "height": "30px",
+    "margin": "10px"
+  },
+
+  "stretch_button": {
+    "width": "100%",
+    "width_flags": "ScaleToFit",
+    "height": "20px",
+    "margin": "25px"
+  },
+
+  "close_button_up": {
+    "comment": "will inherit from button_up",
+    "position": [
+      [51, 0, 2, 2],
+      [53, 0, 13, 2],
+      [66, 0, 2, 2],
+      [51, 2, 2, 12],
+      [53, 2, 13, 12],
+      [66, 2, 2, 12],
+      [51, 14, 2, 2],
+      [53, 14, 13, 2],
+      [66, 14, 2, 2]
+    ],
+    "frame_name": "Window/dial_window_ctrls.png",
+    "top": "1px",
+    "right": "4px",
+    "width": "17dpi_px",
+    "height": "100%",
+    "height_min": "16dpi_px",
+    "height_flags": "ScaleToFit",
+    "margin_bottom": "6px",
+    "button_down_style": "close_button_down",
+    "button_over_style": "close_button_down",
+    "up_tint": "#FFFFFFFF",
+    "down_tint": "#FF909090",
+    "mouseover_up_tint": "#FFFFFFFF",
+    "mouseover_down_tint": "#FF909090",
+    "up_focused_tint": "#FFFFFFFF",
+    "down_focused_tint": "#FF909090",
+    "mouseover_up_focused_tint": "#FFFFFFFF",
+    "mouseover_down_focused_tint": "#FF909090"
+  },
+
+  "borderless_close_button_up": {
+    "comment": "will inherit from button_up",
+    "position": [
+      [51, 0, 2, 2],
+      [53, 0, 13, 2],
+      [66, 0, 2, 2],
+      [51, 2, 2, 12],
+      [53, 2, 13, 12],
+      [66, 2, 2, 12],
+      [51, 14, 2, 2],
+      [53, 14, 13, 2],
+      [66, 14, 2, 2]
+    ],
+    "frame_name": "Window/dial_window_ctrls.png",
+    "top": "4dpi_px",
+    "margin_bottom": "4dpi_px",
+    "right": "4px",
+    "width": "17dpi_px",
+    "height": "100%",
+    "height_min": "16dpi_px",
+    "height_flags": "ScaleToFit",
+    "button_down_style": "close_button_down",
+    "button_over_style": "close_button_down",
+    "up_tint": "#FFFFFFFF",
+    "down_tint": "#FF909090",
+    "mouseover_up_tint": "#FFFFFFFF",
+    "mouseover_down_tint": "#FF909090",
+    "up_focused_tint": "#FFFFFFFF",
+    "down_focused_tint": "#FF909090",
+    "mouseover_up_focused_tint": "#FFFFFFFF",
+    "mouseover_down_focused_tint": "#FF909090"
+  },
+
+  "close_button_up_blend": {
+    "comment": "will inherit from button_up",
+    "position": [
+      [51, 0, 2, 2],
+      [53, 0, 13, 2],
+      [66, 0, 2, 2],
+      [51, 2, 2, 12],
+      [53, 2, 13, 12],
+      [66, 2, 2, 12],
+      [51, 14, 2, 2],
+      [53, 14, 13, 2],
+      [66, 14, 2, 2]
+    ],
+    "frame_name": "Window/dial_window_ctrls.png",
+    "top": "1px",
+    "right": "4px",
+    "width": "17dpi_px",
+    "height": "16dpi_px",
+    "button_down_style": "close_button_down",
+    "button_over_style": "close_button_down",
+    "up_tint": "#FFFFFFFF",
+    "down_tint": "#FF909090",
+    "mouseover_up_tint": "#FFFFFFFF",
+    "mouseover_down_tint": "#FF909090",
+    "up_focused_tint": "#FFFFFFFF",
+    "down_focused_tint": "#FF909090",
+    "mouseover_up_focused_tint": "#FFFFFFFF",
+    "mouseover_down_focused_tint": "#FF909090"
+  },
+
+  "close_button_down": {
+    "position": [
+      [51, 16, 2, 2],
+      [53, 16, 13, 2],
+      [66, 16, 2, 2],
+      [51, 18, 2, 12],
+      [53, 18, 13, 12],
+      [66, 18, 2, 12],
+      [51, 30, 2, 2],
+      [53, 30, 13, 2],
+      [66, 30, 2, 2]
+    ],
+    "frame_name": "Window/dial_window_ctrls.png"
+  },
+
+  "close_button_down_blend": {
+    "position": [
+      [51, 16, 2, 2],
+      [53, 16, 13, 2],
+      [66, 16, 2, 2],
+      [51, 18, 2, 12],
+      [53, 18, 13, 12],
+      [66, 18, 2, 12],
+      [51, 30, 2, 2],
+      [53, 30, 13, 2],
+      [66, 30, 2, 2]
+    ],
+    "frame_name": "Window/dial_window_ctrls.png"
+  },
+
+  "toggle_button_switch_button_up": {
+    "position": [
+      [2, 2, 5, 5],
+      [7, 2, 26, 5],
+      [33, 2, 5, 5],
+      [2, 7, 5, 6],
+      [7, 7, 26, 6],
+      [33, 7, 5, 6],
+      [2, 13, 5, 5],
+      [7, 13, 26, 5],
+      [33, 13, 5, 5]
+    ],
+    "frame_name": "Buttons/ToggleButton.png"
+  },
+
+  "toggle_button_switch_button_down": {
+    "position": [
+      [38, 2, 5, 5],
+      [43, 2, 26, 5],
+      [69, 2, 5, 5],
+      [38, 7, 5, 6],
+      [43, 7, 26, 6],
+      [69, 7, 5, 6],
+      [38, 13, 5, 5],
+      [43, 13, 26, 5],
+      [69, 13, 5, 5]
+    ],
+    "frame_name": "Buttons/ToggleButton.png"
+  },
+
+  "slider_grid": {
+    "left": "0dpi_px",
+    "grid_columnlayout": ["auto", "1*", "auto"],
+    "grid_rowlayout": ["auto"],
+    "height": "20dpi_px",
+    "colour": "#00000000",
+    "mouse_events": "False",
+    "width": "100%",
+    "grid_resize": "ResizeGridHeight",
+    "deactivated_style": "slider_grid_deactivated",
+    "reactivated_style": "slider_grid_reactivated"
+  },
+
+  "slider_grid_deactivated": {
+    "slider_bar_style": "slider_bar_deactivated",
+    "slider_bar_fill_not_focused_style": "slider_bar_fill_deactivated",
+    "thumb_style": "slider_thumb_deactivated",
+    "slider_style": "slider_deactivated"
+  },
+
+  "slider_grid_reactivated": {
+    "slider_bar_style": "slider_bar_reactivated",
+    "slider_bar_fill_not_focused_style": "slider_bar_fill_reactivated",
+    "thumb_style": "slider_thumb_reactivated",
+    "slider_style": "slilder_reactivated"
+  },
+
+  "slider_deactivated": {
+    "mouse_events": "false"
+  },
+
+  "slider_reactivated": {
+    "mouse_events": "true"
+  },
+
+  "slider_bar_deactivated": {
+    "mouse_events": "false"
+  },
+
+  "slider_bar_reactivated": {
+    "mouse_events": "true"
+  },
+
+  "slider_bar_fill_deactivated": {
+    "colour": "#FF666666"
+  },
+
+  "slider_bar_fill_reactivated": {
+    "colour": "#FF403733"
+  },
+
+  "slider_thumb_deactivated": {
+    "mouse_events": "false",
+    "up_tint": "#00000000",
+    "up_focused_tint": "#00000000",
+    "down_focused_tint": "#00000000",
+    "mouseover_down_focused_tint": "#00000000"
+  },
+
+  "slider_thumb_reactivated": {
+    "mouse_events": "true",
+    "up_tint": "#FF645B57",
+    "up_focused_tint": "#FFFFFFFF",
+    "down_focused_tint": "#FF372a28",
+    "mouseover_down_focused_tint": "#FF372a28"
+  },
+
+  "slider_grid_label": {
+    "width": "100dpi_px",
+    "height": "100%",
+    "halign": "hAlignLeft",
+    "valign": "vAlignCentre",
+    "left": "0px",
+    "margin_right": "5dpi_px"
+  },
+
+  "slider_grid_textbox": {
+    "right": "0px",
+    "top": "0px",
+    "width": "58dpi_px",
+    "height": "24dpi_px",
+    "left": "2dpi_px",
+    "has_buttons": "True",
+    "input_type": "Real",
+    "button_increment_style": "numeric_text_box_increment_button",
+    "button_decrement_style": "numeric_text_box_decrement_button"
+  },
+
+  "slider_grid_textbox_small": {
+    "right": "0px",
+    "top": "0px",
+    "width": "40px",
+    "height": "20px",
+    "has_buttons": "False"
+  },
+
+  "slider": {
+    "width": "100%",
+    "height": "15dpi_px",
+    "colour": "#00000000",
+    "min_value": -5,
+    "max_value": 5,
+    "click_increment": -1,
+    "flow_increment": 1,
+    "mindrag_increment": 0.5,
+    "minor_tick_freq": 0,
+    "major_tick_freq": 0,
+    "slider_direction": "Horizontal"
+  },
+
+  "slider_bar": {
+    "width": "100%",
+    "bottom": "7dpi_px",
+    "top": "1dpi_px",
+    "position": [
+      [0, 0, 3, 3],
+      [3, 0, 6, 3],
+      [9, 0, 3, 3],
+      [0, 3, 3, 1],
+      [3, 3, 6, 1],
+      [9, 3, 3, 1],
+      [0, 4, 3, 3],
+      [3, 4, 6, 3],
+      [9, 4, 3, 3]
+    ],
+    "frame_name": "Slider/slider_outer.png",
+    "margin_left": "4dpi_px",
+    "margin_right": "4dpi_px",
+    "width_flags": "ScaleToFit",
+    "colour": "#FFFFFFFF",
+    "clip": ["2dpi_px"]
+  },
+
+  "slider_bar_fill": {
+    "width": "100%",
+    "height": "100%",
+    "colour": "#FF5b9d02",
+    "position": [
+      [0, 0, 3, 2],
+      [3, 0, 4, 2],
+      [7, 0, 3, 2],
+      [0, 2, 3, 1],
+      [3, 2, 4, 1],
+      [7, 2, 3, 1],
+      [0, 3, 3, 2],
+      [3, 3, 4, 2],
+      [7, 3, 3, 2]
+    ],
+    "frame_name": "Slider/slider_bar.png"
+  },
+
+  "slider_bar_fill_not_focused": {
+    "width": "100%",
+    "height": "100%",
+    "colour": "#FF403733",
+    "position": [
+      [0, 0, 3, 2],
+      [3, 0, 4, 2],
+      [7, 0, 3, 2],
+      [0, 2, 3, 1],
+      [3, 2, 4, 1],
+      [7, 2, 3, 1],
+      [0, 3, 3, 2],
+      [3, 3, 4, 2],
+      [7, 3, 3, 2]
+    ],
+    "frame_name": "Slider/slider_bar.png"
+  },
+
+  "slider_thumb": {
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 12, 9],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "frame_name": "Slider/slider_arrow.png",
+    "width": "12dpi_px",
+    "height": "9dpi_px",
+    "top": "5dpi_px",
+    "up_tint": "#FF211A19",
+    "up_focused_tint": "#FFFFFFFF",
+    "down_focused_tint": "#FF372a28",
+    "mouseover_down_focused_tint": "#FF372a28"
+  },
+
+  "slider_thumb_down": {
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 12, 9],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "frame_name": "Slider/slider_arrow.png"
+  },
+
+  "slider_thumb_over": {
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 12, 9],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "frame_name": "Slider/slider_arrow.png"
+  },
+
+  "slider_vertical_major_tick": {
+    "colour": "#00000000",
+    "position": [
+      [0, 0, 1, 1],
+      [1, 0, 8, 1],
+      [9, 0, 1, 1],
+      [0, 1, 1, 8],
+      [1, 1, 8, 8],
+      [9, 1, 1, 8],
+      [0, 9, 1, 1],
+      [1, 9, 8, 1],
+      [9, 9, 1, 1]
+    ],
+    "frame_name": "TickFrame.png",
+    "height": "8dpi_px",
+    "width": "10dpi_px",
+    "left": "-15dpi_px"
+  },
+
+  "slider_vertical_minor_tick": {
+    "colour": "#00000000",
+    "position": [
+      [0, 0, 1, 1],
+      [1, 0, 8, 1],
+      [9, 0, 1, 1],
+      [0, 1, 1, 8],
+      [1, 1, 8, 8],
+      [9, 1, 1, 8],
+      [0, 9, 1, 1],
+      [1, 9, 8, 1],
+      [9, 9, 1, 1]
+    ],
+    "frame_name": "TickFrame.png",
+    "height": "2dpi_px",
+    "width": "10dpi_px",
+    "left": "-15dpi_px"
+  },
+
+  "slider_horizontal_major_tick": {
+    "colour": "#00000000",
+    "position": [
+      [0, 0, 1, 1],
+      [1, 0, 8, 1],
+      [9, 0, 1, 1],
+      [0, 1, 1, 8],
+      [1, 1, 8, 8],
+      [9, 1, 1, 8],
+      [0, 9, 1, 1],
+      [1, 9, 8, 1],
+      [9, 9, 1, 1]
+    ],
+    "frame_name": "TickFrame.png",
+    "width": "8dpi_px",
+    "height": "10dpi_px",
+    "bottom": "-15dpi_px"
+  },
+
+  "slider_horizontal_minor_tick": {
+    "colour": "#00000000",
+    "position": [
+      [0, 0, 1, 1],
+      [1, 0, 8, 1],
+      [9, 0, 1, 1],
+      [0, 1, 1, 8],
+      [1, 1, 8, 8],
+      [9, 1, 1, 8],
+      [0, 9, 1, 1],
+      [1, 9, 8, 1],
+      [9, 9, 1, 1]
+    ],
+    "frame_name": "TickFrame.png",
+    "width": "2dpi_px",
+    "height": "10dpi_px",
+    "bottom": "-15dpi_px"
+  },
+
+  "link_label": {
+    "colour": "#FF79D104",
+    "cursor": "Pointer"
+  },
+
+  "link_label_hover": {
+    "colour": "#FF9AF324"
+  },
+
+  "link_label_active": {
+    "colour": "#FFA9FD3B"
+  },
+
+  "label": {
+    "width": "100%",
+    "height": "100%",
+    "enlarge_on_edit_pixels": 40
+  },
+
+  "label_bold": {
+    "width": "100%",
+    "height": "100%",
+    "font_bold": "true",
+    "enlarge_on_edit_pixels": 40
+  },
+
+  "label_deactivated": {
+    "colour": "#FF979797"
+  },
+
+  "label_reactivated": {
+    "colour": "#FFFFFFFF"
+  },
+
+  "image_deactivated": {
+    "colour": "#FF979797"
+  },
+
+  "image_reactivated": {
+    "colour": "#FFFFFFFF"
+  },
+
+  "label_right": {
+    "width": "100%",
+    "height": "100%",
+    "halign": "hAlignRight",
+    "auto_size": "false"
+  },
+
+  "label_centre": {
+    "width": "100%",
+    "height": "100%",
+    "halign": "hAlignCentre",
+    "auto_size": "false"
+  },
+
+  "label_editbox": {
+    "width": "100%",
+    "height": "100%",
+    "frame_name": "",
+    "clip": "",
+    "text_colour": "#ffffffff",
+    "colour": "#00000000"
+  },
+
+  "basic_label": {
+    "width": "100%",
+    "height": "20px",
+    "left": "0px",
+    "auto_size": "true",
+    "mouse_events": "false",
+    "valign": "vAlignCentre"
+  },
+
+  "basic_wrapped_label": {
+    "auto_size": "false",
+    "mouse_events": "false",
+    "word_wrap": "true",
+    "auto_ellipsis": "true"
+  },
+
+  "input_slider": {
+    "width": "70%"
+  },
+
+  "input_slider_bar": {
+    "colour": "#ffff00ff"
+  },
+
+  "input_slider_bar_fill": {
+    "colour": "#00000000"
+  },
+
+  "input_slider_vertical_major_tick": {
+    "position": [
+      [0, 0, 1, 1],
+      [1, 0, 8, 1],
+      [9, 0, 1, 1],
+      [0, 1, 1, 8],
+      [1, 1, 8, 8],
+      [9, 1, 1, 8],
+      [0, 9, 1, 1],
+      [1, 9, 8, 1],
+      [9, 9, 1, 1]
+    ],
+    "frame_name": "TickFrame.png",
+    "height": "8px",
+    "width": "10px",
+    "left": "-15px"
+  },
+
+  "input_slider_vertical_minor_tick": {
+    "position": [
+      [0, 0, 1, 1],
+      [1, 0, 8, 1],
+      [9, 0, 1, 1],
+      [0, 1, 1, 8],
+      [1, 1, 8, 8],
+      [9, 1, 1, 8],
+      [0, 9, 1, 1],
+      [1, 9, 8, 1],
+      [9, 9, 1, 1]
+    ],
+    "frame_name": "TickFrame.png",
+    "height": "2px",
+    "width": "10px",
+    "left": "-15px"
+  },
+
+  "input_slider_horizontal_major_tick": {
+    "position": [
+      [0, 0, 1, 1],
+      [1, 0, 8, 1],
+      [9, 0, 1, 1],
+      [0, 1, 1, 8],
+      [1, 1, 8, 8],
+      [9, 1, 1, 8],
+      [0, 9, 1, 1],
+      [1, 9, 8, 1],
+      [9, 9, 1, 1]
+    ],
+    "frame_name": "TickFrame.png",
+    "width": "8px",
+    "height": "10px",
+    "bottom": "-15px"
+  },
+
+  "input_slider_horizontal_minor_tick": {
+    "position": [
+      [0, 0, 1, 1],
+      [1, 0, 8, 1],
+      [9, 0, 1, 1],
+      [0, 1, 1, 8],
+      [1, 1, 8, 8],
+      [9, 1, 1, 8],
+      [0, 9, 1, 1],
+      [1, 9, 8, 1],
+      [9, 9, 1, 1]
+    ],
+    "frame_name": "TickFrame.png",
+    "width": "2px",
+    "height": "10px",
+    "bottom": "-15px"
+  },
+
+  "checkbox_stack": {
+    "stack_order": "LeftToRight",
+    "stack_resize": "ResizeAll",
+    "mouse_events": "true",
+    "deactivated_style": "deactivated_checkbox_stack",
+    "reactivated_style": "reactivated_checkbox_stack"
+  },
+
+  "checkbox_password": {
+    "left": "0dpi_px",
+    "margin_top": "3dpi_px",
+    "margin_bottom": "4dpi_px",
+    "localise_name": "Settings_ShowPassword"
+  },
+
+  "checkbox": {
+    "position": [
+      [1, 2, 4, 4],
+      [5, 2, 11, 4],
+      [16, 2, 4, 4],
+      [1, 6, 4, 11],
+      [5, 6, 11, 11],
+      [16, 6, 4, 11],
+      [1, 17, 4, 4],
+      [5, 17, 11, 4],
+      [16, 17, 4, 4]
+    ],
+    "width": "19dpi_px",
+    "height": "19dpi_px",
+    "frame_name": "Buttons/checkbox.png"
+  },
+
+  "checkbox_highlighted": {
+    "position": [
+      [42, 2, 4, 4],
+      [46, 2, 11, 4],
+      [57, 2, 4, 4],
+      [42, 6, 4, 11],
+      [46, 6, 11, 11],
+      [57, 6, 4, 11],
+      [42, 17, 4, 4],
+      [46, 17, 11, 4],
+      [57, 17, 4, 4]
+    ],
+    "frame_name": "Buttons/checkbox.png"
+  },
+
+  "checkbox_tick": {
+    "colour": "#ffffffff",
+    "position": [
+      [1, 22, 4, 4],
+      [5, 22, 11, 4],
+      [16, 22, 4, 4],
+      [1, 26, 4, 11],
+      [5, 26, 11, 11],
+      [16, 26, 4, 11],
+      [1, 37, 4, 4],
+      [5, 37, 11, 4],
+      [16, 37, 4, 4]
+    ],
+    "width": "19dpi_px",
+    "height": "19dpi_px",
+    "frame_name": "Buttons/checkbox.png"
+  },
+
+  "checkbox_untick": {
+    "colour": "#00000000"
+  },
+
+  "deactivated_checkbox_stack": {
+    "mouse_events": "false",
+    "base_style": "deactivated_checkbox"
+  },
+
+  "reactivated_checkbox_stack": {
+    "mouse_events": "true",
+    "base_style": "checkbox"
+  },
+
+  "deactivated_checkbox": {
+    "position": [
+      [21, 2, 4, 4],
+      [25, 2, 11, 4],
+      [36, 2, 4, 4],
+      [21, 6, 4, 11],
+      [25, 6, 11, 11],
+      [36, 6, 4, 11],
+      [21, 17, 4, 4],
+      [25, 17, 11, 4],
+      [36, 17, 4, 4]
+    ],
+    "frame_name": "Buttons/checkbox.png"
+  },
+
+  "deactivated_checkbox_tick": {
+    "colour": "#ffffffff",
+    "position": [
+      [21, 22, 4, 4],
+      [25, 22, 11, 4],
+      [36, 22, 4, 4],
+      [21, 26, 4, 11],
+      [25, 26, 11, 11],
+      [36, 26, 4, 11],
+      [21, 37, 4, 4],
+      [25, 37, 11, 4],
+      [36, 37, 4, 4]
+    ],
+    "frame_name": "Buttons/checkbox.png"
+  },
+
+  "deactivated_checkbox_untick": {
+    "colour": "#00000000"
+  },
+
+  "deactivated_checkbox_label": {
+    "comment": "Will be positioned according to the x,y location of the parent checkbox",
+    "halign": "hAlignLeft",
+    "valign": "vAlignCentre",
+    "width": "100dpi_px",
+    "height": "16dpi_px",
+    "margin_left": "5dpi_px",
+    "margin_right": "5dpi_px",
+    "auto_size": "True",
+    "colour": "#40ffffff"
+  },
+
+  "checkbox_label": {
+    "comment": "Will be positioned according to the x,y location of the parent checkbox",
+    "halign": "hAlignLeft",
+    "valign": "vAlignCentre",
+    "width": "100dpi_px",
+    "height": "16dpi_px",
+    "margin_left": "5dpi_px",
+    "margin_right": "5dpi_px",
+    "auto_size": "True",
+    "colour": "#ffffffff"
+  },
+
+  "checkbox_label_with_icon": {
+    "comment": "Will be positioned according to the x,y location of the parent checkbox",
+    "halign": "hAlignLeft",
+    "valign": "vAlignCentre",
+    "width": "100%",
+    "height": "100%",
+    "left": "64dpi_px",
+    "auto_size": "true"
+  },
+
+  "checkbox_icon": {
+    "height": "30dpi_px",
+    "width": "30dpi_px",
+    "left": "32dpi_px",
+    "mouse_events": "false",
+    "image_flags": "Stretch, KeepAspectRatio, Centre"
+  },
+
+  "heading_label": {
+    "halign": "hAlignCentre",
+    "valign": "vAlignCentre",
+    "margin_colour": "#ffffaaaa",
+    "colour": "#ff000000",
+    "auto_size": "false"
+  },
+
+  "heading2_label": {
+    "halign": "hAlignCentre",
+    "valign": "vAlignCentre",
+    "margin_colour": "#ffaaffaa",
+    "colour": "#ff000000",
+    "auto_size": "false"
+  },
+
+  "text_box": {
+    "position": [
+      [0, 0, 4, 4],
+      [4, 0, 24, 4],
+      [28, 0, 4, 4],
+      [0, 4, 4, 24],
+      [4, 4, 24, 24],
+      [28, 4, 4, 24],
+      [0, 28, 4, 4],
+      [4, 28, 24, 4],
+      [28, 28, 4, 4]
+    ],
+    "frame_name": "Window/dial_inner.png",
+    "clip": ["4px"],
+    "auto_height": "true",
+    "reactivated_style": "reactivated_text_box",
+    "deactivated_style": "deactivated_text_box"
+  },
+
+  "reactivated_text_box": {
+    "mouse_events": "true",
+    "text_colour": "#ffffffff"
+  },
+
+  "deactivated_text_box": {
+    "mouse_events": "false",
+    "text_colour": "#ffaaaaaa"
+  },
+
+  "text_box_text": {
+    "comment": "content values clue us into what the clip region is beyond the parent text box",
+    "left": "5px",
+    "top": "5px",
+    "right": "-5px",
+    "bottom": "-5px"
+  },
+
+  "text_box_caret": {
+    "colour": "#FFFFFFFF",
+    "width": "1px",
+    "height": "18px"
+  },
+
+  "focus_select_text_box": {
+    "always_select_on_focus": "true"
+  },
+
+  "list_box": {
+    "colour": "#FFFFFFFF",
+    "position": [
+      [0, 0, 3, 3],
+      [6, 0, 13, 3],
+      [29, 0, 3, 3],
+      [0, 4, 3, 16],
+      [6, 6, 16, 16],
+      [29, 6, 3, 16],
+      [0, 29, 3, 3],
+      [4, 29, 13, 3],
+      [29, 29, 3, 3]
+    ],
+    "frame_name": "Window/dial_inner.png",
+    "selection_colour": "#FF372a28",
+    "mouse_over_colour": "#FF372a28",
+    "clip": ["3px"],
+    "width": "100%",
+    "height": "100%",
+    "scrollpanel_flags": "VerticalScroll, HorizontalScroll, AdjustToScrollBars",
+    "vertical_scrollbar_style": "scroll_bar_no_scrolladjust",
+    "horizontal_scrollbar_style": "scroll_bar_no_scrolladjust"
+  },
+
+  "expandable_category": {
+    "left": "1dpi_px",
+    "right": "0dpi_px",
+    "header_height": "22dpi_px",
+    "margin_top": "5dpi_px",
+    "margin_bottom": "1dpi_px",
+    "colour": "#ffffffff",
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 4, 1],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 1, 4, 21],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 22, 4, 1],
+      [0, 0, 0, 0]
+    ],
+    "frame_name": "expandable_category_frame.png",
+    "label_style": "expandable_category_label"
+  },
+
+  "expandable_category_selected": {
+    "colour": "#FF4b433f"
+  },
+
+  "expandable_category_label": {
+    "left": "0px",
+    "halign": "hAlignLeft",
+    "auto_ellipsis": "True",
+    "colour": "#ff999999",
+    "mouse_events": "False"
+  },
+
+  "expandable_category_collapse": {
+    "margin_left": "9dpi_px",
+    "width": "7dpi_px",
+    "height": "100%",
+    "image": "DnD/dnd_node_icon_collapse.png",
+    "image_flags": "Stretch, Centre, KeepAspectRatio",
+    "mouse_events": "False"
+  },
+
+  "expandable_category_expand": {
+    "width": "6dpi_px",
+    "image": "DnD/dnd_node_icon_expand.png"
+  },
+
+  "list_box_stack": {
+    "stack_order": "TopToBottom",
+    "stack_resize": "ResizeAll",
+    "left": "0px",
+    "top": "0px",
+    "width": "100%",
+    "width_min": "100%",
+    "height": "100%"
+  },
+
+  "list_box_highlight": {
+    "colour": "#ff802020",
+    "width": "100%",
+    "height": "100%"
+  },
+
+  "list_box_mouseover": {
+    "colour": "#ff806060",
+    "width": "100%",
+    "height": "100%"
+  },
+
+  "list_box_enum_label": {
+    "margin": "2px",
+    "left": "2dpi_px",
+    "valign": "vAlignCentre"
+  },
+
+  "help_icon": {
+    "image": "IDE_Toolbar/icon_IDE_help.png",
+    "image_flags": "Centre, Stretch, KeepAspectRatio",
+    "mouse_events": "False"
+  },
+
+  "help_icon_listbox": {
+    "colour": "#AAFFFFFF",
+    "right": "2dpi_px",
+    "width": "16dpi_px",
+    "height": "16dpi_px"
+  },
+
+  "listbox_item_enum_help": {
+    "height": "20dpi_px"
+  },
+
+  "help_icon": {
+    "image": "IDE_Toolbar/icon_IDE_help.png",
+    "image_flags": "Centre, Stretch, KeepAspectRatio",
+    "mouse_events": "False",
+    "width": "16dpi_px",
+    "height": "16dpi_px"
+  },
+
+  "help_icon_listbox": {
+    "image": "IDE_Toolbar/icon_IDE_help.png",
+    "image_flags": "Centre, Stretch, KeepAspectRatio",
+    "mouse_events": "False",
+    "width": "16dpi_px",
+    "height": "16dpi_px",
+    "colour": "#AAFFFFFF",
+    "right": "2dpi_px"
+  },
+
+  "listbox_item_enum_help": {
+    "height": "20dpi_px"
+  },
+
+  "basic_text_box": {
+    "width": "200dpi_px",
+    "auto_height": "true"
+  },
+
+  "multiline_text_box": {
+    "position": [
+      [0, 0, 4, 4],
+      [4, 0, 24, 4],
+      [28, 0, 4, 4],
+      [0, 4, 4, 24],
+      [4, 4, 24, 24],
+      [28, 4, 4, 24],
+      [0, 28, 4, 4],
+      [4, 28, 24, 4],
+      [28, 28, 4, 4]
+    ],
+    "frame_name": "Window/dial_inner.png",
+    "clip": "4dpi_px",
+    "width": "250dpi_px",
+    "auto_height": "false",
+    "height": "150dpi_px"
+  },
+
+  "multiline_textbox_scroll_panel": {
+    "height": "100%",
+    "width": "100%",
+    "scrollpanel_flags": "VerticalScroll, HorizontalScroll, AdjustToScrollBars",
+    "clip": "4dpi_px"
+  },
+
+  "numeric_text_box": {
+    "enforce_valid_expression": "True",
+    "width": "50dpi_px",
+    "width_flags": "ScaleToFit",
+    "auto_height": "true",
+    "colour": "#00000000",
+    "reactivated_style": "reactivated_numeric_textbox",
+    "deactivated_style": "deactivated_numeric_textbox"
+  },
+
+  "internal_numeric_text_box": {
+    "left": "0px",
+    "width": "100%",
+    "right": "",
+    "height": "100%",
+    "top": "0px",
+    "width_flags": "ScaleToFit",
+    "colour": "#ffffffff",
+    "position": [
+      [0, 0, 4, 4],
+      [4, 0, 24, 4],
+      [28, 0, 4, 4],
+      [0, 4, 4, 24],
+      [4, 4, 24, 24],
+      [28, 4, 4, 24],
+      [0, 28, 4, 4],
+      [4, 28, 24, 4],
+      [28, 28, 4, 4]
+    ],
+    "frame_name": "Window/dial_inner.png"
+  },
+
+  "internal_numeric_text_box_buttons": {
+    "right": "15dpi_px",
+    "width_flags": "None"
+  },
+
+  "reactivated_numeric_textbox": {
+    "mouse_events": "true",
+    "text_colour": "#ffffffff",
+    "textbox_style": "reactivated_numeric_textbox",
+    "button_increment_style": "button_reactivated",
+    "button_decrement_style": "button_reactivated"
+  },
+
+  "deactivated_numeric_textbox": {
+    "mouse_events": "false",
+    "text_colour": "#ffaaaaaa",
+    "textbox_style": "deactivated_numeric_textbox",
+    "button_increment_style": "button_deactivated",
+    "button_decrement_style": "button_deactivated"
+  },
+
+  "reactivated_numeric_textbox_buttons": {
+    "mouse_events": "true",
+    "text_colour": "#ffffffff"
+  },
+
+  "deactivated_numeric_textbox_buttons": {
+    "mouse_events": "false",
+    "text_colour": "#ffaaaaaa"
+  },
+
+  "numeric_text_box_increment_button": {
+    "width": "13dpi_px",
+    "height": "12dpi_px",
+    "right": "0dpi_px",
+    "top": "0dpi_px",
+    "position": [
+      [18, 1, 2, 2],
+      [20, 1, 9, 2],
+      [29, 1, 2, 2],
+      [18, 3, 2, 8],
+      [20, 3, 9, 8],
+      [29, 3, 2, 8],
+      [18, 11, 2, 2],
+      [20, 11, 9, 2],
+      [29, 11, 2, 2]
+    ],
+    "frame_name": "Buttons/slider_buttons.png",
+    "button_over_style": "numeric_text_box_increment_button_over",
+    "button_down_style": "numeric_text_box_increment_button_down"
+  },
+
+  "numeric_text_box_increment_button_over": {
+    "position": [
+      [33, 1, 2, 2],
+      [35, 1, 9, 2],
+      [44, 1, 2, 2],
+      [33, 3, 2, 8],
+      [35, 3, 9, 8],
+      [44, 3, 2, 8],
+      [33, 11, 2, 2],
+      [35, 11, 9, 2],
+      [44, 11, 2, 2]
+    ],
+    "frame_name": "Buttons/slider_buttons.png"
+  },
+
+  "numeric_text_box_increment_button_down": {
+    "position": [
+      [48, 1, 2, 2],
+      [50, 1, 9, 2],
+      [59, 1, 2, 2],
+      [48, 3, 2, 8],
+      [50, 3, 9, 8],
+      [59, 3, 2, 8],
+      [48, 11, 2, 2],
+      [50, 11, 9, 2],
+      [59, 11, 2, 2]
+    ],
+    "frame_name": "Buttons/slider_buttons.png"
+  },
+
+  "numeric_text_box_decrement_button": {
+    "width": "13dpi_px",
+    "height": "12dpi_px",
+    "right": "0dpi_px",
+    "bottom": "0dpi_px",
+    "position": [
+      [18, 13, 2, 2],
+      [20, 13, 9, 2],
+      [29, 13, 2, 2],
+      [18, 15, 2, 8],
+      [20, 15, 9, 8],
+      [29, 15, 2, 8],
+      [18, 23, 2, 2],
+      [20, 23, 9, 2],
+      [29, 23, 2, 2]
+    ],
+    "frame_name": "Buttons/slider_buttons.png",
+    "button_over_style": "numeric_text_box_decrement_button_over",
+    "button_down_style": "numeric_text_box_decrement_button_down"
+  },
+
+  "numeric_text_box_decrement_button_over": {
+    "position": [
+      [33, 13, 2, 2],
+      [35, 13, 9, 2],
+      [44, 13, 2, 2],
+      [33, 15, 2, 8],
+      [35, 15, 9, 8],
+      [44, 15, 2, 8],
+      [33, 23, 2, 2],
+      [35, 23, 9, 2],
+      [44, 23, 2, 2]
+    ],
+    "frame_name": "Buttons/slider_buttons.png"
+  },
+
+  "numeric_text_box_decrement_button_down": {
+    "position": [
+      [48, 13, 2, 2],
+      [50, 13, 9, 2],
+      [59, 13, 2, 2],
+      [48, 15, 2, 8],
+      [50, 15, 9, 8],
+      [59, 15, 2, 8],
+      [48, 23, 2, 2],
+      [50, 23, 9, 2],
+      [59, 23, 2, 2]
+    ],
+    "frame_name": "Buttons/slider_buttons.png"
+  },
+
+  "numeric_text_box_buttons": {
+    "enforce_valid_expression": "True",
+    "width": "50dpi_px",
+    "width_flags": "ScaleToFit",
+    "auto_height": "true",
+    "colour": "#00000000",
+    "reactivated_style": "reactivated_numeric_textbox",
+    "deactivated_style": "deactivated_numeric_textbox",
+    "has_buttons": "true",
+    "button_increment_style": "no_flow",
+    "button_decrement_style": "no_flow"
+  },
+
+  "test_animated_image": {
+    "update_speed": 0.01667,
+    "scale_width": 0.25,
+    "scale_height": 0.25,
+    "margin": "10px"
+  },
+
+  "test_colour_image": {
+    "width": "50px",
+    "height": "50px"
+  },
+
+  "test_image": {
+    "colour": "#ffff0000",
+    "margin": "10px"
+  },
+
+  "radiobutton_stack": {
+    "stack_order": "LeftToRight",
+    "stack_resize": "ResizeAll",
+    "left": "-1px",
+    "top": "-1px",
+    "mouse_events": "True"
+  },
+
+  "radiobutton": {
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 1, 21, 21],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "width": "21dpi_px",
+    "height": "21dpi_px",
+    "frame_name": "Buttons/radiobox.png"
+  },
+
+  "radiobutton_on": {
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 21, 21, 21],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "width": "21dpi_px",
+    "height": "21dpi_px",
+    "frame_name": "Buttons/radiobox.png"
+  },
+
+  "radiobutton_highlighted": {
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [41, 1, 21, 21],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "width": "21dpi_px",
+    "height": "21dpi_px",
+    "frame_name": "Buttons/radiobox.png"
+  },
+
+  "radiobutton_label": {
+    "comment": "Will be positioned according to the x,y location of the parent checkbox",
+    "halign": "hAlignLeft",
+    "valign": "vAlignCentre",
+    "width": "100%",
+    "height": "100%",
+    "margin_right": "5px",
+    "margin_left": "5px",
+    "auto_size": "True"
+  },
+
+  "radiobutton_label_with_icon": {
+    "comment": "Will be positioned according to the x,y location of the parent checkbox",
+    "halign": "hAlignLeft",
+    "valign": "vAlignCentre",
+    "width": "100%",
+    "height": "100%",
+    "margin_right": "5px",
+    "left": "55px",
+    "auto_size": "true"
+  },
+
+  "radiobutton_icon": {
+    "height": "30px",
+    "width": "30px",
+    "left": "20px",
+    "mouse_events": "false",
+    "image_flags": "Stretch, KeepAspectRatio, Centre"
+  },
+
+  "combobox_title": {
+    "left": "0px",
+    "right": "24dpi_px",
+    "width": "100%",
+    "height": "100%",
+    "margin_top": "4dpi_px",
+    "margin_bottom": "4dpi_px",
+    "clip": ["2dpi_px", "2dpi_px", "2dpi_px", "2dpi_px"],
+    "width_flags": "ScaleToFit"
+  },
+
+  "combobox_panel": {
+    "comment": "Sets the style of the combo box stack panel",
+    "colour": "#ffffffff",
+    "height": "24dpi_px",
+    "display_margin_left": "5",
+    "position": [
+      [22, 1, 3, 3],
+      [25, 1, 13, 3],
+      [38, 1, 3, 3],
+      [22, 4, 3, 13],
+      [25, 4, 13, 13],
+      [38, 4, 3, 13],
+      [22, 17, 3, 3],
+      [25, 17, 13, 3],
+      [38, 17, 3, 3]
+    ],
+    "clip": "2dpi_px",
+    "frame_name": "Buttons/dial_combo_box.png",
+    "auto_height": "true",
+    "width": "120dpi_px",
+    "deactivated_style": "deactivated_combobox",
+    "reactivated_style": "reactivated_combobox"
+  },
+
+  "deactivated_combobox": {
+    "position": [
+      [1, 1, 3, 3],
+      [4, 1, 13, 3],
+      [17, 1, 3, 3],
+      [1, 4, 3, 13],
+      [4, 4, 13, 13],
+      [17, 4, 3, 13],
+      [1, 17, 3, 3],
+      [4, 17, 13, 3],
+      [17, 17, 3, 3]
+    ],
+    "selected_override_colour": "#ff888888",
+    "drop_down_selector_style": "deactivated_selector",
+    "drop_down_selector_icon_style": "deactivated_selector_icon",
+    "mouse_events": "false"
+  },
+
+  "reactivated_combobox": {
+    "position": [
+      [22, 1, 3, 3],
+      [25, 1, 13, 3],
+      [38, 1, 3, 3],
+      [22, 4, 3, 13],
+      [25, 4, 13, 13],
+      [38, 4, 3, 13],
+      [22, 17, 3, 3],
+      [25, 17, 13, 3],
+      [38, 17, 3, 3]
+    ],
+    "selected_override_colour": "",
+    "drop_down_selector_style": "reactivated_selector",
+    "drop_down_selector_icon_style": "reactivated_selector_icon",
+    "mouse_events": "true"
+  },
+
+  "combobox_dropdown": {
+    "height_max": "180dpi_px",
+    "width_min": "120dpi_px"
+  },
+
+  "combobox_dropdown_listbox": {
+    "position": [
+      [1, 1, 3, 3],
+      [4, 1, 13, 3],
+      [17, 1, 3, 3],
+      [1, 4, 3, 13],
+      [4, 4, 13, 13],
+      [17, 4, 3, 13],
+      [1, 17, 3, 3],
+      [4, 17, 13, 3],
+      [17, 17, 3, 3]
+    ],
+    "frame_name": "Buttons/dial_combo_box.png"
+  },
+
+  "dropdown_selector": {
+    "right": "0px",
+    "top": "0px",
+    "width": "24dpi_px",
+    "height": "100%",
+    "position": [
+      [43, 1, 3, 3],
+      [46, 1, 13, 3],
+      [59, 1, 3, 3],
+      [43, 4, 3, 13],
+      [46, 4, 13, 13],
+      [59, 4, 3, 13],
+      [43, 17, 3, 3],
+      [46, 17, 13, 3],
+      [59, 17, 3, 3]
+    ],
+    "frame_name": "Buttons/dial_combo_box.png"
+  },
+
+  "deactivated_selector": {
+    "position": [
+      [1, 1, 3, 3],
+      [4, 1, 13, 3],
+      [17, 1, 3, 3],
+      [1, 4, 3, 13],
+      [4, 4, 13, 13],
+      [17, 4, 3, 13],
+      [1, 17, 3, 3],
+      [4, 17, 13, 3],
+      [17, 17, 3, 3]
+    ]
+  },
+
+  "reactivated_selector": {
+    "position": [
+      [43, 1, 3, 3],
+      [46, 1, 13, 3],
+      [59, 1, 3, 3],
+      [43, 4, 3, 13],
+      [46, 4, 13, 13],
+      [59, 4, 3, 13],
+      [43, 17, 3, 3],
+      [46, 17, 13, 3],
+      [59, 17, 3, 3]
+    ]
+  },
+
+  "dropdown_selector_icon": {
+    "colour": "#ffffffff",
+    "width": "7dpi_px",
+    "height": "4dpi_px",
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [7, 30, 7, 4],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "frame_name": "Buttons/dial_combo_box.png"
+  },
+
+  "deactivated_selector_icon": {
+    "colour": "#ff888888"
+  },
+
+  "reactivated_selector_icon": {
+    "colour": "#ffffffff"
+  },
+
+  "combobox_text_box": {
+    "frame_name": "",
+    "colour": "#00000000",
+    "text_colour": "#ffffffff",
+    "selection_colour": "#ff957665",
+    "left": "0px",
+    "right": "24dpi_px",
+    "width": "100%",
+    "height": "100%",
+    "clip": ["2dpi_px", "2dpi_px", "2dpi_px", "2dpi_px"],
+    "width_flags": "ScaleToFit"
+  },
+
+  "combobox_search_textbox": {
+    "text_colour": "#ffffffff",
+    "selection_colour": "#ff957665",
+    "left": "0px",
+    "right": "24dpi_px",
+    "width": "100%",
+    "height": "100%",
+    "clip": ["2dpi_px", "2dpi_px", "2dpi_px", "2dpi_px"],
+    "width_flags": "ScaleToFit"
+  },
+
+  "progressbar_label": {
+    "bottom": "-4dpi_px",
+    "bottom_flags": "AlignWithOppositeEdge"
+  },
+
+  "progressbar": {
+    "width": "140dpi_px",
+    "height": "23dpi_px",
+    "margin": "2dpi_px"
+  },
+
+  "progressbar_frame": {
+    "position": [
+      [2, 2, 30, 7],
+      [32, 2, 8, 7],
+      [40, 2, 30, 7],
+      [2, 9, 30, 9],
+      [32, 9, 8, 9],
+      [40, 9, 30, 9],
+      [2, 18, 30, 7],
+      [32, 18, 8, 7],
+      [40, 18, 30, 7]
+    ],
+    "frame_name": "Progress_Bar/progress_bar.png",
+    "width": "100%",
+    "height": "23dpi_px"
+  },
+
+  "progressbar_bar": {
+    "colour": "#FF85A201",
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [73, 2, 8, 9],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "frame_options": "Center_Repeat",
+    "frame_name": "Progress_Bar/progress_bar.png",
+    "height": "9dpi_px",
+    "height_flags": "ScaleToFit",
+    "left": "15dpi_px",
+    "right": "15dpi_px"
+  },
+
+  "ide_progressbar": {
+    "colour": "#00000000",
+    "width": "120dpi_px",
+    "height": "18dpi_px",
+    "bar_style": "ide_progressbar_bar",
+    "frame_style": "ide_progressbar_frame"
+  },
+
+  "ide_progressbar_frame": {
+    "colour": "#00000000"
+  },
+
+  "ide_progressbar_bar": {
+    "corner_colours": ["#FF03A4FF", "#FF434DFF", "#FF434DFF", "#FF03A4FF"],
+    "height": "16%",
+    "width": "100%",
+    "left": "",
+    "right": "",
+    "bottom": "-2px",
+    "frame_name": ""
+  },
+
+  "ide_progress_label": {
+    "colour": "#FFFFFFFF",
+    "outline_colour": "#002C2221",
+    "font_size": 9,
+    "auto_size": "false",
+    "auto_ellipsis": "true",
+    "left": "4px",
+    "right": "4px"
+  },
+
+  "ide_progress_spinner": {
+    "height": "20dpi_px",
+    "width": "24dpi_px",
+    "image_flags": "Stretch, Centre, KeepAspectRatio"
+  },
+
+  "progress_spinner_anim": {
+    "height": "20dpi_px",
+    "width": "24dpi_px",
+    "image_flags": "Stretch, Centre, KeepAspectRatio",
+    "animated_image": {
+      "image": "Progress_Bar/save_spinner_atlas.png",
+      "total": 9,
+      "row": 3,
+      "size": [40, 40]
+    }
+  },
+
+  "small_progressbar_frame": {
+    "width": "200dpi_px"
+  },
+
+  "green_progressbar_bar": {
+    "colour": "#ff80ff80"
+  },
+
+  "resource_icon": {
+    "image": "ResourceIcons/icon_default.png",
+    "height": "20dpi_px",
+    "width": "20dpi_px",
+    "margin_top": "1dpi_px",
+    "margin_bottom": "1dpi_px",
+    "colour": "#ffffffff",
+    "mouse_events": "false",
+    "image_flags": "Stretch, KeepAspectRatio, Centre"
+  },
+
+  "resourcetree_guideline": {
+    "height": "20dpi_px",
+    "width": "20dpi_px",
+    "top": "0dpi_px",
+    "bottom": "0dpi_px",
+    "colour": "#ffffffff",
+    "mouse_events": "false",
+    "image_flags": "Stretch"
+  },
+
+  "resourcetree_size_slider": {
+    "min_value": 14,
+    "max_value": 32,
+    "mindrag_increment": 1,
+    "click_increment": 4,
+    "flow_increment": 2
+  },
+
+  "resource_label": {
+    "valign": "vAlignCentre",
+    "mouse_events": "false",
+    "edit_in_place": "true",
+    "enlarge_on_edit_pixels": 30,
+    "margin_left": "3dpi_px",
+    "height": "16dpi_px",
+    "width": "100%"
+  },
+
+  "tooltip": {
+    "show_fadein_animation": "True",
+    "colour": "#FFFFFFFF",
+    "mouse_xoffset": "5px",
+    "mouse_yoffset": "5px",
+    "position": [
+      [0, 0, 12, 11],
+      [12, 0, 9, 11],
+      [21, 0, 3, 11],
+      [0, 11, 12, 2],
+      [12, 11, 9, 2],
+      [21, 11, 3, 2],
+      [0, 13, 12, 3],
+      [12, 13, 9, 3],
+      [21, 13, 3, 3]
+    ],
+    "frame_name": "tool_tip.png",
+    "use_render_target": "True",
+    "mouse_events": "false",
+    "auto_resize": "True"
+  },
+
+  "tooltip_label": {
+    "colour": "#FFFFFFFF",
+    "margin": ["25px", "3px", "10px", "3px"],
+    "left": "0px"
+  },
+
+  "tooltip_label_mirrored": {
+    "colour": "#FFFFFFFF",
+    "margin": ["10px", "3px", "25px", "3px"],
+    "left": "0px"
+  },
+
+  "tooltip_label_description": {
+    "colour": "#FF000000",
+    "margin": ["25px", "0px", "10px", "3px"],
+    "left": "0px"
+  },
+
+  "tooltip_label_description_mirrored": {
+    "colour": "#FF000000",
+    "margin": ["10px", "0px", "25px", "3px"],
+    "left": "0px"
+  },
+
+  "confirm_dialog": {
+    "width": "390dpi_px",
+    "height": "160dpi_px",
+    "window_flags": "CloseButton, DockingDisabled, DesktopTransferDisabled",
+    "localise_title": "Dialog_Confirm"
+  },
+
+  "invalidfiles_dialog": {
+    "width": "390dpi_px",
+    "height": "290dpi_px",
+    "window_flags": "CloseButton, DockingDisabled, DesktopTransferDisabled",
+    "localise_title": "Dialog_Confirm"
+  },
+
+  "toggle_gadget_checkbox": {
+    "colour": "#00000000"
+  },
+
+  "toggle_gadget_checkbox_highlighted": {
+    "colour": "#55000000",
+    "frame_name": ""
+  },
+
+  "toggle_gadget_checkbox_tick": {
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 32, 32],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "frame_name": "Buttons/icon_unlocked.png"
+  },
+
+  "toggle_gadget_checkbox_untick": {
+    "colour": "#ffffffff",
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 32, 32],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "frame_name": "Buttons/icon_locked.png"
+  },
+
+  "sprite_selector": {
+    "scrollpanel_flags": "ResizeHeight",
+    "colour": "#FFFFFFFF",
+    "mouse_events": "False",
+    "position": [
+      [0, 0, 4, 4],
+      [4, 0, 24, 4],
+      [28, 0, 4, 4],
+      [0, 4, 4, 24],
+      [4, 4, 24, 24],
+      [28, 4, 4, 24],
+      [0, 28, 4, 4],
+      [4, 28, 24, 4],
+      [28, 28, 4, 4]
+    ],
+    "frame_name": "Window/dial_inner.png",
+    "default_icon": "ResourceIcons/icon_default.png",
+    "drag_frame_position": [
+      [0, 0, 1, 1],
+      [1, 0, 62, 1],
+      [63, 0, 1, 1],
+      [0, 1, 1, 62],
+      [1, 1, 62, 62],
+      [63, 1, 1, 62],
+      [0, 63, 1, 1],
+      [1, 63, 62, 1],
+      [63, 63, 1, 1]
+    ],
+    "drag_frame_options": "Top_Edge_Repeat, Bottom_Edge_Repeat, Left_Edge_Repeat, Right_Edge_Repeat",
+    "drag_frame_name": "Window/dial_inner_dashed.png",
+    "drag_colour": "#FFEEEEBB"
+  },
+
+  "resource_selector": {
+    "mouse_events": "False",
+    "drag_frame_position": [
+      [0, 0, 1, 1],
+      [1, 0, 62, 1],
+      [63, 0, 1, 1],
+      [0, 1, 1, 62],
+      [1, 1, 62, 62],
+      [63, 1, 1, 62],
+      [0, 63, 1, 1],
+      [1, 63, 62, 1],
+      [63, 63, 1, 1]
+    ],
+    "drag_frame_options": "Top_Edge_Repeat, Bottom_Edge_Repeat, Left_Edge_Repeat, Right_Edge_Repeat",
+    "drag_frame_name": "Window/dial_inner_dashed.png",
+    "drag_colour": "#FFEEEEBB"
+  },
+
+  "resource_selector_drag_message": {
+    "word_wrap": "false",
+    "auto_ellipsis": "true",
+    "auto_size": "false",
+    "width": "100%",
+    "height": "100%",
+    "margin_left": "5px",
+    "margin_right": "5px",
+    "halign": "hAlignCentre",
+    "valign": "vAlignCentre",
+    "width_flags": "ScaleToFit"
+  },
+
+  "sprite_selector_grid": {
+    "grid_rowlayout": ["auto", "auto", "auto"],
+    "grid_columnlayout": ["64dpi_px", "1*"],
+    "column_spacing": "6px",
+    "grid_resize": "ResizeGridHeight",
+    "mouse_events": "False",
+    "auto_ignore_disabled": "False"
+  },
+
+  "sprite_selector_button": {
+    "width": "24dpi_px",
+    "height": "24dpi_px"
+  },
+
+  "sprite_selector_sprite_button": {
+    "width_flags": "ScaleToFit"
+  },
+
+  "sprite_selector_sprite_button_label": {
+    "halign": "hAlignLeft",
+    "margin_right": "25dpi_px"
+  },
+
+  "sprite_selector_heading": {
+    "left": "2px",
+    "bottom": "2px",
+    "bottom_flags": "AlignWithOppositeEdge",
+    "width": "100%",
+    "width_flags": "ScaleToFit",
+    "auto_ellipsis": "True",
+    "auto_size": "True"
+  },
+
+  "sprite_selector_drag_message": {
+    "word_wrap": "true",
+    "auto_ellipsis": "true",
+    "auto_size": "false",
+    "width": "100%",
+    "height": "100%",
+    "halign": "hAlignCentre",
+    "valign": "vAlignCentre",
+    "margin_right": "10px",
+    "width_flags": "ScaleToFit"
+  },
+
+  "sprite_selector_button_grid": {
+    "grid_resize": "ResizeGridHeight",
+    "width_flags": "ScaleToFit",
+    "auto_ignore_disabled": "False"
+  },
+
+  "sprite_selector_icon_frame": {
+    "colour": "#FFFFFFFF",
+    "clip": ["6px"],
+    "width_flags": "ScaleToFit",
+    "height_flags": "ScaleToFit",
+    "frame_name": "Window/dial_inner_alpha_grey.png",
+    "position": [
+      [0, 0, 8, 4],
+      [8, 0, 0, 0],
+      [24, 0, 8, 4],
+      [0, 4, 8, 24],
+      [8, 4, 0, 0],
+      [24, 4, 8, 24],
+      [0, 28, 8, 4],
+      [8, 28, 0, 0],
+      [24, 28, 8, 4]
+    ]
+  },
+
+  "sprite_selector_dimension": {
+    "margin_left": "10px",
+    "width_flags": "ScaleToFit"
+  },
+
+  "browse_button": {
+    "icon": "Buttons/icon_IDE_browse.png"
+  },
+
+  "browse_button_sub_panel": {
+    "height": "100%",
+    "width": "24dpi_px",
+    "right": "0px"
+  },
+
+  "browse_button_label": {
+    "halign": "hAlignLeft",
+    "margin_right": "25dpi_px"
+  },
+
+  "toolbar_widget": {
+    "scrollpanel_flags": "ResizeWidth",
+    "height": "36dpi_px",
+    "position": [
+      [0, 0, 4, 4],
+      [4, 0, 24, 4],
+      [28, 0, 4, 4],
+      [0, 4, 4, 24],
+      [4, 4, 24, 24],
+      [28, 4, 4, 24],
+      [0, 28, 4, 4],
+      [4, 28, 24, 4],
+      [28, 28, 4, 4]
+    ],
+    "frame_name": "Window/widget_surround.png",
+    "colour": "#AAFFFFFF",
+    "mouse_events": "True"
+  },
+
+  "toolbar_widget_mini": {
+    "height": "22dpi_px"
+  },
+
+  "toolbar_widget_button": {
+    "width": "24dpi_px",
+    "height": "24dpi_px",
+    "margin_left": "4dpi_px",
+    "margin_right": "4dpi_px"
+  },
+
+  "toolbar_widget_button_mini": {
+    "width": "20dpi_px",
+    "height": "20dpi_px",
+    "margin_left": "2dpi_px",
+    "margin_right": "2dpi_px"
+  },
+
+  "toolbar_widget_button_mini_icon": {
+    "height": "100%",
+    "height_flags": "ScaleToFit",
+    "margin_top": "2px",
+    "margin_bottom": "2px",
+    "mouse_events": "false",
+    "image_flags": "Stretch, KeepAspectRatio, Centre"
+  },
+
+  "toolbar_widget_dropdown_button": {
+    "width": "10px",
+    "height": "100%",
+    "margin_right": "4dpi_px",
+    "icon": "Buttons/dropdown_arrow.png",
+    "icon_flags": "Stretch, Centre, KeepAspectRatio"
+  },
+
+  "toolbar_widget_dropdown_button_mini": {
+    "width": "10px",
+    "height": "100%",
+    "margin_right": "2dpi_px",
+    "icon": "Buttons/dropdown_arrow.png",
+    "icon_flags": "Stretch, Centre, KeepAspectRatio"
+  },
+
+  "toolbar_widget_stack": {
+    "stack_order": "LeftToRight",
+    "stack_resize": "ResizeWidth",
+    "colour": "#00008000",
+    "height": "24dpi_px",
+    "left": "15dpi_px"
+  },
+
+  "toolbar_widget_stack_mini": {
+    "stack_order": "LeftToRight",
+    "stack_resize": "ResizeWidth",
+    "colour": "#00008000",
+    "left": "13dpi_px",
+    "height": "20dpi_px"
+  },
+
+  "toolbar_widget_popup": {
+    "window_flags": "AllowFlowEscapeWindow",
+    "position": [
+      [0, 0, 4, 4],
+      [4, 0, 24, 4],
+      [28, 0, 4, 4],
+      [0, 4, 4, 24],
+      [4, 4, 24, 24],
+      [28, 4, 4, 24],
+      [0, 28, 4, 4],
+      [4, 28, 24, 4],
+      [28, 28, 4, 4]
+    ],
+    "frame_name": "Window/dial_inner.png",
+    "colour": "#ffffffff",
+    "mouse_events": "False"
+  },
+
+  "toolbar_grab_handle": {
+    "image": "Buttons/widget_thumb.png",
+    "colour": "#FFFFFFFF",
+    "height": "100%",
+    "width": "15dpi_px",
+    "icon_flags": "Centre",
+    "left": "0px"
+  },
+
+  "toolwidget_separator": {
+    "width": "1px",
+    "height": "100%",
+    "height_flags": "ScaleToFit",
+    "margin_top": "4dpi_px",
+    "margin_bottom": "4dpi_px"
+  },
+
+  "timeline_frame_highlight": {
+    "colour": "#FFFFFFFF",
+    "width": "72px",
+    "height": "78px",
+    "position": [
+      [41, 1, 5, 5],
+      [46, 1, 6, 5],
+      [52, 1, 5, 5],
+      [41, 6, 5, 6],
+      [46, 6, 6, 6],
+      [52, 6, 5, 6],
+      [41, 12, 5, 5],
+      [46, 12, 6, 5],
+      [52, 12, 5, 5]
+    ],
+    "frame_name": "Window/timeline.png"
+  },
+
+  "timeline_frame_no_highlight": {
+    "colour": "#FFFFFFFF",
+    "width": "72px",
+    "height": "78px",
+    "position": [
+      [1, 1, 2, 2],
+      [3, 1, 12, 2],
+      [15, 1, 2, 2],
+      [1, 3, 2, 12],
+      [3, 3, 12, 12],
+      [15, 3, 2, 12],
+      [1, 15, 2, 2],
+      [3, 15, 12, 2],
+      [15, 15, 2, 2]
+    ],
+    "frame_name": "Window/timeline.png"
+  },
+
+  "timeline_add_button": {
+    "position": [
+      [1, 1, 2, 2],
+      [3, 1, 12, 2],
+      [15, 1, 2, 2],
+      [1, 3, 2, 12],
+      [3, 3, 12, 12],
+      [15, 3, 2, 12],
+      [1, 15, 2, 2],
+      [3, 15, 12, 2],
+      [15, 15, 2, 2]
+    ],
+    "frame_name": "Window/timeline.png",
+    "button_over_style": "timeline_addbutton_frame",
+    "button_down_style": "timeline_addbutton_frame",
+    "width": "72px",
+    "height": "78px",
+    "margin_left": "1px"
+  },
+
+  "timeline_addbutton_frame": {
+    "position": [
+      [1, 1, 2, 2],
+      [3, 1, 12, 2],
+      [15, 1, 2, 2],
+      [1, 3, 2, 12],
+      [3, 3, 12, 12],
+      [15, 3, 2, 12],
+      [1, 15, 2, 2],
+      [3, 15, 12, 2],
+      [15, 15, 2, 2]
+    ],
+    "frame_name": "Window/timeline.png"
+  },
+
+  "timeline_add_button_icon": {
+    "mouse_events": "False",
+    "image_flags": "Centre,Stretch",
+    "height": "32px",
+    "width": "32px",
+    "left": "0px",
+    "top": "0px",
+    "image": "Buttons/icon_timeline_add.png",
+    "deactivated_style": "image_deactivated",
+    "reactivated_style": "image_reactivated"
+  },
+
+  "strip_import_dialog": {
+    "height": "477dpi_px",
+    "width": "725dpi_px",
+    "top": "0px",
+    "window_flags": "CloseButton, ResizeButton,DockingDisabled, DesktopTransferDisabled",
+    "localise_title": "ImageEditor_CreateFromStrip"
+  },
+
+  "file_input": {
+    "width": "100%",
+    "width_flags": "ScaleToFit",
+    "height": "24dpi_px"
+  },
+
+  "file_input_textbox": {
+    "width": "100%",
+    "width_flags": "ScaleToFit",
+    "margin_right": "28dpi_px",
+    "height": "100%",
+    "left": "0px"
+  },
+
+  "file_input_browse": {
+    "width": "24dpi_px",
+    "icon": "Buttons/icon_IDE_browse.png",
+    "height": "100%",
+    "right": "0px"
+  },
+
+  "search_box": {
+    "text_hoffset": "18dpi_px"
+  },
+
+  "syntax_error_gutter": {
+    "error_colour": "#00000000",
+    "warning_colour": "#00000000"
+  },
+
+  "label_right_align": {
+    "halign": "hAlignRight"
+  },
+
+  "resource_button": {
+    "drag_colour": "#FFFFEEDD",
+    "drag_over_colour": "#FFFFEABB",
+    "drag_frame_position": [
+      [60, 0, 3, 3],
+      [63, 0, 10, 3],
+      [73, 0, 3, 3],
+      [60, 3, 3, 10],
+      [63, 3, 10, 10],
+      [73, 3, 3, 10],
+      [60, 13, 3, 3],
+      [63, 13, 10, 3],
+      [73, 13, 3, 3]
+    ],
+    "drag_frame_name": "Buttons/button_states.png"
+  },
+
+  "ide_version_label": {
+    "colour": "#88ffffff"
+  },
+
+  "disable_mouse_on_deactivate": {
+    "deactivated_style": "disable_mouse_events",
+    "reactivated_style": "enable_mouse_events"
+  },
+
+  "disable_mouse_events": {
+    "mouse_events": "false"
+  },
+
+  "enable_mouse_events": {
+    "mouse_events": "true"
+  },
+
+  "spline_editor": {
+    "use_mini_zoom_widget": "true",
+    "show_zoom_widget": "true",
+    "zoom_widget_style": "spline_editor_widget_style",
+    "centre_fit_buffer": 16
+  },
+
+  "spline_editor_widget_style": {
+    "tool_flags": "None"
+  },
+
+  "data_grid_plus": {
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [1, 1, 12, 12],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "frame_name": "datagrid.png",
+    "width": "12dpi_px",
+    "height": "12dpi_px"
+  },
+
+  "data_grid_minus": {
+    "position": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [14, 1, 12, 12],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0],
+      [0, 0, 0, 0]
+    ],
+    "frame_name": "datagrid.png",
+    "width": "12dpi_px",
+    "height": "12dpi_px"
+  },
+
+  "data_grid_column": {
+    "frame_name": "",
+    "top": "0px",
+    "auto_height": "False",
+    "height": "100%",
+    "button_down_style": "data_grid_column_down",
+    "button_over_style": "data_grid_column_over",
+    "button_over_down_style": "data_grid_column_over_down",
+    "colour": "#FF2C2221",
+    "up_tint": "#FF2C2221",
+    "down_tint": "#FF2C2221",
+    "mouseover_up_tint": "#FF3d302d",
+    "mouseover_up_focused_tint": "#FF3d302d",
+    "mouseover_down_tint": "#FF211a19",
+    "mouseover_down_focused_tint": "#FF211a19",
+    "up_focused_tint": "#FF2C2221",
+    "down_focused_tint": "#FF2C2221"
+  },
+
+  "data_grid_header_grid": {
+    "splitter_thickness": "4dpi_px"
+  },
+
+  "data_grid_column_splitter": {
+    "frame_name": "",
+    "colour": "#0023201B",
+    "height": "100%"
+  },
+
+  "data_grid_column_down": { "frame_name": "" },
+  "data_grid_column_over": { "frame_name": "" },
+  "data_grid_column_over_down": { "frame_name": "" },
+
+  "data_grid_style": {
+    "grid_line_colour": "#FF23201B",
+    "node_line_colour": "#FF80BD3E",
+    "text_colour": "#FFFFFFFF",
+    "hilight_colour": "#FF2D2A23",
+    "node_margin": "16dpi_px",
+    "text_margin": "16dpi_px",
+    "header_height": "20dpi_px"
+  },
 
   "textview_button": {
-    icon: "Buttons/icon_view.png"
+    "icon": "Buttons/icon_view.png"
   },
 
   "textview_button_icon": {
-    margin: "1dpi_px"
+    "margin": "1dpi_px"
   },
 
-    "no_flow": {
-      accepts_flow: "false"
-    }
+  "no_flow": {
+    "accepts_flow": "false"
   }
+}

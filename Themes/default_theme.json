@@ -1,0 +1,17 @@
+{
+  "SkinName": "Dracula",
+  "VersionTag": "0",
+  "ColourPalette": {
+    "ins_font_range_invalid_text_bg": "#21222c",
+    "ins_header": "#21222c",
+    "ins_listbox_multisel_stripe": "#21222c",
+    "ins_object_eventlist_stripe": "#21222c",
+    "ins_path_table_bg": "#21222c",
+    "ins_path_table_stripe": "#21222c",
+    "ins_separator_dark_1": "#21222c",
+    "ins_separator_dark_2": "#21222c",
+    "ins_sticky_panel": "#21222c",
+    "ins_table_header": "#21222c",
+    "ins_table_stripe": "#21222c"
+  }
+}
