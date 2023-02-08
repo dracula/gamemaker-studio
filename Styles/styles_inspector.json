@@ -1,0 +1,1235 @@
+{
+        "inspector_module_style": {
+                search_bg_colour: "ins_search_bg",
+                search_hi_colour: "ins_search_hi"
+        },
+
+        "inspector_element": {
+                stack_order: "TopToBottom",
+                stack_resize: "ResizeHeight",
+                stack_flags: "FullSizeInternalPanel",
+                width_flags: "ScaleToFit",
+                left: "0px",
+                right: "0px",
+                margin_bottom: "20dpi_px"
+        },
+
+        "inspector_panel_same_line_child": {
+                margin_top: "",
+                margin_bottom: ""
+        },
+
+        "inspector_preview_margin": {
+                margin_bottom: "10dpi_px"
+        },
+
+        "inspector_category_first": {
+                margin_top: "10dpi_px",
+                margin_left: "5dpi_px",
+                margin_right: "5dpi_px"
+        },
+
+        "inspector_category_inbetween": {
+                base: "inspector_category_first"
+        },
+
+        "inspector_category_last": {
+                margin_top: "12dpi_px",
+                margin_bottom: "20dpi_px"
+        },
+
+        "inspector_element_margins": {
+                margin_top: "10dpi_px"
+        },
+
+        "inspector_object_panel_first": {
+                base: "inspector_category_first"
+        },
+
+        "inspector_object_panel_inbetween": {
+                base: "inspector_category_first"
+        },
+
+        "inspector_object_panel_last": {
+                base: "inspector_category_last"
+        },
+
+        "inspector_array_list_first": {
+                base: "inspector_category_first"
+        },
+
+        "inspector_array_list_inbetween": {
+                base: "inspector_category_first"
+        },
+
+        "inspector_array_list_last": {
+                base: "inspector_category_last"
+        },
+
+        "collapsible_inspector_panel": {
+                base_style: "collapsible_inspector_panel",
+                label_style: "collapsible_inspector_panel_label",
+                image_style: "collapsible_inspector_panel_collapse_image",
+                width: "100%",
+                height: "100%",
+                top: "0px",
+                left: "0px",
+                right: "0px",
+                margin_top: "",
+                margin_bottom: "",
+                header_height: "21dpi_px",
+                colour: "ins_collapsible_panel",
+                position: [
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 21, 2 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 2, 21, 18 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 20, 21, 1 ],
+                  [ 0, 0, 0, 0 ]
+                ],
+                frame_name: "Inspector/inspector_category_frame.png"
+        },
+
+        "collapsible_inspector_panel_label": {
+                left: "6dpi_px",
+                auto_size: "True",
+                auto_ellipsis: "True"
+        },
+
+        "collapsible_inspector_panel_collapse_image": {
+                margin_right: "9dpi_px",
+                top: "3dpi_px",
+                bottom: "0px",
+                width: "12dpi_px",
+                image: "Dock/dock_item_arrowD.png",
+                image_flags: "Stretch, Centre, KeepAspectRatio",
+                mouse_events: "False"
+        },
+
+        "collapsible_inspector_panel_expand_image": {
+                top: "2dpi_px",
+                image: "Dock/dock_item_arrowR.png"
+        },
+
+        "inspector_error_label": {
+                left: "3dpi_px",
+                colour: "ins_label_error",
+                auto_ellipsis: "True"
+        },
+
+        "inspector_null_label": {
+                left: "3dpi_px",
+                auto_ellipsis: "True",
+                deactivated: "True"
+        },
+
+        "labeled_inspector_panel": {
+                left: "3dpi_px",
+                right: "3dpi_px",
+                height: "24dpi_px",
+                content_margin: "3%"
+        },
+
+        "labeled_inspector_panelgrid": {
+                left: "5dpi_px",
+                right: "5dpi_px",
+                grid_rowlayout: [ "auto" ],
+                grid_columnlayout: [ "33%", "1*" ],
+                grid_resize: "ResizeGridHeight",
+                column_spacing: "0dpi_px",
+                mouse_events: "False"
+        },
+
+        "inspector_vertical_radio": {
+                left: "5dpi_px",
+                right: "5dpi_px",
+                grid_columnlayout: [ "1*", "40dpi_px" ],
+                grid_resize: "ResizeGridHeight",
+                mouse_events: "False"
+        },
+
+        "labeled_inspector_sameline_root": {
+                grid_columnlayout: [ "33%", "auto", "1*" ],
+                column_spacing: "0dpi_px"
+        },
+
+        "labeled_inspector_sameline_child": {
+                top: "0px",
+                left: "24dpi_px",
+                right: "0dpi_px",
+                grid_columnlayout: [ "1*", "auto" ]
+        },
+
+        "inspector_panel_label": {
+                left: "0dpi_px",
+                auto_size: "true",
+                height: "24dpi_px"
+        },
+
+        "inspector_panel_label_wrap": {
+                left: "0dpi_px",
+                auto_size: "true",
+                split_words_only:  "True",
+                word_wrap: "True"
+        },
+
+        "inspector_field_panel": {
+                left: "0dpi_px",
+                right: "0dpi_px",
+                grid_rowlayout: [ "auto" ],
+                grid_columnlayout: [ "24dpi_px", "1*" ],
+                grid_resize: "ResizeGridHeight",
+                column_spacing: "0dpi_px",
+                mouse_events: "False"
+        },
+
+        "inspector_field_panel_stacked": {
+                grid_rowlayout: [ "auto" ],
+                grid_columnlayout: [ "auto", "auto" ],
+                grid_resize: "ResizeGridWidth",
+                mouse_events: "False",
+                margin_left: "8dpi_px"
+        },
+
+        "inspector_field_panel_large_label": {
+                left: "0dpi_px",
+                right: "0dpi_px",
+                grid_rowlayout: [ "auto" ],
+                rid_columnlayout: [ "32dpi_px", "1*" ],
+                grid_resize: "ResizeGridHeight",
+                column_spacing: "0dpi_px",
+                mouse_events: "False"
+        },
+
+        "button_inspector_panel": {
+                left: "3dpi_px",
+                right: "3dpi_px",
+                auto_size: "True"
+        },
+
+        "inspector_textbox": {
+                width: "100%"
+        },
+
+        "inspector_multi_textbox": {
+                width: "100%",
+                height: "72dpi_px"
+        },
+
+        "inspector_numeric_textbox_old": {
+                width: "100%",
+                step_increment: 1,
+                has_buttons: "True"
+        },
+
+        "inspector_colour_select": {
+                width: "100%",
+                height: "22dpi_px",
+                width_flags: "ScaleToFit"
+        },
+
+        "inspector_colour_select_insert": {
+                right: "0px",
+                width: "8dpi_px",
+                height: "22dpi_px",
+                width_flags: "ScaleToFit"
+        },
+
+        "inspector_array_list": {
+                stack_order: "TopToBottom",
+                stack_resize: "ResizeHeight",
+                width: "100%",
+                stack_flags: "FullSizeInternalPanel",
+                container_element_column: 2
+        },
+
+        "inspector_array_list_element_container": {
+                right: "3dpi_px"
+        },
+
+        "inspector_array_list_dragging_image": {
+                image: "ArrowRight.png"
+        },
+
+        "inspector_array_list_draggable_image": {
+                image: "Buttons/widget_thumb.png",
+                image_flags: "Resize, Centre",
+                mouse_events: "False"
+        },
+
+        "inspector_array_list_readonly": {
+        },
+
+        "inspector_array_list_controls": {
+                margin_top: "4dpi_px",
+                left: "3dpi_px",
+                right: "3dpi_px",
+                height: "20dpi_px"
+        },
+
+        "inspector_array_list_size_text_box": {
+                width: "64dpi_px",
+                height: "20dpi_px"
+        },
+
+        "inspector_array_list_empty_label": {
+                left: "3dpi_px",
+                localise_caption: "InspectorGadget_Array_Empty",
+                colour: "ins_label_array_list_empty"
+        },
+
+        "inspector_array_list_size": {
+                left: "0px"
+        },
+
+        "inspector_array_list_add": {
+                right: "0px",
+                width: "64dpi_px",
+                height: "20dpi_px",
+                icon: "Buttons/icon_IDE_add.png"
+        },
+
+        "inspector_event_list": {
+                height: "160dpi_px"
+        },
+
+        "inspector_event_list_listbox": {
+                base: "borderless_list_box",
+                left: "4dpi_px",
+                top: "8dpi_px",
+                right: "4dpi_px",
+                bottom: "8dpi_px",
+                colour: "base_listbox"
+        },
+
+        "inspector_icon_button_up": {
+                frame_name: "",
+                auto_height: "False",
+                height: "100%",
+                left: "0px",
+                right: "0px",
+                icon_flags: "Centre",
+                button_over_style: "inspector_button_no_frame",
+                button_down_style: "inspector_button_no_frame",
+                button_over_down_style: "inspector_button_no_frame",
+                deactivated_style: "inspector_button_deactivated",
+                reactivated_style: "inspector_button_reactivated",
+                up_tint: "ins_button_icon_up",
+                down_tint: "ins_button_icon_down",
+                up_focused_tint: "ins_button_icon_up_focused",
+                down_focused_tint: "ins_button_icon_down_focused",
+                mouseover_up_tint: "ins_button_icon_up_mouseover",
+                mouseover_up_focused_tint: "ins_button_icon_up_focused_mouseover",
+                mouseover_down_tint: "ins_button_icon_down_mouseover",
+                mouseover_down_focused_tint: "ins_button_icon_down_focused_mouseover"
+        },
+
+        "inspector_button_no_frame": {
+                frame_name: ""
+        },
+
+        "inspector_textalign_button": {
+                base: "no_frame_button",
+                down_tint: "base_button_no_frame_down",
+                down_focused_tint: "base_button_no_frame_down_focused"
+        },
+
+        "inspector_textalign_button_down": {
+                icon_colour: "base_button_icon_reactivated"
+        },
+
+        "inspector_button_deactivated": {
+                label_colour: "base_button_label_deactivated",
+                mouse_events: "false"
+        },
+
+        "inspector_button_reactivated": {
+                label_colour: "base_button_label_reactivated",
+                mouse_events: "true"
+        },
+
+        "inspector_button_remove_faded": {
+                base: "inspector_icon_button_up",
+                icon_colour: "ins_button_remove_icon"
+        },
+
+        "inspector_object_panel": {    
+                left: "0px",
+                right: "0px",
+                stack_order: "TopToBottom",
+                stack_resize: "ResizeHeight"
+        },
+
+        "inspector_same_line_grid": {
+                column_spacing: "6dpi_px"
+        },
+
+        "inspector_enum": {
+                width: "100%"
+        },
+
+        "text_box_inspector_reset": {
+                colour: "ins_reset",
+                localise_tooltip: ""
+        },
+
+        "text_box_inspector_reset_buttons": {
+                base: "text_box_inspector_reset"
+        },
+
+        "text_box_inspector_identical": {
+                font_bold: "False"
+        },
+
+        "text_box_inspector_identical_buttons": {
+                base: "text_box_inspector_identical"
+        },
+
+        "text_box_inspector_differing": {
+                colour: "ins_differing",
+                text: "-",
+                localise_tooltip: "InspectorGadget_Coalescing_Differ_Tooltip",
+                font_bold: "True"
+        },
+
+        "text_box_inspector_differing_buttons": {
+                base: "text_box_inspector_differing"
+        },
+
+        "text_box_inspector_disallowed": {
+                text: "-",
+                localise_tooltip: "InspectorGadget_Coalescing_Disallowed_Tooltip",
+                font_bold: "False"
+        },
+
+        "text_box_inspector_disallowed_buttons": {
+                base: "text_box_inspector_disallowed"
+        },
+
+        "text_box_inspector_error": {
+                colour: "ins_error",
+                text: "???",
+                localise_tooltip: "InspectorGadget_Coalescing_Error_Tooltip",
+                font_bold: "False"
+        },
+
+        "text_box_inspector_error_buttons": {
+                base: "text_box_inspector_error"
+        },
+
+        "inspector_checkbox": {
+                left: "0px"
+        },
+
+        "inspector_checkbox_nolabel": {
+                left: "0px"
+        },
+
+        "checkbox_inspector_reset": {
+                colour: "ins_reset"
+        },
+        "checkbox_inspector_reset_highlighted": {
+                colour: "ins_reset"
+        },
+        "checkbox_inspector_reset_stack": {
+                deactivated: "False",
+                localise_tooltip: ""
+        },
+
+        "checkbox_inspector_differing": {
+                colour: "ins_differing"
+        },
+        "checkbox_inspector_differing_stack": {
+                localise_tooltip: "InspectorGadget_Coalescing_Differ_Tooltip"
+        },
+        "checkbox_inspector_differing_tick": {
+        },
+        "checkbox_inspector_differing_untick": {
+        },
+        "checkbox_inspector_differing_highlighted": {
+        },
+
+        "checkbox_inspector_disallowed": {
+        },
+        "checkbox_inspector_disallowed_stack": {
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Disallowed_Tooltip"
+        },
+        "checkbox_inspector_disallowed_tick": {
+        },
+        "checkbox_inspector_disallowed_untick": {
+        },
+        "checkbox_inspector_disallowed_highlighted": {
+        },
+
+        "checkbox_inspector_error": {
+                colour: "ins_error"
+        },
+        "checkbox_inspector_error_stack": {
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Error_Tooltip"
+        },
+        "checkbox_inspector_error_tick": {
+        },
+        "checkbox_inspector_error_untick": {
+        },
+        "checkbox_inspector_error_highlighted": {
+        },
+
+        "checkbox_inspector_error_overlay": {
+                overlay_colour: "ins_error_overlay",
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Error_Tooltip"
+        },
+
+        "checkbox_inspector_differing_overlay": {
+                overlay_colour: "ins_differing_overlay",
+                localise_tooltip: "InspectorGadget_Coalescing_Differ_Tooltip"
+        },
+
+        "checkbox_inspector_disallowed_overlay": {
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Disallowed_Tooltip"
+        },
+
+        "inspector_slider": {
+                grid_columnlayout: [ "auto", "1*", "60dpi_px" ],
+                has_textbox: "True",
+                height: "24dpi_px",
+                flow_increment: 5,
+                click_increment: 5,
+                textbox_style: "inspector_numeric_textbox_fill"
+        },
+
+        "slider_inspector_reset": {
+                deactivated: "False",
+                localise_tooltip: "",
+                internal_textbox_style: "text_box_inspector_reset"
+        },
+
+        "slider_inspector_identical": {
+                internal_textbox_style: "text_box_inspector_identical"
+        },
+
+        "slider_inspector_differing": {
+                localise_tooltip: "InspectorGadget_Coalescing_Differ_Tooltip",
+                internal_textbox_style: "text_box_inspector_differing"
+        },
+
+        "slider_inspector_disallowed": {
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Disallowed_Tooltip",
+                internal_textbox_style: "text_box_inspector_disallowed"
+        },
+
+        "slider_inspector_error": {
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Error_Tooltip",
+                internal_textbox_style: "text_box_inspector_error"
+        },
+
+        "combobox_inspector_reset": {
+                colour: "ins_reset",
+                deactivated: "False",
+                localise_tooltip: "",
+                width: "100%"
+        },
+
+        "combobox_inspector_differing": {
+                colour: "ins_differing",
+                localise_tooltip: "InspectorGadget_Coalescing_Differ_Tooltip"
+        },
+
+        "combobox_inspector_disallowed": {
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Disallowed_Tooltip"
+        },
+
+        "combobox_inspector_error": {
+                colour: "ins_error",
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Error_Tooltip"
+        },
+
+        "button_inspector_reset": {
+                colour: "ins_reset",
+                deactivated: "False",
+                localise_tooltip: ""
+        },
+
+        "button_inspector_differing": {
+                colour: "ins_differing",
+                localise_tooltip: "InspectorGadget_Coalescing_Differ_Tooltip"
+        },
+
+        "button_inspector_disallowed": {
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Disallowed_Tooltip"
+        },
+
+        "button_inspector_error": {
+                colour: "ins_error",
+                deactivated: "True",
+                localise_tooltip: "InspectorGadget_Coalescing_Error_Tooltip"
+        },
+
+        "colour_select_inspector_normal": {
+                backing_colour: "ins_reset",
+                show_colour: "True"
+        },
+
+        "colour_select_inspector_differing": {
+                backing_colour: "ins_differing",
+                show_colour: "False"
+        },
+
+        "inspector_array_list_state_label": {
+                left: "0px",
+                margin_left: "3dpi_px",
+                auto_size: "False",
+                width: "100%",
+                height: "20dpi_px",
+                margin_top: "4dpi_px",
+                localise_tooltip: "",
+                auto_ellipsis: "True"
+        },
+
+        "inspector_array_list_state_label_differing": {
+                colour: "ins_differing",
+                localise_tooltip: "InspectorGadget_Coalescing_Differ_Tooltip"
+        },
+
+        "inspector_array_list_state_label_disallowed": {
+                localise_tooltip: "InspectorGadget_Coalescing_Disallowed_Tooltip"
+        },
+
+        "inspector_array_list_state_label_error": {
+                colour: "ins_error",
+                localise_tooltip: "InspectorGadget_Coalescing_Error_Tooltip"
+        },
+
+        "inspector_object_panel_state_label": {
+                left: "0px",
+                margin_left: "3dpi_px",
+                auto_size: "False",
+                width: "100%",
+                height: "20dpi_px",
+                margin_top: "4dpi_px",
+                localise_tooltip: "",
+                auto_ellipsis: "True"
+        },
+
+        "inspector_object_panel_state_label_differing": {
+                colour: "ins_dffering",
+                localise_tooltip: "InspectorGadget_Coalescing_Differ_Tooltip"
+        },
+
+        "inspector_object_panel_state_label_disallowed": {
+                localise_tooltip: "InspectorGadget_Coalescing_Disallowed_Tooltip"
+        },
+
+        "inspector_object_panel_state_label_error": {
+                colour: "ins_error",
+                localise_tooltip: "InspectorGadget_Coalescing_Error_Tooltip"
+        },
+
+        "inspector_lock_button_unlocked": {
+                icon: "Buttons/icon_unlocked.png",
+                pressed: "False",
+                localise_tooltip: "Inspector_Lock"
+        },
+
+        "inspector_lock_button_locked": {
+                icon: "Buttons/icon_locked.png",
+                pressed: "True",
+                localise_tooltip: "Inspector_Unlock"
+        },
+
+        "inspector_resource_button": {
+                height: "32dpi_px"
+        },
+
+        "inspector_splitter": {
+                colour: "ins_separator",
+                position: [
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 9, 9 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ]
+                ],
+                width: "9dpi_px",
+                frame_name: "Splitters/thinSplitter.png"
+        },
+
+        "inspector_asset_ref": {
+                width: "100%",
+                right: "0px",
+                top: "0px",
+                height: "88dpi_px",
+                grid_rowlayout: [ "1*", "28dpi_px" ]
+        },
+
+        "inspector_numeric_textbox": {
+                width: "50%",
+                step_increment: 1,
+                has_buttons: "True",
+                colour: "ins_textbox_numeric_border",
+                position: [
+                  [ 0, 0, 2, 2 ],
+                  [ 2, 0, 28, 2 ],
+                  [ 30, 0, 2, 2 ],
+                  [ 0, 2, 2, 20 ],
+                  [ 2, 2, 28, 20 ],
+                  [ 30, 2, 2, 20 ],
+                  [ 0, 22, 2, 2 ],
+                  [ 2, 22, 28, 2 ],
+                  [ 30, 22, 2, 2 ]
+                ],
+                frame_name: "Buttons/box-frame.png",
+                textbox_style: "inspector_internal_textbox",
+                button_increment_style: "inspector_text_box_increment_button",
+                button_decrement_style: "inspector_text_box_decrement_button",
+                width_min: "80dpi_px",
+                left: "0px"
+        },
+
+        "inspector_numeric_textbox_fill": {
+                base: "inspector_numeric_textbox",
+                width: "100%",
+                width_min: null
+        },
+
+        "inspector_internal_textbox_buttons": {
+                colour: "ins_textbox_numeric_internal",
+                left: "2px",
+                right: "2px",
+                top: "2px",
+                bottom: "2px",
+                clip: "2px",
+                width_flags: "None",
+                position: [
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 4, 4, 24, 24 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ],
+                  [ 0, 0, 0, 0 ]
+                ],
+                frame_name: "Window/dial_inner.png"
+        },
+
+        "inspector_text_box_increment_button": {
+                right: "2px",
+                top: "1px",
+                width: "12dpi_px"
+        },
+
+        "inspector_text_box_decrement_button": {
+                right: "2px",
+                bottom: "1px",
+                width: "12dpi_px"
+        },
+
+        "inspector_assetinfo_panel": {
+                base: "inspector_title_frame",
+                height: "85dpi_px",
+                grid_columnlayout: [ "89dpi_px", "1*" ]
+        },
+
+
+        "inspector_alignicon_panel": {
+                height: "20dpi_px",
+                grid_columnlayout: [ "1*", "2*" ]
+        },
+
+        "inspector_flipicon_panel": {
+                height: "28dpi_px",
+                grid_columnlayout: [ "1*", "2*" ]
+        },
+
+        "inspector_asset_ref_new": {
+                grid_rowlayout: [ "auto" ],
+                grid_columnlayout: [ "28dpi_px", "28dpi_px", "auto", "1*" ],
+                grid_resize: "ResizeGridHeight"
+        },
+
+        "inspector_asset_ref_inspect": {
+                grid_rowlayout: [ "auto" ],
+                grid_columnlayout: [ "28dpi_px", "1*" ],
+                grid_resize: "ResizeGridHeight"
+        },
+
+        "inspector_asset_ref_icon": {
+                grid_rowlayout: [ "auto" ],
+                grid_columnlayout: [ "28dpi_px", "28dpi_px", "1*" ],
+                grid_resize: "ResizeGridHeight"
+        },
+
+        "inspector_objectmask_ref": {
+                grid_rowlayout: [ "auto" ],
+                grid_columnlayout: [ "28dpi_px", "1*" ],
+                grid_resize: "ResizeGridHeight"
+        },
+
+        "inspector_group_combo": {
+                base: "combobox_panel",
+                width: "100%"
+        },
+
+        "inspector_edit_image_button": {
+                base: "sprite_selector_button",
+                margin_left: "2dpi_px",
+                margin_right: "2dpi_px",
+                icon_flags: "Centre",
+                font_icon: [ "inspector_window_icon_font", "iw_edit" ],
+                vector_icon_size: "16dpi_px",
+                localise_tooltip: "SpriteEditor_EditImages"
+        },
+
+        "inspector_multisel_item": {
+                grid_rowlayout: [ "1*" ],
+                grid_columnlayout: [ "32dpi_px", "28dpi_px", "1*", "32dpi_px" ],
+                height: "22dpi_px"
+        },
+
+        "inspector_hseparator": {
+                base: "dark_separator",
+                height: "2dpi_px",
+                margin_top: "10dpi_px"
+        },
+
+        "inspector_preview_panel": {
+                base: "bordered_scrollpanel_dark_alpha",
+                clip: "1px",
+                height: "140dpi_px"
+        },
+
+        "inspector_multisel_panel": {
+                base: "ab_panel_style",
+                height: "140dpi_px",
+                stripe_colour: "ins_listbox_multisel_stripe"
+        },
+
+        "inspector_fileinput_gadget": {
+                left: "0dpi_px",
+                right: "10dpi_px"
+        },
+
+        "inspector_tag_window": {
+                height: "500dpi_px",
+                width: "540dpi_px",
+                width_min: "200dpi_px",
+                height_min: "200dpi_px",
+                window_flags: "Borderless, ResizeButton, CloseButton, DesktopTransferDisabled, DockingDisabled",
+                mouse_events: "True"
+        },
+
+        "dark_separator": {
+                base: "separator",
+                colour: "ins_separator_dark_1"
+        },
+
+        "dark_separator2": {
+                base: "separator",
+                colour: "ins_separator_dark_2"
+        },
+
+        "ins_collapsible_header_grid": {
+                grid_columnlayout: [ "20dpi_px", "1*", "auto" ],
+                top: "1px",
+                bottom: "0px",
+                colour: "ins_header"
+        },
+
+        "ins_header_colour": {
+                colour: "ins_header"
+        },
+
+        "ins_category_icon": {
+                mouse_events: "false",
+                width: "16dpi_px",
+                height: "16dpi_px",
+                left: "0dpi_px",
+                margin_right: "8dpi_px",
+                image_flags: "Stretch, Centre, KeepAspectRatio"
+        },
+
+        "ins_sticky_panel": {
+                mouse_events: "false",
+                top: "0px",
+                stack_order: "TopToBottom",
+                stack_resize: "ResizeHeight",
+                colour: "ins_sticky_panel"
+        },
+
+        "ins_expanded_icon": {
+                width: "20dpi_px",
+                height: "20dpi_px",
+                font_icon [ "asset_browser_icon_font", "AB_icon_arrow_45degree" ],
+                image_flags: "Centre",
+                vector_icon_size: "10dpi_px",
+                mouse_events: "false",
+                deactivated_style: "image_deactivated",
+                reactivated_style: "image_reactivated"
+        },
+
+        "ins_collapsed_icon": {
+              font_icon [ "asset_browser_icon_font", "AB_icon_arrow_right" ]
+        },
+
+        "inspector_title_frame": {
+                position: [
+                  [ 0, 0, 1, 1 ],
+                  [ 1, 0, 8, 1 ],
+                  [ 9, 0, 1, 1 ],
+                  [ 0, 1, 1, 8 ],
+                  [ 1, 1, 8, 8 ],
+                  [ 9, 1, 1, 8 ],
+                  [ 0, 9, 1, 1 ],
+                  [ 1, 9, 8, 1 ],
+                  [ 9, 9, 1, 1 ]
+                ],
+                frame_name: "Inspector/title-frame.png",
+                colour: "ins_title_frame"
+        },
+
+        "inspector_icon_border": {
+                position: [
+                  [ 0, 0, 2, 2 ],
+                  [ 2, 0, 9, 2 ],
+                  [ 11, 0, 2, 2 ],
+                  [ 0, 2, 2, 9 ],
+                  [ 2, 2, 9, 9 ],
+                  [ 11, 2, 2, 9 ],
+                  [ 0, 11, 2, 2 ],
+                  [ 2, 11, 9, 2 ],
+                  [ 11, 11, 2, 2 ]
+                ],
+                frame_name: "Inspector/icon-border.png",
+                colour: "ins_icon_border"
+        },
+
+        "ins_dnd_story_grid": {
+                height: "24dpi_px",
+                grid_columnlayout: [ "24dpi_px", "1*" ],
+                column_spacing: "1px"
+        },
+
+        "ins_dnd_story_icon": {
+                height: "18dpi_px",
+                width: "18dpi_px",
+                image_flags: "Stretch, Centre, KeepAspectRatio"
+        },
+
+        "ins_dnd_story_label": {
+                left: "4dpi_px",
+                auto_size: "False"
+        },
+
+        "ins_eventlist_style": {
+                base: "ab_panel_style",
+                height: "220dpi_px",
+                left: "5dpi_px",
+                right: "5dpi_px",
+                margin_top: "12dpi_px",
+                margin_bottom: "20dpi_px",
+                allow_single_click_open:  "False",
+                exclude_show_parent: "True",
+                show_no_events_label:  "True",
+                bg_stripe_colour: "ins_object_eventlist_stripe"
+        },
+
+        "ins_openeditor_button": {
+                left: "5dpi_px",
+                right: "5dpi_px",
+                margin_top: "6dpi_px",
+                localise_name: "Inspector_OpenEditor"
+        },
+
+        "ins_addevent_button": {
+                left: "5dpi_px",
+                right: "5dpi_px",
+                margin_top: "12dpi_px",
+                localise_name: "ObjectEditor_AddEvent"
+        },
+
+        "ins_header_add_button": {
+                base: "ab_add_button",
+                width: "22dpi_px",
+                height: "22dpi_px",
+                right: "0px",
+                localise_tooltip: "ObjectEditor_AddChildTooltip"
+        },
+
+        "ins_objvarlist": {
+                drop_target_colour: "ins_item_drop_target"
+        },
+
+        "ins_objprop_panel": {
+                base: "bordered_scrollpanel_dark_alpha",
+                grid_rowlayout: [ "28dpi_px", "auto" ],
+                grid_resize: "ResizeGridHeight",
+                left: "6dpi_px",
+                right: "6dpi_px"
+        },
+
+        "ins_objprop_grid": {
+                base: "bordered_scrollpanel_dark_alpha",
+                height: "28dpi_px",
+                grid_columnlayout: [ "1*", "1*", "24dpi_px", "24dpi_px" ],
+                column_spacing: "2dpi_px"
+        },
+
+        "ins_objprop_addbtn": {
+                height: "24dpi_px",
+                margin_top: "12dpi_px",
+                margin_bottom: "12dpi_px",
+                localise_name: "Inspector_AddObjVariable"
+        },
+
+        "ins_objprop_option_win": {
+                height: "232dpi_px",
+                width: "360dpi_px",
+                width_min: "360dpi_px",
+                height_min: "232dpi_px",
+                window_flags: "Borderless, ResizeButton, DesktopTransferDisabled, DockingDisabled, CloseButton",
+                mouse_events: "True"
+        },
+
+        "ins_objprop_options_Real": {
+                width: "180dpi_px",
+                height: "105dpi_px",
+                width_min: "156dpi_px",
+                height_min: "80dpi_px"
+        },
+
+        "ins_objprop_options_Integer": {
+                width: "180dpi_px",
+                height: "105dpi_px",
+                width_min: "156dpi_px",
+                height_min: "80dpi_px"
+        },
+
+        "ins_objprop_options_List": {
+                width: "220dpi_px",
+                height: "220dpi_px",
+                width_min: "180dpi_px",
+                height_min: "180dpi_px"
+        },
+
+        "ins_objprop_options_Resource": {
+                width: "200dpi_px",
+                height: "200dpi_px",
+                width_min: "160dpi_px",
+                height_min: "160dpi_px"
+        },
+
+        "ins_objprop_options_button": {
+                base: "button_up",
+                icon: "IDE_Toolbar/icon_IDE_gamesettings.png",
+                icon_flags: "Stretch, Centre, KeepAspectRatio",
+                localise_tooltip: "ObjectEditor_Prop_OptionsTooltip"
+        },
+
+        "ins_obj_prop_remove_button": {
+                base: "button_up",
+                icon_flags: "Centre",
+                font_icon: [ "dope_sheet_icon_font", "ds_trackpanel_deletetrack" ],
+                vector_icon_size: "14dpi_px",
+                localise_tooltip: "ObjectEditor_Prop_RemoveTooltip"
+        },
+
+        "ins_objprop_expandall_button": {
+                icon_flags: "Centre",
+                width: "24dpi_px",
+                font_icon: [ "dope_sheet_icon_font", "ds_trackpanel_expand_all" ],
+                vector_icon_size: "16dpi_px",
+                localise_tooltip: "ResourceTree_ExpandAll"
+        },
+
+        "ins_objprop_expand_all_icon": {
+                font_icon: [ "dope_sheet_icon_font", "ds_trackpanel_expand_all" ],
+                localise_tooltip: "ResourceTree_ExpandAll"
+        },
+
+        "ins_objprop_collapse_all_icon": {
+                font_icon: [ "dope_sheet_icon_font", "ds_trackpanel_collapse_all" ],
+                localise_tooltip: "ResourceTree_CollapseAll"
+        },
+
+        "ins_sprite_resize_btn": {
+                localise_tooltip: "Tooltip_ResizeSprite",
+                width: "24dpi_px",
+                height: "24dpi_px",
+                left: "0px",
+                icon_flags: "Stretch, Centre, KeepAspectRatio",
+                icon: "Buttons/icon_IDE_resize.png"
+        },
+
+        "ins_sprite_play_button": {
+                font_icon: [ "dope_sheet_icon_font", "ds_play" ]
+        },
+
+        "ins_sprite_stop_button": {
+                font_icon: [ "dope_sheet_icon_font", "ds_stop" ]
+        },
+
+        "ins_spriteimport_button": {
+                left: "5dpi_px",
+                right: "5dpi_px",
+                margin_top: "12dpi_px",
+                localise_name: "SpriteEditor_Import"
+        },
+
+        "ins_spriteedit_button": {
+                left: "5dpi_px",
+                right: "5dpi_px",
+                margin_top: "6dpi_px",
+                margin_bottom: "12dpi_px",
+                localise_name: "SpriteEditor_EditImages"
+        },
+
+        "ins_ccedit_grid": {
+                grid_columnlayout: [ "1*", "auto" ],
+                height: "24dpi_px",
+                top: "12dpi_px",
+                margin_bottom: "12dpi_px"
+        },
+
+        "ins_ccedit_button": {
+                localise_name: "Inspector_EditCC"
+        },
+
+        "ins_ccpreview_grid": {
+                grid_rowlayout: [ "48dpi_px", "auto" ],
+                grid_resize: "ResizeGridHeight",
+                mouse_events: "False",
+                top: "0px",
+                left: "5dpi_px",
+                right: "5dpi_px"
+        },
+
+        "ins_inherit_button": {
+                base: "button_up",
+                width: "70dpi_px",
+                left: "6dpi_px",
+                margin_left: "6dpi_px",
+                localise_tooltip: "RoomEditor_InheritInstanceToolTip",
+                localise_name: "RoomEditor_Inherit",
+                parent_property: "inheritedItem",
+                bind_property: "inheritItemSettings"
+        },
+
+        "ins_layer_inherit_button": {
+                base: "button_up",
+                width: "70dpi_px",
+                left: "6dpi_px",
+                margin_left: "6dpi_px",
+                localise_tooltip: "RoomEditor_InheritLayerSettings",
+                localise_name: "RoomEditor_Inherit",
+                parent_property: "inheritedLayer",
+                bind_property: "inheritLayerSettings"
+        },
+
+        "ins_ccinherit_button": {
+                base: "button_up",
+                width: "70dpi_px",
+                left: "6dpi_px",
+                margin_left: "6dpi_px",
+                localise_tooltip: "RoomEditor_InheritCode",
+                localise_name: "RoomEditor_Inherit",
+                parent_property: "inheritedItem",
+                bind_property: "inheritCode"
+        },
+
+        "ins_depthinherit_button": {
+                base: "button_up",
+                width: "70dpi_px",
+                left: "0dpi_px",
+                localise_tooltip: "RoomEditor_InheritLayerDepthToolTip",
+                localise_name: "RoomEditor_Inherit",
+                parent_property: "inheritedLayer",
+                bind_property: "inheritLayerDepth"
+        },
+
+        "ins_table_header": {
+                mouse_events: "False",
+                colour: "ins_table_header"
+        },
+
+        "ins_table_row_stripe": {
+                colour: "ins_table_stripe"
+        },
+
+        "ins_rangechars_label": {
+                left: "0dpi_px",
+                margin_left: "6dpi_px",
+                top: "4dpi_px",
+                margin_top: "4dpi_px",
+                bottom: "4dpi_px",
+                margin_bottom: "4dpi_px",
+                word_wrap: "true",
+                min_width: "200dpi_px",
+                mouse_events: "false"
+        },
+
+        "ins_fontrange_panel": {
+                base: "grid_container",
+                selection_colour: "ins_font_range_selection",
+                edit_hi_colour: "ins_font_range_edit_hi",
+                grid_colour: "ins_font_range_grid",
+                grid_bg_colour: "ins_font_range_bg",
+                invalid_text_col: "ins_font_range_invalid_text",
+                invalid_text_bgcol: "ins_font_range_invalid_text_bg",
+                cell_focus_stroke: "ins_font_range_cell_stroke",
+                cell_focus_fill: "ins_font_range_cell_fill"
+        },
+
+        "ins_room_depth_grid": {
+                height: "24dpi_px",
+                grid_columnlayout: [ "50%", "40dpi_px", "1*" ]
+        },
+
+        "ins_datalistbox_style": {
+                drop_target_colour: "ins_item_drop_target",
+                drop_indicator_colour: "ins_item_drop_indicator"
+        },
+
+        "ins_splitradio_grid": {
+                grid_rowlayout: [ "auto" ],
+                grid_columnlayout: [ "40dpi_px", "1*", "auto" ],
+                grid_resize: "ResizeGridHeight"
+        },
+
+        "ins_wrap_label": {
+                word_wrap: "True",
+                split_words_only: "True",
+                auto_size: "True"
+        },
+
+        "ins_roomitemlist_style": {
+                base: "ab_panel_style",
+                height: "160dpi_px",
+                left: "5dpi_px",
+                right: "5dpi_px",
+                margin_top: "2dpi_px",
+                margin_bottom: "6dpi_px",
+                stripe_colour: "ins_path_table_stripe"
+        },
+
+        "ins_pathpoints_style": {
+                bg_colour: "ins_path_table_bg",
+                stripe_colour:  "ins_path_table_stripe"
+        }
+}
