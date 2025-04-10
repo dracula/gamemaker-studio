@@ -876,7 +876,7 @@
         "ins_expanded_icon": {
                 width: "20dpi_px",
                 height: "20dpi_px",
-                font_icon [ "asset_browser_icon_font", "AB_icon_arrow_45degree" ],
+                font_icon: [ "asset_browser_icon_font", "AB_icon_arrow_45degree" ],
                 image_flags: "Centre",
                 vector_icon_size: "10dpi_px",
                 mouse_events: "false",
