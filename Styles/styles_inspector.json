@@ -885,7 +885,7 @@
         },
 
         "ins_collapsed_icon": {
-              font_icon [ "asset_browser_icon_font", "AB_icon_arrow_right" ]
+              font_icon: [ "asset_browser_icon_font", "AB_icon_arrow_right" ]
         },
 
         "inspector_title_frame": {
