@@ -14,6 +14,14 @@
 
 * If the text doesn't look right (letters have different widths), see troubleshooting at https://github.com/dracula/gamemaker-studio#troubleshooting
 
+##### (Optional) Code Editor 2 Install Instructions
+
+* File -> Preferences -> Code Editor 2 (Beta) -> Theme -> 'New' -> 'from File'
+
+* Navigate to the download location and select the `Dracula.tmTheme` file.
+
+* Apply changes.
+
 
 #### MacOS Install instructions
 
@@ -29,6 +37,14 @@
 
 * If the text doesn't look right (letters have different widths), see troubleshooting at https://github.com/dracula/gamemaker-studio#troubleshooting
 
+##### (Optional) Code Editor 2 Install Instructions
+
+* GameMaker -> Settings -> Code Editor 2 (Beta) -> Theme -> 'New' -> 'from File'
+
+* Navigate to the download location and select the `Dracula.tmTheme` file.
+
+* Apply changes.
+
 #### Linux (ubuntu) Install instructions
 
 * Download this https://github.com/dracula/gamemaker-studio/archive/master.zip
@@ -42,3 +58,11 @@
 * Restart GMS2
 
 * If the text doesn't look right (letters have different widths), see troubleshooting at https://github.com/dracula/gamemaker-studio#troubleshooting
+
+##### (Optional) Code Editor 2 Install Instructions
+
+* File -> Preferences -> Code Editor 2 (Beta) -> Theme -> 'New' -> 'from File'
+
+* Navigate to the download location and select the `Dracula.tmTheme` file.
+
+* Apply changes.
