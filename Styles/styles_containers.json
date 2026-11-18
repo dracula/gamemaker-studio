@@ -424,10 +424,7 @@
 	},
 
 	"tab_control": {
-		colour: "#00000000",
-		grid_rowlayout: ["auto", "1*"],
-		client_panel: [0, 1],
-		tab_flags: "AddButton, CloseButton, DragEnabled, InsertBeforeAddButton"
+		colour: "#00000000"
 	},
 
 	"fullscreen_code_tab_control": {
@@ -446,11 +443,7 @@
 	},
 
 	"desktop_tab_control": {
-		default_localised_tab_name: "Workspace_TabTitle",
-		height: "100%",
-		height_flags: "ScaleToFit",
-		colour: "#FF2C2221",
-		tab_flags: "AddButton, CloseButton, DragEnabled, InsertBeforeAddButton"
+		colour: "#FF2C2221"
 	},
 
 	"tab_container": {
