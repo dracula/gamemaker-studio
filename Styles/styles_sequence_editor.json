@@ -643,7 +643,6 @@
 		rotate_thickness: "10dpi_px",
 		allow_render_background: "True",
 		min_visible_size: 5,
-		zoom_widget_style: "sequence_canvas_widget_style",
 		default_grid_color: "#20FFFFFF",
 		default_grid_x: 64,
 		default_grid_y: 64,
@@ -667,10 +666,6 @@
 				],
 		frame_name: "Sequence/sequence_backdrop.png",
 		colour: "#FF3E3E3E"
-	},
-
-	"sequence_canvas_widget_style": {
-		tool_flags: "Default"
 	},
 
 	"sequence_editor_label": {
